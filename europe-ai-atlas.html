@@ -412,9 +412,12 @@ function paint(){
    c.t.textContent=n;c.t.setAttribute('font-size',(n>99?9:n>9?10.5:11.5));}}
  clg.classList.toggle('hide',z>=CLZ);
  mkg.classList.toggle('hide',z<CLZ);
- if(tab==='browse')showBrowse();
- else if(tab==='detail'&&selCn&&!sel)renderCountry();
 }
+// Re-render the panel only when the filters actually change, never on highlight,
+// zoom or pan — otherwise an expanded row is destroyed as soon as it opens.
+function refilter(){paint();
+ if(tab==='browse')showBrowse();
+ else if(tab==='detail'){if(selCn&&!sel)renderCountry();else if(!sel)intro();}}
 function measure(){const r=svg.getBoundingClientRect();
  const sc=Math.min(r.width/W,r.height/H)||1;uiK=Math.min(2.8,Math.max(.85,1/sc));}
 function rescale(){measure();const k=uiK/z;
@@ -456,10 +459,10 @@ function zoomAt(f,cx,cy){const nz=Math.min(8,Math.max(1,z*f));
 
 document.querySelectorAll('[data-d]').forEach(b=>b.addEventListener('click',()=>{
  dom=b.dataset.d;document.querySelectorAll('[data-d]').forEach(o=>o.setAttribute('aria-pressed',o===b));
- sel=null;selRank=null;selCn=null;if(tab==='detail')intro();paint();}));
-document.getElementById('q').addEventListener('input',e=>{query=e.target.value;paint();});
+ sel=null;pickId=null;selRank=null;cFilter='all';refilter();}));
+document.getElementById('q').addEventListener('input',e=>{query=e.target.value;refilter();});
 document.getElementById('sc').addEventListener('input',e=>{minSc=+e.target.value;
- document.getElementById('scv').textContent=minSc;paint();});
+ document.getElementById('scv').textContent=minSc;refilter();});
 
 
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.t)));
@@ -642,21 +645,21 @@ function clearFilters(){
  const q=document.getElementById('q');if(q)q.value='';
  const sc=document.getElementById('sc');if(sc)sc.value=1;
  const sv=document.getElementById('scv');if(sv)sv.textContent='1';
- paint();
+ refilter();
 }
 function bindCountry(){
  pane.querySelectorAll('[data-ct]').forEach(b=>b.addEventListener('click',()=>{
   if(b.hasAttribute('disabled'))return;cFilter=b.dataset.ct;renderCountry();}));
  const cl=pane.querySelector('[data-clr]');
- if(cl)cl.addEventListener('click',()=>{clearFilters();renderCountry();});
+ if(cl)cl.addEventListener('click',clearFilters);
  const ix=pane.querySelector('[data-idx]');if(ix)ix.addEventListener('click',showCountryIndex);
  pane.querySelectorAll('.acc').forEach(a=>{
   a.querySelector('.rowbtn').addEventListener('click',()=>{
    const wasOpen=a.classList.contains('open');
    pane.querySelectorAll('.acc.open').forEach(o=>o.classList.remove('open'));
-   if(!wasOpen){a.classList.add('open');pickId=a.dataset.acc;revealSite(pickId);}
-   else pickId=null;
-   paint();});
+   if(wasOpen){pickId=null;paint();return;}
+   a.classList.add('open');pickId=a.dataset.acc;paint();revealSite(pickId);
+   a.scrollIntoView({block:'nearest',behavior:REDUCED?'auto':'smooth'});});
   const g=a.querySelector('[data-open]');
   if(g)g.addEventListener('click',e=>{e.stopPropagation();select(g.dataset.open);});
  });
