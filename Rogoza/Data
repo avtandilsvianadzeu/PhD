@@ -1,0 +1,45 @@
+from pathlib import Path
+import numpy as np
+import pandas as pd
+
+# Paths
+OUTPUT_DIR = Path(
+    r"C:\Users\svianadze\OneDrive - zag.si\Desktop\Task for WIM\03_Terenske meritve\surovi podatki\processed_output"
+)
+csv_file = OUTPUT_DIR / "vehicle_crossings_statistics.csv"
+excel_file = OUTPUT_DIR / "vehicle_crossings_summary.xlsx"
+
+# Load CSV data
+df = pd.read_csv(csv_file)
+
+# Create Summary Sheet Statistics for all dynamic channels
+summary_data = []
+for ch in range(1, 10):
+    ch_str = f"ch {ch}"
+    if f"{ch_str}_min" in df.columns:
+        summary_data.append(
+            {
+                "Channel": f"Channel {ch}",
+                "Min Strain (µm/m)": df[f"{ch_str}_min"].min(),
+                "Max Strain (µm/m)": df[f"{ch_str}_max"].max(),
+                "Mean µ (µm/m)": df[f"{ch_str}_mean"].mean(),
+                "Std Dev σ (µm/m)": df[f"{ch_str}_std"].mean(),
+                "Median Range (µm/m)": df[f"{ch_str}_range"].median(),
+                "95th %-ile Range": np.percentile(df[f"{ch_str}_range"], 95),
+            }
+        )
+
+summary_df = pd.DataFrame(summary_data)
+
+# Write to Excel with multiple tabs
+with pd.ExcelWriter(excel_file, engine="openpyxl") as writer:
+    summary_df.to_excel(
+        writer, sheet_name="Channel_Summary_Stats", index=False
+    )
+    df.to_excel(writer, sheet_name="Master_Vehicle_Events", index=False)
+
+print(
+    f"SUCCESS: Formatted Excel file saved to:\n{excel_file}\n"
+    f"  - Sheet 1: Executive Summary Metrics\n"
+    f"  - Sheet 2: All {len(df)} Vehicle Event Records"
+)
