@@ -1,0 +1,23 @@
+name: Check atlas
+
+on:
+  push:
+    paths: ["index.html", "europe-ai-atlas.html", "tools/**", ".github/workflows/check-atlas.yml"]
+  pull_request:
+  schedule:
+    - cron: "17 5 * * 1"   # every Monday, also checks that source links still answer
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Data, typography and counts
+        run: python tools/check_atlas.py
+      - name: Source links
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python tools/check_atlas.py --links
