@@ -37,12 +37,16 @@ minutes of private repositories on the same account. GitHub pauses scheduled wor
 repository after 60 days without activity; if that happens, enable the workflow again from the
 Actions tab.
 
-## Terrain view
+## Map views
 
-The Map, Terrain and Satellite switch at the foot of the map opens a MapLibre view (library in `vendor/`,
-BSD licence) with the OpenFreeMap base map, Mapzen terrain tiles on AWS and Esri World Imagery, credited
-in the map corner. Every institution and site carries its address and coordinates, shown in its Location
-card; the automatic check fails if one is missing.
+The page opens in the terrain view. The switch at the foot of the map offers Atlas (the green Eurostat
+map), Streets, Terrain, Satellite and Light. The MapLibre library sits in `vendor/` (BSD licence); the
+base maps are OpenFreeMap, Mapzen terrain tiles on AWS and Esri World Imagery, credited in the map corner.
+Country borders in every view are the Eurostat GISCO outlines in `data/eu-countries.geojson` (EU
+conventions: Crimea within Ukraine, Abkhazia and South Ossetia within Georgia, Kosovo* as Eurostat draws
+it); the United Kingdom outline comes from Natural Earth. The OpenStreetMap border lines are switched off.
+Every institution and site carries its address and coordinates, shown in its Location card; the automatic
+check fails if one is missing.
 
 ## Content and data
 
