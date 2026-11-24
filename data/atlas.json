@@ -1,0 +1,5653 @@
+{
+ "updated": "2026-11-24",
+ "licence": "Facts with sources; see each news link",
+ "entries": [
+  {
+   "id": "aif-lumi",
+   "name": "LUMI AI Factory",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Kajaani",
+   "country": "Finland",
+   "address": "Tehdaskatu 15, 87100 Kajaani, Finland",
+   "lat": 64.232,
+   "lon": 27.6915,
+   "website": "https://lumi-ai-factory.eu",
+   "summary": "LUMI AI Factory, AI computing environment, service centre and talent pool at CSC in Kajaani.",
+   "topics": [
+    "llm",
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "31 Aug 2026",
+     "t": "Contract signed with Bull for LUMI-AI in Kajaani, the sixth AI Factory procurement contract.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en"
+    },
+    {
+     "d": "Jun 2026",
+     "t": "LUMI ranks #11 on the TOP500 list.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    },
+    {
+     "d": "2025",
+     "t": "TildeOpen LLM, over 30 billion parameters, trained on LUMI.",
+     "u": "https://huggingface.co/TildeAI/TildeOpen-30b"
+    },
+    {
+     "d": "10 Dec 2024",
+     "t": "Selected in the first cohort of seven AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-hammerhai",
+   "name": "Hybrid and Advanced ML Platform for Manufacturing, Engineering and Research (HammerHAI)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Stuttgart",
+   "country": "Germany",
+   "address": "Nobelstrasse 19, 70569 Stuttgart, Germany",
+   "lat": 48.7395,
+   "lon": 9.0971,
+   "website": "https://www.hammerhai.eu",
+   "summary": "HammerHAI, hybrid HPC/AI platform for manufacturing, engineering and research at HLRS Stuttgart.",
+   "topics": [
+    "ml",
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "16 Mar 2026",
+     "t": "EuroHPC signs the contract with HPE for HammerHAI, among the first new AI-optimised systems procured for the AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-ai-supercomputer-hammerhai-2026-03-16_en"
+    },
+    {
+     "d": "Oct 2025",
+     "t": "Named as a collaboration partner by Spain's new 1HealthAI factory.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    },
+    {
+     "d": "10 Dec 2024",
+     "t": "Selected in the first cohort of seven AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-pharos",
+   "name": "Greek AI Factory (Pharos)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Operational",
+   "city": "Athens",
+   "country": "Greece",
+   "address": "Kifisias 7, 11523 Athens, Greece",
+   "lat": 37.9875,
+   "lon": 23.7618,
+   "website": "https://grnet.gr",
+   "summary": "Pharos, the Greek AI Factory, operated by GRNET under the Ministry of Digital Governance.",
+   "topics": [
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "19 Oct 2026",
+     "t": "DAEDALUS inaugurated in Lavrio; Pharos business services planned from March 2027.",
+     "u": "https://www.euronews.com/2026/10/19/daedalus-greece-unveils-new-supercomputer-as-it-eyes-role-in-europes-ai-race"
+    },
+    {
+     "d": "Jun 2026",
+     "t": "DAEDALUS enters the TOP500 at #31 and the Green500 at #23.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    },
+    {
+     "d": "10 Dec 2024",
+     "t": "Selected in the first cohort of seven AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-it4lia",
+   "name": "Italian AI Factory (IT4LIA)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Bologna",
+   "country": "Italy",
+   "address": "Via della Manifattura 3, 40128 Bologna, Italy",
+   "lat": 44.5223,
+   "lon": 11.3604,
+   "website": "https://it4lia-aifactory.eu",
+   "summary": "IT4LIA, the Italian AI Factory at the Bologna Tecnopolo, hosted by CINECA.",
+   "topics": [
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "11 Jun 2026",
+     "t": "LISA, the AI partition of Leonardo, inaugurated in Bologna with the SOL quantum computer.",
+     "u": "https://www.eurohpc-ju.europa.eu/inauguration-sol-new-quantum-computer-together-lisa-upgrade-leonardo-supercomputer-2026-06-11_en"
+    },
+    {
+     "d": "22 Apr 2026",
+     "t": "Contract signed with E4 Computer Engineering and Dell for the new IT4LIA AI supercomputer, EUR 290m, over 160 exaflops of peak AI inference.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-boost-ai-capabilities-it4lia-ai-factory-2026-04-22_en"
+    },
+    {
+     "d": "13 May 2025",
+     "t": "EuroHPC signs the LISA contract with Eviden to add an AI partition to Leonardo.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-joint-undertaking-awards-contract-lisa-upgrade-leonardo-supercomputer-2025-05-13_en"
+    },
+    {
+     "d": "10 Dec 2024",
+     "t": "Selected in the first cohort of seven AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-lux",
+   "name": "L-AI Factory (MeluXina-AI)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Bissen",
+   "country": "Luxembourg",
+   "address": "3 Op der Poukewiss, ZAC Klengbousbierg, 7795 Bissen, Luxembourg",
+   "lat": 49.7875,
+   "lon": 6.0895,
+   "website": "https://www.luxprovide.lu",
+   "summary": "L-AI Factory, MeluXina-AI, operated by LuxProvide in Bissen.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "22 Jul 2026",
+     "t": "Contract signed with E4 Computer Engineering for MeluXina-AI.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-meluxina-ai-new-ai-optimised-supercomputer-luxembourg-ai-factory-2026-07-22_en"
+    },
+    {
+     "d": "10 Dec 2024",
+     "t": "Selected in the first cohort of seven AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-bsc",
+   "name": "BSC AI Factory",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Operational",
+   "city": "Barcelona",
+   "country": "Spain",
+   "address": "Plaça Eusebi Güell 1-3, 08034 Barcelona, Spain",
+   "lat": 41.3898,
+   "lon": 2.1164,
+   "website": "https://www.bsc.es/ai-factory",
+   "summary": "BSC AI Factory, an upgrade of MareNostrum 5 plus an experimental platform.",
+   "topics": [
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "MareNostrum 5's accelerated partition ranks #16 on the TOP500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    },
+    {
+     "d": "26 Jan 2026",
+     "t": "Contract signed to upgrade MareNostrum 5's AI capabilities.",
+     "u": "https://eurohpc-ju.europa.eu/contract-signed-boost-marenostrum-5s-ai-capabilities-2026-01-26_en"
+    },
+    {
+     "d": "10 Dec 2024",
+     "t": "Selected in the first cohort of seven AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-mimer",
+   "name": "Swedish AI Factory (MIMER)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Linköping",
+   "country": "Sweden",
+   "address": "Hans Meijers väg, B Building, Entrance 25, 581 83 Linköping, Sweden",
+   "lat": 58.4009,
+   "lon": 15.5749,
+   "website": "https://www.naiss.se",
+   "summary": "MIMER, the Swedish AI Factory, hosted by NAISS at Linköping University.",
+   "topics": [
+    "llm",
+    "robot",
+    "compute",
+    "health"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "Arrhenius, the EuroHPC system on the same Linköping campus, enters the TOP500 at #42 and the Green500 at #24.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    },
+    {
+     "d": "21 Apr 2026",
+     "t": "Contract signed with Bull for the new MIMER AI system, EUR 29.76m; installation from 2026.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-new-ai-optimised-supercomputer-sweden-2026-04-21_en"
+    },
+    {
+     "d": "10 Dec 2024",
+     "t": "Selected in the first cohort of seven AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-aiat",
+   "name": "Austrian AI Factory (AI:AT)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Vienna",
+   "country": "Austria",
+   "address": "Franz-Grill-Strasse, Arsenal, 1030 Vienna, Austria",
+   "lat": 48.1853,
+   "lon": 16.3955,
+   "website": "https://advanced-computing.at",
+   "summary": "AI:AT, the Austrian AI Factory, installed at TU Wien.",
+   "topics": [
+    "compute",
+    "ethics",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "25 Feb 2026",
+     "t": "Tender opened for the AI:AT AI-optimised supercomputer at TU Wien, about EUR 32m.",
+     "u": "https://www.eurohpc-ju.europa.eu/acquisition-delivery-installation-and-maintenance-hardware-and-software-aiat-ai-optimised_en"
+    },
+    {
+     "d": "12 Mar 2025",
+     "t": "Selected in the second cohort of six AI Factories.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-brain",
+   "name": "Bulgarian Robotics & AI Nexus (BRAIN++)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Sofia",
+   "country": "Bulgaria",
+   "address": "111 Tsarigradsko Shose Blvd, 1784 Sofia, Bulgaria",
+   "lat": 42.6658,
+   "lon": 23.3731,
+   "website": "https://sofiatech.bg/en/",
+   "summary": "BRAIN++, Bulgarian Robotics & AI Nexus, at Sofia Tech Park.",
+   "topics": [
+    "llm",
+    "robot",
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "24 Mar 2026",
+     "t": "Tender opened for Discoverer++, about EUR 54.2m.",
+     "u": "https://www.eurohpc-ju.europa.eu/acquisition-delivery-installation-and-maintenance-hardware-and-software-discoverer-ai-optimised_en"
+    },
+    {
+     "d": "12 Mar 2025",
+     "t": "Selected in the second cohort of six AI Factories.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-ai2f",
+   "name": "AI Factory France (AI2F)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Operational",
+   "city": "Bruyères-le-Châtel",
+   "country": "France",
+   "address": "2 rue de la Piquetterie, 91680 Bruyères-le-Châtel, France",
+   "lat": 48.5966,
+   "lon": 2.1993,
+   "website": "https://www.genci.fr",
+   "summary": "AI2F, AI Factory France, led by GENCI beside the Alice Recoque exascale system.",
+   "topics": [
+    "robot",
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "12 Mar 2025",
+     "t": "Selected in the second cohort of six AI Factories.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    },
+    {
+     "d": "2025",
+     "t": "Plans a partnership with the German JAIF factory to federate Alice Recoque and JUPITER, the two EuroHPC exascale systems.",
+     "u": "https://www.eurohpc-ju.europa.eu/ai-factories/france_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-jaif",
+   "name": "JUPITER AI Factory (JAIF)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Operational",
+   "city": "Jülich",
+   "country": "Germany",
+   "address": "Wilhelm-Johnen-Strasse, 52428 Jülich, Germany",
+   "lat": 50.9104,
+   "lon": 6.4066,
+   "website": "https://www.fz-juelich.de",
+   "summary": "JAIF, the JUPITER AI Factory at Forschungszentrum Jülich.",
+   "topics": [
+    "ml",
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "JUPITER's Booster module ranks #5 on the TOP500 and #17 on the Green500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    },
+    {
+     "d": "12 Mar 2025",
+     "t": "Selected in the second cohort of six AI Factories.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-piast",
+   "name": "PIAST AI Factory",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Poznań",
+   "country": "Poland",
+   "address": "ul. Jana Pawła II 10, 61-139 Poznań, Poland",
+   "lat": 52.4072,
+   "lon": 16.9527,
+   "website": "https://www.psnc.pl",
+   "summary": "PIAST AI Factory, Poznań Supercomputing and Networking Center.",
+   "topics": [
+    "robot",
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "23 Jun 2025",
+     "t": "PIAST-Q, the co-located EuroHPC quantum system, inaugurated in Poznań.",
+     "u": "https://www.eurohpc-ju.europa.eu/inauguration-piast-q-leap-european-quantum-computing-2025-06-23_en"
+    },
+    {
+     "d": "23 Jun 2025",
+     "t": "PIAST-AI ceremonially opened at PSNC, the same day as PIAST-Q.",
+     "u": "https://put.poznan.pl/en/article/grand-opening-ai-factory-piast-ai"
+    },
+    {
+     "d": "12 Mar 2025",
+     "t": "Selected in the second cohort of six AI Factories.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-slaif",
+   "name": "Slovenian AI Factory (SLAIF)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Maribor",
+   "country": "Slovenia",
+   "address": "Obrežna ulica 170a, 2000 Maribor, Slovenia",
+   "lat": 46.5656,
+   "lon": 15.6061,
+   "website": "https://www.slaif.si",
+   "summary": "SLAIF, the Slovenian AI Factory, coordinated by IZUM in Maribor.",
+   "topics": [
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "9 Feb 2026",
+     "t": "SLAIF opened with the Prime Minister; its new supercomputer succeeds Vega by 2027.",
+     "u": "https://www.gov.si/en/news/2026-02-09-prime-minister-golob-attends-the-opening-of-the-slovenian-ai-factory-slaif/"
+    },
+    {
+     "d": "12 Mar 2025",
+     "t": "Selected in the second cohort of six AI Factories.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-czai",
+   "name": "Czech AI Factory (CZAI)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Ostrava",
+   "country": "Czechia",
+   "address": "Studentská 6231/1B, 708 00 Ostrava-Poruba, Czechia",
+   "lat": 49.8376,
+   "lon": 18.156,
+   "website": "https://www.it4i.cz",
+   "summary": "CZAI, the Czech AI Factory at IT4Innovations, Ostrava.",
+   "topics": [
+    "llm",
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "12 May 2026",
+     "t": "Czech AI Factory launched in Ostrava, with a budget of nearly CZK 1bn.",
+     "u": "https://www.ciirc.cvut.cz/en/czech-ai-factory-launches-czech-republic-offers-its-own-ai-services-and-supercomputing-capacity/"
+    },
+    {
+     "d": "10 Oct 2025",
+     "t": "Selected in the third cohort of six AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-litai",
+   "name": "LitAI Factory",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Vilnius",
+   "country": "Lithuania",
+   "address": "Sausio 13-osios g. 10, 04347 Vilnius, Lithuania",
+   "lat": 54.6882,
+   "lon": 25.2147,
+   "website": "https://www.vu.lt/en/",
+   "summary": "LitAI Factory, led by Vilnius University at the LRTC VDC3 data centre.",
+   "topics": [
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "10 Oct 2025",
+     "t": "Selected in the third cohort of six AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-nlaif",
+   "name": "Dutch AI Factory (NLAIF)",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Groningen",
+   "country": "Netherlands",
+   "address": "De Bunders 1, 9747 AX Groningen, Netherlands",
+   "lat": 53.2446,
+   "lon": 6.5273,
+   "website": "https://www.tno.nl/en/digital/artificial-intelligence/ai-factory/",
+   "summary": "NLAIF, the Dutch AI Factory, led by the AIFNL Foundation with SURF and TNO.",
+   "topics": [
+    "compute",
+    "health"
+   ],
+   "news": [
+    {
+     "d": "23 Sep 2026",
+     "t": "Supercomputer to be installed at Eurofiber's data centre on the Zernike Campus in 2027; fully operational by 2028.",
+     "u": "https://nltimes.nl/2026/09/23/netherlands-install-eu201-million-ai-supercomputer-groningen"
+    },
+    {
+     "d": "1 Jul 2026",
+     "t": "Progress letter to parliament: expertise centre opens mid-2026 in the former Niemeyer factory in Groningen.",
+     "u": "https://www.tweedekamer.nl/downloads/document?id=2026D34402"
+    },
+    {
+     "d": "11 Mar 2026",
+     "t": "Tender opened for the NLAIF AI-optimised supercomputer, about EUR 64.1m.",
+     "u": "https://www.eurohpc-ju.europa.eu/acquisition-delivery-installation-hardware-and-software-maintenance-nlaif-ai-optimised-supercomputer_en"
+    },
+    {
+     "d": "10 Oct 2025",
+     "t": "Selected in the third cohort of six AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-gaia",
+   "name": "Gaia AI Factory",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Kraków",
+   "country": "Poland",
+   "address": "ul. Nawojki 11, 30-950 Kraków, Poland",
+   "lat": 50.069,
+   "lon": 19.9092,
+   "website": "https://www.cyfronet.pl",
+   "summary": "Gaia AI Factory, operated by Cyfronet AGH within the PLGrid infrastructure.",
+   "topics": [
+    "llm",
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "May 2026",
+     "t": "Gaia AI Factory inaugurated in Kraków; AI supercomputer with over a thousand GPUs, about EUR 70m.",
+     "u": "https://www.cyfronet.pl/en/news/2026/inauguracja-gaia-ai-factory"
+    },
+    {
+     "d": "10 Oct 2025",
+     "t": "Selected in the third cohort of six AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-roai",
+   "name": "RO AI Factory",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Bucharest",
+   "country": "Romania",
+   "address": "Bd. Mareșal Alexandru Averescu 8-10, 011455 Bucharest, Romania",
+   "lat": 44.4626,
+   "lon": 26.0737,
+   "website": "https://ici.ro",
+   "summary": "RO AI Factory, hosted by ICI Bucharest with University Politehnica of Bucharest.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "1 Sep 2026",
+     "t": "Implementation of the RO AI Factory at ICI Bucharest officially begins.",
+     "u": "https://startupcafe.ro/?p=106132"
+    },
+    {
+     "d": "10 Oct 2025",
+     "t": "Selected in the third cohort of six AI Factories.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    }
+   ]
+  },
+  {
+   "id": "aif-1health",
+   "name": "1HealthAI",
+   "layer": "AI Factory",
+   "kind": "factory",
+   "status": "Under construction",
+   "city": "Santiago de Compostela",
+   "country": "Spain",
+   "address": "Avenida de Vigo s/n, 15705 Santiago de Compostela, Spain",
+   "lat": 42.8756,
+   "lon": -8.5533,
+   "website": "https://www.cesga.es",
+   "summary": "1HealthAI, the One-Health AI Factory at CESGA, Galicia.",
+   "topics": [
+    "compute",
+    "health",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "10 Oct 2025",
+     "t": "Selected in the third cohort of six AI Factories, bringing the total to 19.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-jupiter",
+   "name": "JUPITER",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Jülich",
+   "country": "Germany",
+   "address": "Wilhelm-Johnen-Strasse, 52428 Jülich, Germany",
+   "lat": 50.9104,
+   "lon": 6.4066,
+   "website": "https://www.fz-juelich.de/en/ias/jsc/jupiter",
+   "summary": "JUPITER, Europe's first exascale supercomputer, at Forschungszentrum Jülich.",
+   "topics": [
+    "llm",
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "16 Nov 2026",
+     "t": "JUPITER Booster holds #5 on the November 2026 TOP500, at about 1 exaflop.",
+     "u": "https://top500.org/lists/top500/2026/11/"
+    },
+    {
+     "d": "Jun 2026",
+     "t": "#5 on the TOP500 (Booster module) and #17 on the Green500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-lumi",
+   "name": "LUMI",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Kajaani",
+   "country": "Finland",
+   "address": "Tehdaskatu 15, 87100 Kajaani, Finland",
+   "lat": 64.232,
+   "lon": 27.6915,
+   "website": "https://www.lumi-supercomputer.eu",
+   "summary": "LUMI, pre-exascale HPE Cray EX system at CSC, Kajaani.",
+   "topics": [
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "#11 on the TOP500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    },
+    {
+     "d": "2025",
+     "t": "Used to train the 30B+ TildeOpen LLM.",
+     "u": "https://huggingface.co/TildeAI/TildeOpen-30b"
+    }
+   ]
+  },
+  {
+   "id": "hpc-leonardo",
+   "name": "Leonardo",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Bologna",
+   "country": "Italy",
+   "address": "Via della Manifattura 3, 40128 Bologna, Italy",
+   "lat": 44.5223,
+   "lon": 11.3604,
+   "website": "https://leonardo-supercomputer.cineca.eu",
+   "summary": "Leonardo, Atos BullSequana XH2000 at the Bologna Tecnopolo.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "16 Nov 2026",
+     "t": "LISA, the AI partition of Leonardo, enters the TOP500 at #48 with 56.88 petaflops.",
+     "u": "https://www.lovguiden.dk/en/det-offentlige/eurohpc-joint-undertaking/2026-11-16-top500-jupiter-at-no-5-as-eu-ai-system-lisa-debuts-on-the-list"
+    },
+    {
+     "d": "Jun 2026",
+     "t": "#12 on the TOP500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-mn5",
+   "name": "MareNostrum 5",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Barcelona",
+   "country": "Spain",
+   "address": "Plaça Eusebi Güell 1-3, 08034 Barcelona, Spain",
+   "lat": 41.3898,
+   "lon": 2.1164,
+   "website": "https://www.bsc.es/marenostrum/marenostrum-5",
+   "summary": "MareNostrum 5, four partitions at the Barcelona Supercomputing Center.",
+   "topics": [
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "Accelerated partition #16 on the TOP500; general partition #61.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-daedalus",
+   "name": "DAEDALUS",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Lavrio, Attica",
+   "country": "Greece",
+   "address": "Lavrion Technological and Cultural Park, 19500 Lavrio, Greece",
+   "lat": 37.7244,
+   "lon": 24.0501,
+   "website": "https://grnet.gr",
+   "summary": "DAEDALUS, HPE NVIDIA GH200 system at Lavrio, Attica, operated by GRNET.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "19 Oct 2026",
+     "t": "Inaugurated at the Lavrion Technological Cultural Park with the Greek Prime Minister.",
+     "u": "https://www.euronews.com/2026/10/19/daedalus-greece-unveils-new-supercomputer-as-it-eyes-role-in-europes-ai-race"
+    },
+    {
+     "d": "Jun 2026",
+     "t": "#31 on the TOP500 and #23 on the Green500, among Europe's most energy-efficient systems.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-arrhenius",
+   "name": "Arrhenius",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Linköping",
+   "country": "Sweden",
+   "address": "Olaus Magnus väg 48, 581 83 Linköping, Sweden",
+   "lat": 58.3919,
+   "lon": 15.5716,
+   "website": "https://www.naiss.se",
+   "summary": "Arrhenius, HPE Cray EX at NAISS, Linköping University.",
+   "topics": [
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "8 Sep 2026",
+     "t": "Arrhenius inaugurated at Linköping University, an HPE system of about EUR 68.5m.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-inaugurates-arrhenius-new-mid-range-supercomputer-together-naiss-sweden-2026-09-08_en"
+    },
+    {
+     "d": "Jun 2026",
+     "t": "Enters the TOP500 at #42 and the Green500 at #24.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-alice",
+   "name": "Alice Recoque",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Under construction",
+   "city": "Bruyères-le-Châtel",
+   "country": "France",
+   "address": "2 rue de la Piquetterie, 91680 Bruyères-le-Châtel, France",
+   "lat": 48.5966,
+   "lon": 2.1993,
+   "website": "https://www.genci.fr",
+   "summary": "Alice Recoque, Europe's second exascale system, at CEA's TGCC.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "Installation begins at TGCC under the Eviden contract.",
+     "u": "https://www.eurohpc-ju.europa.eu/contract-signed-alice-recoque-europes-new-exascale-supercomputer-2025-11-18_en"
+    },
+    {
+     "d": "18 Nov 2025",
+     "t": "Contract signed with Eviden for Alice Recoque, EUR 354.8m.",
+     "u": "https://www.eurohpc-ju.europa.eu/contract-signed-alice-recoque-europes-new-exascale-supercomputer-2025-11-18_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-meluxina",
+   "name": "MeluXina",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Bissen",
+   "country": "Luxembourg",
+   "address": "3 Op der Poukewiss, ZAC Klengbousbierg, 7795 Bissen, Luxembourg",
+   "lat": 49.7875,
+   "lon": 6.0895,
+   "website": "https://www.luxprovide.lu",
+   "summary": "MeluXina, Atos BullSequana XH2000 operated by LuxProvide in Bissen.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "#177 on the TOP500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-karolina",
+   "name": "Karolina",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Ostrava",
+   "country": "Czechia",
+   "address": "Studentská 6231/1B, 708 00 Ostrava-Poruba, Czechia",
+   "lat": 49.8376,
+   "lon": 18.156,
+   "website": "https://www.it4i.cz/en/infrastructure/karolina",
+   "summary": "Karolina, HPE Apollo system at IT4Innovations, Ostrava.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "#250 on the TOP500 (GPU partition).",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    },
+    {
+     "d": "23 Sep 2025",
+     "t": "VLQ, the co-located EuroHPC quantum system, inaugurated in Ostrava.",
+     "u": "https://eurohpc-ju.europa.eu/vlq-europes-next-leap-towards-quantum-powered-research-and-innovation-2025-09-23_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-deucalion",
+   "name": "Deucalion",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Guimarães",
+   "country": "Portugal",
+   "address": "AvePark, Zona Industrial da Gandra, 4805-015 Barco, Guimarães, Portugal",
+   "lat": 41.5071,
+   "lon": -8.3311,
+   "website": "https://deucalion.acnca.pt",
+   "summary": "Deucalion, hybrid ARM and x86 system at Guimarães, hosted by FCT.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "#353 on the TOP500, #137 on the Green500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-vega",
+   "name": "Vega",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Maribor",
+   "country": "Slovenia",
+   "address": "Prešernova ulica 17, 2000 Maribor, Slovenia",
+   "lat": 46.5636,
+   "lon": 15.6514,
+   "website": "https://www.izum.si/en/hpc-en/",
+   "summary": "Vega, Slovenia's petascale EuroHPC system, operated by IZUM in Maribor.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "#365 on the TOP500 (CPU partition).",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-discoverer",
+   "name": "Discoverer",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Sofia",
+   "country": "Bulgaria",
+   "address": "111 Tsarigradsko Shose Blvd, 1784 Sofia, Bulgaria",
+   "lat": 42.6658,
+   "lon": 23.3731,
+   "website": "https://discoverer.bg",
+   "summary": "Discoverer, Atos BullSequana XH2000 inside Sofia Tech Park.",
+   "topics": [
+    "llm",
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "#317 on the TOP500.",
+     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+    }
+   ]
+  },
+  {
+   "id": "tue",
+   "name": "ELLIS Institute Tübingen · MPI-IS · Cyber Valley",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Tübingen",
+   "country": "Germany",
+   "address": "Maria-von-Linden-Strasse 2, 72076 Tübingen, Germany",
+   "lat": 48.5385,
+   "lon": 9.0559,
+   "website": "https://institute-tue.ellis.eu",
+   "summary": "ELLIS Institute Tübingen, fundamental AI research within Cyber Valley.",
+   "topics": [
+    "ml",
+    "robot",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "3 Jul 2026",
+     "t": "Summer poster session hosted with MPI-IS in Stuttgart as part of the ELLIS Sites ICML Fest.",
+     "u": "https://ellis.eu/events/ellis-sites-icml-2026-institute-tuebingen"
+    },
+    {
+     "d": "27 May 2026",
+     "t": "Scientific director Bernhard Schölkopf elected a Fellow of the Royal Society.",
+     "u": "https://institute-tue.ellis.eu/news/bernhard-scholkopf-elected-fellow-of-the-royal-society"
+    },
+    {
+     "d": "20 May 2026",
+     "t": "Launches KE:SAI, a non-profit open-science laboratory for physical AI, with the Paris lab Kyutai.",
+     "u": "https://institute-tue.ellis.eu/news/kyutai-ellis"
+    },
+    {
+     "d": "18 May 2026",
+     "t": "ELLIS announces new units in Czechia, Denmark, Franconia, Grenoble, NRW, Slovenia and Sweden, bringing the network to 44 units across around 150 institutions.",
+     "u": "https://ellis.eu/news/seven-new-units-join-the-ellis-network-czechia-denmark-franconia-grenoble-nrw-slovenia-sweden"
+    },
+    {
+     "d": "4 May 2026",
+     "t": "Prior Labs, the TabPFN start-up co-founded by PI Frank Hutter, joins SAP.",
+     "u": "https://institute-tue.ellis.eu/news/priorlabs-acquired-by-sap"
+    }
+   ]
+  },
+  {
+   "id": "zrh",
+   "name": "ETH AI Center",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Zurich",
+   "country": "Switzerland",
+   "address": "Andreasstrasse 5, 8092 Zürich, Switzerland",
+   "lat": 47.413,
+   "lon": 8.5472,
+   "website": "https://ai.ethz.ch",
+   "summary": "ETH AI Center, cross-departmental AI research, and one leg of the Swiss AI Initiative.",
+   "topics": [
+    "llm",
+    "robot"
+   ],
+   "news": [
+    {
+     "d": "24 Jul 2026",
+     "t": "Apertus 1.5 released by ETH Zurich, EPFL and CSCS, adding image and audio input with better reasoning, instruction following and tool use.",
+     "u": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
+    },
+    {
+     "d": "2026",
+     "t": "Apertus Mini introduced, 16 compact distilled and quantised models.",
+     "u": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
+    },
+    {
+     "d": "2 Sep 2025",
+     "t": "Apertus 1.0 released, fully open 8B and 70B models under Apache 2.0, trained on 15 trillion tokens across 1,000+ languages.",
+     "u": "https://www.apertus-ai.org"
+    }
+   ]
+  },
+  {
+   "id": "epfl",
+   "name": "EPFL, ML and NLP laboratories",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lausanne",
+   "country": "Switzerland",
+   "address": "EPFL, 1015 Lausanne, Switzerland",
+   "lat": 46.5187,
+   "lon": 6.5666,
+   "website": "https://ai.epfl.ch",
+   "summary": "EPFL machine learning and NLP laboratories, the Lausanne half of the Swiss AI Initiative.",
+   "topics": [
+    "llm",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "24 Jul 2026",
+     "t": "Apertus 1.5 released, jointly led by Martin Jaggi and Antoine Bosselut of EPFL with Imanol Schlag of ETH Zurich.",
+     "u": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
+    },
+    {
+     "d": "2 Sep 2025",
+     "t": "Apertus 1.0 co-released with ETH Zurich and CSCS.",
+     "u": "https://www.apertus-ai.org"
+    }
+   ]
+  },
+  {
+   "id": "cscs",
+   "name": "Swiss National Supercomputing Centre (CSCS)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lugano",
+   "country": "Switzerland",
+   "address": "Via Trevano 131, 6900 Lugano, Switzerland",
+   "lat": 46.0245,
+   "lon": 8.96,
+   "website": "https://www.cscs.ch",
+   "summary": "CSCS, the Swiss National Supercomputing Centre, operator of Alps.",
+   "topics": [
+    "llm",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "24 Jul 2026",
+     "t": "Apertus 1.5 trained on Alps and released; CSCS opens an Apertus inference service for Swiss academic users.",
+     "u": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
+    },
+    {
+     "d": "13 Oct 2025",
+     "t": "HEARTS, the Swiss AI Factory Antenna built on the Alps research infrastructure, is selected by EuroHPC.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ati",
+   "name": "The Alan Turing Institute",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": "96 Euston Road, London NW1 2DB, United Kingdom",
+   "lat": 51.5299,
+   "lon": -0.1277,
+   "website": "https://www.turing.ac.uk",
+   "summary": "The Alan Turing Institute, the UK's national institute for AI and data science.",
+   "topics": [
+    "health",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "3 Nov 2026",
+     "t": "Adrian Belton, former chair of Dstl, appointed chair for an initial three-year term, succeeding interim chair Vanessa Lawrence.",
+     "u": "https://www.resultsense.com/news/2026-11-04-turing-institute-adrian-belton-chair/"
+    },
+    {
+     "d": "2 Apr 2026",
+     "t": "UKRI review asks for a single purpose around national resilience, security and defence, and a value-for-money framework with EPSRC.",
+     "u": "https://www.uktech.news/ai/alan-turing-institute-deemed-unsatisfactory-in-review-20260402"
+    },
+    {
+     "d": "17 Feb 2026",
+     "t": "George Williamson, former chief executive of HMGCC, is named chief executive, taking over from acting chief executive Mark Girolami in May.",
+     "u": "https://www.edtechinnovationhub.com/news/alan-turing-institute-names-george-williamson-as-ceo-to-lead-next-phase-of-uk-ai-strategy"
+    },
+    {
+     "d": "22 Jan 2026",
+     "t": "Chief scientist Mark Girolami becomes acting chief executive.",
+     "u": "https://www.theregister.com/2026/01/22/turing_institute_acting_ceo/"
+    },
+    {
+     "d": "Sep 2025",
+     "t": "Chief executive Jean Innes announces she will step down at the end of the transformation programme.",
+     "u": "https://www.timeshighereducation.com/news/head-troubled-alan-turing-institute-step-down"
+    },
+    {
+     "d": "3 Jul 2025",
+     "t": "The science secretary writes to the chair calling for reorientation around defence and national security, with reduced EPSRC core funding from 2026-27.",
+     "u": "https://www.turing.ac.uk"
+    }
+   ]
+  },
+  {
+   "id": "oxf",
+   "name": "University of Oxford, Computer Science",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "address": "Parks Road, Oxford OX1 3QD, United Kingdom",
+   "lat": 51.7599,
+   "lon": -1.2585,
+   "website": "https://www.cs.ox.ac.uk",
+   "summary": null,
+   "topics": [
+    "ml",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "cam",
+   "name": "University of Cambridge",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Cambridge",
+   "country": "United Kingdom",
+   "address": "15 JJ Thomson Avenue, Cambridge CB3 0FD, United Kingdom",
+   "lat": 52.2109,
+   "lon": 0.092,
+   "website": "https://www.cst.cam.ac.uk",
+   "summary": null,
+   "topics": [
+    "ml",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "ucl",
+   "name": "University College London",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": "90 High Holborn, London WC1V 6LJ, United Kingdom",
+   "lat": 51.5182,
+   "lon": -0.1181,
+   "website": "https://www.ucl.ac.uk/ai-centre",
+   "summary": null,
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "edi",
+   "name": "University of Edinburgh, Informatics",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Edinburgh",
+   "country": "United Kingdom",
+   "address": "10 Crichton Street, Edinburgh EH8 9AB, United Kingdom",
+   "lat": 55.9448,
+   "lon": -3.1873,
+   "website": "https://www.ed.ac.uk/informatics",
+   "summary": null,
+   "topics": [
+    "llm",
+    "robot",
+    "compute"
+   ],
+   "news": []
+  },
+  {
+   "id": "inria",
+   "name": "Inria",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Palaiseau / Paris-Saclay",
+   "country": "France",
+   "address": "1 rue Honoré d'Estienne d'Orves, 91120 Palaiseau, France",
+   "lat": 48.7144,
+   "lon": 2.2056,
+   "website": "https://www.inria.fr",
+   "summary": null,
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "29 Oct 2026",
+     "t": "ELLIS Unit Côte d'Azur announced in Sophia Antipolis, with the Inria centre at Université Côte d'Azur among its partners.",
+     "u": "https://ellis.eu/news/five-new-units-join-ellis-network-cote-dazur-hamburg-innsbruck-ireland-norway"
+    },
+    {
+     "d": "18 May 2026",
+     "t": "ELLIS Unit Grenoble announced, led from Inria with Université Grenoble Alpes and the MIAI institute.",
+     "u": "https://ellis.eu/news/seven-new-units-join-the-ellis-network-czechia-denmark-franconia-grenoble-nrw-slovenia-sweden"
+    }
+   ]
+  },
+  {
+   "id": "psl",
+   "name": "ENS/PSL · Sorbonne · École Polytechnique",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Paris",
+   "country": "France",
+   "address": "45 rue d'Ulm, 75005 Paris, France",
+   "lat": 48.8418,
+   "lon": 2.344,
+   "website": "https://www.ens.psl.eu",
+   "summary": null,
+   "topics": [
+    "vision",
+    "ml",
+    "industry"
+   ],
+   "news": []
+  },
+  {
+   "id": "ams",
+   "name": "University of Amsterdam (AMLab) · CWI",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "address": "Science Park 900, 1098 XH Amsterdam, Netherlands",
+   "lat": 52.3551,
+   "lon": 4.9545,
+   "website": "https://www.uva.nl",
+   "summary": "AMLab and CWI at Science Park Amsterdam, with ELLIS Unit Amsterdam.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "dfki",
+   "name": "German Research Center for Artificial Intelligence (DFKI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Saarbrücken",
+   "country": "Germany",
+   "address": "Stuhlsatzenhausweg 3, 66123 Saarbrücken, Germany",
+   "lat": 49.25692,
+   "lon": 7.04195,
+   "website": "https://www.dfki.de",
+   "summary": "DFKI, the German Research Center for Artificial Intelligence.",
+   "topics": [
+    "llm",
+    "robot",
+    "industry"
+   ],
+   "news": []
+  },
+  {
+   "id": "muc",
+   "name": "MCML · TUM · LMU · Helmholtz AI",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Munich",
+   "country": "Germany",
+   "address": "Mottlstraße 1, 80804 Munich, Germany",
+   "lat": 48.16972,
+   "lon": 11.58451,
+   "website": "https://mcml.ai",
+   "summary": "Munich Center for Machine Learning, TUM and LMU, with Helmholtz AI.",
+   "topics": [
+    "ml",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "fra",
+   "name": "ELLIS Unit Franconia",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Erlangen-Nürnberg",
+   "country": "Germany",
+   "address": "Erlangen, Germany",
+   "lat": 49.58916,
+   "lon": 10.98121,
+   "website": "https://ellis.eu",
+   "summary": "ELLIS Unit Franconia, five northern Bavarian universities in one AI consortium.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "18 May 2026",
+     "t": "Announced as a new ELLIS unit, formally established on 1 April 2026.",
+     "u": "https://ellis.eu/news/seven-new-units-join-the-ellis-network-czechia-denmark-franconia-grenoble-nrw-slovenia-sweden"
+    }
+   ]
+  },
+  {
+   "id": "darm",
+   "name": "hessian.AI · TU Darmstadt",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Darmstadt",
+   "country": "Germany",
+   "address": "Karolinenplatz 5, 64289 Darmstadt, Germany",
+   "lat": 49.87489,
+   "lon": 8.65655,
+   "website": "https://hessian.ai",
+   "summary": null,
+   "topics": [
+    "llm",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "bsc-res",
+   "name": "Barcelona Supercomputing Center (BSC), research",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "address": "Plaça d'Eusebi Güell 1-3, 08034 Barcelona, Spain",
+   "lat": 41.38978,
+   "lon": 2.11638,
+   "website": "https://www.bsc.es",
+   "summary": "Barcelona Supercomputing Center, research alongside MareNostrum operations.",
+   "topics": [
+    "llm",
+    "compute"
+   ],
+   "news": []
+  },
+  {
+   "id": "ali",
+   "name": "ELLIS Alicante",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Alicante",
+   "country": "Spain",
+   "address": "Campus de San Vicente s/n, 03690 San Vicente del Raspeig, Spain",
+   "lat": 38.38507,
+   "lon": -0.51467,
+   "website": "https://ellisalicante.org",
+   "summary": "ELLIS Alicante, a foundation for responsible AI for social good.",
+   "topics": [
+    "ethics",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "fbk",
+   "name": "Fondazione Bruno Kessler · University of Trento",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Trento",
+   "country": "Italy",
+   "address": "Via Sommarive 18, 38123 Povo, Trento, Italy",
+   "lat": 46.06746,
+   "lon": 11.15118,
+   "website": "https://www.fbk.eu",
+   "summary": null,
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "iit",
+   "name": "Istituto Italiano di Tecnologia",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Genoa",
+   "country": "Italy",
+   "address": "Via Morego 30, 16163 Genoa, Italy",
+   "lat": 44.47502,
+   "lon": 8.90636,
+   "website": "https://www.iit.it",
+   "summary": null,
+   "topics": [
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "ista",
+   "name": "Institute of Science and Technology Austria (ISTA)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Klosterneuburg",
+   "country": "Austria",
+   "address": "Am Campus 1, 3400 Klosterneuburg, Austria",
+   "lat": 48.31146,
+   "lon": 16.25895,
+   "website": "https://ista.ac.at",
+   "summary": null,
+   "topics": [
+    "vision",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "linz",
+   "name": "JKU Linz, LIT AI Lab",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Linz",
+   "country": "Austria",
+   "address": "Altenberger Straße 69, 4040 Linz, Austria",
+   "lat": 48.33517,
+   "lon": 14.32418,
+   "website": "https://www.jku.at",
+   "summary": "LIT AI Lab, JKU Linz, Sepp Hochreiter's group.",
+   "topics": [
+    "ml",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "aalto",
+   "name": "Finnish Center for Artificial Intelligence (FCAI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Espoo",
+   "country": "Finland",
+   "address": "Konemiehentie 2, 02150 Espoo, Finland",
+   "lat": 60.18697,
+   "lon": 24.82151,
+   "website": "https://fcai.fi",
+   "summary": null,
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "20 Nov 2026",
+     "t": "Research Council of Finland selects FCAI-X, coordinated by Aalto, as the next AI research Flagship, building on FCAI and ELLIS Institute Finland.",
+     "u": "https://fcai.fi/news/2026/11/20/fcai-x-is-the-next-ai-research-flagship"
+    }
+   ]
+  },
+  {
+   "id": "sthlm",
+   "name": "KTH · RISE · ELLIS Unit Sweden",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Stockholm",
+   "country": "Sweden",
+   "address": "Lindstedtsvägen 24, 114 28 Stockholm, Sweden",
+   "lat": 59.34833,
+   "lon": 18.07479,
+   "website": "https://www.kth.se",
+   "summary": "ELLIS Unit Sweden, foundations, responsible AI and applications.",
+   "topics": [
+    "robot",
+    "ethics",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "1 Apr 2026",
+     "t": "ELLIS Unit Sweden formally established, led from KTH with director Danica Kragic.",
+     "u": "https://ellis.eu/research/sites/unit-sweden"
+    }
+   ]
+  },
+  {
+   "id": "cph",
+   "name": "DTU · University of Copenhagen",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Copenhagen",
+   "country": "Denmark",
+   "address": "Richard Petersens Plads, Building 324, 2800 Kongens Lyngby, Denmark",
+   "lat": 55.78398,
+   "lon": 12.51854,
+   "website": "https://www.dtu.dk",
+   "summary": "ELLIS Unit Denmark, DTU and the University of Copenhagen.",
+   "topics": [
+    "health",
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "17 Nov 2026",
+     "t": "The University of Copenhagen will lead ELAI, the European Laboratory for AI, a five-year RAISE pilot with €17m seed funding from 1 January 2027.",
+     "u": "https://www.aicentre.dk/news/european-laboratory-for-ai-launches-as-a-catalyst-for-frontier-ai-research-across-europe"
+    },
+    {
+     "d": "18 May 2026",
+     "t": "Announced as ELLIS Unit Denmark, expanding the former ELLIS Unit Copenhagen to six Danish universities.",
+     "u": "https://ellis.eu/news/seven-new-units-join-the-ellis-network-czechia-denmark-franconia-grenoble-nrw-slovenia-sweden"
+    }
+   ]
+  },
+  {
+   "id": "insait",
+   "name": "Institute for Computer Science, Artificial Intelligence and Technology (INSAIT)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Sofia",
+   "country": "Bulgaria",
+   "address": "Tsarigradsko shose 111R, 1784 Sofia, Bulgaria",
+   "lat": 42.66998,
+   "lon": 23.37155,
+   "website": "https://insait.ai",
+   "summary": "INSAIT, Institute for Computer Science, Artificial Intelligence and Technology, Sofia University.",
+   "topics": [
+    "llm",
+    "vision",
+    "robot"
+   ],
+   "news": [
+    {
+     "d": "27 May 2026",
+     "t": "17 papers accepted at CVPR 2026, ranking first in Eastern Europe and among the top four EU institutions.",
+     "u": "https://insait.ai/insait-among-europes-top-institutions-at-cvpr-2026/"
+    },
+    {
+     "d": "21 Apr 2026",
+     "t": "EgoNight, the first large-scale benchmark for egocentric AI vision in low light, accepted at ICLR 2026.",
+     "u": "https://insait.ai/insait-introduces-egonight-a-benchmark-for-egocentric-ai-vision-in-low-light-conditions/"
+    },
+    {
+     "d": "8 Apr 2026",
+     "t": "VOID, an open-source model developed with Netflix that removes objects from video and reconstructs how the scene changes.",
+     "u": "https://insait.ai/insait-and-netflix-develop-ai-model-that-realistically-removes-objects-from-video/"
+    },
+    {
+     "d": "26 Mar 2026",
+     "t": "BgGPT 3.0 adds image and voice recognition, document processing and internet search, with free mobile apps.",
+     "u": "https://insait.ai/insait-unveils-a-new-generation-of-ai-precision-models-for-business-and-an-upgraded-bggpt-chat-for-all-citizens/"
+    },
+    {
+     "d": "2 Feb 2026",
+     "t": "Receives a $500,000 award from Google, adding to more than $6m in earlier Google support.",
+     "u": "https://insait.ai/google-awards-500000-to-insait/"
+    }
+   ]
+  },
+  {
+   "id": "prague",
+   "name": "Department of Artificial Intelligence, CIIRC CTU Prague",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Prague",
+   "country": "Czechia",
+   "address": "Jugoslávských partyzánů 1580/3, 160 00 Prague 6, Czechia",
+   "lat": 50.1029,
+   "lon": 14.39464,
+   "website": "https://ai.ciirc.cvut.cz",
+   "summary": "Department of Artificial Intelligence, CIIRC, Czech Technical University in Prague.",
+   "topics": [
+    "vision"
+   ],
+   "news": [
+    {
+     "d": "18 May 2026",
+     "t": "ELLIS Unit Prague becomes the national ELLIS Unit Czechia, adding Brno, Masaryk, Charles University and the Czech Academy of Sciences.",
+     "u": "https://ellis.eu/news/seven-new-units-join-the-ellis-network-czechia-denmark-franconia-grenoble-nrw-slovenia-sweden"
+    },
+    {
+     "d": "21 Apr 2026",
+     "t": "25 ELLIS units extended for a further five-year cycle; the Units Committee is led by Josef Sivic of CIIRC.",
+     "u": "https://ellis.eu/25-ellis-units-successfully-extended"
+    }
+   ]
+  },
+  {
+   "id": "ljub",
+   "name": "Jožef Stefan Institute",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "Jamova cesta 39, 1000 Ljubljana, Slovenia",
+   "lat": 46.04219,
+   "lon": 14.48818,
+   "website": "https://www.ijs.si",
+   "summary": "Jožef Stefan Institute, Slovenia's largest research institute.",
+   "topics": [
+    "robot",
+    "ml",
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "18 May 2026",
+     "t": "ELLIS Unit Slovenia announced, directed from the institute with the universities of Ljubljana and Maribor and the Slovenian AI Society.",
+     "u": "https://ellis.eu/news/seven-new-units-join-the-ellis-network-czechia-denmark-franconia-grenoble-nrw-slovenia-sweden"
+    },
+    {
+     "d": "9 Feb 2026",
+     "t": "SLAIF formally opens, with the institute as technical lead of the consortium.",
+     "u": "https://www.gov.si/novice/2026-02-09-slovesno-odprtje-slovenske-tovarne-umetne-inteligence-slaif/"
+    },
+    {
+     "d": "12 Mar 2025",
+     "t": "SLAIF AI Factory selected by EuroHPC, with the institute as technical lead and IZUM as host.",
+     "u": "https://www.gov.si/novice/2026-02-09-slovesno-odprtje-slovenske-tovarne-umetne-inteligence-slaif/"
+    }
+   ]
+  },
+  {
+   "id": "zagreb",
+   "name": "University of Zagreb FER · Ruđer Bošković Institute",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Zagreb",
+   "country": "Croatia",
+   "address": "Unska 3, 10000 Zagreb, Croatia",
+   "lat": 45.80059,
+   "lon": 15.97112,
+   "website": "https://www.fer.unizg.hr",
+   "summary": "Faculty of Electrical Engineering and Computing, University of Zagreb.",
+   "topics": [
+    "llm",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "warsaw",
+   "name": "IDEAS NCBR",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Warsaw",
+   "country": "Poland",
+   "address": "Chmielna 69, 00-801 Warsaw, Poland",
+   "lat": 52.22883,
+   "lon": 21.00005,
+   "website": "https://ideas-ncbr.pl",
+   "summary": null,
+   "topics": [
+    "vision",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "25 Feb 2025",
+     "t": "Government creates the IDEAS Research Institute, led by IDEAS NCBR founder Piotr Sankowski.",
+     "u": "https://www.polskieradio.pl/395/7786/artykul/3489928,poland-launches-new-research-institute-to-advance-ai"
+    }
+   ]
+  },
+  {
+   "id": "buda",
+   "name": "Rényi Institute · SZTAKI",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Budapest",
+   "country": "Hungary",
+   "address": "Reáltanoda utca 13-15, 1053 Budapest, Hungary",
+   "lat": 47.49286,
+   "lon": 19.05898,
+   "website": "https://www.renyi.hu/en/research-departments/artificial-intelligence",
+   "summary": null,
+   "topics": [
+    "vision",
+    "industry"
+   ],
+   "news": []
+  },
+  {
+   "id": "lisbon",
+   "name": "INESC-ID · Instituto Superior Técnico",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "address": "Rua Alves Redol 9, 1000-029 Lisbon, Portugal",
+   "lat": 38.73631,
+   "lon": -9.14077,
+   "website": "https://www.inesc-id.pt",
+   "summary": null,
+   "topics": [
+    "llm"
+   ],
+   "news": []
+  },
+  {
+   "id": "leuven",
+   "name": "KU Leuven, Computer Science",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Leuven",
+   "country": "Belgium",
+   "address": "Celestijnenlaan 200A, 3001 Heverlee (Leuven), Belgium",
+   "lat": 50.86413,
+   "lon": 4.67866,
+   "website": "https://www.kuleuven.be",
+   "summary": null,
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "delft",
+   "name": "TU Delft",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Delft",
+   "country": "Netherlands",
+   "address": "Mekelweg 4, 2628 CD Delft, Netherlands",
+   "lat": 51.99884,
+   "lon": 4.37365,
+   "website": "https://www.tudelft.nl",
+   "summary": null,
+   "topics": [
+    "ml",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "frei",
+   "name": "University of Freiburg",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Freiburg",
+   "country": "Germany",
+   "address": "Georges-Köhler-Allee 51, 79110 Freiburg, Germany",
+   "lat": 48.01317,
+   "lon": 7.83395,
+   "website": "https://www.uni-freiburg.de",
+   "summary": null,
+   "topics": [
+    "ml",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "dublin",
+   "name": "Insight · ADAPT",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Dublin",
+   "country": "Ireland",
+   "address": "Belfield, Dublin 4, D04 V1W8, Ireland",
+   "lat": 53.30685,
+   "lon": -6.22463,
+   "website": "https://www.insight-centre.org",
+   "summary": null,
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "29 Oct 2026",
+     "t": "ELLIS Unit Ireland announced, led from Dublin City University with nine further Irish partners, Ireland's first ELLIS unit.",
+     "u": "https://ellis.eu/news/five-new-units-join-ellis-network-cote-dazur-hamburg-innsbruck-ireland-norway"
+    }
+   ]
+  },
+  {
+   "id": "lviv",
+   "name": "ELLIS Associate Unit Lviv",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lviv",
+   "country": "Ukraine",
+   "address": "Ilariona Sventsitskoho St 17, 79011 Lviv, Ukraine",
+   "lat": 49.8231,
+   "lon": 24.03753,
+   "website": "https://apps.ucu.edu.ua",
+   "summary": "ELLIS Associate Unit Lviv, Ukrainian Catholic University, Faculty of Applied Sciences.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "robot",
+    "health"
+   ],
+   "news": [
+    {
+     "d": "26 Mar 2024",
+     "t": "Joins ELLIS as its first Associate Unit, taking the network to 43 sites in 17 countries across Europe and Israel.",
+     "u": "https://ellis.eu/news/new-associate-unit-lviv-in-ukraine-becomes-part-of-the-ellis-network"
+    }
+   ]
+  },
+  {
+   "id": "dm",
+   "name": "Google DeepMind",
+   "layer": "Industry lab",
+   "kind": "industry",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": "6 King's Boulevard, London N1C 4BU, United Kingdom",
+   "lat": 51.53223,
+   "lon": -0.12522,
+   "website": "https://deepmind.google",
+   "summary": "Google DeepMind, frontier AI research, King's Cross, London.",
+   "topics": [
+    "llm",
+    "ml",
+    "energy"
+   ],
+   "news": []
+  },
+  {
+   "id": "mistral",
+   "name": "Mistral AI",
+   "layer": "Industry lab",
+   "kind": "industry",
+   "status": null,
+   "city": "Paris",
+   "country": "France",
+   "address": "15 Rue des Halles, 75001 Paris, France",
+   "lat": 48.86016,
+   "lon": 2.34621,
+   "website": "https://mistral.ai",
+   "summary": "Mistral AI, independent European frontier-model company.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "11 Aug 2026",
+     "t": "Mistral sets out plans for up to 1 GW of its own compute capacity by 2030.",
+     "u": "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+    }
+   ]
+  },
+  {
+   "id": "fair",
+   "name": "Meta FAIR Paris · Kyutai · Google DeepMind Paris",
+   "layer": "Industry lab",
+   "kind": "industry",
+   "status": null,
+   "city": "Paris",
+   "country": "France",
+   "address": "6 Rue Ménars, 75002 Paris, France",
+   "lat": 48.86961,
+   "lon": 2.33811,
+   "website": "https://ai.meta.com/research/",
+   "summary": null,
+   "topics": [
+    "llm",
+    "industry"
+   ],
+   "news": []
+  },
+  {
+   "id": "hd",
+   "name": "Aleph Alpha",
+   "layer": "Industry lab",
+   "kind": "industry",
+   "status": null,
+   "city": "Heidelberg",
+   "country": "Germany",
+   "address": "Speyerer Straße 14, 69115 Heidelberg, Germany",
+   "lat": 49.39803,
+   "lon": 8.67301,
+   "website": "https://aleph-alpha.com",
+   "summary": null,
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "24 Apr 2026",
+     "t": "Cohere and Aleph Alpha plan to combine under the Cohere name, with Schwarz Group as lead investor; subject to approvals.",
+     "u": "https://schwarz-digits.de/en/presse/archive/2026/cohere-and-aleph-alpha-to-form-global-ai-powerhouse"
+    }
+   ]
+  },
+  {
+   "id": "silo",
+   "name": "AMD Silo AI",
+   "layer": "Industry lab",
+   "kind": "industry",
+   "status": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "address": "Lapinlahdenkatu 1 C, 00180 Helsinki, Finland",
+   "lat": 60.16646,
+   "lon": 24.93159,
+   "website": "https://www.silo.ai",
+   "summary": "AMD Silo AI, Europe's largest private AI lab before its acquisition.",
+   "topics": [
+    "llm"
+   ],
+   "news": []
+  },
+  {
+   "id": "tilde",
+   "name": "Tilde",
+   "layer": "Industry lab",
+   "kind": "industry",
+   "status": null,
+   "city": "Riga",
+   "country": "Latvia",
+   "address": "Vienības gatve 75A, LV-1004 Riga, Latvia",
+   "lat": 56.91754,
+   "lon": 24.08613,
+   "website": "https://tilde.ai",
+   "summary": "Tilde, Baltic language technology.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "3 Sep 2025",
+     "t": "TildeOpen LLM released, over 30 billion parameters, trained on LUMI.",
+     "u": "https://tilde.ai/?p=20213"
+    }
+   ]
+  },
+  {
+   "id": "zag",
+   "name": "Slovenian National Building and Civil Engineering Institute (ZAG)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "Dimičeva ulica 12, 1000 Ljubljana, Slovenia",
+   "lat": 46.07044,
+   "lon": 14.51395,
+   "website": "https://www.zag.si/en/",
+   "summary": "ZAG, Zavod za gradbeništvo Slovenije, the national building and civil engineering institute.",
+   "topics": [
+    "vision",
+    "industry",
+    "struct",
+    "wim",
+    "materials",
+    "geo",
+    "building",
+    "sustain",
+    "metrology",
+    "shm",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "3 Sep 2026",
+     "t": "Reaches 30,000 citations in the SICRIS database, ahead of its 2027 strategic target.",
+     "u": "https://www.zag.si/en/milestone-slovenian-national-building-and-civil-engineering-institute-30000-citations/"
+    },
+    {
+     "d": "21-22 Jan 2026",
+     "t": "Hosts two BRIDGITISE workshops, on collaborative pathways in digitalised infrastructure monitoring and on digital transformation in bridge integrity management, with around 100 participants.",
+     "u": "https://www.zag.si/en/soorganizator-bridgitise-delavnic/"
+    },
+    {
+     "d": "2026",
+     "t": "The 3DXIM X-ray imaging centre is listed as an EXCITE2 research facility.",
+     "u": "https://www.zag.si/en/"
+    },
+    {
+     "d": "2024",
+     "t": "BrAId (J7-50096) begins: big data and AI for bridge weigh-in-motion quality control.",
+     "u": "https://www.zag.si/en/"
+    },
+    {
+     "d": "2024",
+     "t": "Annual turnover passes €17m.",
+     "u": "https://www.zag.si/en/"
+    },
+    {
+     "d": "21 Dec 2023",
+     "t": "Announces 12 ARIS research projects, coordinating more than half of them.",
+     "u": "https://www.zag.si/en/zag-in-12-research-projects/"
+    }
+   ]
+  },
+  {
+   "id": "eth-smm",
+   "name": "ETH Zurich, Chair of Structural Mechanics and Monitoring",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Zurich",
+   "country": "Switzerland",
+   "address": "Stefano-Franscini-Platz 5, 8093 Zürich, Switzerland",
+   "lat": 47.4087,
+   "lon": 8.50737,
+   "website": "https://chatzi.ibk.ethz.ch",
+   "summary": "Chair of Structural Mechanics and Monitoring, Institute of Structural Engineering, ETH Zurich.",
+   "topics": [
+    "ml",
+    "energy",
+    "struct",
+    "shm",
+    "geo"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "Continuing work on railway bridge modal identification from traversing-train acceleration data alone.",
+     "u": "https://chatzi.ibk.ethz.ch"
+    },
+    {
+     "d": "2025",
+     "t": "ETH Fellowship FEL-016 awarded for a UQ-integrated scientific ML framework for structural identification, running to end 2026.",
+     "u": "https://chatzi.ibk.ethz.ch"
+    },
+    {
+     "d": "2024",
+     "t": "Group members present physics-enhanced ML for monitoring and decision support at the 10th Asia Pacific Workshop on SHM, Sendai.",
+     "u": "https://chatzi.ibk.ethz.ch"
+    }
+   ]
+  },
+  {
+   "id": "shef-drg",
+   "name": "University of Sheffield, Dynamics Research Group",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Sheffield",
+   "country": "United Kingdom",
+   "address": "Mappin Street, Sheffield S1 3JD, United Kingdom",
+   "lat": 53.38193,
+   "lon": -1.47931,
+   "website": "https://drg.ac.uk",
+   "summary": "Dynamics Research Group, Department of Mechanical Engineering, University of Sheffield.",
+   "topics": [
+    "ml",
+    "industry",
+    "struct",
+    "shm",
+    "wim",
+    "materials"
+   ],
+   "news": [
+    {
+     "d": "2023",
+     "t": "Risk-informed PBSHM framework published, treating populations as hierarchical systems.",
+     "u": "https://arxiv.org/abs/2303.13533"
+    },
+    {
+     "d": "2022",
+     "t": "Awarded a £7.7m EPSRC Programme Grant for ROSEHIPS, on population-based SHM for high-value infrastructure.",
+     "u": "https://drg.ac.uk"
+    },
+    {
+     "d": "2022",
+     "t": "Population-based SHM demonstrated in aerospace engineering, Frontiers in Robotics and AI.",
+     "u": "https://drg.ac.uk"
+    }
+   ]
+  },
+  {
+   "id": "csic-cam",
+   "name": "Cambridge Centre for Smart Infrastructure and Construction (CSIC)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Cambridge",
+   "country": "United Kingdom",
+   "address": "7a JJ Thomson Avenue, Cambridge CB3 0FA, United Kingdom",
+   "lat": 52.21065,
+   "lon": 0.09427,
+   "website": "https://www-smartinfrastructure.eng.cam.ac.uk",
+   "summary": "Cambridge Centre for Smart Infrastructure and Construction, sensing and data for whole-life asset management.",
+   "topics": [
+    "vision",
+    "ml",
+    "robot",
+    "struct",
+    "shm",
+    "geo",
+    "metrology"
+   ],
+   "news": [
+    {
+     "d": "28 Oct 2026",
+     "t": "CSIC spinout InfraMind Labs wins three GE GeoTech Awards 2026, including Best Use of AI and Machine Learning.",
+     "u": "https://www-smartinfrastructure.eng.cam.ac.uk/news/cambridge-spinout-inframind-labs-wins-three-major-honours-ge-geotech-awards-2026"
+    },
+    {
+     "d": "2026",
+     "t": "CSIC joins the new Smart Construction Network.",
+     "u": "https://www-smartinfrastructure.eng.cam.ac.uk"
+    },
+    {
+     "d": "14 Nov 2025",
+     "t": "Brian Sheil, then CSIC director, gives the keynote at Mott MacDonald's Geotechnics Forum on physics-informed AI for underground infrastructure.",
+     "u": "https://www-smartinfrastructure.eng.cam.ac.uk/news/csic-director-dr-brian-sheil-presents-keynote-mott-macdonalds-geotechnics-forum-2025"
+    }
+   ]
+  },
+  {
+   "id": "epfl-imos",
+   "name": "EPFL, Intelligent Maintenance and Operations Systems",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lausanne",
+   "country": "Switzerland",
+   "address": "Station 18, 1015 Lausanne, Switzerland",
+   "lat": 46.52087,
+   "lon": 6.56679,
+   "website": "https://www.epfl.ch/labs/imos/",
+   "summary": "Intelligent Maintenance and Operations Systems, EPFL, AI for complex engineered assets.",
+   "topics": [
+    "industry",
+    "struct"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "Co-authors the international Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing.",
+     "u": "https://arxiv.org/abs/2605.00839"
+    }
+   ]
+  },
+  {
+   "id": "wzl",
+   "name": "RWTH Aachen, Laboratory for Machine Tools and Production Engineering (WZL)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Aachen",
+   "country": "Germany",
+   "address": "Campus-Boulevard 30, 52074 Aachen, Germany",
+   "lat": 50.78196,
+   "lon": 6.04723,
+   "website": "https://www.wzl.rwth-aachen.de",
+   "summary": "WZL, Laboratory for Machine Tools and Production Engineering, RWTH Aachen University.",
+   "topics": [
+    "llm",
+    "robot",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "7 Jul 2026",
+     "t": "Skipro enters its operational phase, consortium with PTB, BAM, Forschungszentrum Jülich, Siemens and others.",
+     "u": "https://www.industrial-production.de/research---development/ai-research-at-the-wzl-at-rwth-aachen-university---skipro--aims-to-break-down-data-silos-in-factories.htm"
+    },
+    {
+     "d": "2 Jul 2026",
+     "t": "AKIMI brings agent-based AI to robotic assembly for small and medium-sized businesses.",
+     "u": "https://www.industrial-production.de/research---development/agent-based-ai-aims-to-simplify-robotics-for-small-and-medium-sized-businesses.htm"
+    },
+    {
+     "d": "2026",
+     "t": "RWTH spin-off Athenyx Robotics develops physical AI for industrial component manufacturing.",
+     "u": "https://www.industrial-production.de/industrial-robots/athenyx-robotics--rwth-aachen-university-spin-off-brings-ai-robotics-to-industrial-applications.htm"
+    }
+   ]
+  },
+  {
+   "id": "ipa",
+   "name": "Fraunhofer Institute for Manufacturing Engineering and Automation (IPA)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Stuttgart",
+   "country": "Germany",
+   "address": "Nobelstraße 12, 70569 Stuttgart, Germany",
+   "lat": 48.74002,
+   "lon": 9.10072,
+   "website": "https://www.ipa.fraunhofer.de/en.html",
+   "summary": "Fraunhofer IPA, manufacturing engineering and automation, Stuttgart.",
+   "topics": [
+    "vision",
+    "robot",
+    "industry"
+   ],
+   "news": []
+  },
+  {
+   "id": "iais",
+   "name": "Fraunhofer IAIS · Lamarr Institute",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Sankt Augustin / Dortmund",
+   "country": "Germany",
+   "address": "Schloss Birlinghoven 1, 53757 Sankt Augustin, Germany",
+   "lat": 50.74896,
+   "lon": 7.20203,
+   "website": "https://www.iais.fraunhofer.de/en.html",
+   "summary": "Fraunhofer IAIS, intelligent analysis and information systems.",
+   "topics": [
+    "llm",
+    "ml",
+    "robot"
+   ],
+   "news": [
+    {
+     "d": "8 Jun 2026",
+     "t": "Design chosen for a new Fraunhofer centre in Bonn for AI and high-performance computing, shared by IAIS and SCAI",
+     "u": "https://www.uni-bonn.de/en/news/104-2026"
+    },
+    {
+     "d": "7 Nov 2025",
+     "t": "JUPITER AI Factory consortium kick-off in Aachen, with IAIS on the panel",
+     "u": "https://hessian.ai/kick-off-for-the-jupiter-ai-factory/"
+    },
+    {
+     "d": "12 Mar 2025",
+     "t": "Named a partner in the JAIF factory consortium at Jülich.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    },
+    {
+     "d": "26 Nov 2024",
+     "t": "OpenGPT-X delivers Teuken 7B, a European multilingual language model.",
+     "u": "https://www.iais.fraunhofer.de/en/press-events/press-releases/press-release-241126.html"
+    }
+   ]
+  },
+  {
+   "id": "polimi-dig",
+   "name": "Politecnico di Milano, Management, Economics and Industrial Engineering",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Milan",
+   "country": "Italy",
+   "address": "Via Lambruschini 4/B, 20156 Milan, Italy",
+   "lat": 45.50349,
+   "lon": 9.15646,
+   "website": "https://www.som.polimi.it",
+   "summary": "Department of Management, Economics and Industrial Engineering, Politecnico di Milano.",
+   "topics": [
+    "ml",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "5 Apr 2026",
+     "t": "Co-authors the international Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing.",
+     "u": "https://arxiv.org/abs/2605.00839"
+    }
+   ]
+  },
+  {
+   "id": "bam",
+   "name": "Federal Institute for Materials Research and Testing (BAM)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Berlin",
+   "country": "Germany",
+   "address": "Unter den Eichen 87, 12205 Berlin, Germany",
+   "lat": 52.44144,
+   "lon": 13.28645,
+   "website": "https://www.bam.de/Navigation/EN/Home/home.html",
+   "summary": "BAM, the German federal institute for materials research and testing, Berlin.",
+   "topics": [
+    "ml",
+    "industry",
+    "struct",
+    "shm",
+    "materials",
+    "geo",
+    "metrology"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "Joins the Skipro consortium on trustworthy generative AI for production data.",
+     "u": "https://www.industrial-production.de/research---development/ai-research-at-the-wzl-at-rwth-aachen-university---skipro--aims-to-break-down-data-silos-in-factories.htm"
+    },
+    {
+     "d": "Jul 2024",
+     "t": "Presents the Nibelungen Bridge living lab for transfer learning of structural dynamics, with reconfigurable edge-computing sensors.",
+     "u": "https://doi.org/10.58286/29853"
+    }
+   ]
+  },
+  {
+   "id": "ugev",
+   "name": "Université Gustave Eiffel, MAST, Materials and Structures",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Marne-la-Vallée",
+   "country": "France",
+   "address": "14-20 Boulevard Newton, 77420 Champs-sur-Marne, France",
+   "lat": 48.84234,
+   "lon": 2.58798,
+   "website": "https://mast.univ-gustave-eiffel.fr/",
+   "summary": "MAST, materials and structures research at Université Gustave Eiffel, successor to IFSTTAR and LCPC.",
+   "topics": [
+    "energy",
+    "struct",
+    "shm",
+    "materials",
+    "geo",
+    "sustain"
+   ],
+   "news": []
+  },
+  {
+   "id": "empa",
+   "name": "Structural Engineering Research Laboratory (Empa Lab 303)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Dübendorf",
+   "country": "Switzerland",
+   "address": "Überlandstrasse 129, 8600 Dübendorf, Switzerland",
+   "lat": 47.40237,
+   "lon": 8.61149,
+   "website": "https://www.empa.ch/web/s303",
+   "summary": "Empa Lab 303, structural engineering testing and strengthening research, Dübendorf.",
+   "topics": [
+    "vision",
+    "struct",
+    "shm",
+    "materials",
+    "geo",
+    "metrology"
+   ],
+   "news": [
+    {
+     "d": "26-28 Aug 2026",
+     "t": "SMAR 2026, the 8th International Conference on Smart Monitoring, Assessment and Rehabilitation of Civil Structures, held in Dresden.",
+     "u": "https://tu-dresden.de/bu/bauingenieurwesen/imb/das-institut/veranstaltungen/smar-2026"
+    },
+    {
+     "d": "25 Aug 2026",
+     "t": "Two new laboratories open on the Empa Thun campus following a split of the former Advanced Materials Processing Laboratory.",
+     "u": "https://www.empa.ch/web/empa/structural-engineering"
+    }
+   ]
+  },
+  {
+   "id": "ul-fgg",
+   "name": "University of Ljubljana, Faculty of Civil and Geodetic Engineering (UL FGG)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "Jamova cesta 2, 1000 Ljubljana, Slovenia",
+   "lat": 46.0458,
+   "lon": 14.4949,
+   "website": "https://www.en.fgg.uni-lj.si/",
+   "summary": "UL FGG, civil engineering, geodesy and spatial planning at the University of Ljubljana.",
+   "topics": [
+    "ml",
+    "struct",
+    "materials",
+    "geo",
+    "building"
+   ],
+   "news": [
+    {
+     "d": "12 Mar 2025",
+     "t": "Its university, the University of Ljubljana, is named in the SLAIF AI Factory consortium with the universities of Maribor, Nova Gorica and Primorska.",
+     "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
+    }
+   ]
+  },
+  {
+   "id": "tno",
+   "name": "Netherlands Organisation for Applied Scientific Research (TNO)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Delft",
+   "country": "Netherlands",
+   "address": "Molengraaffsingel 8, 2629 JD Delft, Netherlands",
+   "lat": 51.9928,
+   "lon": 4.3852,
+   "website": "https://www.tno.nl/en/",
+   "summary": "TNO, the Dutch national organisation for applied scientific research.",
+   "topics": [
+    "industry",
+    "struct",
+    "geo"
+   ],
+   "news": [
+    {
+     "d": "10 Oct 2025",
+     "t": "Named a partner in the NLAIF Dutch AI Factory consortium.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-six-additional-ai-factories-expand-europes-ai-capabilities-2025-10-10_en"
+    }
+   ]
+  },
+  {
+   "id": "bast",
+   "name": "Federal Highway and Transport Research Institute (BASt)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Bergisch Gladbach",
+   "country": "Germany",
+   "address": "Brüderstraße 53, 51427 Bergisch Gladbach, Germany",
+   "lat": 50.9525,
+   "lon": 7.1453,
+   "website": "https://www.bast.de",
+   "summary": "BASt, the German federal institute for road and transport research, at Bergisch Gladbach.",
+   "topics": [
+    "struct",
+    "materials",
+    "geo",
+    "metrology",
+    "ml",
+    "shm"
+   ],
+   "news": [
+    {
+     "d": "3 Jul 2026",
+     "t": "Presents interim results from ten projects on extending the remaining service life of road bridges.",
+     "u": "https://www.verkehrsrundschau.de/nachrichten/vermischtes/bruecken-laenger-erhalten-bast-zeigt-neue-ansaetze-bis-2030-3822736"
+    },
+    {
+     "d": "May 2026",
+     "t": "Opens the D-A-CH 2026 call, €2.1m, first topic being AI-supported evaluation of structural and condition data.",
+     "u": "https://www.bast.de"
+    },
+    {
+     "d": "13 Aug 2025",
+     "t": "Opens its own Bridge Competence Centre as the central point of contact for German bridge research.",
+     "u": "https://www.bast.de"
+    },
+    {
+     "d": "1 Feb 2025",
+     "t": "Renamed Bundesanstalt für Straßen- und Verkehrswesen, widening its remit into transport research.",
+     "u": "https://www.eurotransport.de/logistik/verkehrspolitik/bast-benennt-sich-um-verkehrswesen-kommt-zum-namen-hinzu/"
+    }
+   ]
+  },
+  {
+   "id": "ucd-ccir",
+   "name": "UCD Centre for Critical Infrastructure Research",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Dublin",
+   "country": "Ireland",
+   "address": "School of Civil Engineering, UCD Belfield, Dublin 4, Ireland",
+   "lat": 53.3092,
+   "lon": -6.2336,
+   "website": "https://www.ucd.ie/civileng/",
+   "summary": "UCD School of Civil Engineering, bridge loading, dynamics and weigh-in-motion research.",
+   "topics": [
+    "vision",
+    "ml",
+    "struct",
+    "shm",
+    "wim",
+    "geo"
+   ],
+   "news": [
+    {
+     "d": "19 Oct 2026",
+     "t": "Multi-model machine learning for bridge scour detection from drive-by data, with the University of Minho",
+     "u": "https://doi.org/10.3390/s26206612"
+    },
+    {
+     "d": "2025",
+     "t": "Publishes a physics-informed neural network algorithm for B-WIM that works with axle locations unknown in advance.",
+     "u": "https://doi.org/10.1016/j.ymssp.2025.113564"
+    },
+    {
+     "d": "2025",
+     "t": "Fleet monitoring of bridges using direct calculation of a moving reference influence line.",
+     "u": "https://doi.org/10.3390/app152211960"
+    }
+   ]
+  },
+  {
+   "id": "ibdim",
+   "name": "Road and Bridge Research Institute (IBDiM)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Warsaw",
+   "country": "Poland",
+   "address": "Instytutowa 1, 03-302 Warszawa, Poland",
+   "lat": 52.2673,
+   "lon": 21.0251,
+   "website": "https://www.ibdim.edu.pl",
+   "summary": "IBDiM, Instytut Badawczy Dróg i Mostów, the Polish road and bridge research institute.",
+   "topics": [
+    "struct",
+    "materials",
+    "geo",
+    "metrology"
+   ],
+   "news": []
+  },
+  {
+   "id": "lnec",
+   "name": "National Laboratory for Civil Engineering (LNEC)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "address": "Avenida do Brasil 101, 1700-066 Lisboa, Portugal",
+   "lat": 38.7587,
+   "lon": -9.1411,
+   "website": "https://www.lnec.pt/en/",
+   "summary": "LNEC, Laboratório Nacional de Engenharia Civil, Lisbon.",
+   "topics": [
+    "struct",
+    "shm",
+    "materials",
+    "geo"
+   ],
+   "news": []
+  },
+  {
+   "id": "vti",
+   "name": "Swedish National Road and Transport Research Institute (VTI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Linköping",
+   "country": "Sweden",
+   "address": "Olaus Magnus väg 35, 581 83 Linköping, Sweden",
+   "lat": 58.3954,
+   "lon": 15.5729,
+   "website": "https://www.vti.se/en",
+   "summary": "VTI, the Swedish national road and transport research institute.",
+   "topics": [
+    "struct",
+    "geo"
+   ],
+   "news": []
+  },
+  {
+   "id": "trl",
+   "name": "Transport Research Laboratory (TRL)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Wokingham",
+   "country": "United Kingdom",
+   "address": "Crowthorne House, Nine Mile Ride, Wokingham RG40 3GA, United Kingdom",
+   "lat": 51.383,
+   "lon": -0.784,
+   "website": "https://www.trl.co.uk",
+   "summary": "TRL, the UK Transport Research Laboratory.",
+   "topics": [
+    "struct",
+    "materials",
+    "geo"
+   ],
+   "news": []
+  },
+  {
+   "id": "ait",
+   "name": "AIT Austrian Institute of Technology",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Vienna",
+   "country": "Austria",
+   "address": "Giefinggasse 4, 1210 Wien, Austria",
+   "lat": 48.2691,
+   "lon": 16.4267,
+   "website": "https://www.ait.ac.at/en",
+   "summary": "AIT, Austria's largest applied research institute, and a driver of the AI:AT factory.",
+   "topics": [
+    "vision",
+    "energy",
+    "struct",
+    "shm",
+    "geo"
+   ],
+   "news": []
+  },
+  {
+   "id": "feup-vibest",
+   "name": "Laboratory of Vibrations and Structural Monitoring (ViBest), FEUP",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Porto",
+   "country": "Portugal",
+   "address": "Rua Dr. Roberto Frias, 4200-465 Porto, Portugal",
+   "lat": 41.1785,
+   "lon": -8.5962,
+   "website": "https://paginas.fe.up.pt/~vibest/",
+   "summary": "ViBest, vibration-based structural health monitoring at the University of Porto.",
+   "topics": [
+    "struct",
+    "shm",
+    "materials"
+   ],
+   "news": []
+  },
+  {
+   "id": "minho-isise",
+   "name": "Institute for Sustainability and Innovation in Structural Engineering (ISISE)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Guimarães",
+   "country": "Portugal",
+   "address": "Campus de Azurém, 4800-058 Guimarães, Portugal",
+   "lat": 41.4527,
+   "lon": -8.2889,
+   "website": "https://www.isise.net",
+   "summary": "ISISE, structural engineering research at the University of Minho.",
+   "topics": [
+    "ml",
+    "struct",
+    "geo",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "19 Oct 2026",
+     "t": "Multi-model machine learning for bridge scour detection from drive-by data, with UCD",
+     "u": "https://doi.org/10.3390/s26206612"
+    }
+   ]
+  },
+  {
+   "id": "polimi-dica",
+   "name": "Politecnico di Milano, Civil and Environmental Engineering",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Milan",
+   "country": "Italy",
+   "address": "Piazza Leonardo da Vinci 32, 20133 Milano, Italy",
+   "lat": 45.4778,
+   "lon": 9.2272,
+   "website": "https://www.dica.polimi.it/en/",
+   "summary": "DICA, civil and environmental engineering at Politecnico di Milano.",
+   "topics": [
+    "struct",
+    "shm"
+   ],
+   "news": []
+  },
+  {
+   "id": "kul-mech",
+   "name": "KU Leuven, Structural Mechanics Section",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Leuven",
+   "country": "Belgium",
+   "address": "Kasteelpark Arenberg 40, 3001 Leuven, Belgium",
+   "lat": 50.8614,
+   "lon": 4.6842,
+   "website": "https://bwk.kuleuven.be/bwm",
+   "summary": "Structural Mechanics at KU Leuven, dynamics, vibration and model updating.",
+   "topics": [
+    "struct",
+    "shm",
+    "geo"
+   ],
+   "news": []
+  },
+  {
+   "id": "aau-shm",
+   "name": "Aalborg University, Structural Dynamics",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Aalborg",
+   "country": "Denmark",
+   "address": "Thomas Manns Vej 23, 9220 Aalborg Ø, Denmark",
+   "lat": 57.0147,
+   "lon": 9.973,
+   "website": "https://www.build.aau.dk/",
+   "summary": "Structural dynamics and operational modal analysis at Aalborg University.",
+   "topics": [
+    "struct",
+    "shm",
+    "materials"
+   ],
+   "news": []
+  },
+  {
+   "id": "klokner",
+   "name": "Klokner Institute, Czech Technical University",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Prague",
+   "country": "Czechia",
+   "address": "Šolínova 1903/7, 166 08 Praha 6, Czechia",
+   "lat": 50.1015,
+   "lon": 14.3921,
+   "website": "https://www.klok.cvut.cz/en/",
+   "summary": "Klokner Institute, structural testing and reliability at CTU Prague.",
+   "topics": [
+    "struct",
+    "materials",
+    "building",
+    "metrology"
+   ],
+   "news": []
+  },
+  {
+   "id": "zg-grad",
+   "name": "University of Zagreb, Faculty of Civil Engineering",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Zagreb",
+   "country": "Croatia",
+   "address": "Fra Andrije Kačića-Miošića 26, 10000 Zagreb, Croatia",
+   "lat": 45.8086,
+   "lon": 15.9634,
+   "website": "https://www.grad.unizg.hr/en",
+   "summary": "Faculty of Civil Engineering, University of Zagreb.",
+   "topics": [
+    "struct",
+    "materials",
+    "geo"
+   ],
+   "news": []
+  },
+  {
+   "id": "sintef",
+   "name": "SINTEF · NTNU, Norwegian Open AI Lab",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Trondheim",
+   "country": "Norway",
+   "address": "Strindvegen 4, 7034 Trondheim, Norway",
+   "lat": 63.4135,
+   "lon": 10.4089,
+   "website": "https://www.sintef.no/en/",
+   "summary": "SINTEF, Scandinavia's largest independent research organisation, with NTNU in Trondheim.",
+   "topics": [
+    "ml",
+    "industry",
+    "energy",
+    "struct",
+    "shm"
+   ],
+   "news": []
+  },
+  {
+   "id": "vtt",
+   "name": "VTT Technical Research Centre of Finland",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Espoo",
+   "country": "Finland",
+   "address": "Tekniikantie 21, 02150 Espoo, Finland",
+   "lat": 60.1865,
+   "lon": 24.8133,
+   "website": "https://www.vttresearch.com/en",
+   "summary": "VTT, Finland's state applied research centre, and an FCAI partner.",
+   "topics": [
+    "industry",
+    "materials",
+    "sustain"
+   ],
+   "news": []
+  },
+  {
+   "id": "idiap",
+   "name": "Idiap Research Institute",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Martigny",
+   "country": "Switzerland",
+   "address": "Rue Marconi 19, 1920 Martigny, Switzerland",
+   "lat": 46.1093,
+   "lon": 7.0845,
+   "website": "https://www.idiap.ch",
+   "summary": "Idiap, an independent machine learning research institute in the Swiss Valais.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "tartu",
+   "name": "University of Tartu, Institute of Computer Science",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Tartu",
+   "country": "Estonia",
+   "address": "Narva mnt 18, 51009 Tartu, Estonia",
+   "lat": 58.3854,
+   "lon": 26.7254,
+   "website": "https://cs.ut.ee/en",
+   "summary": "Institute of Computer Science, University of Tartu.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "kinit",
+   "name": "Kempelen Institute of Intelligent Technologies (KInIT)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Bratislava",
+   "country": "Slovakia",
+   "address": "Bottova 7939/2A, 811 09 Bratislava, Slovakia",
+   "lat": 48.1433,
+   "lon": 17.1262,
+   "website": "https://kinit.sk",
+   "summary": "KInIT, an independent institute for intelligent technologies research in Bratislava.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "19 Jun 2025",
+     "t": "Hosts the Slovaks AI Forum in Bratislava, with more than 80 Slovak AI experts from 20 countries and opening remarks by former President Zuzana Čaputová.",
+     "u": "https://kinit.sk/slovaks-ai-forum-2025-connecting-global-slovak-expertise-in-artificial-intelligence/"
+    }
+   ]
+  },
+  {
+   "id": "ivi",
+   "name": "Institute for Artificial Intelligence Research and Development of Serbia (IVI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Novi Sad",
+   "country": "Serbia",
+   "address": "Fruškogorska 1, 21000 Novi Sad, Serbia",
+   "lat": 45.2445,
+   "lon": 19.8475,
+   "website": "https://ivi.ac.rs/en/",
+   "summary": "IVI, Serbia's national institute for AI research and development, Novi Sad.",
+   "topics": [
+    "health",
+    "industry"
+   ],
+   "news": []
+  },
+  {
+   "id": "cyens",
+   "name": "CYENS Centre of Excellence",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Nicosia",
+   "country": "Cyprus",
+   "address": "23 Dimarchias Square, 1016 Nicosia, Cyprus",
+   "lat": 35.1737,
+   "lon": 33.365,
+   "website": "https://cyens.org.cy",
+   "summary": "CYENS, Cyprus's centre of excellence in interactive media, smart systems and emerging technologies.",
+   "topics": [
+    "vision"
+   ],
+   "news": [
+    {
+     "d": "22-26 Jun 2026",
+     "t": "Runs its Summer School on AI for students aged 15+, led by Prof. Marios Pattichis.",
+     "u": "https://cyens.org.cy"
+    }
+   ]
+  },
+  {
+   "id": "snt",
+   "name": "Interdisciplinary Centre for Security, Reliability and Trust (SnT)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Luxembourg City",
+   "country": "Luxembourg",
+   "address": "29 Avenue John F. Kennedy, 1855 Luxembourg, Luxembourg",
+   "lat": 49.6256,
+   "lon": 6.1598,
+   "website": "https://www.uni.lu/snt-en/",
+   "summary": "SnT, security, reliability and trust research at the University of Luxembourg.",
+   "topics": [
+    "industry"
+   ],
+   "news": []
+  },
+  {
+   "id": "imec",
+   "name": "imec",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Leuven",
+   "country": "Belgium",
+   "address": "Kapeldreef 75, 3001 Leuven, Belgium",
+   "lat": 50.8654,
+   "lon": 4.6796,
+   "website": "https://www.imec-int.com",
+   "summary": "imec, nanoelectronics and digital technology research, Leuven.",
+   "topics": [
+    "vision",
+    "ml",
+    "health",
+    "industry",
+    "energy"
+   ],
+   "news": []
+  },
+  {
+   "id": "iiia",
+   "name": "Artificial Intelligence Research Institute (IIIA-CSIC)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Bellaterra, Barcelona",
+   "country": "Spain",
+   "address": "Carrer de Can Planas, Zona 2, Campus UAB, 08193 Bellaterra, Spain",
+   "lat": 41.5011,
+   "lon": 2.1109,
+   "website": "https://www.iiia.csic.es",
+   "summary": "IIIA-CSIC, the Spanish national artificial intelligence research institute.",
+   "topics": [
+    "ml",
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "isti",
+   "name": "Institute of Information Science and Technologies (ISTI-CNR)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Pisa",
+   "country": "Italy",
+   "address": "Via Giuseppe Moruzzi 1, 56124 Pisa, Italy",
+   "lat": 43.7186,
+   "lon": 10.4228,
+   "website": "https://www.isti.cnr.it",
+   "summary": "ISTI-CNR, information science and technologies research in the Pisa research area.",
+   "topics": [
+    "vision"
+   ],
+   "news": []
+  },
+  {
+   "id": "athena-rc",
+   "name": "Athena Research Center · Archimedes Unit",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Athens",
+   "country": "Greece",
+   "address": "Artemidos 6 & Epidavrou, 15125 Marousi, Greece",
+   "lat": 38.0368,
+   "lon": 23.8025,
+   "website": "https://www.athenarc.gr/en",
+   "summary": "Athena Research Center, Greek ICT research, host of the Archimedes AI unit.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "cadia",
+   "name": "Center for Analysis and Design of Intelligent Agents (CADIA)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Reykjavik",
+   "country": "Iceland",
+   "address": "Menntavegur 1, 102 Reykjavík, Iceland",
+   "lat": 64.1239,
+   "lon": -21.9265,
+   "website": "https://cadia.is/",
+   "summary": "CADIA, Center for Analysis and Design of Intelligent Agents, Reykjavik.",
+   "topics": [
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "lu-imcs",
+   "name": "University of Latvia, Institute of Mathematics and Computer Science",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Riga",
+   "country": "Latvia",
+   "address": "Raiņa bulvāris 29, LV-1050 Rīga, Latvia",
+   "lat": 56.9486,
+   "lon": 24.1181,
+   "website": "https://www.lumii.lv/",
+   "summary": "IMCS, Institute of Mathematics and Computer Science, University of Latvia.",
+   "topics": [
+    "llm",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "vu-mif",
+   "name": "Vilnius University, Institute of Data Science and Digital Technologies",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Vilnius",
+   "country": "Lithuania",
+   "address": "Akademijos g. 4, LT-08412 Vilnius, Lithuania",
+   "lat": 54.7518,
+   "lon": 25.263,
+   "website": "https://mif.vu.lt/lt3/en/",
+   "summary": "Institute of Data Science and Digital Technologies, Vilnius University.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "bilgem",
+   "name": "Informatics and Information Security Research Center (TÜBİTAK BİLGEM)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Gebze, Kocaeli",
+   "country": "Turkey",
+   "address": "Dr. Zeki Acar Caddesi No 1, Barış Mahallesi, 41400 Gebze, Kocaeli, Turkey",
+   "lat": 40.7858,
+   "lon": 29.4455,
+   "website": "https://en.bilgem.tubitak.gov.tr/en/",
+   "summary": "TÜBİTAK BİLGEM, Türkiye's national informatics and information security research centre.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "kuis",
+   "name": "Koç University İş Bankası AI Center (KUIS AI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Istanbul",
+   "country": "Turkey",
+   "address": "Rumelifeneri Yolu, 34450 Sarıyer, İstanbul, Turkey",
+   "lat": 41.2061,
+   "lon": 29.0738,
+   "website": "https://ai.ku.edu.tr",
+   "summary": "KUIS AI, the Koç University and İş Bankası artificial intelligence centre, Istanbul.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "bridgitise",
+   "name": "Industrial Doctoral Network on Bridge Digitalised Integrity Management (BRIDGITISE)",
+   "layer": "EU-funded project",
+   "kind": "project",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "Dimičeva ulica 12, 1000 Ljubljana, Slovenia",
+   "lat": 46.0704,
+   "lon": 14.514,
+   "website": "https://www.bridgitise.polimi.it/",
+   "summary": "BRIDGITISE, the EU's first industrial doctoral network for bridge integrity management.",
+   "topics": [
+    "vision",
+    "ml",
+    "robot",
+    "industry",
+    "struct",
+    "shm",
+    "wim",
+    "metrology"
+   ],
+   "news": [
+    {
+     "d": "21-22 Jan 2026",
+     "t": "ZAG hosts two BRIDGITISE events in Ljubljana: a research workshop on 'From research questions to collaborative pathways in digitalised infrastructure monitoring', then a stakeholder workshop on the progress of digital transformation in bridge integrity management, aimed at industry and infrastructure managers.",
+     "u": "https://www.bridgitise.polimi.it/"
+    },
+    {
+     "d": "24-25 Jan 2024",
+     "t": "Kick-off meeting at Politecnico di Milano.",
+     "u": "https://www.bridgitise.polimi.it/"
+    }
+   ]
+  },
+  {
+   "id": "ph-turing",
+   "name": "Alan Turing",
+   "layer": "Mathematician and logician",
+   "kind": "thinker",
+   "status": null,
+   "city": "Manchester",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 53.46501,
+   "lon": -2.22384,
+   "website": null,
+   "summary": "Computability, the limits of formal systems, and what counts as evidence that a system understands anything.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-lovelace",
+   "name": "Ada Lovelace",
+   "layer": "Mathematician",
+   "kind": "thinker",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.50179,
+   "lon": -0.13191,
+   "website": null,
+   "summary": "The originality question, and the first written program.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-wiener",
+   "name": "Norbert Wiener",
+   "layer": "Mathematician, founder of cybernetics",
+   "kind": "thinker",
+   "status": null,
+   "city": "Cambridge, MA",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Feedback, control theory, and the ethics of delegating decisions to machines.",
+   "topics": [
+    "ethics",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-mcculloch",
+   "name": "Warren McCulloch & Walter Pitts",
+   "layer": "Neurophysiologist and logician",
+   "kind": "thinker",
+   "status": null,
+   "city": "Chicago",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "The formal bridge between neuroscience and computation.",
+   "topics": [
+    "ml",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-popper",
+   "name": "Karl Popper",
+   "layer": "Philosopher of science",
+   "kind": "thinker",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.51313,
+   "lon": -0.10542,
+   "website": null,
+   "summary": "Validation, testing, and the difference between a model that fits and a model that is true.",
+   "topics": [
+    "ml",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-simon",
+   "name": "Herbert Simon & Allen Newell",
+   "layer": "Cognitive scientists",
+   "kind": "thinker",
+   "status": null,
+   "city": "Pittsburgh",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Symbolic AI, problem-solving as search, and decision-making under limited information.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-mccarthy",
+   "name": "John McCarthy",
+   "layer": "Computer scientist",
+   "kind": "thinker",
+   "status": null,
+   "city": "Stanford",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Knowledge representation, formal logic, and the frame problem.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-minsky",
+   "name": "Marvin Minsky",
+   "layer": "Cognitive scientist",
+   "kind": "thinker",
+   "status": null,
+   "city": "Cambridge, MA",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Architecture of intelligence, and the politics of what a field chooses to believe about its own limits.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-dreyfus",
+   "name": "Hubert Dreyfus",
+   "layer": "Phenomenologist",
+   "kind": "thinker",
+   "status": null,
+   "city": "Berkeley",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Embodiment, tacit knowledge, and the limits of explicit representation.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-searle",
+   "name": "John Searle",
+   "layer": "Philosopher of mind and language",
+   "kind": "thinker",
+   "status": null,
+   "city": "Berkeley",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Syntax versus semantics; whether behavioural competence implies comprehension.",
+   "topics": [
+    "llm",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-dennett",
+   "name": "Daniel Dennett",
+   "layer": "Philosopher of mind",
+   "kind": "thinker",
+   "status": null,
+   "city": "Medford, MA",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Prediction versus explanation, and the ethics of systems that imitate persons.",
+   "topics": [
+    "llm",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-boden",
+   "name": "Margaret Boden",
+   "layer": "Cognitive scientist and historian of AI",
+   "kind": "thinker",
+   "status": null,
+   "city": "Brighton",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 50.86123,
+   "lon": -0.07704,
+   "website": null,
+   "summary": "History of the field, and a rigorous account of machine creativity.",
+   "topics": [
+    "llm",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-putnam",
+   "name": "Hilary Putnam",
+   "layer": "Philosopher",
+   "kind": "thinker",
+   "status": null,
+   "city": "Cambridge, MA",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Whether the substrate matters, and why meaning is not in the head.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-cantwell",
+   "name": "Brian Cantwell Smith",
+   "layer": "Philosopher and computer scientist",
+   "kind": "thinker",
+   "status": null,
+   "city": "Toronto",
+   "country": "Canada",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "The reckoning/judgement distinction, and what accountability requires.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-vallor",
+   "name": "Shannon Vallor",
+   "layer": "Baillie Gifford Chair in the Ethics of Data and AI",
+   "kind": "thinker",
+   "status": null,
+   "city": "Edinburgh",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 55.93992,
+   "lon": -3.17281,
+   "website": "https://blog.apaonline.org/2025/12/22/apa-announces-fall-2025-prize-winners/",
+   "summary": "Virtue ethics for technology, moral deskilling, and responsibility gaps in autonomous systems.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "Named winner of the 2026 Barwise Prize by the American Philosophical Association.",
+     "u": "https://blog.apaonline.org/2025/12/22/apa-announces-fall-2025-prize-winners/"
+    }
+   ]
+  },
+  {
+   "id": "ph-coeck",
+   "name": "Mark Coeckelbergh",
+   "layer": "Professor of Philosophy of Media and Technology",
+   "kind": "thinker",
+   "status": null,
+   "city": "Vienna",
+   "country": "Austria",
+   "address": null,
+   "lat": 48.21554,
+   "lon": 16.37112,
+   "website": "https://coeckelbergh.net",
+   "summary": "Robot and AI ethics, the politics of technology, and relational moral standing.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "Technofascism: AI, Big Tech, and the new authoritarianism, AI & Society.",
+     "u": "https://coeckelbergh.net"
+    },
+    {
+     "d": "2026",
+     "t": "Artificial Religion published by MIT Press.",
+     "u": "https://coeckelbergh.net"
+    }
+   ]
+  },
+  {
+   "id": "ph-dignum",
+   "name": "Virginia Dignum",
+   "layer": "Professor of Responsible AI, Umeå University",
+   "kind": "thinker",
+   "status": null,
+   "city": "Umeå",
+   "country": "Sweden",
+   "address": null,
+   "lat": 63.82707,
+   "lon": 20.29169,
+   "website": "https://aipolicylab.se",
+   "summary": "Responsible AI, value-sensitive design, and translating ethics into governance instruments.",
+   "topics": [
+    "ethics"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "The AI Paradox published by Princeton University Press.",
+     "u": "https://aipolicylab.se"
+    }
+   ]
+  },
+  {
+   "id": "ph-clark",
+   "name": "Andy Clark",
+   "layer": "Professor of Cognitive Philosophy, Sussex",
+   "kind": "thinker",
+   "status": null,
+   "city": "Brighton",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 50.8568,
+   "lon": -0.07608,
+   "website": null,
+   "summary": "Extended and embodied cognition, and prediction-error minimisation as a theory of mind.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-floridi",
+   "name": "Luciano Floridi",
+   "layer": "Founding Director, Digital Ethics Center, Yale; part-time Bologna",
+   "kind": "thinker",
+   "status": null,
+   "city": "Bologna",
+   "country": "Italy",
+   "address": null,
+   "lat": 44.49545,
+   "lon": 11.35251,
+   "website": null,
+   "summary": "Philosophy of information, digital ethics, and the conceptual vocabulary behind EU AI policy.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-mueller",
+   "name": "Vincent C. Müller",
+   "layer": "Humboldt Professor for Philosophy and Ethics of AI, FAU Erlangen-Nürnberg",
+   "kind": "thinker",
+   "status": null,
+   "city": "Erlangen",
+   "country": "Germany",
+   "address": null,
+   "lat": 49.59773,
+   "lon": 11.01745,
+   "website": null,
+   "summary": "Ethics of AI and robotics, and the epistemology of forecasting technical progress.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-bostrom",
+   "name": "Nick Bostrom",
+   "layer": "Philosopher; formerly Future of Humanity Institute",
+   "kind": "thinker",
+   "status": null,
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.75586,
+   "lon": -1.24826,
+   "website": null,
+   "summary": "Long-run AI risk, and the structure of arguments about goals and capability.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-bryson",
+   "name": "Joanna Bryson",
+   "layer": "Professor of Ethics and Technology, Hertie School",
+   "kind": "thinker",
+   "status": null,
+   "city": "Berlin",
+   "country": "Germany",
+   "address": null,
+   "lat": 52.51372,
+   "lon": 13.4048,
+   "website": null,
+   "summary": "Accountability, legal personhood, and the governance of autonomous systems.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-chalmers",
+   "name": "David Chalmers",
+   "layer": "Professor of Philosophy, NYU",
+   "kind": "thinker",
+   "status": null,
+   "city": "New York",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Consciousness, and whether simulated systems can have genuine properties.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-pearl",
+   "name": "Judea Pearl",
+   "layer": "Computer scientist, UCLA",
+   "kind": "thinker",
+   "status": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Causal inference, and the difference between prediction and explanation.",
+   "topics": [
+    "ml",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-russell",
+   "name": "Stuart Russell",
+   "layer": "Professor of Computer Science, UC Berkeley",
+   "kind": "thinker",
+   "status": null,
+   "city": "Berkeley",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Objective specification, and designing systems that defer rather than optimise.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-gebru",
+   "name": "Timnit Gebru",
+   "layer": "Founder, Distributed AI Research Institute",
+   "kind": "thinker",
+   "status": null,
+   "city": "DAIR (distributed)",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": "https://www.dair-institute.org",
+   "summary": "Dataset documentation, model auditing, and the costs of scale.",
+   "topics": [
+    "llm",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-crawford",
+   "name": "Kate Crawford",
+   "layer": "Research professor, USC Annenberg",
+   "kind": "thinker",
+   "status": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "The material and environmental economics of AI infrastructure.",
+   "topics": [
+    "ethics",
+    "energy"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-bender",
+   "name": "Emily M. Bender",
+   "layer": "Professor of Linguistics, University of Washington",
+   "kind": "thinker",
+   "status": null,
+   "city": "Seattle",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "What language models do and do not do with meaning.",
+   "topics": [
+    "llm",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-oneil",
+   "name": "Cathy O'Neil",
+   "layer": "Mathematician and auditor",
+   "kind": "thinker",
+   "status": null,
+   "city": "New York",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Algorithmic auditing and feedback effects in deployed scoring systems.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-lazar",
+   "name": "Seth Lazar",
+   "layer": "Professor, School of Government and Policy, Johns Hopkins University",
+   "kind": "thinker",
+   "status": null,
+   "city": "Washington, DC",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Political legitimacy of automated decisions, and what explanation is owed.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-wachter",
+   "name": "Sandra Wachter",
+   "layer": "Professor of Technology and Regulation, Oxford Internet Institute",
+   "kind": "thinker",
+   "status": null,
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.75655,
+   "lon": -1.24112,
+   "website": "https://www.oii.ox.ac.uk/people/profiles/sandra-wachter/",
+   "summary": "Algorithmic accountability, explanation duties in EU law, and the regulation of automated decisions.",
+   "topics": [
+    "llm",
+    "ethics"
+   ],
+   "news": [
+    {
+     "d": "2026",
+     "t": "Publishes on the limits of EU environmental regulation of data centres.",
+     "u": "https://www.oii.ox.ac.uk/people/profiles/sandra-wachter/"
+    },
+    {
+     "d": "2024",
+     "t": "Argues that large language models may carry a legal duty to tell the truth.",
+     "u": "https://www.oii.ox.ac.uk/people/profiles/sandra-wachter/"
+    }
+   ]
+  },
+  {
+   "id": "ph-mittelstadt",
+   "name": "Brent Mittelstadt",
+   "layer": "Professor of Data Ethics and Policy; Director of Research, Oxford Internet Institute",
+   "kind": "thinker",
+   "status": null,
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.75586,
+   "lon": -1.24826,
+   "website": "https://www.oii.ox.ac.uk/research/projects/governance-of-emerging-technologies/",
+   "summary": "Ethics of algorithms, the limits of principle-based AI governance, and what explanation means.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-birhane",
+   "name": "Abeba Birhane",
+   "layer": "Founder, AI Accountability Lab, Trinity College Dublin",
+   "kind": "thinker",
+   "status": null,
+   "city": "Dublin",
+   "country": "Ireland",
+   "address": null,
+   "lat": 53.34167,
+   "lon": -6.24211,
+   "website": "https://www.tcd.ie/scss/people/academic-staff/birhanea/",
+   "summary": "Dataset auditing, the practice and failure of AI accountability, and relational ethics.",
+   "topics": [
+    "llm",
+    "vision",
+    "ethics"
+   ],
+   "news": [
+    {
+     "d": "2024",
+     "t": "Establishes the AI Accountability Lab at Trinity College Dublin.",
+     "u": "https://www.tcd.ie/scss/people/academic-staff/birhanea/"
+    }
+   ]
+  },
+  {
+   "id": "ph-mitchell",
+   "name": "Melanie Mitchell",
+   "layer": "Davis Professor of Complexity, Santa Fe Institute",
+   "kind": "thinker",
+   "status": null,
+   "city": "Santa Fe",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Analogy, abstraction, and the evaluation of machine understanding.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-narayanan",
+   "name": "Arvind Narayanan & Sayash Kapoor",
+   "layer": "Computer scientists, Princeton University",
+   "kind": "thinker",
+   "status": null,
+   "city": "Princeton",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Distinguishing capability from marketing, and reproducibility failures in applied machine learning.",
+   "topics": [
+    "llm",
+    "ml",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "ph-bengio",
+   "name": "Yoshua Bengio",
+   "layer": "Professor, Université de Montréal; founder of Mila",
+   "kind": "thinker",
+   "status": null,
+   "city": "Montreal",
+   "country": "Canada",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Deep learning foundations, and scientific consensus-building on AI risk.",
+   "topics": [
+    "ml",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "dc-campusia",
+   "name": "Campus IA (Paris AI Campus)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Fouju",
+   "country": "France",
+   "address": "Fouju, 77390 Seine-et-Marne, France",
+   "lat": 48.5864,
+   "lon": 2.7785,
+   "website": "https://www.mgx.ae",
+   "summary": "Campus IA, the planned 1.4 GW AI campus at Fouju, east of Paris.",
+   "topics": [
+    "llm",
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "28 Aug 2026",
+     "t": "Building permit granted for phase 1; works begin in September 2026.",
+     "u": "https://www.briedesrivieresetchateaux.fr/wp-content/uploads/2026/09/Calendrier_du_projet_Campus_IA_.pdf"
+    },
+    {
+     "d": "29 Jul 2026",
+     "t": "Seine-et-Marne prefecture grants the environmental authorisation for Campus IA at Fouju.",
+     "u": "https://next.ink/brief-article/la-prefecture-de-seine-et-marne-autorise-linstallation-de-campus-ia-a-fouju/"
+    },
+    {
+     "d": "1 Jun 2026",
+     "t": "Plans for a second site; target of up to 3 GW across France.",
+     "u": "https://www.wam.ae/en/article/1792zxu-mgx-strategic-partners-expand-campus-france-with"
+    },
+    {
+     "d": "26 Jan 2026",
+     "t": "Campus IA and RTE sign an accelerated grid connection contract for Fouju.",
+     "u": "https://assets.rte-france.com/prod/public/2026-01/20260122_CP_RACCORDEMENT_FASTTRACK_CAMPUSIA_VDEF_0.pdf"
+    },
+    {
+     "d": "19 May 2025",
+     "t": "MGX, Bpifrance, Mistral AI and NVIDIA form the joint venture; 1.4 GW target.",
+     "u": "https://polytechnique.edu/en/press-room/press-releases/mgx-bpifrance-mistral-ai-and-nvidia-launch-joint-venture-build-europes-largest-ai-campus-france"
+    }
+   ]
+  },
+  {
+   "id": "dc-mistral-blc",
+   "name": "Mistral AI data centre, Bruyères-le-Châtel",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Bruyères-le-Châtel",
+   "country": "France",
+   "address": "2 Rue de la Libération, 91680 Bruyères-le-Châtel, France",
+   "lat": 48.5985,
+   "lon": 2.1952,
+   "website": "https://mistral.ai",
+   "summary": "Mistral AI's own 44 MW training site in Essonne.",
+   "topics": [
+    "llm",
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "29 May 2026",
+     "t": "Les Ulis inference site with Digital Realty announced, part of a wider compute programme in France and Sweden.",
+     "u": "https://w.media/mistral-announces-ai-data-center-expansion-plans-forays-into-industrial-ai-engineering/"
+    },
+    {
+     "d": "30 Mar 2026",
+     "t": "Mistral raises USD 830m in debt for 13,800 GB300 GPUs at 44 MW, hosted with Eclairion.",
+     "u": "https://datacenterdynamics.com/en/news/mistral-ai-raises-830m-in-debt-financing-for-data-center-in-paris-france"
+    }
+   ]
+  },
+  {
+   "id": "dc-sines",
+   "name": "SINES Data Campus",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Sines",
+   "country": "Portugal",
+   "address": "ZILS Zona C1.1 Lote 1, 7520-309 Sines, Portugal",
+   "lat": 37.9368,
+   "lon": -8.8039,
+   "website": "https://www.startcampus.pt",
+   "summary": "SINES Data Campus, Start Campus's planned 1.2 GW site on the Portuguese coast.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "6 May 2026",
+     "t": "Nscale invests EUR 695m in a second 200 MW building at Sines for Microsoft.",
+     "u": "https://www.investmentmonitor.ai/newsletters/nscale-portugal-ai-data-centre-expansion"
+    },
+    {
+     "d": "11 Nov 2025",
+     "t": "Microsoft plans to invest USD 10bn in AI infrastructure at Sines.",
+     "u": "https://www.rte.ie/news/business/2025/1111/1543352-microsoft-to-invest-10-billion-in-portugal"
+    },
+    {
+     "d": "4 Apr 2025",
+     "t": "SIN01, a 26 MW building, officially inaugurated.",
+     "u": "https://www.businesswire.com/news/home/20250408371738/en"
+    }
+   ]
+  },
+  {
+   "id": "dc-narvik",
+   "name": "Nscale Narvik AI campus (formerly Stargate Norway)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Narvik",
+   "country": "Norway",
+   "address": "Kvanndal (Kvandal), near Bjerkvik, Narvik municipality, Norway",
+   "lat": 68.57606,
+   "lon": 17.62163,
+   "website": "https://www.nscale.com",
+   "summary": "Nscale's 230 MW AI campus near Narvik, first announced as Stargate Norway.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "12 May 2026",
+     "t": "Nscale secures USD 790m of debt for the Narvik campus, with a further USD 790m option for a 115 MW expansion.",
+     "u": "https://thenextweb.com/news/nscale-secures-790m-financing-for-narvik-ai-data-centre"
+    },
+    {
+     "d": "15 Apr 2026",
+     "t": "Microsoft takes over from OpenAI as renter of the first 30,000+ Rubin GPUs from 2027.",
+     "u": "https://www.itpro.com/infrastructure/has-another-openai-stargate-project-hit-the-rocks"
+    },
+    {
+     "d": "31 Jul 2025",
+     "t": "Stargate Norway announced with Nscale and Aker.",
+     "u": "https://openai.com/de-DE/index/introducing-stargate-norway"
+    }
+   ]
+  },
+  {
+   "id": "dc-lappeenranta",
+   "name": "Nebius AI factory, Lappeenranta",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Lappeenranta",
+   "country": "Finland",
+   "address": "Kettukuja, Pajarila, 53300 Lappeenranta, Finland",
+   "lat": 61.0537,
+   "lon": 28.2722,
+   "website": "https://nebius.com",
+   "summary": "Nebius's planned 310 MW AI campus in eastern Finland.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "31 Mar 2026",
+     "t": "Nebius announces the 310 MW Lappeenranta AI factory.",
+     "u": "https://nebius.com/newsroom/nebius-to-construct-310-mw-ai-factory-in-finland"
+    },
+    {
+     "d": "2026",
+     "t": "City of Lappeenranta: Pajarila site developed with Polarnode; up to 700 construction and about 100 permanent jobs.",
+     "u": "https://lappeenranta.fi/en/decision-making-and-administration/pajarila-data-center"
+    }
+   ]
+  },
+  {
+   "id": "dc-seinajoki",
+   "name": "Pure DC SJK01",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Seinäjoki",
+   "country": "Finland",
+   "address": "Itäväylä, Kivenneva, Seinäjoki, Finland",
+   "lat": 62.7319,
+   "lon": 22.8616,
+   "website": "https://www.puredatacentres.com",
+   "summary": "Pure DC's planned 550 MW AI campus in Seinäjoki, Finland.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "14 Jul 2026",
+     "t": "Pure DC launches SJK01: 110 MW first phase, 550+ MW at full scale.",
+     "u": "https://www.telecomtv.com/content/digital-platforms-services/pure-dc-launches-one-of-europe-s-largest-ever-ai-infrastructure-projects-55904/"
+    },
+    {
+     "d": "2026",
+     "t": "EUR 1.3bn of committed senior debt secured for phase 1.",
+     "u": "https://www.datacenterdynamics.com/en/news/pure-dc-secures-13bn-financing-for-finnish-data-center-campus/"
+    }
+   ]
+  },
+  {
+   "id": "dc-escaudain",
+   "name": "Data4 Escaudain campus",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Escaudain",
+   "country": "France",
+   "address": "Parc des Soufflantes, 59124 Escaudain, France",
+   "lat": 50.3333,
+   "lon": 3.3438,
+   "website": "https://www.data4group.com/en/",
+   "summary": "Data4's planned 700 MW campus on a former steelworks site in northern France.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "12 Jun 2026",
+     "t": "Data4 launches the EUR 5bn, 700 MW Escaudain campus.",
+     "u": "https://www.data4group.com/wp-content/uploads/2026/06/Press-release_Data4-launches-a-new-campus-in-France.pdf"
+    }
+   ]
+  },
+  {
+   "id": "dc-strangnas",
+   "name": "Brookfield AI centre, Strängnäs",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Strängnäs",
+   "country": "Sweden",
+   "address": "Gorsingeberget, Gorsinge-Biskopskvarn area, 645 47 Strängnäs, Sweden",
+   "lat": 59.3323,
+   "lon": 17.0219,
+   "website": "https://bam.brookfield.com",
+   "summary": "Brookfield's planned AI centre of up to 750 MW in Strängnäs, Sweden.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "4 Jun 2025",
+     "t": "Brookfield commits up to SEK 95bn to an AI centre in Strängnäs.",
+     "u": "https://bam.brookfield.com/press-releases/brookfield-advance-ai-infrastructure-sweden-through-sek-95-billion-investment"
+    }
+   ]
+  },
+  {
+   "id": "dc-telekom-muc",
+   "name": "Industrial AI Cloud (Deutsche Telekom and NVIDIA)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Munich",
+   "country": "Germany",
+   "address": "Am Tucherpark, 80538 München, Germany",
+   "lat": 48.1533,
+   "lon": 11.5996,
+   "website": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/2/germany-s-first-ai-factory-for-industry",
+   "summary": "Deutsche Telekom's industrial AI cloud in Munich, about 10,000 Blackwell GPUs.",
+   "topics": [
+    "llm",
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "9 Nov 2026",
+     "t": "Deutsche Telekom expands its Munich AI factory to 20 MW with Blackwell Ultra B300 GPUs after the first stage was fully booked.",
+     "u": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/ai-demand-rises-deutsche-telekom-expands-ai-factory-in-munich"
+    },
+    {
+     "d": "4 Feb 2026",
+     "t": "Germany's first AI factory for industry goes into operation in Munich.",
+     "u": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/2/germany-s-first-ai-factory-for-industry"
+    },
+    {
+     "d": "4 Nov 2025",
+     "t": "Telekom and NVIDIA announce the one-billion-euro Industrial AI Cloud; Perplexity among the first users.",
+     "u": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2025/11/ai-sovereignty-for-germany-and-europe"
+    }
+   ]
+  },
+  {
+   "id": "dc-lubbenau",
+   "name": "Schwarz Digits AI data centre, Lübbenau",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Lübbenau",
+   "country": "Germany",
+   "address": "An der Kraftwerkstrasse 24, 03222 Lübbenau/Spreewald, Germany",
+   "lat": 51.8454,
+   "lon": 13.9607,
+   "website": "https://schwarz-digits.de/en/presse/archive/2025/ground-breaking-ceremony-in-luebbenau-schwarz-digits-invests-11-billion-euros-in-europe-s-digital-sovereignty",
+   "summary": "Schwarz Group's EUR 11bn AI data centre on a former power plant site in Brandenburg.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "24 Aug 2026",
+     "t": "Euronews reports on construction of the EUR 11bn AI data centre in Lübbenau.",
+     "u": "https://fr.euronews.com/2026/08/24/un-des-plus-grands-centres-de-donnees-ia-deurope-a-11-milliards-deuros-ouvre-dans-le-brand"
+    },
+    {
+     "d": "17 Nov 2025",
+     "t": "Groundbreaking: EUR 11bn, ready by the end of 2027.",
+     "u": "https://schwarz-digits.de/en/presse/archive/2025/ground-breaking-ceremony-in-luebbenau-schwarz-digits-invests-11-billion-euros-in-europe-s-digital-sovereignty"
+    }
+   ]
+  },
+  {
+   "id": "dc-rostock",
+   "name": "Schwarz Group data centre, Mecklenburg-Vorpommern",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Rostock area",
+   "country": "Germany",
+   "address": "Gewerbegebiet Ostsee, 18196 Dummerstorf, Germany",
+   "lat": 54.0232,
+   "lon": 12.2295,
+   "website": "https://gruppe.schwarz/en/press/archive/2026/mecklenburg-vorpommern-and-the-companies-of-schwarz-group-form-groundbreaking-partnership",
+   "summary": "Planned 240 MW Schwarz Group data centre near Rostock.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "27 Aug 2026",
+     "t": "Schwarz Group and Mecklenburg-Vorpommern announce up to EUR 5.6bn for a data centre.",
+     "u": "https://gruppe.schwarz/en/press/archive/2026/mecklenburg-vorpommern-and-the-companies-of-schwarz-group-form-groundbreaking-partnership"
+    }
+   ]
+  },
+  {
+   "id": "dc-gefion",
+   "name": "Gefion AI supercomputer (DCAI)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Copenhagen area",
+   "country": "Denmark",
+   "address": "Industriparken 20-32, 2750 Ballerup, Denmark",
+   "lat": 55.7281,
+   "lon": 12.3762,
+   "website": "https://novonordiskfonden.dk/en/news/denmarks-first-ai-supercomputer-is-now-operational/",
+   "summary": "Denmark's sovereign AI supercomputer, 1,528 H100 GPUs.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "10 Nov 2026",
+     "t": "DKK 500m for Gefion; Netcompany joins EIFO and the Novo Nordisk Foundation as shareholder.",
+     "u": "https://tech.eu/2026/11/10/denmark-backs-sovereign-ai-ambitions-with-eur67m-investment-in-gefion-operator-dcai/"
+    }
+   ]
+  },
+  {
+   "id": "dc-borlange",
+   "name": "Mistral AI and EcoDataCenter, Borlänge",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Borlänge",
+   "country": "Sweden",
+   "address": "Kvarnsveden, 784 66 Borlänge, Sweden",
+   "lat": 60.524,
+   "lon": 15.4195,
+   "website": "https://www.mynewsdesk.com/se/ecodatacenter/pressreleases/mistral-ai-and-ecodatacenter-partner-to-build-ai-focused-data-center-in-sweden-3431886",
+   "summary": "Mistral AI's EUR 1.2bn AI data centre in Sweden, opening 2027.",
+   "topics": [
+    "llm",
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "11 Feb 2026",
+     "t": "Mistral AI and EcoDataCenter announce a EUR 1.2bn AI data centre in Borlänge.",
+     "u": "https://www.mynewsdesk.com/se/ecodatacenter/pressreleases/mistral-ai-and-ecodatacenter-partner-to-build-ai-focused-data-center-in-sweden-3431886"
+    }
+   ]
+  },
+  {
+   "id": "dc-eni",
+   "name": "Eni Green Data Center (HPC6 and HPC7)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Ferrera Erbognone",
+   "country": "Italy",
+   "address": "Via per la Corradina 35, 27032 Ferrera Erbognone (PV), Italy",
+   "lat": 45.09933,
+   "lon": 8.86145,
+   "website": "https://www.eni.com/en-IT/actions/energy-transition-technologies/supercomputing-artificial-intelligence/supercomputer.html",
+   "summary": "Eni's industrial supercomputers HPC6 and HPC7 near Pavia.",
+   "topics": [
+    "compute",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "23 Jun 2026",
+     "t": "HPC7 enters the TOP500 at number 6; with HPC6 it passes the exascale threshold.",
+     "u": "https://www.eni.com/en-IT/media/press-release/2026/06/eni-ranks-as-world-s-leading-company-top500-global-ranking.html"
+    }
+   ]
+  },
+  {
+   "id": "dc-edgeconnex",
+   "name": "EdgeConneX Lombardy campuses",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Lodi area",
+   "country": "Italy",
+   "address": "Area ex Gulf, SP144, 26823 Bertonico (LO), Italy",
+   "lat": 45.2331,
+   "lon": 9.6681,
+   "website": "https://w.media/italy-fast-tracks-edgeconnex-ai-data-center-project/",
+   "summary": "Planned 300+ MW data centre campuses in Lombardy.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "26 May 2026",
+     "t": "Italy fast-tracks the EUR 3bn EdgeConneX project in Lombardy.",
+     "u": "https://w.media/italy-fast-tracks-edgeconnex-ai-data-center-project/"
+    }
+   ]
+  },
+  {
+   "id": "dc-pantheon",
+   "name": "Pantheon AI",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Topusko",
+   "country": "Croatia",
+   "address": "44415 Topusko, Sisak-Moslavina County, Croatia",
+   "lat": 45.2932,
+   "lon": 15.9789,
+   "website": "https://www.intellinews.com/croatia-s-grid-operator-clears-key-milestone-for-50bn-pantheon-ai-data-centre-project-456636/",
+   "summary": "Planned 800 MW AI campus in Topusko, near Zagreb.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "24 Jul 2026",
+     "t": "Croatia's grid operator HOPS approves the connection blueprint for Pantheon AI.",
+     "u": "https://www.intellinews.com/croatia-s-grid-operator-clears-key-milestone-for-50bn-pantheon-ai-data-centre-project-456636/"
+    },
+    {
+     "d": "28 Apr 2026",
+     "t": "Pantheon AI unveiled in Topusko: EUR 50bn total investment.",
+     "u": "https://www.intellinews.com/transatlantic-consortium-unveils-50bn-ai-data-centre-project-in-croatia-439855/"
+    }
+   ]
+  },
+  {
+   "id": "dc-paks",
+   "name": "Paks AI data centre",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Paks",
+   "country": "Hungary",
+   "address": "Next to Paks Nuclear Power Plant, 7030 Paks, Hungary",
+   "lat": 46.5776,
+   "lon": 18.8487,
+   "website": "https://dailynewshungary.com/de/?p=788595",
+   "summary": "Planned 300 MW AI data centre beside the Paks nuclear plant.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "4 Jun 2026",
+     "t": "GLOBWISE mandate for a 300 MW AI data centre platform near Paks.",
+     "u": "https://dailynewshungary.com/de/?p=788595"
+    }
+   ]
+  },
+  {
+   "id": "dc-cluj",
+   "name": "DriverAI Quantum AI data centre",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Luna, Cluj County",
+   "country": "Romania",
+   "address": "Luna commune, Cluj County, Romania",
+   "lat": 46.5068,
+   "lon": 23.919,
+   "website": "https://w.media/?p=40681",
+   "summary": "Planned 80 MW quantum and AI data centre in Cluj County.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "9 Jun 2026",
+     "t": "DriverAI moves forward with an 80 MW Quantum AI data centre in Luna, Cluj.",
+     "u": "https://w.media/?p=40681"
+    }
+   ]
+  },
+  {
+   "id": "dc-huuru",
+   "name": "Nebius AI factory at Greenergy, Hüüru",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Hüüru, near Tallinn",
+   "country": "Estonia",
+   "address": "Alajaama tee 1, 76911 Hüüru küla, Saue vald, Harjumaa, Estonia",
+   "lat": 59.3861,
+   "lon": 24.5626,
+   "website": "https://estonianworld.com/?p=89952",
+   "summary": "22 MW Nebius AI factory near Tallinn.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Aug 2026",
+     "t": "Estonia's security service reviews Nebius's Russian links; the Hüüru project stays on track.",
+     "u": "https://www.err.ee/1610109766/huurusse-tehisarukeskust-rajava-ettevotte-taust-aratas-kapo-tahelepanu"
+    },
+    {
+     "d": "Aug 2026",
+     "t": "Estonia to open its first AI factory: 22 MW with Nebius at Hüüru.",
+     "u": "https://estonianworld.com/?p=89952"
+    }
+   ]
+  },
+  {
+   "id": "dc-risti",
+   "name": "Sunly AI data centre, Risti",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Risti, Lääne-Nigula",
+   "country": "Estonia",
+   "address": "Risti alevik, Lääne-Nigula vald, Lääne County, Estonia",
+   "lat": 58.9975,
+   "lon": 24.058,
+   "website": "https://baxtel.com/news/sunly-plans-estonia-data-center-set-to-be-the-baltic-region-s-largest",
+   "summary": "Proposed 180 MW AI data centre in western Estonia.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "16 Sep 2026",
+     "t": "Magnora Data Center takes a 50% stake in the Risti campus with Sunly; up to 400 MW planned.",
+     "u": "https://www.energy-pedia.com/news/estonia/magnora-asa%e2%80%99s-subsidiary-magnora-data-center-asa-acquires-50pc-stake-in-joint-venture-to-develop-up-to-400-mw-data-center-in-risti-205325"
+    },
+    {
+     "d": "17 Mar 2026",
+     "t": "Sunly applies for planning permission for a 180 MW AI data centre.",
+     "u": "https://baxtel.com/news/sunly-plans-estonia-data-center-set-to-be-the-baltic-region-s-largest"
+    }
+   ]
+  },
+  {
+   "id": "dc-riga",
+   "name": "Delska EU North Riga LV DC1",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Riga",
+   "country": "Latvia",
+   "address": "Čuibes iela 17/1, LV-1063 Riga, Latvia",
+   "lat": 56.889,
+   "lon": 24.2325,
+   "website": "https://investinlatvia.org/en/news/delska-launches-one-of-the-baltics-most-advanced-and-sustainable-data-centers-in-riga",
+   "summary": "10 MW AI-ready data centre in Riga.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "15 Apr 2026",
+     "t": "Delska opens a 10 MW AI-ready data centre in Riga.",
+     "u": "https://investinlatvia.org/en/news/delska-launches-one-of-the-baltics-most-advanced-and-sustainable-data-centers-in-riga"
+    }
+   ]
+  },
+  {
+   "id": "dc-ghislain",
+   "name": "Google data centre, Saint-Ghislain",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Saint-Ghislain",
+   "country": "Belgium",
+   "address": "Rue de Ghlin 100, 7331 Saint-Ghislain (Baudour), Belgium",
+   "lat": 50.46934,
+   "lon": 3.86536,
+   "website": "https://blog.google/inside-google/infrastructure/google-ai-infrastructure-investment-belgium/",
+   "summary": "Google's Belgian data centre, expanding for AI.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "8 Oct 2025",
+     "t": "Google announces EUR 5bn for AI infrastructure in Belgium and 300 new jobs.",
+     "u": "https://blog.google/inside-google/infrastructure/google-ai-infrastructure-investment-belgium/"
+    }
+   ]
+  },
+  {
+   "id": "dc-mantsala",
+   "name": "Nebius data centre, Mäntsälä",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Mäntsälä",
+   "country": "Finland",
+   "address": "Moreenikatu 6, 04620 Mäntsälä, Finland",
+   "lat": 60.6289,
+   "lon": 25.2625,
+   "website": "https://www.datacenterknowledge.com/data-center-construction/nebius-s-10b-310mw-data-center-plan-signals-ai-infrastructure-shift",
+   "summary": "Nebius's 75 MW AI data centre in southern Finland.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "14 Aug 2026",
+     "t": "Nebius builds a second, 70 MW data centre in Mäntsälä.",
+     "u": "https://w.media/nebius-expands-its-infrastructure-in-finland-with-second-data-center/"
+    },
+    {
+     "d": "31 Mar 2026",
+     "t": "Mäntsälä expansion to 75 MW completed.",
+     "u": "https://www.datacenterknowledge.com/data-center-construction/nebius-s-10b-310mw-data-center-plan-signals-ai-infrastructure-shift"
+    }
+   ]
+  },
+  {
+   "id": "bid-mora",
+   "name": "Iberian AI Gigafactory bid, Móra la Nova",
+   "layer": "AI Gigafactory bid",
+   "kind": "bid",
+   "status": "Bid",
+   "city": "Móra la Nova",
+   "country": "Spain",
+   "address": "Polígon industrial El Molló, 43770 Móra la Nova (Tarragona), Spain",
+   "lat": 41.1005,
+   "lon": 0.6517,
+   "website": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2026/20260701-spain-ai-gigafactory.aspx",
+   "summary": "Spain's AI Gigafactory bid at Móra la Nova and Madrid.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "5 Nov 2026",
+     "t": "EuroHPC extends the Lot 1 deadline to 4 Feb 2027 and asks for all tenders to be resubmitted.",
+     "u": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
+    },
+    {
+     "d": "1 Jul 2026",
+     "t": "Spain's Prime Minister calls for a public-private partnership for the gigafactory.",
+     "u": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2026/20260701-spain-ai-gigafactory.aspx"
+    },
+    {
+     "d": "16 Jun 2026",
+     "t": "Spain approves EUR 719m for the Móra la Nova AI gigafactory project.",
+     "u": "https://www.catalannews.com/business/item/spain-approves-719m-contribution-to-catalan-ai-gigafactory-project"
+    },
+    {
+     "d": "6 Mar 2026",
+     "t": "Spain and Portugal explore a joint Iberian bid.",
+     "u": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/paginas/2026/20260306-spain-portugal-ai-cooperation.aspx"
+    }
+   ]
+  },
+  {
+   "id": "bid-zbraslav",
+   "name": "Czech AI Gigafactory bid, Prague-Zbraslav",
+   "layer": "AI Gigafactory bid",
+   "kind": "bid",
+   "status": "Bid",
+   "city": "Prague-Zbraslav",
+   "country": "Czechia",
+   "address": "Pod Vysílačkou 1150, 156 00 Praha 5-Zbraslav, Czechia",
+   "lat": 49.9519,
+   "lon": 14.3846,
+   "website": "https://www.czechtradeoffices.com/za/news/czech-republic-enters-the-race-to-host-one-of-europe-s-ai-gigafactories",
+   "summary": "Czech AI Gigafactory bid at CRA's Zbraslav data centre.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "5 Nov 2026",
+     "t": "EuroHPC extends the Lot 1 deadline to 4 Feb 2027 and asks for all tenders to be resubmitted.",
+     "u": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
+    },
+    {
+     "d": "23 Oct 2026",
+     "t": "France and Czechia sign an AI agreement; Bull joins the CRA-led gigafactory consortium.",
+     "u": "https://intelligentcio.com/eu/2026/10/23/france-and-czech-republic-target-european-ai-sovereignty-with-strategic-computing-alliance"
+    },
+    {
+     "d": "6 Jul 2026",
+     "t": "Czechia enters the race to host an AI Gigafactory at Zbraslav.",
+     "u": "https://www.czechtradeoffices.com/za/news/czech-republic-enters-the-race-to-host-one-of-europe-s-ai-gigafactories"
+    }
+   ]
+  },
+  {
+   "id": "bid-poland",
+   "name": "Polish AI Gigafactory bid",
+   "layer": "AI Gigafactory bid",
+   "kind": "bid",
+   "status": "Bid",
+   "city": "Poland (site undisclosed)",
+   "country": "Poland",
+   "address": "Warsaw, Poland",
+   "lat": 52.232,
+   "lon": 21.0067,
+   "website": "https://www.pap.pl/en/news/poland-signs-ai-gigafactory-agreement-under-eu-program-official-says",
+   "summary": "Poland's medium-scale AI Gigafactory bid, backed by Lithuania.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "5 Nov 2026",
+     "t": "EuroHPC extends the Lot 1 deadline to 4 Feb 2027 and asks for all tenders to be resubmitted.",
+     "u": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
+    },
+    {
+     "d": "28 Jul 2026",
+     "t": "Poland signs the AI Gigafactory joint procurement agreement.",
+     "u": "https://www.pap.pl/en/news/poland-signs-ai-gigafactory-agreement-under-eu-program-official-says"
+    }
+   ]
+  },
+  {
+   "id": "bid-rotterdam",
+   "name": "VOLT AI campus, Rotterdam",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Rotterdam (Europoort)",
+   "country": "Netherlands",
+   "address": "Markweg, 3198 LK Europoort Rotterdam, Netherlands",
+   "lat": 51.9488,
+   "lon": 4.1457,
+   "website": "https://datacenterdynamics.com/en/news/nebius-signs-loi-with-volt-for-data-center-capacity-in-rotterdam-the-netherlands",
+   "summary": "VOLT's planned 600 MW AI campus in Rotterdam.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "12 Oct 2026",
+     "t": "Nebius signs a letter of intent as first customer of VOLT's Rotterdam AI campus.",
+     "u": "https://datacenterdynamics.com/en/news/nebius-signs-loi-with-volt-for-data-center-capacity-in-rotterdam-the-netherlands"
+    },
+    {
+     "d": "1 Apr 2026",
+     "t": "The Dutch government keeps public funds outside the European AI Gigafactories for now and expects Dutch users to draw on gigafactories built elsewhere in Europe.",
+     "u": "https://www.techzine.eu/news/infrastructure/140117/dutch-take-a-wait-and-see-approach-to-ai-gigafactories"
+    }
+   ]
+  },
+  {
+   "id": "dc-kozani",
+   "name": "PPC Western Macedonia AI data centre",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Kozani region",
+   "country": "Greece",
+   "address": "Agios Dimitrios Power Station, Ryaki, Kozani Municipality, Greece",
+   "lat": 40.3922,
+   "lon": 21.9301,
+   "website": "https://www.tovima.com/finance/ppc-in-talks-for-2-5b-west-macedonia-data-hub/",
+   "summary": "Greek AI data centre proposal on a former lignite site.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "18 Sep 2026",
+     "t": "PPC and Amazon Web Services sign a binding agreement for a 300 MW data centre at Agios Dimitrios.",
+     "u": "https://www.tovima.com/finance/ppc-amazon-plan-300-mw-data-center-in-west-macedonia/"
+    },
+    {
+     "d": "20 Feb 2026",
+     "t": "PPC in talks on a EUR 2.3bn West Macedonia data centre campus, 300 MW first phase.",
+     "u": "https://www.tovima.com/finance/ppc-in-talks-for-2-5b-west-macedonia-data-hub/"
+    }
+   ]
+  },
+  {
+   "id": "bid-blacksea",
+   "name": "Black Sea AI Gigafactory",
+   "layer": "AI Gigafactory bid",
+   "kind": "bid",
+   "status": "Planned",
+   "city": "Cernavodă",
+   "country": "Romania",
+   "address": "905200 Cernavodă, Constanța County, Romania",
+   "lat": 44.3418,
+   "lon": 28.0361,
+   "website": "https://www.bursa.ro/black-sea-ai-gigafactory-remains-without-european-funding-48521062",
+   "summary": "Romania's proposed nuclear-powered AI Gigafactory.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "4 Sep 2026",
+     "t": "Black Sea AI Gigafactory remains outside European funding.",
+     "u": "https://www.bursa.ro/black-sea-ai-gigafactory-remains-without-european-funding-48521062"
+    }
+   ]
+  },
+  {
+   "id": "hpc-caspir",
+   "name": "CASPIr",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Planned",
+   "city": "Galway",
+   "country": "Ireland",
+   "address": "University Road, H91 TK33 Galway, Ireland",
+   "lat": 53.2936,
+   "lon": -9.0751,
+   "website": "https://www.eurohpc-ju.europa.eu/invitation-tender-procure-caspir-supercomputer-2026-03-27_en",
+   "summary": "Ireland's planned EuroHPC supercomputer in Galway.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "27 Mar 2026",
+     "t": "Invitation to tender for CASPIr.",
+     "u": "https://www.eurohpc-ju.europa.eu/invitation-tender-procure-caspir-supercomputer-2026-03-27_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-levente",
+   "name": "LEVENTE",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Planned",
+   "city": "Budapest",
+   "country": "Hungary",
+   "address": "Budapest, Hungary",
+   "lat": 47.4979,
+   "lon": 19.0402,
+   "website": "https://eurohpc-ju.europa.eu/way-open-building-eurohpc-world-class-supercomputer-hungary-2025-07-09_en",
+   "summary": "Hungary's planned EuroHPC supercomputer.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "9 Jul 2025",
+     "t": "Hosting agreement for LEVENTE signed.",
+     "u": "https://eurohpc-ju.europa.eu/way-open-building-eurohpc-world-class-supercomputer-hungary-2025-07-09_en"
+    }
+   ]
+  },
+  {
+   "id": "hpc-perun",
+   "name": "PERUN (Slovak Academy of Sciences)",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Bratislava",
+   "country": "Slovakia",
+   "address": "Dúbravská cesta 9, 845 35 Bratislava, Slovakia",
+   "lat": 48.1714,
+   "lon": 17.0689,
+   "website": "https://hpc.sav.sk/en/supercomputers/perun/",
+   "summary": "Slovakia's national supercomputer in Bratislava.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "2 May 2026",
+     "t": "PERUN officially inaugurated; with its Košice twin, about 25 petaflops.",
+     "u": "https://www.tasr.sk/tasr-clanok/TASR:2026050200000173"
+    },
+    {
+     "d": "31 Mar 2026",
+     "t": "PERUN launched into full operation.",
+     "u": "https://www.tasr.sk/tasr-clanok/TASR:2026033100000448"
+    }
+   ]
+  },
+  {
+   "id": "ant-be",
+   "name": "BE-AIFA AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Leuven",
+   "country": "Belgium",
+   "address": "Kapeldreef 75, 3001 Leuven (Heverlee), Belgium",
+   "lat": 50.8654,
+   "lon": 4.6796,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "BE-AIFA connects Belgium to the EU AI Factories network.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-cy",
+   "name": "Pharos-CY AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Nicosia",
+   "country": "Cyprus",
+   "address": "Konstantinou Kavafi 20, 2121 Aglantzia, Nicosia, Cyprus",
+   "lat": 35.1413,
+   "lon": 33.381,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "Pharos-CY connects Cyprus to the EU AI Factories network.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-hu",
+   "name": "HunAIFA AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Budapest",
+   "country": "Hungary",
+   "address": "Kende utca 13-17, 1111 Budapest, Hungary",
+   "lat": 47.4783,
+   "lon": 19.0521,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "HunAIFA connects Hungary to the EU AI Factories network.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-ie",
+   "name": "AIF IRL-Antenna AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Galway",
+   "country": "Ireland",
+   "address": "University Road, H91 TK33 Galway, Ireland",
+   "lat": 53.2936,
+   "lon": -9.0751,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "AIF IRL-Antenna connects Ireland to the EU AI Factories network.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-lv",
+   "name": "AIFA-LAT AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Operational",
+   "city": "Riga",
+   "country": "Latvia",
+   "address": "Ķīpsalas iela 6A, LV-1048 Riga, Latvia",
+   "lat": 56.9529,
+   "lon": 24.0806,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "AIFA-LAT connects Latvia to the EU AI Factories network.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-mt",
+   "name": "CALYPSO AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Operational",
+   "city": "Malta",
+   "country": "Malta",
+   "address": "Twenty20 Business Centre, Triq l-Intornjatur, Zone 3, Central Business District, CBD 3050 Birkirkara, Malta",
+   "lat": 35.8885,
+   "lon": 14.4643,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "CALYPSO connects Malta to the EU AI Factories network.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-sk",
+   "name": "SKAIAT AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Bratislava",
+   "country": "Slovakia",
+   "address": "Dúbravská cesta 9, 845 35 Bratislava, Slovakia",
+   "lat": 48.1714,
+   "lon": 17.0689,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "SKAIAT connects Slovakia to the EU AI Factories network.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "dc-sb-bosquel",
+   "name": "SoftBank and Sesterce AI campus, Bosquel",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Bosquel",
+   "country": "France",
+   "address": "Rue d'Amiens, 80160 Bosquel, France",
+   "lat": 49.7418,
+   "lon": 2.2201,
+   "website": "https://www.telecomtv.com/content/digital-platforms-services/softbank-group-to-build-5-gw-of-ai-datacentre-capacity-in-france-55580/amp/",
+   "summary": "Planned 1 GW SoftBank and Sesterce AI campus in the Somme.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "31 May 2026",
+     "t": "SoftBank and Sesterce form a SoftBank-majority joint venture for a 1 GW AI campus at Bosquel.",
+     "u": "https://group.softbank/en/news/press/20260531"
+    }
+   ]
+  },
+  {
+   "id": "dc-sb-bouchain",
+   "name": "SoftBank AI data centre, Bouchain",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Bouchain",
+   "country": "France",
+   "address": "Former EDF Bouchain thermal power plant, 59111 Bouchain, France",
+   "lat": 50.2984,
+   "lon": 3.3164,
+   "website": "https://www.telecomtv.com/content/digital-platforms-services/softbank-group-to-build-5-gw-of-ai-datacentre-capacity-in-france-55580/amp/",
+   "summary": "Planned 400 MW SoftBank campus on a former EDF power plant.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "30 May 2026",
+     "t": "EDF selects SoftBank as preferred developer for a 400 MW campus at Bouchain.",
+     "u": "https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/edf-selects-softbank-group-as-preferred-bidder-for-the-development-of-a-large-scale-data-center-at-its-bouchain-site"
+    }
+   ]
+  },
+  {
+   "id": "dc-sb-dunkirk",
+   "name": "SoftBank AI data centre and plant, Dunkirk (Loon-Plage)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Loon-Plage",
+   "country": "France",
+   "address": "Port of Dunkirk, 59279 Loon-Plage, France",
+   "lat": 50.9946,
+   "lon": 2.2192,
+   "website": "https://www.telecomtv.com/content/digital-platforms-services/softbank-group-to-build-5-gw-of-ai-datacentre-capacity-in-france-55580/amp/",
+   "summary": "Planned SoftBank AI data centre and manufacturing cluster at Dunkirk.",
+   "topics": [
+    "compute",
+    "industry"
+   ],
+   "news": [
+    {
+     "d": "1 Jun 2026",
+     "t": "SoftBank and Schneider Electric to build a data centre manufacturing cluster at Dunkirk.",
+     "u": "https://www.telecomtv.com/content/digital-platforms-services/softbank-group-to-build-5-gw-of-ai-datacentre-capacity-in-france-55580/amp/"
+    }
+   ]
+  },
+  {
+   "id": "dc-bethune",
+   "name": "Nebius AI factory, Béthune",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Béthune",
+   "country": "France",
+   "address": "575 Avenue George Washington, 62400 Béthune, France",
+   "lat": 50.5386,
+   "lon": 2.6584,
+   "website": "https://finance.yahoo.com/news/amsterdam-based-ai-firm-nebius-120558201.html",
+   "summary": "Nebius's 240 MW AI factory on a former tyre plant near Lille.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "Jun 2026",
+     "t": "Nord France Invest: Nebius sets up the first AI data centre in Hauts-de-France with Azur Datacenter.",
+     "u": "https://www.nordfranceinvest.com/success-story/dutch-company-nebius-is-setting-up-the-first-ai-data-center-in-the-hauts-de-france-region/"
+    },
+    {
+     "d": "12 Feb 2026",
+     "t": "Nebius to build a 240 MW AI data centre in Béthune, near Lille.",
+     "u": "https://finance.yahoo.com/news/amsterdam-based-ai-firm-nebius-120558201.html"
+    }
+   ]
+  },
+  {
+   "id": "dc-alixan",
+   "name": "Sesterce AI supercomputer, Alixan (Rovaltain)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Alixan",
+   "country": "France",
+   "address": "Rue René Truhaut, Rovaltain Business Park, 26300 Alixan, France",
+   "lat": 44.9945,
+   "lon": 4.984,
+   "website": "https://www.connaissancedesenergies.org/afp/datacenter-dans-la-drome-recours-de-la-societe-sesterce-260727",
+   "summary": "Sesterce's planned 40 MW AI supercomputer near Valence.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "Jul 2026",
+     "t": "Court suspends the building permit for Sesterce's AI supercomputer at Alixan.",
+     "u": "https://www.connaissancedesenergies.org/afp/datacenter-dans-la-drome-recours-de-la-societe-sesterce-260727"
+    }
+   ]
+  },
+  {
+   "id": "dc-jamsa",
+   "name": "Sesterce AI campus, Jämsä (Kaipola)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Jämsä",
+   "country": "Finland",
+   "address": "Tehtaankatu 1, 42220 Jämsä (Kaipola), Finland",
+   "lat": 61.8223,
+   "lon": 25.2289,
+   "website": "https://www.investmentmonitor.ai/newsletters/sesterce-plans-e10bn-ai-campus-finland/",
+   "summary": "Planned 200 to 600 MW AI campus on a former Finnish paper mill.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "8 Oct 2026",
+     "t": "Sesterce plans a EUR 10bn+ AI campus in Jämsä, Finland.",
+     "u": "https://www.investmentmonitor.ai/newsletters/sesterce-plans-e10bn-ai-campus-finland/"
+    }
+   ]
+  },
+  {
+   "id": "dc-calatorao",
+   "name": "Blackstone and QTS campus, Calatorao",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Calatorao",
+   "country": "Spain",
+   "address": "Pol. Ind. Europa-Puerta Sur, 50280 Calatorao (Zaragoza), Spain",
+   "lat": 41.5222,
+   "lon": -1.3464,
+   "website": "https://datacenterdynamics.com/en/news/blackstone-to-develop-300mw-data-center-campus-in-aragon-spain",
+   "summary": "Blackstone's 300 MW data centre campus in Aragon.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "28 Jul 2026",
+     "t": "Blackstone obtains environmental approval for the Calatorao data centre campus.",
+     "u": "https://www.elespanol.com/aragon/economia/20260728/blackstone-salva-riesgo-inundaciones-obtiene-visto-bueno-ambiental-centro-datos-calatorao/1003744335758_0.html"
+    },
+    {
+     "d": "27 Aug 2025",
+     "t": "Blackstone plans a further EUR 4.3bn for its Aragon data centre project.",
+     "u": "https://finance.yahoo.com/news/blackstone-plans-5-billion-expansion-115552347.html"
+    }
+   ]
+  },
+  {
+   "id": "dc-beyond",
+   "name": "Beyond.pl sovereign AI factory, Poznań",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Poznań",
+   "country": "Poland",
+   "address": "ul. Adama Kręglewskiego 11, 61-248 Poznań, Poland",
+   "lat": 52.378,
+   "lon": 16.9771,
+   "website": "https://telecomtalk.info/beyondpl-launches-sovereign-ai-factory-datacenter-poland/993975/",
+   "summary": "Beyond.pl's sovereign AI factory in Poznań.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "4 Dec 2025",
+     "t": "Beyond.pl and Poznań launch an initiative for a Baltic AI Gigafactory.",
+     "u": "https://beyond.pl/en/newsroom/beyond-pl-and-poznan-in-an-innitiative-to-bring-baltic-ai-gigafactory/"
+    },
+    {
+     "d": "8 May 2025",
+     "t": "Beyond.pl launches a sovereign AI factory at its 100 MW Poznań campus.",
+     "u": "https://telecomtalk.info/beyondpl-launches-sovereign-ai-factory-datacenter-poland/993975/"
+    }
+   ]
+  },
+  {
+   "id": "dc-choczewo",
+   "name": "Baltic Data Center Campus, Lublewo",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Planned",
+   "city": "Choczewo",
+   "country": "Poland",
+   "address": "DW213, 84-210 Lublewko, gmina Choczewo, Poland",
+   "lat": 54.7569,
+   "lon": 17.9274,
+   "website": "https://www.koreaherald.com/article/10701064",
+   "summary": "Planned 3.2 GW data centre campus in northern Poland.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "24 Mar 2026",
+     "t": "WBS Power plans a 3.2 GW data centre campus at Lublewo, Choczewo.",
+     "u": "https://www.koreaherald.com/article/10701064"
+    }
+   ]
+  },
+  {
+   "id": "dc-vfxira",
+   "name": "Merlin AI data centre, Vila Franca de Xira",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Vila Franca de Xira",
+   "country": "Portugal",
+   "address": "Plataforma Logística Lisboa Norte, Castanheira do Ribatejo, Vila Franca de Xira, Portugal",
+   "lat": 38.9978,
+   "lon": -8.9568,
+   "website": "https://www.datacenterdynamics.com/en/news/edged-merlin-break-ground-in-lisbon-portugal",
+   "summary": "180 MW AI data centre campus under construction near Lisbon.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "16 Oct 2024",
+     "t": "Edged and Merlin break ground on a 180 MW campus near Lisbon.",
+     "u": "https://www.prnewswire.com/news-releases/merlin-properties-and-edged-energy-expand-global-network-with-construction-of-new-180-mw-ai-campus-in-lisbon-portugal-302277686.html"
+    }
+   ]
+  },
+  {
+   "id": "ng-mensch",
+   "name": "Arthur Mensch",
+   "layer": "Co-founder and CEO, Mistral AI",
+   "kind": "thinker",
+   "status": null,
+   "city": "Paris",
+   "country": "France",
+   "address": null,
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "website": "https://mistral.ai/about",
+   "summary": "Leads Mistral AI, the Paris company building European open-weight language models.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "28 May 2026",
+     "t": "Mistral defends military AI, expands data centres",
+     "u": "https://www.rte.ie/news/business/2026/0528/1575749-mistral-defends-military-ai-expands-data-centres/"
+    }
+   ]
+  },
+  {
+   "id": "ng-rombach",
+   "name": "Robin Rombach",
+   "layer": "Co-founder and CEO, Black Forest Labs",
+   "kind": "thinker",
+   "status": null,
+   "city": "Freiburg",
+   "country": "Germany",
+   "address": null,
+   "lat": 47.999,
+   "lon": 7.8421,
+   "website": "https://bfl.ai",
+   "summary": "Co-creator of Stable Diffusion, now leading the FLUX image models from Freiburg.",
+   "topics": [
+    "vision",
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "17 Feb 2026",
+     "t": "The AI startup that has quietly become one of Europe's most valuable AI companies",
+     "u": "https://fortune.com/2026/02/17/ai-startup-that-has-quietly-become-one-of-europes-most-valuable-companies"
+    }
+   ]
+  },
+  {
+   "id": "ng-osika",
+   "name": "Anton Osika",
+   "layer": "Co-founder and CEO, Lovable",
+   "kind": "thinker",
+   "status": null,
+   "city": "Stockholm",
+   "country": "Sweden",
+   "address": null,
+   "lat": 59.3293,
+   "lon": 18.0686,
+   "website": "https://lovable.dev",
+   "summary": "Built Lovable in Stockholm, an AI platform for building apps from plain-language prompts.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "23 Mar 2026",
+     "t": "Vibe-coding startup Lovable is on the hunt for acquisitions",
+     "u": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/"
+    }
+   ]
+  },
+  {
+   "id": "ng-staniszewski",
+   "name": "Mati Staniszewski",
+   "layer": "Co-founder and CEO, ElevenLabs",
+   "kind": "thinker",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "website": "https://elevenlabs.io",
+   "summary": "Co-founder of ElevenLabs, the Polish-founded voice AI company.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "24 Sep 2026",
+     "t": "ElevenLabs' CEO on margins, IPO timing, and telling customers they're talking to a bot",
+     "u": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/"
+    }
+   ]
+  },
+  {
+   "id": "ng-przegalinska",
+   "name": "Aleksandra Przegalińska",
+   "layer": "Vice-Rector for Innovation and AI, Kozminski University",
+   "kind": "thinker",
+   "status": null,
+   "city": "Warsaw",
+   "country": "Poland",
+   "address": null,
+   "lat": 52.2297,
+   "lon": 21.0122,
+   "website": "https://clje.law.harvard.edu/team/aleksandra-przegalinska/",
+   "summary": "Polish researcher on human and AI collaboration and the future of work.",
+   "topics": [
+    "ethics"
+   ],
+   "news": [
+    {
+     "d": "10 Feb 2026",
+     "t": "Prof. Aleksandra Przegalińska appointed to the Council of the Future by the Prime Minister of Poland",
+     "u": "https://www.kozminski.edu.pl/en/node/12399"
+    }
+   ]
+  },
+  {
+   "id": "ng-mikolov",
+   "name": "Tomáš Mikolov",
+   "layer": "Co-founder, BottleCap AI",
+   "kind": "thinker",
+   "status": null,
+   "city": "Prague",
+   "country": "Czechia",
+   "address": null,
+   "lat": 50.0755,
+   "lon": 14.4378,
+   "website": null,
+   "summary": "Creator of word2vec, now building more efficient AI models in Prague.",
+   "topics": [
+    "llm",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "3 Mar 2025",
+     "t": "Tomáš Mikolov and Beat Saber co-creator launch a startup to streamline AI models",
+     "u": "https://www.lupa.cz/aktuality/tomas-mikolov-a-spolutvurce-beat-saberu-rozjizdi-startup-pro-radikakni-zefektivneni-ai-modelu/"
+    }
+   ]
+  },
+  {
+   "id": "ng-daskalakis",
+   "name": "Constantinos Daskalakis",
+   "layer": "Professor of EECS, MIT; co-founder and chief scientist, Archimedes AI research centre",
+   "kind": "thinker",
+   "status": null,
+   "city": "Cambridge, MA",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": "https://archimedesai.gr/en/leadership/constantinos-daskalakis",
+   "summary": "Greek theorist of learning and games at MIT, co-founder of Archimedes in Athens.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "20 Sep 2026",
+     "t": "Daskalakis on artificial intelligence: the risk of unpredictable behaviour is already real",
+     "u": "https://en.protothema.gr/2026/09/20/daskalakis-on-artificial-intelligence-the-risk-of-unpredictable-behaviour-is-already-real/"
+    }
+   ]
+  },
+  {
+   "id": "ng-sarlin",
+   "name": "Peter Sarlin",
+   "layer": "Executive Chairman, QuTwo",
+   "kind": "thinker",
+   "status": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "address": null,
+   "lat": 60.1699,
+   "lon": 24.9384,
+   "website": "https://www.aalto.fi/en/news/peter-sarlin-appointed-as-professor-of-practice-at-aalto-university",
+   "summary": "Founder of Silo AI, now building a Finnish AI and quantum computing lab.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "5 May 2026",
+     "t": "Peter Sarlin's QuTwo reaches $380M valuation in angel round",
+     "u": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/"
+    }
+   ]
+  },
+  {
+   "id": "ng-plank",
+   "name": "Barbara Plank",
+   "layer": "Professor and Chair for AI and Computational Linguistics, LMU Munich",
+   "kind": "thinker",
+   "status": null,
+   "city": "Munich",
+   "country": "Germany",
+   "address": null,
+   "lat": 48.1351,
+   "lon": 11.582,
+   "website": "https://www.mcml.ai/research/groups/plank",
+   "summary": "South Tyrolean NLP researcher and 2026 President of the ACL.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "12 Mar 2026",
+     "t": "Barbara Plank holds MCDS Distinguished Lecture on human-centred LLMs",
+     "u": "https://www.uni-mannheim.de/en/datascience/details/barbara-plank-holds-mcds-distinguished-lecture-fss-2026/"
+    }
+   ]
+  },
+  {
+   "id": "ng-maier-hein",
+   "name": "Lena Maier-Hein",
+   "layer": "Head of Division Intelligent Medical Systems, German Cancer Research Center (DKFZ)",
+   "kind": "thinker",
+   "status": null,
+   "city": "Heidelberg",
+   "country": "Germany",
+   "address": null,
+   "lat": 49.3988,
+   "lon": 8.6724,
+   "website": "https://www.dkfz.de/en/imsy",
+   "summary": "Leads medical imaging and surgical AI research at DKFZ Heidelberg.",
+   "topics": [
+    "vision",
+    "health"
+   ],
+   "news": [
+    {
+     "d": "19 Mar 2026",
+     "t": "Carl-Zeiss-Stiftung funds pioneering AI project at the DKFZ",
+     "u": "https://www.dkfz.de/en/news/press-releases/detail/carl-zeiss-stiftung-funds-pioneering-ai-project-at-the-dkfz"
+    }
+   ]
+  },
+  {
+   "id": "ng-schaake",
+   "name": "Marietje Schaake",
+   "layer": "Non-Resident Fellow, Stanford Cyber Policy Center; Fellow, Stanford HAI; incoming Executive Vice-President of External Affairs, Domyn",
+   "kind": "thinker",
+   "status": null,
+   "city": "Stanford",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": "https://cyber.fsi.stanford.edu/people/marietje-schaake",
+   "summary": "Dutch technology policy expert on AI governance and democracy.",
+   "topics": [
+    "ethics"
+   ],
+   "news": [
+    {
+     "d": "4 Nov 2026",
+     "t": "Marietje Schaake becomes Executive Vice-President of External Affairs at European AI company Domyn",
+     "u": "https://cloudexpo.nl/nieuws/marietje-schaake-wordt-lid-directie-europese-ai-pionier-domyn"
+    }
+   ]
+  },
+  {
+   "id": "ng-fidler",
+   "name": "Sanja Fidler",
+   "layer": "Vice President of AI Research, NVIDIA; Associate Professor, University of Toronto",
+   "kind": "thinker",
+   "status": null,
+   "city": "Toronto",
+   "country": "Canada",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": "https://research.nvidia.com/person/sanja-fidler",
+   "summary": "Slovenian computer vision researcher leading NVIDIA's Spatial Intelligence Lab.",
+   "topics": [
+    "vision",
+    "ml",
+    "robot"
+   ],
+   "news": [
+    {
+     "d": "12 Aug 2025",
+     "t": "AI, spatial intelligence and 3D content creation with Sanja Fidler of NVIDIA",
+     "u": "https://www.nvidia.com/en-us/ai-podcast/episode/4ISj84zWHa4cj8HE5GgSs0"
+    }
+   ]
+  },
+  {
+   "id": "ng-hobbhahn",
+   "name": "Marius Hobbhahn",
+   "layer": "Co-founder and CEO, Apollo Research",
+   "kind": "thinker",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "website": "https://www.apolloresearch.ai/about",
+   "summary": "Leads Apollo Research, which tests frontier AI models for scheming and deception.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "2 Sep 2026",
+     "t": "Apollo Research founder warns 'it better be on your side' as AI deception cases rise",
+     "u": "https://www.ibtimes.co.uk/ai-safety-expert-warns-deceptive-behaviour-1817582"
+    }
+   ]
+  },
+  {
+   "id": "ng-martins",
+   "name": "André Martins",
+   "layer": "Associate Professor, Instituto Superior Técnico; VP of AI Research, Unbabel",
+   "kind": "thinker",
+   "status": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "address": null,
+   "lat": 38.7223,
+   "lon": -9.1393,
+   "website": "https://andre-martins.github.io/",
+   "summary": "Lisbon NLP researcher leading work on the open EuroLLM models.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "13 Jan 2026",
+     "t": "Técnico launches EuroLLM-22B, led by André Martins",
+     "u": "https://deec.tecnico.ulisboa.pt/en/news/community/tecnico-lanca-eurollm-22b-liderado-por-andre-martins"
+    }
+   ]
+  },
+  {
+   "id": "ng-karpathy",
+   "name": "Andrej Karpathy",
+   "layer": "Pre-training researcher, Anthropic",
+   "kind": "thinker",
+   "status": null,
+   "city": "San Francisco",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": "https://karpathy.ai",
+   "summary": "Slovak-born deep learning researcher and educator, now at Anthropic.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "19 May 2026",
+     "t": "OpenAI co-founder Andrej Karpathy joins Anthropic's pre-training team",
+     "u": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/"
+    }
+   ]
+  },
+  {
+   "id": "ng-pachocki",
+   "name": "Jakub Pachocki",
+   "layer": "Chief Scientist, OpenAI",
+   "kind": "thinker",
+   "status": null,
+   "city": "San Francisco",
+   "country": "United States",
+   "address": null,
+   "lat": null,
+   "lon": null,
+   "website": null,
+   "summary": "Polish computer scientist and chief scientist of OpenAI.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "6 Sep 2026",
+     "t": "In 'An Alien Mind', OpenAI's Jakub Pachocki urges shared safety bars",
+     "u": "https://unite.ai/in-an-alien-mind-openais-jakub-pachocki-urges-shared-safety-bars"
+    }
+   ]
+  },
+  {
+   "id": "ng-riparbelli",
+   "name": "Victor Riparbelli",
+   "layer": "Co-founder and CEO, Synthesia",
+   "kind": "thinker",
+   "status": null,
+   "city": "London",
+   "country": "United Kingdom",
+   "address": null,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "website": "https://www.synthesia.io",
+   "summary": "Danish co-founder of Synthesia, the London AI video company.",
+   "topics": [
+    "vision"
+   ],
+   "news": [
+    {
+     "d": "26 Jan 2026",
+     "t": "Synthesia hits $4B valuation, lets employees cash out",
+     "u": "https://techcrunch.com/2026/01/26/synthesia-hits-4b-valuation-lets-employees-cash-in"
+    }
+   ]
+  }
+ ]
+}

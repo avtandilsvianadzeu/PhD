@@ -48,6 +48,13 @@ it); the United Kingdom outline comes from Natural Earth. The OpenStreetMap bord
 Every institution and site carries its address and coordinates, shown in its Location card; the automatic
 check fails if one is missing.
 
+## Open data and sharing
+
+`data/atlas.json` holds every entry (name, kind, status, address, coordinates, website, summary, topics,
+news with links) and is rebuilt with the page. The Browse tab downloads the current view as CSV or JSON,
+and every entry, country and view has its own link (Copy link). Keyboard: `/` jumps to search, `Esc`
+clears filters.
+
 ## Content and data
 
 Facts in each entry come from the linked sources and are written in our own words. People are named
