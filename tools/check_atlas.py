@@ -90,7 +90,7 @@ def scan(where, text):
         if ch == "!":
             continue
         if ch in text: fail(f"{where}: contains {name}")
-    if not where.endswith(".u") and not where.endswith(".url"):
+    if not where.endswith((".u", ".url", ".asrc")):
         for w in STOCK:
             if re.search(w, text, re.I): fail(f"{where}: stock phrase '{w}', write it plainly")
 def walk(o, where):
@@ -140,6 +140,16 @@ for s in sites:
     sh = D.get("shp", {}).get(s.get("cc") or "")
     if s.get("x") is not None and sh and not inside(s["x"], s["y"], rings(sh["d"])):
         fail(f"{s['id']}: point lies outside {s['cc']}")
+
+# 3c. every institution and site has an address and coordinates; the terrain view has its library
+import os
+for s in sites:
+    if s.get("L") != "thinker":
+        if s.get("lat") is None or s.get("lon") is None: fail(f"{s['id']}: coordinates missing")
+        elif not (-30 < s["lon"] < 50 and 25 < s["lat"] < 72): fail(f"{s['id']}: coordinates outside Europe")
+        if not s.get("addr"): fail(f"{s['id']}: address missing")
+for f in ("vendor/maplibre-gl.js", "vendor/maplibre-gl.css"):
+    if not os.path.exists(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), f)): fail(f"{f} missing")
 
 # 4. counts shown in the page match the data
 dc = collections.Counter(x for s in sites for x in s["dom"])

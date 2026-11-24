@@ -37,6 +37,13 @@ minutes of private repositories on the same account. GitHub pauses scheduled wor
 repository after 60 days without activity; if that happens, enable the workflow again from the
 Actions tab.
 
+## Terrain view
+
+The Map, Terrain and Satellite switch at the foot of the map opens a MapLibre view (library in `vendor/`,
+BSD licence) with the OpenFreeMap base map, Mapzen terrain tiles on AWS and Esri World Imagery, credited
+in the map corner. Every institution and site carries its address and coordinates, shown in its Location
+card; the automatic check fails if one is missing.
+
 ## Content and data
 
 Facts in each entry come from the linked sources and are written in our own words. People are named
