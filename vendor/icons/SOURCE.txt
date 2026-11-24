@@ -1,0 +1,1 @@
+Icons: Fluent Emoji 3D by Microsoft (github.com/microsoft/fluentui-emoji), MIT licence, resized to 64 px.
