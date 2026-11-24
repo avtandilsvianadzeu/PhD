@@ -19,13 +19,14 @@ CFG = json.loads((ROOT / "tools" / "news_sources.json").read_text(encoding="utf-
 OUT = ROOT / "news.json"
 NOW = dt.datetime.now(dt.timezone.utc)
 MAX_AGE = dt.timedelta(days=CFG.get("max_age_days", 120))
-PER_COUNTRY = CFG.get("per_country", 6)
+PER_COUNTRY = CFG.get("per_country", 6)  # the EU bucket keeps twice as many
 KEEP = re.compile(CFG["topic_must_match"], re.I)
 CWORDS = {cc: re.compile(r"\b(" + "|".join(map(re.escape, words)) + r")\b") for cc, words in CFG["countries"].items()}
 ATOM = "{http://www.w3.org/2005/Atom}"
+EUW = re.compile(r"\b(" + "|".join(map(re.escape, CFG.get("eu_words", ["EU", "Europe", "European"]))) + r")\b")
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (atlas news job)"})
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (atlas news job)", "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
 
@@ -78,15 +79,23 @@ def main():
             if key in seen:
                 continue
             seen.add(key)
-            for cc, rx in CWORDS.items():
-                if rx.search(text):
-                    rows.append({"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(src), "_t": d.timestamp()})
+            # EU scope only: the headline must name an EU27 country, or the EU itself.
+            # One country per item, the first named in the headline, so an item is never filed twice.
+            hits = sorted((m.start(), cc) for cc, rx in CWORDS.items() for m in [rx.search(title)] if m)
+            if hits:
+                cc = hits[0][1]
+            elif EUW.search(title):
+                cc = "EU"
+            else:
+                continue
+            rows.append({"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(src), "_t": d.timestamp()})
     # publisher feeds hold only their latest items, so earlier days' items are kept until they age out
     if OUT.exists():
         try:
             for r in json.loads(OUT.read_text(encoding="utf-8")).get("items", []):
                 d = dt.datetime.strptime(r["d"], "%d %b %Y").replace(tzinfo=dt.timezone.utc)
-                if NOW - d <= MAX_AGE and not any(x["u"] == r["u"] and x["c"] == r["c"] for x in rows):
+                inscope = (r["c"] in CWORDS and CWORDS[r["c"]].search(r["t"])) or (r["c"] == "EU" and EUW.search(r["t"]))
+                if inscope and NOW - d <= MAX_AGE and not any(x["u"] == r["u"] for x in rows):
                     rows.append(dict(r, _t=d.timestamp()))
         except Exception as e:
             print(f"previous news.json skipped: {e}", file=sys.stderr)
@@ -94,7 +103,7 @@ def main():
     items, per = [], {}
     for r in rows:
         per[r["c"]] = per.get(r["c"], 0) + 1
-        if per[r["c"]] <= PER_COUNTRY:
+        if per[r["c"]] <= PER_COUNTRY * (2 if r["c"] == "EU" else 1):
             items.append(r)
     if ok == 0:
         print("every fetch failed; keeping the previous news.json", file=sys.stderr)
