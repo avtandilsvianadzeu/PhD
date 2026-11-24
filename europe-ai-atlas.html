@@ -430,6 +430,12 @@ body[data-base=sat] .legends,body[data-base=sat] .titlecard,body[data-base=sat] 
  background:rgba(255,255,255,.85);color:#0A5BC4;box-shadow:inset 1px 1px 0 rgba(255,255,255,.95),0 0 0 .5px rgba(33,52,105,.14)}
 .dlbar button:hover,.quick .share:hover{background:#fff}
 .dlbar span{font-size:12.5px;color:var(--label2)}
+
+/* country flags as emoji, drawn with the Twemoji Country Flags font so they also show on Windows */
+@font-face{font-family:"Twemoji Country Flags";src:url("vendor/TwemojiCountryFlags.woff2") format("woff2");unicode-range:U+1F1E6-1F1FF,U+1F3F4,U+E0062-E007F;font-display:swap}
+.fl.fle{width:auto;height:auto;box-shadow:none;border-radius:0;font-family:"Twemoji Country Flags","Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-size:1.25em;line-height:1;vertical-align:-.12em;display:inline-block}
+.rowbtn s{max-width:42%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:0 0 auto}
+.rowbtn b{flex:1 1 auto;min-width:0}
 /* ---------- Liquid glass: specular highlight, gradient hairline edge, soft depth ---------- */
 html,body{background:#EEF2F8 radial-gradient(900px 600px at 0% 0%,rgba(10,124,255,.10),transparent 60%),radial-gradient(800px 600px at 100% 10%,rgba(52,199,123,.10),transparent 60%),radial-gradient(900px 700px at 70% 100%,rgba(175,82,222,.08),transparent 60%)!important}
 .titlecard,.legends,.zoom,.pane .card{position:relative}
@@ -538,7 +544,7 @@ const CLZ=2.3;
 const HEX={factory:'#00B3A4',hpc:'#0A84FF',research:'#FF9500',industry:'#FF375F',thinker:'#5E5CE6',project:'#AF52DE',campus:'#A2845E',bid:'#E5B400',antenna:'#34C759'};
 const CHEV='<svg class="chev" viewBox="0 0 7 12"><path d="M1 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
-function fl(c){return c?'<svg class="fl" viewBox="0 0 640 480" preserveAspectRatio="xMidYMid slice"><use href="#f-'+c+'"/></svg>':'';}
+function fl(c){if(!c||c.length!==2)return '';const e=String.fromCodePoint(...[...c.toUpperCase()].map(ch=>0x1F1E6+ch.charCodeAt(0)-65));return '<span class="fl fle" aria-hidden="true">'+e+'</span>';}
 function logo(s){const L=s.mono.length;
  const fs=L<=2?21:L===3?17:L===4?14:L<=6?11:L<=8?9.5:8;
  return '<span class="logofb" style="background:'+HEX[s.L]+';font-size:'+fs+'px">'+esc(s.mono)+'</span>';}
