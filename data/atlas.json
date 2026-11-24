@@ -90,7 +90,7 @@
    "address": "Kifisias 7, 11523 Athens, Greece",
    "lat": 37.9875,
    "lon": 23.7618,
-   "website": "https://grnet.gr",
+   "website": "https://www.pharos-aifactory.eu/",
    "summary": "Pharos, the Greek AI Factory, operated by GRNET under the Ministry of Digital Governance.",
    "topics": [
     "compute",
@@ -166,7 +166,7 @@
    "address": "3 Op der Poukewiss, ZAC Klengbousbierg, 7795 Bissen, Luxembourg",
    "lat": 49.7875,
    "lon": 6.0895,
-   "website": "https://www.luxprovide.lu",
+   "website": "https://www.luxprovide.lu/ai-factory/",
    "summary": "L-AI Factory, MeluXina-AI, operated by LuxProvide in Bissen.",
    "topics": [
     "compute"
@@ -195,7 +195,7 @@
    "address": "Plaça Eusebi Güell 1-3, 08034 Barcelona, Spain",
    "lat": 41.3898,
    "lon": 2.1164,
-   "website": "https://www.bsc.es/ai-factory",
+   "website": "https://aifactory.bsc.es/",
    "summary": "BSC AI Factory, an upgrade of MareNostrum 5 plus an experimental platform.",
    "topics": [
     "compute",
@@ -231,7 +231,7 @@
    "address": "Hans Meijers väg, B Building, Entrance 25, 581 83 Linköping, Sweden",
    "lat": 58.4009,
    "lon": 15.5749,
-   "website": "https://www.naiss.se",
+   "website": "https://swedenaifactory.se/",
    "summary": "MIMER, the Swedish AI Factory, hosted by NAISS at Linköping University.",
    "topics": [
     "llm",
@@ -268,7 +268,7 @@
    "address": "Franz-Grill-Strasse, Arsenal, 1030 Vienna, Austria",
    "lat": 48.1853,
    "lon": 16.3955,
-   "website": "https://advanced-computing.at",
+   "website": "https://ai-at.eu/",
    "summary": "AI:AT, the Austrian AI Factory, installed at TU Wien.",
    "topics": [
     "compute",
@@ -299,7 +299,7 @@
    "address": "111 Tsarigradsko Shose Blvd, 1784 Sofia, Bulgaria",
    "lat": 42.6658,
    "lon": 23.3731,
-   "website": "https://sofiatech.bg/en/",
+   "website": "https://brainplusplus.bg/",
    "summary": "BRAIN++, Bulgarian Robotics & AI Nexus, at Sofia Tech Park.",
    "topics": [
     "llm",
@@ -331,7 +331,7 @@
    "address": "2 rue de la Piquetterie, 91680 Bruyères-le-Châtel, France",
    "lat": 48.5966,
    "lon": 2.1993,
-   "website": "https://www.genci.fr",
+   "website": "https://aifactory-france.eu/",
    "summary": "AI2F, AI Factory France, led by GENCI beside the Alice Recoque exascale system.",
    "topics": [
     "robot",
@@ -363,7 +363,7 @@
    "address": "Wilhelm-Johnen-Strasse, 52428 Jülich, Germany",
    "lat": 50.9104,
    "lon": 6.4066,
-   "website": "https://www.fz-juelich.de",
+   "website": "https://www.fz-juelich.de/en/jsc/jupiter/jaif-jupiter-ai-factory",
    "summary": "JAIF, the JUPITER AI Factory at Forschungszentrum Jülich.",
    "topics": [
     "ml",
@@ -395,7 +395,7 @@
    "address": "ul. Jana Pawła II 10, 61-139 Poznań, Poland",
    "lat": 52.4072,
    "lon": 16.9527,
-   "website": "https://www.psnc.pl",
+   "website": "https://www.pcss.pl/piast-ai/",
    "summary": "PIAST AI Factory, Poznań Supercomputing and Networking Center.",
    "topics": [
     "robot",
@@ -462,7 +462,7 @@
    "address": "Studentská 6231/1B, 708 00 Ostrava-Poruba, Czechia",
    "lat": 49.8376,
    "lon": 18.156,
-   "website": "https://www.it4i.cz",
+   "website": "https://www.ciirc.cvut.cz/en/czech-ai-factory/",
    "summary": "CZAI, the Czech AI Factory at IT4Innovations, Ostrava.",
    "topics": [
     "llm",
@@ -559,7 +559,7 @@
    "address": "ul. Nawojki 11, 30-950 Kraków, Poland",
    "lat": 50.069,
    "lon": 19.9092,
-   "website": "https://www.cyfronet.pl",
+   "website": "https://www.cyfronet.pl/en/projects/initiatives/eurohpc-ju/gaia-ai-factory",
    "summary": "Gaia AI Factory, operated by Cyfronet AGH within the PLGrid infrastructure.",
    "topics": [
     "llm",
@@ -620,7 +620,7 @@
    "address": "Avenida de Vigo s/n, 15705 Santiago de Compostela, Spain",
    "lat": 42.8756,
    "lon": -8.5533,
-   "website": "https://www.cesga.es",
+   "website": "https://1healthai.eu/",
    "summary": "1HealthAI, the One-Health AI Factory at CESGA, Galicia.",
    "topics": [
     "compute",
@@ -646,7 +646,7 @@
    "address": "Wilhelm-Johnen-Strasse, 52428 Jülich, Germany",
    "lat": 50.9104,
    "lon": 6.4066,
-   "website": "https://www.fz-juelich.de/en/ias/jsc/jupiter",
+   "website": "https://www.fz-juelich.de/en/jsc/jupiter",
    "summary": "JUPITER, Europe's first exascale supercomputer, at Forschungszentrum Jülich.",
    "topics": [
     "llm",
@@ -761,7 +761,7 @@
    "address": "Lavrion Technological and Cultural Park, 19500 Lavrio, Greece",
    "lat": 37.7244,
    "lon": 24.0501,
-   "website": "https://grnet.gr",
+   "website": "https://grnet.gr/en/business-directory/grant-for-the-development-of-a-new-national-hpc-system-daedalus/",
    "summary": "DAEDALUS, HPE NVIDIA GH200 system at Lavrio, Attica, operated by GRNET.",
    "topics": [
     "compute"
@@ -790,7 +790,7 @@
    "address": "Olaus Magnus väg 48, 581 83 Linköping, Sweden",
    "lat": 58.3919,
    "lon": 15.5716,
-   "website": "https://www.naiss.se",
+   "website": "https://www.naiss.se/resource/arrhenius/",
    "summary": "Arrhenius, HPE Cray EX at NAISS, Linköping University.",
    "topics": [
     "ml",
@@ -820,7 +820,7 @@
    "address": "2 rue de la Piquetterie, 91680 Bruyères-le-Châtel, France",
    "lat": 48.5966,
    "lon": 2.1993,
-   "website": "https://www.genci.fr",
+   "website": "https://www.genci.fr/en/alice-recoque-franco-european-exascale-supercomputer",
    "summary": "Alice Recoque, Europe's second exascale system, at CEA's TGCC.",
    "topics": [
     "compute"
@@ -926,7 +926,7 @@
    "address": "Prešernova ulica 17, 2000 Maribor, Slovenia",
    "lat": 46.5636,
    "lon": 15.6514,
-   "website": "https://www.izum.si/en/hpc-en/",
+   "website": "https://izum.si/en/vega-en/",
    "summary": "Vega, Slovenia's petascale EuroHPC system, operated by IZUM in Maribor.",
    "topics": [
     "compute"
@@ -1223,7 +1223,7 @@
    "address": "10 Crichton Street, Edinburgh EH8 9AB, United Kingdom",
    "lat": 55.9448,
    "lon": -3.1873,
-   "website": "https://www.ed.ac.uk/informatics",
+   "website": "https://informatics.ed.ac.uk/",
    "summary": null,
    "topics": [
     "llm",
@@ -1292,7 +1292,7 @@
    "address": "Science Park 900, 1098 XH Amsterdam, Netherlands",
    "lat": 52.3551,
    "lon": 4.9545,
-   "website": "https://www.uva.nl",
+   "website": "https://amlab.science.uva.nl/",
    "summary": "AMLab and CWI at Science Park Amsterdam, with ELLIS Unit Amsterdam.",
    "topics": [
     "ml"
@@ -1349,7 +1349,7 @@
    "address": "Erlangen, Germany",
    "lat": 49.58916,
    "lon": 10.98121,
-   "website": "https://ellis.eu",
+   "website": "https://ellis.eu/research/sites/unit-franconia",
    "summary": "ELLIS Unit Franconia, five northern Bavarian universities in one AI consortium.",
    "topics": [
     "llm"
@@ -1488,7 +1488,7 @@
    "address": "Altenberger Straße 69, 4040 Linz, Austria",
    "lat": 48.33517,
    "lon": 14.32418,
-   "website": "https://www.jku.at",
+   "website": "https://www.jku.at/en/lit-artificial-intelligence-lab/",
    "summary": "LIT AI Lab, JKU Linz, Sepp Hochreiter's group.",
    "topics": [
     "ml",
@@ -1780,7 +1780,7 @@
    "address": "Celestijnenlaan 200A, 3001 Heverlee (Leuven), Belgium",
    "lat": 50.86413,
    "lon": 4.67866,
-   "website": "https://www.kuleuven.be",
+   "website": "https://www.cs.kuleuven.be/",
    "summary": null,
    "topics": [
     "ml"
@@ -1860,7 +1860,7 @@
    "address": "Ilariona Sventsitskoho St 17, 79011 Lviv, Ukraine",
    "lat": 49.8231,
    "lon": 24.03753,
-   "website": "https://apps.ucu.edu.ua",
+   "website": "https://ellis.eu/research/sites/associate-unit-lviv",
    "summary": "ELLIS Associate Unit Lviv, Ukrainian Catholic University, Faculty of Applied Sciences.",
    "topics": [
     "llm",
@@ -2193,7 +2193,7 @@
    "address": "Station 18, 1015 Lausanne, Switzerland",
    "lat": 46.52087,
    "lon": 6.56679,
-   "website": "https://www.epfl.ch/labs/imos/",
+   "website": "https://www.epfl.ch/labs/imos//labs/imos/",
    "summary": "Intelligent Maintenance and Operations Systems, EPFL, AI for complex engineered assets.",
    "topics": [
     "industry",
@@ -2315,7 +2315,7 @@
    "address": "Via Lambruschini 4/B, 20156 Milan, Italy",
    "lat": 45.50349,
    "lon": 9.15646,
-   "website": "https://www.som.polimi.it",
+   "website": "https://www.dig.polimi.it/en/",
    "summary": "Department of Management, Economics and Industrial Engineering, Politecnico di Milano.",
    "topics": [
     "ml",
@@ -2530,7 +2530,7 @@
    "address": "School of Civil Engineering, UCD Belfield, Dublin 4, Ireland",
    "lat": 53.3092,
    "lon": -6.2336,
-   "website": "https://www.ucd.ie/civileng/",
+   "website": "https://www.ucd.ie/ccir/",
    "summary": "UCD School of Civil Engineering, bridge loading, dynamics and weigh-in-motion research.",
    "topics": [
     "vision",
