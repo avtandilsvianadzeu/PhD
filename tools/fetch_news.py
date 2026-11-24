@@ -57,7 +57,7 @@ def parse(xml_bytes):
                when(it.findtext(ATOM + "updated") or it.findtext(ATOM + "published")))
 
 def clean(t):
-    t = re.sub(r"\s+[—–]\s+", ", ", t).replace("—", ", ").replace("–", "-")
+    t = re.sub(r"\s+[—–-]\s+", ": ", t).replace("—", ", ").replace("–", "-")
     return t.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"').replace("!", ".")
 
 def main():

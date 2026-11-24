@@ -55,6 +55,7 @@ def main():
             if not ident or ident in seen: continue
             title = re.sub(r'\s+', ' ', first(m, 'title') or x.get('summary') or '').strip()
             title = re.sub(r'\s*[\u2013\u2014]\s*', ', ', title).replace('\u2019', "'").replace('\u2018', "'").replace('\u201c', '"').replace('\u201d', '"').replace('\u2026', '...').replace('!', '.').replace('\u00b7', ',')
+            title = re.sub(r'\s+-\s+', ': ', title)
             text = title + ' ' + ident
             kw = ' '.join(m.get('keywords') or []) + ' ' + ' '.join(m.get('tags') or [])
             tags = [n for n, rx in TOPICS if re.search(rx, text, re.I)]

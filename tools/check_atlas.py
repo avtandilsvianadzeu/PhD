@@ -15,7 +15,7 @@ COPY = ROOT / "europe-ai-atlas.html"
 REQUIRED = ["id", "n", "city", "cn", "iso", "cc", "x", "y", "L", "ll", "dom", "sec", "b",
             "news", "people", "meta", "snip", "tp"]
 LAYERS = {"factory", "hpc", "research", "industry", "thinker", "project", "campus", "bid", "antenna"}
-STATUSES = {"Operational", "Under construction", "Planned", "Bid", "Selected"}
+STATUSES = {"Running", "Operational", "Under construction", "Planned", "Bid", "Selected"}
 STOCK = [r"world-class", r"cutting-edge", r"\bdelve", r"\bleverag", r"seamless", r"game.chang", r"\btapestry",
          r"\bvibrant", r"\bpivotal", r"in today's", r"worth knowing", r"landscape around"]
 BANNED = {"—": "em dash", "–": "en dash", "“": "curly quote", "”": "curly quote",
