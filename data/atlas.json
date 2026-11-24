@@ -2819,7 +2819,7 @@
    "address": "Strindvegen 4, 7034 Trondheim, Norway",
    "lat": 63.4135,
    "lon": 10.4089,
-   "website": "https://www.sintef.no/en/",
+   "website": "https://www.ntnu.edu/ailab",
    "summary": "SINTEF, Scandinavia's largest independent research organisation, with NTNU in Trondheim.",
    "topics": [
     "ml",
@@ -3047,7 +3047,7 @@
    "address": "Artemidos 6 & Epidavrou, 15125 Marousi, Greece",
    "lat": 38.0368,
    "lon": 23.8025,
-   "website": "https://www.athenarc.gr/en",
+   "website": "https://archimedesai.gr/en",
    "summary": "Athena Research Center, Greek ICT research, host of the Archimedes AI unit.",
    "topics": [
     "ml"
@@ -3102,7 +3102,7 @@
    "address": "Akademijos g. 4, LT-08412 Vilnius, Lithuania",
    "lat": 54.7518,
    "lon": 25.263,
-   "website": "https://mif.vu.lt/lt3/en/",
+   "website": "https://www.mii.lt/en/",
    "summary": "Institute of Data Science and Digital Technologies, Vilnius University.",
    "topics": [
     "ml"
@@ -3454,7 +3454,7 @@
    "address": null,
    "lat": 55.93992,
    "lon": -3.17281,
-   "website": "https://blog.apaonline.org/2025/12/22/apa-announces-fall-2025-prize-winners/",
+   "website": "https://edwebprofiles.ed.ac.uk/profile/shannon-vallor",
    "summary": "Virtue ethics for technology, moral deskilling, and responsibility gaps in autonomous systems.",
    "topics": [
     "robot",
@@ -3680,7 +3680,7 @@
    "address": null,
    "lat": null,
    "lon": null,
-   "website": "https://www.dair-institute.org",
+   "website": "https://www.dair-institute.orghhttps://www.dair-institute.orgthttps://www.dair-institute.orgthttps://www.dair-institute.orgphttps://www.dair-institute.orgshttps://www.dair-institute.org:https://www.dair-institute.org/https://www.dair-institute.org/https://www.dair-institute.orgwhttps://www.dair-institute.orgwhttps://www.dair-institute.orgwhttps://www.dair-institute.org.https://www.dair-institute.orgdhttps://www.dair-institute.orgahttps://www.dair-institute.orgihttps://www.dair-institute.orgrhttps://www.dair-institute.org-https://www.dair-institute.orgihttps://www.dair-institute.orgnhttps://www.dair-institute.orgshttps://www.dair-institute.orgthttps://www.dair-institute.orgihttps://www.dair-institute.orgthttps://www.dair-institute.orguhttps://www.dair-institute.orgthttps://www.dair-institute.orgehttps://www.dair-institute.org.https://www.dair-institute.orgohttps://www.dair-institute.orgrhttps://www.dair-institute.orgghttps://www.dair-institute.org",
    "summary": "Dataset documentation, model auditing, and the costs of scale.",
    "topics": [
     "llm",
@@ -3803,7 +3803,7 @@
    "address": null,
    "lat": 51.75586,
    "lon": -1.24826,
-   "website": "https://www.oii.ox.ac.uk/research/projects/governance-of-emerging-technologies/",
+   "website": "https://www.oii.ox.ac.uk/people/profiles/brent-mittelstadt/",
    "summary": "Ethics of algorithms, the limits of principle-based AI governance, and what explanation means.",
    "topics": [
     "ethics"
@@ -3904,7 +3904,7 @@
    "address": "Fouju, 77390 Seine-et-Marne, France",
    "lat": 48.5864,
    "lon": 2.7785,
-   "website": "https://www.mgx.ae",
+   "website": "https://www.mediaoffice.abudhabi/en/technology/mgx-partners-with-bpifrance-mistral-ai-and-nvidia-to-build-europes-largest-ai-campus-in-france/",
    "summary": "Campus IA, the planned 1.4 GW AI campus at Fouju, east of Paris.",
    "topics": [
     "llm",
@@ -3950,7 +3950,7 @@
    "address": "2 Rue de la Libération, 91680 Bruyères-le-Châtel, France",
    "lat": 48.5985,
    "lon": 2.1952,
-   "website": "https://mistral.ai",
+   "website": "https://mistral.ai/news/mistral-compute/",
    "summary": "Mistral AI's own 44 MW training site in Essonne.",
    "topics": [
     "llm",
@@ -4016,7 +4016,7 @@
    "address": "Kvanndal (Kvandal), near Bjerkvik, Narvik municipality, Norway",
    "lat": 68.57606,
    "lon": 17.62163,
-   "website": "https://www.nscale.com",
+   "website": "https://www.nscale.com/press-releases/nordscale",
    "summary": "Nscale's 230 MW AI campus near Narvik, first announced as Stargate Norway.",
    "topics": [
     "compute"
@@ -4050,7 +4050,7 @@
    "address": "Kettukuja, Pajarila, 53300 Lappeenranta, Finland",
    "lat": 61.0537,
    "lon": 28.2722,
-   "website": "https://nebius.com",
+   "website": "https://nebius.com/newsroom/nebius-to-construct-310-mw-ai-factory-in-finland",
    "summary": "Nebius's planned 310 MW AI campus in eastern Finland.",
    "topics": [
     "compute"
@@ -4079,7 +4079,7 @@
    "address": "Itäväylä, Kivenneva, Seinäjoki, Finland",
    "lat": 62.7319,
    "lon": 22.8616,
-   "website": "https://www.puredatacentres.com",
+   "website": "https://puredc.com/",
    "summary": "Pure DC's planned 550 MW AI campus in Seinäjoki, Finland.",
    "topics": [
     "compute",
@@ -4109,7 +4109,7 @@
    "address": "Parc des Soufflantes, 59124 Escaudain, France",
    "lat": 50.3333,
    "lon": 3.3438,
-   "website": "https://www.data4group.com/en/",
+   "website": "https://www.data4group.com/en/news-data4/in-northern-france-data4-launches-its-largest-data-center-campus-to-support-europes-ai-growth/",
    "summary": "Data4's planned 700 MW campus on a former steelworks site in northern France.",
    "topics": [
     "compute",
@@ -4134,7 +4134,7 @@
    "address": "Gorsingeberget, Gorsinge-Biskopskvarn area, 645 47 Strängnäs, Sweden",
    "lat": 59.3323,
    "lon": 17.0219,
-   "website": "https://bam.brookfield.com",
+   "website": "https://bam.brookfield.com/press-releases/brookfield-advance-ai-infrastructure-sweden-through-sek-95-billion-investment",
    "summary": "Brookfield's planned AI centre of up to 750 MW in Strängnäs, Sweden.",
    "topics": [
     "compute"
@@ -4249,7 +4249,7 @@
    "address": "Industriparken 20-32, 2750 Ballerup, Denmark",
    "lat": 55.7281,
    "lon": 12.3762,
-   "website": "https://novonordiskfonden.dk/en/news/denmarks-first-ai-supercomputer-is-now-operational/",
+   "website": "https://dcai.dk/gefion",
    "summary": "Denmark's sovereign AI supercomputer, 1,528 H100 GPUs.",
    "topics": [
     "compute"
@@ -4348,7 +4348,7 @@
    "address": "44415 Topusko, Sisak-Moslavina County, Croatia",
    "lat": 45.2932,
    "lon": 15.9789,
-   "website": "https://www.intellinews.com/croatia-s-grid-operator-clears-key-milestone-for-50bn-pantheon-ai-data-centre-project-456636/",
+   "website": "https://pantheonai.com/",
    "summary": "Planned 800 MW AI campus in Topusko, near Zagreb.",
    "topics": [
     "compute"
@@ -4425,7 +4425,7 @@
    "address": "Alajaama tee 1, 76911 Hüüru küla, Saue vald, Harjumaa, Estonia",
    "lat": 59.3861,
    "lon": 24.5626,
-   "website": "https://estonianworld.com/?p=89952",
+   "website": "https://investinestonia.com/greenergy-data-center-200m-ai-expansion/",
    "summary": "22 MW Nebius AI factory near Tallinn.",
    "topics": [
     "compute"
@@ -4483,7 +4483,7 @@
    "address": "Čuibes iela 17/1, LV-1063 Riga, Latvia",
    "lat": 56.889,
    "lon": 24.2325,
-   "website": "https://investinlatvia.org/en/news/delska-launches-one-of-the-baltics-most-advanced-and-sustainable-data-centers-in-riga",
+   "website": "https://delska.com/data-centers/eu-north-riga-lv-dc1/",
    "summary": "10 MW AI-ready data centre in Riga.",
    "topics": [
     "compute"
@@ -4507,7 +4507,7 @@
    "address": "Rue de Ghlin 100, 7331 Saint-Ghislain (Baudour), Belgium",
    "lat": 50.46934,
    "lon": 3.86536,
-   "website": "https://blog.google/inside-google/infrastructure/google-ai-infrastructure-investment-belgium/",
+   "website": "https://datacenters.google/locations/belgium/",
    "summary": "Google's Belgian data centre, expanding for AI.",
    "topics": [
     "compute"
@@ -4531,7 +4531,7 @@
    "address": "Moreenikatu 6, 04620 Mäntsälä, Finland",
    "lat": 60.6289,
    "lon": 25.2625,
-   "website": "https://www.datacenterknowledge.com/data-center-construction/nebius-s-10b-310mw-data-center-plan-signals-ai-infrastructure-shift",
+   "website": "https://nebius.com/newsroom/nebius-to-triple-capacity-at-finland-data-center-to-75-mw",
    "summary": "Nebius's 75 MW AI data centre in southern Finland.",
    "topics": [
     "compute"
@@ -4633,7 +4633,7 @@
    "address": "Warsaw, Poland",
    "lat": 52.232,
    "lon": 21.0067,
-   "website": "https://www.pap.pl/en/news/poland-signs-ai-gigafactory-agreement-under-eu-program-official-says",
+   "website": "https://www.gov.pl/web/cyfryzacja/uchwala-rzadu-droga-do-gigafabryki-ai-otwarta",
    "summary": "Poland's medium-scale AI Gigafactory bid, backed by Lithuania.",
    "topics": [
     "compute"
@@ -4662,7 +4662,7 @@
    "address": "Markweg, 3198 LK Europoort Rotterdam, Netherlands",
    "lat": 51.9488,
    "lon": 4.1457,
-   "website": "https://datacenterdynamics.com/en/news/nebius-signs-loi-with-volt-for-data-center-capacity-in-rotterdam-the-netherlands",
+   "website": "https://www.voltdatacenters.com/rotterdam",
    "summary": "VOLT's planned 600 MW AI campus in Rotterdam.",
    "topics": [
     "compute"
@@ -4821,7 +4821,7 @@
    "address": "Kapeldreef 75, 3001 Leuven (Heverlee), Belgium",
    "lat": 50.8654,
    "lon": 4.6796,
-   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "website": "https://cordis.europa.eu/project/id/101263203",
    "summary": "BE-AIFA connects Belgium to the EU AI Factories network.",
    "topics": [
     "compute"
@@ -4845,7 +4845,7 @@
    "address": "Konstantinou Kavafi 20, 2121 Aglantzia, Nicosia, Cyprus",
    "lat": 35.1413,
    "lon": 33.381,
-   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "website": "https://cordis.europa.eu/project/id/101263007",
    "summary": "Pharos-CY connects Cyprus to the EU AI Factories network.",
    "topics": [
     "compute"
@@ -4869,7 +4869,7 @@
    "address": "Kende utca 13-17, 1111 Budapest, Hungary",
    "lat": 47.4783,
    "lon": 19.0521,
-   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "website": "https://hun-ren.hu/hunren_news/ai-factory-antenna-programme-109669",
    "summary": "HunAIFA connects Hungary to the EU AI Factories network.",
    "topics": [
     "compute"
@@ -4893,7 +4893,7 @@
    "address": "University Road, H91 TK33 Galway, Ireland",
    "lat": 53.2936,
    "lon": -9.0751,
-   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "website": "https://cordis.europa.eu/project/id/101263091",
    "summary": "AIF IRL-Antenna connects Ireland to the EU AI Factories network.",
    "topics": [
     "compute"
@@ -4917,7 +4917,7 @@
    "address": "Ķīpsalas iela 6A, LV-1048 Riga, Latvia",
    "lat": 56.9529,
    "lon": 24.0806,
-   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "website": "https://cordis.europa.eu/project/id/101262604",
    "summary": "AIFA-LAT connects Latvia to the EU AI Factories network.",
    "topics": [
     "compute"
@@ -4941,7 +4941,7 @@
    "address": "Twenty20 Business Centre, Triq l-Intornjatur, Zone 3, Central Business District, CBD 3050 Birkirkara, Malta",
    "lat": 35.8885,
    "lon": 14.4643,
-   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "website": "https://cordis.europa.eu/project/id/101263950",
    "summary": "CALYPSO connects Malta to the EU AI Factories network.",
    "topics": [
     "compute"
@@ -4989,7 +4989,7 @@
    "address": "Rue d'Amiens, 80160 Bosquel, France",
    "lat": 49.7418,
    "lon": 2.2201,
-   "website": "https://www.telecomtv.com/content/digital-platforms-services/softbank-group-to-build-5-gw-of-ai-datacentre-capacity-in-france-55580/amp/",
+   "website": "https://www.sesterce.com/newsroom/softbank-group-sesterce-1gw-ai-data-center-bosquel-france",
    "summary": "Planned 1 GW SoftBank and Sesterce AI campus in the Somme.",
    "topics": [
     "compute"
@@ -5013,7 +5013,7 @@
    "address": "Former EDF Bouchain thermal power plant, 59111 Bouchain, France",
    "lat": 50.2984,
    "lon": 3.3164,
-   "website": "https://www.telecomtv.com/content/digital-platforms-services/softbank-group-to-build-5-gw-of-ai-datacentre-capacity-in-france-55580/amp/",
+   "website": "https://group.softbank/en/news/press/20260531_0",
    "summary": "Planned 400 MW SoftBank campus on a former EDF power plant.",
    "topics": [
     "compute"
@@ -5037,7 +5037,7 @@
    "address": "Port of Dunkirk, 59279 Loon-Plage, France",
    "lat": 50.9946,
    "lon": 2.2192,
-   "website": "https://www.telecomtv.com/content/digital-platforms-services/softbank-group-to-build-5-gw-of-ai-datacentre-capacity-in-france-55580/amp/",
+   "website": "https://group.softbank/en/news/press/20260531_0",
    "summary": "Planned SoftBank AI data centre and manufacturing cluster at Dunkirk.",
    "topics": [
     "compute",
@@ -5092,7 +5092,7 @@
    "address": "Rue René Truhaut, Rovaltain Business Park, 26300 Alixan, France",
    "lat": 44.9945,
    "lon": 4.984,
-   "website": "https://www.connaissancedesenergies.org/afp/datacenter-dans-la-drome-recours-de-la-societe-sesterce-260727",
+   "website": "https://www.sesterce.com/newsroom/rovaltain-becomes-a-sesterce-campus",
    "summary": "Sesterce's planned 40 MW AI supercomputer near Valence.",
    "topics": [
     "compute"
@@ -5116,7 +5116,7 @@
    "address": "Tehtaankatu 1, 42220 Jämsä (Kaipola), Finland",
    "lat": 61.8223,
    "lon": 25.2289,
-   "website": "https://www.investmentmonitor.ai/newsletters/sesterce-plans-e10bn-ai-campus-finland/",
+   "website": "https://www.sesterce.com/newsroom/sesterce-plans-ai-campus-kaipola-jamsa-finland",
    "summary": "Planned 200 to 600 MW AI campus on a former Finnish paper mill.",
    "topics": [
     "compute",
@@ -5141,7 +5141,7 @@
    "address": "Pol. Ind. Europa-Puerta Sur, 50280 Calatorao (Zaragoza), Spain",
    "lat": 41.5222,
    "lon": -1.3464,
-   "website": "https://datacenterdynamics.com/en/news/blackstone-to-develop-300mw-data-center-campus-in-aragon-spain",
+   "website": "https://q.com/data-centers/calatorao-en/",
    "summary": "Blackstone's 300 MW data centre campus in Aragon.",
    "topics": [
     "compute"
@@ -5170,7 +5170,7 @@
    "address": "ul. Adama Kręglewskiego 11, 61-248 Poznań, Poland",
    "lat": 52.378,
    "lon": 16.9771,
-   "website": "https://telecomtalk.info/beyondpl-launches-sovereign-ai-factory-datacenter-poland/993975/",
+   "website": "https://www.beyond.pl/en/newsroom/press-releases/beyond-pl-launches-sovereign-ai-factory-on-the-central-east-european-market/",
    "summary": "Beyond.pl's sovereign AI factory in Poznań.",
    "topics": [
     "compute"
@@ -5223,7 +5223,7 @@
    "address": "Plataforma Logística Lisboa Norte, Castanheira do Ribatejo, Vila Franca de Xira, Portugal",
    "lat": 38.9978,
    "lon": -8.9568,
-   "website": "https://www.datacenterdynamics.com/en/news/edged-merlin-break-ground-in-lisbon-portugal",
+   "website": "https://www.merlinproperties.com/en/assets/data-center-lisboa/",
    "summary": "180 MW AI data centre campus under construction near Lisbon.",
    "topics": [
     "compute"
@@ -5344,7 +5344,7 @@
    "address": null,
    "lat": 52.2297,
    "lon": 21.0122,
-   "website": "https://clje.law.harvard.edu/team/aleksandra-przegalinska/",
+   "website": "https://www.kozminski.edu.pl/en/community/card/prof-aleksandra-przegalinska-3",
    "summary": "Polish researcher on human and AI collaboration and the future of work.",
    "topics": [
     "ethics"
@@ -5393,7 +5393,7 @@
    "address": null,
    "lat": null,
    "lon": null,
-   "website": "https://archimedesai.gr/en/leadership/constantinos-daskalakis",
+   "website": "https://people.csail.mit.edu/costis/",
    "summary": "Greek theorist of learning and games at MIT, co-founder of Archimedes in Athens.",
    "topics": [
     "ml"
@@ -5417,7 +5417,7 @@
    "address": null,
    "lat": 60.1699,
    "lon": 24.9384,
-   "website": "https://www.aalto.fi/en/news/peter-sarlin-appointed-as-professor-of-practice-at-aalto-university",
+   "website": "https://www.aalto.fi/en/people/peter-sarlin",
    "summary": "Founder of Silo AI, now building a Finnish AI and quantum computing lab.",
    "topics": [
     "ml"
