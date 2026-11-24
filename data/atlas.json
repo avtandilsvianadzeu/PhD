@@ -6096,6 +6096,221 @@
     "ethics"
    ],
    "news": []
+  },
+  {
+   "id": "pf-kersting",
+   "name": "Kristian Kersting",
+   "layer": "Professor of Artificial Intelligence and Machine Learning, TU Darmstadt",
+   "kind": "thinker",
+   "status": null,
+   "city": "Darmstadt",
+   "country": "Germany",
+   "address": null,
+   "lat": 49.8749,
+   "lon": 8.6566,
+   "website": "https://www.aiml.informatik.tu-darmstadt.de/people/kkersting/index.html",
+   "summary": "Statistical relational and neurosymbolic AI, and reasonable AI.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-hoos",
+   "name": "Holger H. Hoos",
+   "layer": "Alexander von Humboldt Professor of Artificial Intelligence, RWTH Aachen University",
+   "kind": "thinker",
+   "status": null,
+   "city": "Aachen",
+   "country": "Germany",
+   "address": null,
+   "lat": 50.7763,
+   "lon": 6.0839,
+   "website": "https://www.aim.rwth-aachen.de/people.html",
+   "summary": "Automated machine learning, algorithm design and human-centred AI.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-nowe",
+   "name": "Ann Nowé",
+   "layer": "Professor of Artificial Intelligence and head of the AI Lab, Vrije Universiteit Brussel",
+   "kind": "thinker",
+   "status": null,
+   "city": "Brussels",
+   "country": "Belgium",
+   "address": null,
+   "lat": 50.8222,
+   "lon": 4.3953,
+   "website": "https://ai.vub.ac.be/team/ann-nowe/",
+   "summary": "Reinforcement learning, multi-agent systems and AI for the common good.",
+   "topics": [
+    "ml",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "ant-is",
+   "name": "AIFA-ICE AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Reykjavík",
+   "country": "Iceland",
+   "address": "Menntavegur 1, 102 Reykjavík, Iceland",
+   "lat": 64.1236,
+   "lon": -21.9266,
+   "website": "https://cordis.europa.eu/project/id/101263254",
+   "summary": "AIFA-ICE connects Iceland to the LUMI AI Factory, with Icelandic language models among its services.",
+   "topics": [
+    "llm",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Reykjavik University: ISK 1.4 billion allocated to establish a national AI and supercomputing centre.",
+     "u": "https://www.ru.is/en/news/isk-1-4-billion-allocated-for-iceland-to-establish-national-ai-and-supercomputing-centre-with-major-eu-funding"
+    },
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-md",
+   "name": "FAIMA AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Chișinău",
+   "country": "Moldova",
+   "address": "Bd. Ștefan cel Mare și Sfânt 168, 2004 Chișinău, Moldova",
+   "lat": 47.0336,
+   "lon": 28.8225,
+   "website": "https://www.eurohpc-ju.europa.eu/ai-factory-antennas_en",
+   "summary": "FAIMA connects Moldova to the PIAST AI Factory in Poland.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    },
+    {
+     "d": "2025",
+     "t": "Ministry of Education and Research: Moldova joins the European network of AI Factories through FAIMA.",
+     "u": "https://www.moldpres.md/eng/society/moldova-becomes-part-of-european-network-of-artificial-intelligence-factories"
+    }
+   ]
+  },
+  {
+   "id": "ant-mk",
+   "name": "VEZILKA AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Skopje",
+   "country": "North Macedonia",
+   "address": "Bul. Goce Delčev 9, 1000 Skopje, North Macedonia",
+   "lat": 41.999,
+   "lon": 21.4296,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "VEZILKA connects North Macedonia to the Pharos AI Factory in Greece.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-rs",
+   "name": "SAIFA AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Belgrade",
+   "country": "Serbia",
+   "address": "Bulevar kralja Aleksandra 73, 11120 Belgrade, Serbia",
+   "lat": 44.8056,
+   "lon": 20.476,
+   "website": "https://cordis.europa.eu/project/id/101263280",
+   "summary": "SAIFA connects Serbia to the Pharos and IT4LIA AI Factories.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "14 May 2026",
+     "t": "SAIFA kick-off meeting held at the Palace of Science in Belgrade.",
+     "u": "https://hpc.ipb.ac.rs/news/saifa-project-officially-launched"
+    },
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-ch",
+   "name": "HEARTS AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Lugano",
+   "country": "Switzerland",
+   "address": "Via Trevano 131, 6900 Lugano, Switzerland",
+   "lat": 46.0254,
+   "lon": 8.9601,
+   "website": "https://lumi-ai-factory.eu/articles/eurohpc-ju-ai-factory-antennas/",
+   "summary": "HEARTS opens the Swiss Alps infrastructure to European AI Factory users.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
+  },
+  {
+   "id": "ant-uk",
+   "name": "UKAIFA AI Factory Antenna",
+   "layer": "AI Factory Antenna",
+   "kind": "antenna",
+   "status": "Selected",
+   "city": "Edinburgh",
+   "country": "United Kingdom",
+   "address": "Bayes Centre, 47 Potterrow, Edinburgh EH8 9BT, United Kingdom",
+   "lat": 55.9446,
+   "lon": -3.187,
+   "website": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en",
+   "summary": "UKAIFA connects the UK to the HammerHAI AI Factory.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Oct 2025",
+     "t": "Selected as an AI Factory Antenna.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
+    }
+   ]
   }
  ]
 }
