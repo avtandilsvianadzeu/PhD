@@ -165,18 +165,25 @@ for k, v in D["shp"].items():
 
 # 5. optional: every link still answers
 if "--links" in sys.argv:
-    urls = sorted({s["url"] for s in sites if s.get("url")} | {n["u"] for s in sites for n in s["news"]} | {x[2] for x in D["sources"]})
+    urls = {s["url"] for s in sites if s.get("url")} | {n["u"] for s in sites for n in s["news"]} | {x[2] for x in D["sources"]}
+    urls |= {s["asrc"] for s in sites if s.get("asrc")} | {p["u"] for s in sites for p in s.get("papers", []) if p.get("u")}
+    urls |= {n["u"] for v in D.get("cnews", {}).values() for n in v} | {n["u"] for n in D.get("eunews", [])}
+    urls = sorted(u for u in urls if u and u.startswith("http"))
     def head(u):
         req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 atlas-link-check"})
-        try:
-            with urllib.request.urlopen(req, timeout=25) as r: return u, r.status
-        except urllib.error.HTTPError as e: return u, e.code
-        except Exception as e: return u, str(e)[:60]
+        for attempt in (1, 2):   # a slow site gets a second try
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r: return u, r.status
+            except urllib.error.HTTPError as e: return u, e.code
+            except Exception as e: err = str(e)[:60]
+        return u, err
     with cf.ThreadPoolExecutor(8) as ex:
         for u, st in ex.map(head, urls):
             # 401/403/429 mean the site blocks robots, the page itself is usually fine
-            if not (isinstance(st, int) and (st < 400 or st in (401, 403, 405, 429))):
+            if isinstance(st, int) and st >= 400 and st not in (401, 403, 405, 429):
                 fail(f"link {u} answered {st}")
+            elif not isinstance(st, int):
+                print(f"note: {u} did not answer in time ({st}); sites that hold back robots do this, check it by hand if it repeats")
     print(f"checked {len(urls)} links")
 
 print(f"{len(sites)} entries checked")
