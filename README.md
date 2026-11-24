@@ -53,7 +53,9 @@ check fails if one is missing.
 `data/atlas.json` holds every entry (name, kind, status, address, coordinates, website, summary, topics,
 news with links) and is rebuilt with the page. The Browse tab downloads the current view as CSV or JSON,
 and every entry, country and view has its own link (Copy link). Keyboard: `/` jumps to search, `Esc`
-clears filters.
+clears filters. Latest gathers every dated item on the atlas in one timeline; Saved keeps chosen entries in
+the browser and compares up to four side by side; the overview shows an entry of the day and the status
+and country figures.
 
 ## Content and data
 
