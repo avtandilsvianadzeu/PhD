@@ -1,0 +1,852 @@
+{
+ "updated": "24 Nov 2026",
+ "items": [
+  {
+   "c": "AT",
+   "d": "10 Nov 2026",
+   "t": "AI Data Center Power Demand Surges, Infineon Raises Fiscal 2027 Revenue Target for Segment to €4 Billion",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjLTdwdXVMRnlOWER1VXB6QkhxSExwbm9Qdk5tTWFoWmYxZUlXbXZ2aGdqZWRIak83dFpObmxQT0x3TlB3eHBxZDJTWGNmQUlNZ0lYVDNnSS1ZUm81d29hcVcwcGlUWmxFc2Y2a29jQ1VXaGdIRWc?oc=5",
+   "src": "BigGo Finance"
+  },
+  {
+   "c": "AT",
+   "d": "10 Nov 2026",
+   "t": "UEFA Women's Champions League: Opta Supercomputer Matchday 4 Predictions",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcnJ1elJUcU9pcUlRMzlfb29raXEycDZkRU5yV2hLWWZmWUkwWjhjdy1JNzJGUG1DXzkxT1dyRTNiSGxSa19lZlYyQTlRREN3T2xqUzhyLVVBRzZQUlEzOTE3OUFNcnFOeVpSQVZWVjlhY0RtR2E3OTlsbHNtUlljUUUtaGR5OEE0LU1pQy03QlloaWJQeFE?oc=5",
+   "src": "Opta Analyst"
+  },
+  {
+   "c": "AT",
+   "d": "28 Oct 2026",
+   "t": "UEFA Women's Champions League: Opta Supercomputer Matchday 3 Predictions",
+   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVEJlRGZWZTdLRW16MGw4YmRPMk50OUQtYWpucGFnR09EQ3U3eDJ2dHc4cFBSV2NNNFNaVFR4UGYwT2pDcjM1anFieVNLdHZhS1VERFlMbjBNb2lta25iVW9yakpURVluMWp1RzRfQ19LRU5salZjZ0RMY0FaUzMtUEtQbVp0akI5QTYxUnB3bzdfb0ozNmlDbFcwMjJCRUcxX1I1cQ?oc=5",
+   "src": "Opta Analyst"
+  },
+  {
+   "c": "AT",
+   "d": "18 Oct 2026",
+   "t": "ASML Stock And 2 AI Data Center Infrastructure Plays Facing A New Funding Test",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUHlXS2dmbWxNNzNoMTZ3WlhFZERwUjdZV3Ryd2JWcFlZczRXUEJSMWstQnJ1a2E4el9mNGRfOGxURk1GS0FIc1YxWDRQVXQzOHhwdjRDRTh0Y0hmVWNSM2M2UWlhRjVMR3Y0VmJKRGtPY3ZfeEkzQ1Bkbm9KN3c5cV9za2ViOTZzNDl0Y0ZodjZwSC1VUTlJYmwzU0VRS0p1c21wZXVuTjZ0bGwzQjJMYklFZ1NRNUhqUVh2eHVybERpVHdBa1N0X3F6MjBEc0lMVmJWaXViWdIB3AFBVV95cUxPNmhRZVRPSHg2U01WMkRCX0l4eE1GOHNBNFU0cXpkcmxmWS1ZN0lKbE13QXZYNmFfXzloai01ZVpKajhHOEtXbnV3LU5ZSGZWMFpsZEVGVlJnYnNrUjdiY0FkSllrWUJtck1tc2pmT3k1SHctakJTdi1pV0x1WUhtank5Um16MjZ0OWZRYzI2QVRkWmdxN1A1YXVCbEloUFppS05KckgydXd6LXBTRmxHTGpKa2FXVzJTUEhwRHJDVHNmUV9KYzZXd08xbXVUYm9wal9JMS1KTlB3cXha?oc=5",
+   "src": "Simply Wall St"
+  },
+  {
+   "c": "AT",
+   "d": "30 Sep 2026",
+   "t": "UEFA Women's Champions League: Opta Supercomputer Matchday 2 Predictions",
+   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMXd1cWRSSGJ1eldndmNUWnE0MTZFeUVYdE02a0llcUE1UnZwQUszUEh4dkhqLXJmOWpSSnE0MURneFZ4UExwU2toNkpWX2d2VUY2SlYwN1pCU2p6MjVnaEJja2JnM2lJTERzZEtEa3hCRlF3WHJhY1NIV3B2RkdNMzlLb0c5d0szYkJYQ3hQUVhmVjdTeUlQLWIwV1ROX2M5TTloZQ?oc=5",
+   "src": "Opta Analyst"
+  },
+  {
+   "c": "AT",
+   "d": "29 Sep 2026",
+   "t": "China boasts solar, wind plus hydrogen powered AI data centre in Hebei",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYmVYa3IyZm9CeVVzUDBJRnhyOUwtS054YXM5R0xuQVdGYlV4M0MxSWRMYlRVTVFnQUR0T0xVVm05dkZuTXBrMUFSRHgyYTlLbzZ6MHlHXy1OcU85d25KMExmZzRMUm5jX3I3SWQ0cHJBaVc5QTQ5VFA1MXBJVG9CZUZfclJsaF9NMlNUb3pNNnNaRUhNTXB5cVBuWUhtMDRZRWdUVEN1eG10Sy1i?oc=5",
+   "src": "Green Building Africa"
+  },
+  {
+   "c": "BE",
+   "d": "21 Nov 2026",
+   "t": "EU project 2DFIRE combines graphene and barium titanate for energy-efficient AI data center optics",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSXlqeE5mUU5wU2hKdEJJUHpMMl90bnBEY0FrYjFBcF9JMXZ6VExpblpTWF9TRVVZX3lEOHZSS2V2VWRSZWM2YXAtWVp6SU5xa2MyaEw5TU5wNDFNdndXVndGbGRFNlh3VzlDQWcwdFkxOV81dXhVSWtTR1hzV0JuSXJ4Y3Q0M2liOFBLdnFaR0s2VXZVTURlNC1IR1pOSmk1aEFGM3NuZjA?oc=5",
+   "src": "Graphene-Info"
+  },
+  {
+   "c": "BE",
+   "d": "30 Oct 2026",
+   "t": "Google and Microsoft AI Data Centre Workers Report…",
+   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbmJjTUUyWVBQYmRkMG43ektfRHVBQ3d6NWxKaEl6YTJoeU1oY0JkSGg3R211NmpuQnN4TnFtQjlpRngyYUd6N1laU2VaR2VqRUQ0cWs4RDhxZERQamJHa2pWUVZod21EU045cXFwd3B1WFNwbGhLTllPU2Y2NEhpajU2eTZidFdIZmt3VEliYVctcDlzblBoY2w3RERuUDRJY1FYaTh4VHFidDhZVE9kai03M2tORi1rdWtWSlVOYzJwMjB6RXBiZkR5bDg4WW5hRzJsWWFB?oc=5",
+   "src": "inkl"
+  },
+  {
+   "c": "BE",
+   "d": "22 Oct 2026",
+   "t": "Why Supercomputer prediction of Rangers vs St Johnstone is bad news for Derek McInnes",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRHh2N2JlYWVFamFNdzZxYTBfczMtaEpSRU5lTjJ2WWR0bFUtMS1wYmdfQ2N1dDhhWmZUS2VnREhGRTlha29JbUJ4aDUtVkEzYWNJc1ljV00xeXBWTnhiTDN3NzdPdVk2NzdSYU9PcUVDRnRvOTFYZjZLbVZoRVlQWHkydS1laC1USVUyNV9ITm80UXF3cDc1ZExHbXcwaVZwRTVMN2xua1NWTFJ2NDhKbGhWcHh4blFfR1dB?oc=5",
+   "src": "Rangers News"
+  },
+  {
+   "c": "BE",
+   "d": "19 Oct 2026",
+   "t": "Supercomputer F-35 aircraft escorts the special plane of General Secretary, President To Lam",
+   "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVjMzX2FSSGs5Qk9OWENxQ202M3hHdHVINmR4MG5tYVMtUjZGS29sek5tMFZGVDhIdmZPakZLbUZiT3h3OWw0LXpvV09FMnpTVmVzUGFLZndFNVZiMHUzU3JOajF2aGlOMjdEYV8ydTFOMnF5LXNJQWdWWGZNak16Y0RnUU04WXZ6dlBYVUNVQWRiQTgtaThzTE10b3BpQXJpdVpNcjRkcXVVRjdaZXFlSHY3d2FuRVpzZWxkNnZ4NA?oc=5",
+   "src": "Laodong.vn"
+  },
+  {
+   "c": "BE",
+   "d": "7 Oct 2026",
+   "t": "AI data centre investment could reach €27 trillion by 2050",
+   "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTaXhYOF9WS3JsZDVNaGNlb1ktOHp6SXNNVDhRNGh0Mmh2ZW1aT3dSRGZ1a0VaamxiSUpPY1lPT1R3eEJtNURUT0pDRGpNTTdHQnNqUW9HX01PVVhMZGRzaVJxNWlfQnBvRUg0OQ?oc=5",
+   "src": "Digital Watch Observatory"
+  },
+  {
+   "c": "BG",
+   "d": "2 Nov 2026",
+   "t": "Envision deploys an 800V DC solid-state transformer power system at its AI data center",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG9qTUFXXzZfaVBDWVA3aEFKcjMyWDA0NWNUWFp1cHBMdXpIOWFjNTBiQXhBQlZ2d2FXMWswX0tONGVraGJqWE5vakFiMldwcjE4MjZRRG1UV3VYaVo3OTBISmlQX0VNN0ExbFRjRHJEakxheDRucmpCOHNlOWxMb0JORTBEY3Q5SzdmZkVsYmpxRnBEM01DWTlyTkQydHVGczdqcHJwdm9nR3BPekNfMGFB?oc=5",
+   "src": "energynews.pro"
+  },
+  {
+   "c": "BG",
+   "d": "23 Oct 2026",
+   "t": "​Hitachi Energy develops power system simulation with NVIDIA Omniverse libraries to help accelerate AI factory deployment",
+   "u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNemh6b3FLanZuSFptUGpvaGRJeDNsS1o5NnhCSGJ3ZzdvN2lyS1p2cEdwWnpHX3AteVlZNXJRX1RXQjRTR0VkSmNqbEtMX09TVy1vSGZERjNITnB3cjF3UE52SXBTS2lrU3NrZzJVUU5Pa24wNGd0U3BhZHlqaDNRTXF0Q25IWktNQUhzOTFSWk9SM1hPMmhka1A0dVE3dXhJN0FoUjlBeWVkTXN6VmdyV3QzU2k1QkNSZGlpZUl2WDc0bTBJQWUyczhDXzJYZmExd0lwbVRHTFZmdlJMVUg4a2tqakxzaTRZbWFUejA3eTBGZjBqRlM2OHNsaVR3SUZ4UWpsVU8zaERHQXFPM2c0RzJtUVRaUjNf?oc=5",
+   "src": "Hitachi Energy"
+  },
+  {
+   "c": "HR",
+   "d": "20 Nov 2026",
+   "t": "Trump's data centre tax threat raises questions over Croatia's €50 billion AI project",
+   "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WQlpkNnZNY3FPZmVUWEM2T0ctWmRqNDJMMlo2VGRONkZfM1JZcUxqWU04VE1lQjgzQlpVTnpDOV9ueENKVWh1d2FITTFSNjlVRkJ0UzM3YUlzLXR2NlFLd1V4RE1FM2RoNFRIdEptcmFkZ2lTRFVGcG00UWxpZw?oc=5",
+   "src": "Croatia Week"
+  },
+  {
+   "c": "HR",
+   "d": "13 Oct 2026",
+   "t": "Spanish museum creates a full-scale replica of the Cray-1 supercomputer",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUGlvbk1GS080YXRJUlpVSE9nOUZONTZHS2dhb1Q2bWlCXzhySk1kamtXcHNLMHdQU0ZWTktpSlBHaU1ZbDA0V2htdkhPVXhnQTYwNkdQVUhxWnlmRlFsRFdQb2R3T1phZ05VSE1XdGNHc05DX1R0enlTNXJmTkdfMDd5UjFyckkyRmpXZW1DTDg5RkR4NlQ4Zlc2M3BiRjZ3RnEtbG5QdDlOSXdv?oc=5",
+   "src": "www.mojkraj.hr"
+  },
+  {
+   "c": "HR",
+   "d": "12 Oct 2026",
+   "t": "Rimac targets the AI boom with new data centre technology partnership",
+   "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EbVVDUDB4UUg0eE9taE16Y0p3NV83dzhoWTRmYlZuNWlDT1ZGd2FqUm1NWVVkRTN5SG9SMDc2NDAweE51NzZTLXNSY2tvYURJTlZqeXRHOE4yTW1SQWQ1UGxWZHNDUGZ3SVpLMmdsOG02eUY2bDVF?oc=5",
+   "src": "Croatia Week"
+  },
+  {
+   "c": "CY",
+   "d": "20 Nov 2026",
+   "t": "CITEA shows local firms what Cyprus' supercomputer can do",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamREaXl1U0VEeGYtdUgzNXB3bWw1d1d3VEFRQzZCVU5TLUgzUlp6RWlzbmtnVGxTanBGWnVqcFVTVEtmOXU5WFpPZzduMHJUZ3l2N1BYcmJxbmdESm5ZWDVuajc0YkN5YVBnUW90R0lLUnA5T2pnRzFEQk9uT2dMaGpza2FNeGx0TnE3WGdHd21RNlhWTFE?oc=5",
+   "src": "Cyprus Mail"
+  },
+  {
+   "c": "CY",
+   "d": "20 Nov 2026",
+   "t": "Greece inaugurates national supercomputer \"DAEDALUS\" on Monday",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV2tDZlE4d290aWkxY2QxN29jRE5DQ3dFUTRuMUZqTm10dFZ1NHFEWDV6eHlJVTVSOGR2T0pHc19lelVydGtERmNnY25vQjdrTld3eDloVmprMHV0b0ZQaVRMekx6RThaR3VkU29ZUDVESHE3S2t5b20yZ3Z3dGNXX01CNDRfWkJmVDRWWjNsV2RQR2ltTTBycVA3bGVkYlRsWlpGQzF3?oc=5",
+   "src": "Μακεδονικό Πρακτορείο Ειδήσεων"
+  },
+  {
+   "c": "CY",
+   "d": "19 Nov 2026",
+   "t": "European technology leaders form AI Gigafactory Northern consortium to build trusted, sustainable AI infrastructure",
+   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLWtiWHdZRFo0QVZhWTZRT3N1RTZ4TkJ3TUp3UzZESXBXT21uMWNxZE5ZM21fZTQwa1lPQUFEbnhsclFEbWpIckNXcXJZa0c1ODAtQ3l5ekMyV2E0ZjVfNTRSSWFKeUljMVhmdGtqYUoycWpVT2h6dWhmM1hjR1lnVkg3R211amR6ZHFjRl94RmVpUlNjNmxlZk5mRzBXRTQ5ZHNETWIyZml3eFNBMkNHMUd4ajVjSUNsTFNLV0dZbUhoVEd5TC04eTNGNzl1NDRPWktvcFJlR2ZGSEpWaVpQM2kxb3U4LTB1clNtX1lR?oc=5",
+   "src": "Cyprus Shipping News"
+  },
+  {
+   "c": "CY",
+   "d": "17 Nov 2026",
+   "t": "US Stocks to Watch in the AI Data Center Sector for NASDAQ:STRL by Swissquote",
+   "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSVR5SkUtZUs0eS1PdDdzZ05PQUEwaVpDSFB2TENYNFViZmZrS2dkR1M0NmtpVkNTY2FRQnVWdl94ckNyY2F3SldORDFGLXp0bzlGSGNXQ2pyQnh5cm1icFVHalJzVy1MSUhfRGVfeS1yQkxhcWxWRW84M2FZMFRFXzVlTlFqcWpiWmd2OTJyOFFraWVOdzNzOXZxWlk?oc=5",
+   "src": "TradingView"
+  },
+  {
+   "c": "CY",
+   "d": "20 Oct 2026",
+   "t": "Greece inaugurates Daedalus supercomputer",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSmM0QkRscmNjQkhta2x0cm9mWGw2ME9HbVNJZFc1Wk1mN3M3MXRzak9YLTdVT3F3N1BDa3UxMklySTdmU1AyY1lMRDN5Q3RSZURBNC04VFpBc2J0OWhBMFd3R19EeFY2MlhnRUVaWkFpVGsxd2RmT3k2eHdNd3Z4aEttWldKRnZZYXFQbmpHbzczNHFJ?oc=5",
+   "src": "The Peninsula Qatar"
+  },
+  {
+   "c": "CY",
+   "d": "19 Oct 2026",
+   "t": "Daedalus: Greece unveils new supercomputer as it eyes role in Europe's AI race",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlU5YTRndU0zV01oS0JQbDh6ampPQ3UwNkZlcjRISTcwZlJvb1R5RGFQWGxBb1BwaWxYbVlZZGd4ekZudEIwQ0tkVkdQbExVQTBYbWJ6OHVjU2VmZE1vYUNsdWdDUFIwc2ZzUld5dGdDOGpZYkNsc1ZFRWFYU1JRRkRFcTM3R0l1VkRmVXROak9vWjZ6ekhRQkVuMFpwMFBSSnp4dFo3Ukl5YmRMYXEzUEZR?oc=5",
+   "src": "Euronews.com"
+  },
+  {
+   "c": "CZ",
+   "d": "22 Nov 2026",
+   "t": "Supercomputer predicts Man Utd's chances of winning against Liverpool.",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbm1fUWkteDB4VkIyRFV2RDBJWVJSdzUtZmtRWFdwcjBWa1NHdGU1OWJ4bmdLVFdLMm8tSlJ5dUYxNW92OTA1M0gtQVdheG5vWGlHc3c5RDIxRUxkM1ptelJHcHNXUFpCRkZLY2dkUW5nek9majJ6NHZXOGZZQnVlRENOemQtdkNrUjBnbTZOb3F6Y2RqY2l3VF9R?oc=5",
+   "src": "Vietnam.vn"
+  },
+  {
+   "c": "CZ",
+   "d": "7 Nov 2026",
+   "t": "Onsemi cancels $2B Czech chip plant plan, shifts focus to AI data center power amid cheaper imports.",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcTZ2M0d2eXdhREZSRzFCbGZtM1I3NEZKMFVvNlM2Qm5lOGlYdGd0TlJkOWNHMTFMZlNESTR5czRwanJ5S0tZZWdDQ0NlZDhLY2xIcWowanQ5OUFJanFGcFZCeU5RSVdkdzdnUXpJa1h6eHFuT21QQW5EVGZHSTctd2V0c09MZVk?oc=5",
+   "src": "Pluang"
+  },
+  {
+   "c": "CZ",
+   "d": "23 Oct 2026",
+   "t": "Bull and CRA Partner to Support Czech AI Gigafactory Bid",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQnJXcEloOTVuaEtpakVIYnZmQjRlSGFQOGVta1F2YVNkQlBjbkFaRzlOMnRPQzhIWW1YQk9kU0plUjQ4azRUTWdTSXFmVmFYNUxyYXJFVzRVNWgteF9mcDMyQlcyc0F4XzlfbUUzZktJYmVpYjQyN0lXUlVzX0tUUC1iZ2xfS2tvUXEzVklaR0MxWFNPZkRZSGlB?oc=5",
+   "src": "HPCwire"
+  },
+  {
+   "c": "CZ",
+   "d": "21 Oct 2026",
+   "t": "Nvidia boasts greater AI-RAN and AI factory traction with telcos",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSnF4bDlyenVBLWEtUjlaUWxLY2FJejhWbk9tMlZWQ3A4SVBTNEhCdnVBSzZhWTducEZlc3BTRGI3UmVENTYxOE5XZHZ6OHo2V2tnUWI5YVA2UGJkYXVGNmZ1R0NJekVUQjg3cFBRcjdSVXFpY2Z1Tm5vUV9TQ2s0ZEo3N2dfTDVFRFFQMVVrVGFUY0YzQ01UeDhNVkhXRHJzLU5tc0MtUHJURjB10gGyAUFVX3lxTE5JeFpxaFpRQUhmU0kyU0pSc1FRZnRpZzJUNDltcktVTXlyNWs4NmlpVzhBdDJ1SXBfTGVmdTZnX2I5RWpMUVJDc3VYdDlzNUVlbllhOUZJa3JlRnNZcVhzQlV5S2c2WHpxTTdzcHZoa0ZRVVMxWXFyZFdYcnlBMFEtdUx4U0J2ODE2MFdhcnlob2dGYVRlVHBOdk01M2gyc21EeUlOUl9IemkxYjZLZTVWdGc?oc=5",
+   "src": "TelecomTV"
+  },
+  {
+   "c": "CZ",
+   "d": "20 Oct 2026",
+   "t": "HPE Spaceborne Computer to Power HPC and AI on the Moon",
+   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRkUxOHd6SFYzaGdkZk11R1pyZzdRX3BIQ2N6Tjg5U0R5M3VxaTZTNnJoSWFkNEpGQktJYlZYaERFeldqZUlxZlkxQTBzUkZ5TEZkV0owaGllMlRYVmtLcXJqYlJwVkNjbWR3a1c1UERJLThaYmQ0XzdMVmVkbGdmSnRBa0hYY2JoWUEtaV94aHpnTHYxZnBpRQ?oc=5",
+   "src": "HPCwire"
+  },
+  {
+   "c": "CZ",
+   "d": "19 Oct 2026",
+   "t": "Scripps Research to Advance Biomedical AI with Huang Foundation Compute Grant",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVG5YTno5WHU2WnVSamt5bEZyYWwzbWdkdWtOU3g2T25qNWZuNXVJVV8wRlgyY2xqS0cxSmN3UERSandETl96ZmZ5MlA4T3o2R3MxQjlnLXlRVnhlSnNjRGExRE56dmN6c0NEaWh0ZDBVT1hBN0FFa1NXSDFDWmZ5Vl92dzlWWkxRd2NmTG1sb3BvakNhM0xLWlI0ckhtVTVuVFlJUVloQlRkTDRrZHB5Zml0bmlEUQ?oc=5",
+   "src": "HPCwire"
+  },
+  {
+   "c": "DK",
+   "d": "20 Nov 2026",
+   "t": "AI data center power demand to double by 2030, IEA says",
+   "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOenA5Wmp1bVZfeXJBSTliVVJvN2V4YjdZS1ZoNzhaZ2R3dnBFZDRBZHdURXBMS3ExWlUyRUx2N2dTNkVra2YtY2ZxVjI5V1d1NHlSeVBORzdOQS1jQldGWkp5RzA0d05jT1N1LWJHZ0ttTm5CWUlqcWFwWkY5U3hOQkl6QVBxdy1zMkRr?oc=5",
+   "src": "news.lavx.hu"
+  },
+  {
+   "c": "DK",
+   "d": "18 Nov 2026",
+   "t": "Supercomputer predicts chances of Scott Parker's first West Ham win vs Preston North End",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSmxDMG9DMUg2Rk1MSy1wNDJTMVJzNTV6NGl4M3h4alFjZUU5cWNQbDJJX1BYUk5YWWRReVhfT3VmQVIxdUNGZDVneHVob0VLSURFeXVHRUVVeXZqMXYxdWVZSUxOSGVEaE93bFpJQmlYU0MxbnJIbm5wMUxwNm40YUpSVlg3RzNDaE53dTc1R2EzeFhoQ1ZzUUQzMHhVenJwVFZVa3ZneTY2SHBvVFE1aE11bGwtSk4zOTVNcG9B?oc=5",
+   "src": "West Ham Zone"
+  },
+  {
+   "c": "DK",
+   "d": "17 Nov 2026",
+   "t": "Largest Data Centers in US Emit as Much Carbon as Denmark, Study Finds",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVXJyZGRBODdEZERIVGpMaG1DbFdndmRZTk9CUzd1bVlzUHIySFR2OGdNZzVrSmZ4VWpqQ1c2cGpJRXNuUVVIMTlGeE1BcDl1WTRrUWd5aV83blV4SEZ2NUNxWWdXZ0VIWVJtSGRxWF8xam93UUFiZEpfZEhhX0xSX19uYUowclZnaWs3YWhkMW9LN09mQzlJdTlFWHRUM0FkTVE?oc=5",
+   "src": "Truthout"
+  },
+  {
+   "c": "DK",
+   "d": "16 Nov 2026",
+   "t": "Supercomputer Predicts Relegation Battle After Thomas Frank Appointed by Crystal Palace",
+   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPblFIVE1KOVRZdkxERENxWDlLMnljSWYtT2g1S2JfZWNzUnc5T1NpYnF3bXhvY2FjcGJQZ1FEZUNHSWNZcXJPNlNDdWNXSG9PNjV4NTREWFFSQXh6TDNwTDU5WnU1OWExX3ZXaE9kdEhQRXp4V1EzaGY4U05lNzNpSGVTRUFkTXR4UnZxUWRBa0xGLU1FcXptdWJGbHBhMTNfNUJuZFowMGpjd1RWMC0waGFCZ0J3ZGZzRFQ2dGNWdFFpZUZaVGxhRlY5WTV2aHE4bzNHeXFzQTBQX3FMOENWZDlVbw?oc=5",
+   "src": "LiveScore"
+  },
+  {
+   "c": "DK",
+   "d": "16 Nov 2026",
+   "t": "AI Data Center Emissions Run Wild: Harvard Study Finds 403 U.S. Sites Emit 25.7 Million Tons a Year, Equal to All of Denmark",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlbmY3TXdwejZqNTVuZFR4Yng0ZXViME9ycnRFRTZlS1J1VmRLdEZzLUU1RGlZZnZBQVU1ZGhkZDhpSVBVcl9WclgwNkVaalZsc2pseFFXRm1ONmxPWHgzRm14czB2MlVfUmd2RURyTVYwTkFaVWc?oc=5",
+   "src": "BigGo Finance"
+  },
+  {
+   "c": "DK",
+   "d": "16 Nov 2026",
+   "t": "Carbon Emissions of Biggest U.S. Data Centers Already Rival Entire Countries, Study Reveals",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDd0S0d2cHBIYVB2cEdqWnJPY1RsNUtYRERsS2FMbHliakxRQ0dObzVJUlg2aFJIM25EY2dKT1FoRlBVLXZ5REpod3hJQ2t5RVRaTTBjbEdPT1ZKd2U5QnlVTzJ5aWhxVHNmbU52cjNXQ2QzaUZjU0V5UUU3dzRmbHpNVGNYbENfelNFVkY3RVZPaDJWMlFLa0pSenJrR2E2QXR3?oc=5",
+   "src": "The New York Times"
+  },
+  {
+   "c": "EE",
+   "d": "19 Nov 2026",
+   "t": "Nokia stock: Consortium plans Nordic-Baltic AI Gigafactory",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRkdDbFQzV3dxTklUUkxESG1TS3RDeXltU2xWc19udTd0Y3pFZS16UUo2ZmFXMjlBOWRMZ2l2Wk1ScHJ5SVppQ0ZDNnRQX19YbnZjNUJiTTVHaWJXUXd6WHJZRkVzNERJLVQ2WGdPNlVxT3J2UTN3WFktMzF2aUFlaFFfbUtUNm56amZmU05xRUZrSDRHckxiSndWOF9MWE11S21lZzQyZ25CSkxpSFlZakVFZVduSlVJNEtiTg?oc=5",
+   "src": "ad-hoc-news.de"
+  },
+  {
+   "c": "EE",
+   "d": "18 Nov 2026",
+   "t": "Nscale is part of a Nordic AI consortium planning a EuroHPC bid",
+   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNnZaWGQxVkdacm01ZExjQzhKelFxUE9BcDN5OGNwN1EzWDBWTC1iTzR2dmg1dGxBcGM1Y0F3LTlUdzZVeXoxdm9pM0hXcWZvM1VwSlZKQ3NsS1J0Ujh0a05HQXgwY3dPVXdzbVV4ZTNiajZWZ0g3TWtEdmZMX2g2clhzWXBNc1kxeFZsVkRiZUFPeVE?oc=5",
+   "src": "NeoTeo"
+  },
+  {
+   "c": "EE",
+   "d": "18 Nov 2026",
+   "t": "Nokia joins consortium planning AI gigafactory across the Nordics and Baltics",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSmFKWTBhSllVZ2VtRjJHRC1qVnZTa1NQYklJYkNIYktoYlZBd3JZNjhvUFNMem9ZRTdlNldicXBtdC04VU9TR09FdXhDeGJLRU1sQmxzUFpSMGU1YV83bzAzRFVySGVLTHpKN2NMcS1YSGh1c0dQVXZIRGZjemRlRTc5WW4yU3RzYWNOTU5KaklQQnpoaVRRbUFGbGp6ZndrN2xYSENud0tPUVh2SXBGR0ZmMA?oc=5",
+   "src": "Evertiq"
+  },
+  {
+   "c": "EE",
+   "d": "18 Nov 2026",
+   "t": "Nordic-Baltic AI Gigafactory consortium links Finland, Sweden and the Baltics",
+   "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XRjB2a1NLcWhXQWhKSTdVWi1uenZobVJtS0VEc2VzekFaanFyZG9TMUFJbThSTmFTUVFEUlhVNzZCTDVjcG9kUXJpc2Nia2wyYTRLbUptS2JYaVF2cmhmWUthNHNvNHI5R2xMQ1JYSjQ1NlY4?oc=5",
+   "src": "The Baltic Review"
+  },
+  {
+   "c": "EE",
+   "d": "17 Nov 2026",
+   "t": "Nokia, Nscale, Skeleton, Telia, and Verda form gigafactory consortium",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONGdXcG9PeV9OcWhEbzhuYUNGUjcxeHl4RURCSHhTS3dmQXNuODBjQUE2RG1Tc1FjZnRvWDlxbjFsTUFEVjIxS2I2ZWRDZl9TZFdSbWFOVm1jblB2UEtyX0dSMG9EclJidDkwb2txNkdaZy1zV2pDR3Q5QVdtTk9ZMDk4TUIxTWJ0UWVfQnVndVNBdWY4OHctR2tkWTNQbHF5dHh6Q2xJSDJFMVRmTFE?oc=5",
+   "src": "Data Center Dynamics"
+  },
+  {
+   "c": "EE",
+   "d": "17 Nov 2026",
+   "t": "Nokia, four European tech firms form consortium to develop AI gigafactory",
+   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSHV6M20zSUFPMnBBSWlBUnZSN0lRVVQta3U4NTctSmdZdW0zMHF0SkkySVhHQV9RMTVlQ1R3UjBWdVVXbERZaEFmU0NRVGR2SzdWalY0d2VqYWtPN0FDZTNOdllJRGlfOVF0eEdjMDJPWlFreTVsaEttVmk4M2pVWkh0YXNmRURsMW1fZm1jWXZnZkdwN2FFT3NaWWVwNzBsSXFaSW1IaUlGSzFrZUNrQ05KbHVGSlc0MlE?oc=5",
+   "src": "The Eastleigh Voice"
+  },
+  {
+   "c": "FI",
+   "d": "13 Nov 2026",
+   "t": "Google fells thousands of trees to make way for AI data centre",
+   "u": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MRkdRUmN2c1dTYnBIcmJCeTNmQl9TMFZraDNHQWRmVkEyN2R6dG9pY1FyeWRjWHFxSEpFQUo3WUJaMnFmUVo4cnZPMkU?oc=5",
+   "src": "The Boar"
+  },
+  {
+   "c": "FI",
+   "d": "11 Nov 2026",
+   "t": "IQMXW - IQM Quantum Computers Oyj | News",
+   "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNb1BvdlBhckxhdFJ4Z1F0QlduS1RFNFBQcEdJWmFlQkJIeFBvV0MzdW5HRmZkMjVMdWdfQmFsbEpEanppbklfYUE4YVNTV1BIbVNYSzJWUUNWQjcxbFhUVlVNbG9tcmwwbHZXTEROZXcxVWxZUmdzMFZ1eFFEaVdhNmJDUnVUdzMxVHpPd2owekR0RVVuaXRsOHBUeEhqZnNLREpSb2xvX3pta3FlZFVSakZuVENOM214X196YlhmeFFPSDlFUDEzdEJhSExrY0ZNbEY2SG0xZmtWbDIwSkJILUwwQkVrR3VvNTVCa19xMkRfci1LRTc0MXRqYw?oc=5",
+   "src": "OTC Markets"
+  },
+  {
+   "c": "FI",
+   "d": "1 Nov 2026",
+   "t": "Finland Offers South African Researchers a Route to Lumi Supercomputer, But No Deal Yet",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWXg2V1BXRl9LZ09rU29uS0R3dHZRSDYwTFB2OFJsWjUzMkpHYjJfRUJQanhWRnBuTncyWHdXeVdXU0RwdjNzZHVKLXNvRE9pRTAyaEFvb3NCWmJCWldSY1pvWXlQbHAySmNEWkxrMklpOW9qWVNEZVo1RHM2WU9wZi0xZDl4SU5jOUlQNGpLcXRHYVdLVHRfZXNRNlEzUUtlQTlEWklvTzJucnM?oc=5",
+   "src": "iAfrica.com"
+  },
+  {
+   "c": "FI",
+   "d": "30 Oct 2026",
+   "t": "Google hit with criminal probe over unapproved AI data center deforestation, 816 acres of forest destroyed in Finland as wolves flee into local villages, facility threatens 40% power bill hikes",
+   "u": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQQTNPY0dqYS1yd1RwR2FkTkJnemFRMnNJZFFBZGszblZYeTlIN1A3S0dXQTFZME12a2I0dUZFOTBIeV93amFicEs1aURmaUppV3o4RkdDbjFuUFlhRzFzdDFjQkRLeEhqc19ia2M5ZWI3S25YUERVMDNlVzc2SHlFbFpCTDlyVWMzT0FfVk9uV29OOWRzOUo3TXR2VTFDaXNBV25HRG5WT1dtQ2I5ZTZfb3RmWTlocEFGQjhVaVdJQWozQzRsbWRGUHM5eUpRQzJydlRMNHMyb0c4VnhialN4RVFCZk80dVNXTTdfZS1JcjFBMURaRUtZSWhhTDZFZURNVF9iSkROeGQ5Z2NoQ3JFSjBFMWVuTGhGdmxXdTNXMkJoWmM2dDN6T2lFc0NYY20ydzlhRkJtZWhiRkRXdnVV?oc=5",
+   "src": "Tom's Hardware"
+  },
+  {
+   "c": "FI",
+   "d": "30 Oct 2026",
+   "t": "After Google cleared 330 hectares of forest for an AI data center, Finland has launched a criminal investigation into 'ambiguities and ‌shortcomings in the drainage and water management'",
+   "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVGtRTnRDTFVfSzVJb0w5NlJZU1U5a2FSbFYzT3V1d3FuSUg5cFFYUGdQZ2xIOFlMN2tCTDRwejkxajhzS1BhYjlUcTY4RjV6ZFVuRUZZWEFuVWN6Vkk2TUNkVm1uLXlva0lRd1JIbVpaYlFPeHJfVkg2dEdwR2NhV0MyS2h2NnlmWk1qUkZkOTVTRms1QTIyX1F4bWZwZXE1T3VNSVJla0VfWllTaUpRd3dvTHltTXBvOTBSM1VUbjc5aFN2M1ZxSmFmM0pEV2U4UVdsQ3d0d0ZqUUFjMVJUWkNMbks5TGFIdU5PWVVVYmZGTno5QWs5R1pySQ?oc=5",
+   "src": "TechRadar"
+  },
+  {
+   "c": "FI",
+   "d": "29 Oct 2026",
+   "t": "250,000 Trees Reportedly Cut Down for Google's AI Data Center - Now Police Are Investigating",
+   "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSHV3am9Pb1EwTElNQ1Jka3B6eDlhQTJQNEtBMmtUMHVYTUlvODZwWVVyeVJfN2JyczRLOUh6ZlJ0aDVLQ2QzakVVSFotcVJsLVJCY01oOWU2VzcwVUNZRTdFN0c0YW5GT0FtZDNXNUxUYlliSnFEUzNLMUlnUzIzNDFpWFV0ZEFCc1dLV19vMzc4VXpqb1o1YkFHY0tEZ0NaLTdxNkI2QnJMREZPNm5xQ3E1Uk5MNHhn?oc=5",
+   "src": "Gadget Review"
+  },
+  {
+   "c": "FR",
+   "d": "24 Nov 2026",
+   "t": "Supercomputing Reports SC26 Attendance Over 24,000",
+   "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11ZnU1Z1B1ZTdxZDVVbmUzRWkxVnJaQjl3aFNsNmdsRGR5bTZxRFVwV05QWld6Q3NLMXhDRDNGcHBMcUhudi1hT05WekJqT01rODVmQ1RVRG1kdXR6TXIyc2tqcmhUc1FSTzd2S1RB?oc=5",
+   "src": "Quantum Zeitgeist"
+  },
+  {
+   "c": "FR",
+   "d": "18 Nov 2026",
+   "t": "Francis Yeoh urges France to seize AI data centre opportunity amid US uncertainty",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV3A2V05rMnNTUS1fbXFyOUZnVjFyTGhtYjBReVU0T1NITlI1a2R1VDFxSGFLU1hnTnFndVN3RXRSLTk2a2tRT1lXb1pIT0RGUFBQTkxoZ0pYcnJUdnZNd2gwc2RXaUlicHVYTDdHaEFoM0VmdVlMTkZ0SUhseGxEZl9mY1FDYjdRREJEWXdpRzN4X2VraTdmaFBZRlkxUFRDVnZlRUEyVU1pYy04VHNYYk9lS05aSkRqWlpFc0hn0gHDAUFVX3lxTFBSbVkwRUN3WUlVRGZuSDNkMkRkY3k2RUg4MXRUMUE3SEtEMUVaU2RsVFpjYkZNbUZ2c1pYRUt5QlpoajFvZVcyemhEQmgtbWVlejI2NDFGSTRCZjQ5Tm9sRGxVTzhvRkMzbERmeEZzdEJUZEJsUWpBNUZ0blB0eDUwQy1mMXBzZEVNdHR3MEJiTU5YR0FRRDNueEZIMUVEdXNveHlWUXV4QWpqdmRrdlpxdjJXNzhTSm1qdjJ6S3Z0NzhRWQ?oc=5",
+   "src": "NST Online"
+  },
+  {
+   "c": "FR",
+   "d": "17 Nov 2026",
+   "t": "The AI data center boom is sapping the strength of the Top500",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQekNYYlRhRExFbnNnZmVOMjNGWmdpVHJJRlhzNmJHVXY1Y3lMclVaZXNSUy1WbHliR0lFWkRkanJrdG1Ed0pKXzY2U3g5eFFUc0oxUHZaUUxYYmhFNWhUd1ItNmJHeGhQaXd2RGktVDFPZkJqdFVJZE1BT1pNMmpxNW90d0xrUjRoTFVRZVBRSG56X2VyeFBMUXZ0MnV1QU0?oc=5",
+   "src": "IT Pro"
+  },
+  {
+   "c": "FR",
+   "d": "12 Nov 2026",
+   "t": "Europe's data centre backlash gains momentum in wake of US 'blue tsunami'",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOelFiaHN5VWJ0TG4xS3NUNU8yVGFRRlBYdHItNDJhamx6M011S2VDWnF5RjFZNnhJOFZOZVFzUklTb0tSY3lwUWY4dFVQOFd2eXE0Q2pQU3YxdzlOdHZuSnNvUGR4bC1vS2JVYTIxWkJMX21ReFprWl9XMzRONVNtM0J0eEh5SFFKT1M4SkdfeXZzZXEwdm9seldGb3Z0ZXpSS1h6MmlqcnRXXzlNLVHSAa4BQVVfeXFMT3BUaHN5OEhqaWpjMEVVNE1OellFQWN6Wk11X250ZER4SHdrMFNPWkxHVVlHdzhmZlZIM2ZweWpsQ2dPVXQwUllqWTRXOGY5QU5kbXNNUUo0c1pGX0x3QzRnaU5xN3QzOExsbzU1WmhSQmlpYlVpX2NpZ3ZpcmNManFxOFhPeUdWWndfaDBUSXNLLWFSZTNjYUJsWGFyRGFsSG5rZHhjZ19uaEh1S3pn?oc=5",
+   "src": "South China Morning Post"
+  },
+  {
+   "c": "FR",
+   "d": "10 Nov 2026",
+   "t": "Germany's Infineon says AI data centre buildout won't slow",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMmdfamhSQ2ZhVlBhdUk0eE51SVB2VWtmLU92akNfbDNwTGVHZzFpekZ1YlppR0hTMmRXdExZZlM3aExpYmhUSnpybElDZkRzVHpUSnBiRm1feGNaU1BmdG1MQk9tU1NWR1k2b3N1eEpKTENOdjQzTW5iYnEwWFhHaUlQNllvcXYyaTFWUkluZWprTGlJM1pVOWd4dlVvYVgwVzFNQjd4c0M?oc=5",
+   "src": "France 24"
+  },
+  {
+   "c": "FR",
+   "d": "9 Nov 2026",
+   "t": "Scotland's AI data center expansion could make it country's biggest polluter by 2030",
+   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUnQ0YkhDRlB3Y3lHZ1VZZWUtR0lKMkkzOUJhSXNzY09tLUhSOEpEVWZMblRsUU1qN2x4bzR1Y0hIdnFaZHVLMnZmQURiMl9US1FWRVJmN0R0dkdlRjhSTFJMSS1XQXdDblRHQW1ISTZzbWFOc21neUUwSjRoTXFOQXlZOW9hWWVUVEVhZmtwdjFZSE50ay1FWDU4ZmpxalJZQi11aFRyRE5lZktzVF9MSUN0cDA5VjFfRk9HNnpmajRMQQ?oc=5",
+   "src": "Anadolu Ajansı"
+  },
+  {
+   "c": "DE",
+   "d": "22 Nov 2026",
+   "t": "Deutsche Telekom Pushes Invoicing Overhaul as Munich AI Factory Gains a Tenant",
+   "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdVJWRmNBZWVFOV9vVzZIdHJ0VVlkOWZaM3llcUJCSTc2Umx1X3Q5cnlLRVJoLWlGV0RFbkpldi0xVi1GV2NoUzNncWI5SkpKZTlJakFNcGdVa09fYmI1RGh4VTZ0Y0tJNDZUa0RsM3lnR2V6ZVBEY21KX28yTlFwUW56dGVnLWdNTnpZMFh3ZHowdjdQdER2d0gweXphNWZiMDdJbmxMVFU3QmNLQ1lUQ2E4SHc0am1KYTQycG9LOUxGcmo5NnNMaEpNNE4waHdXRzhWQmJveTdhTUltOXZQeHFIRnE?oc=5",
+   "src": "ad-hoc-news.de"
+  },
+  {
+   "c": "DE",
+   "d": "21 Nov 2026",
+   "t": "Sovereign AI factory in Germany wins startups with no lock-in",
+   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc1FDOUxrN005cXhyWUlIdmxfZk91ZjRPQ3QzQ2hGQ3JKUktmTnRwVmFESVlVLWdDb1QtQ2JvdFJxTFlvWXJpSE9ZQXJOaFNvVGl1bU13Z05keWZIbnhqVWJuRXpLU3E0Wi1Oc3J1Qlo0RGo1MjFORXFfVDBIMVlmMVFUNkdiOUFqQjF2NDZWSmM5dlpJbFFIQkdocWlpX1d3?oc=5",
+   "src": "SiliconANGLE"
+  },
+  {
+   "c": "DE",
+   "d": "21 Nov 2026",
+   "t": "CtrlS Bets Big on Bihar with ₹10,000-Crore AI Data Centre Project",
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtTTZDZnU4UWFTSEM5NlFZaHZDb3V6bUxUZTEwcVVwTlNPdVk3b0U2OFlLX1JtSTMzTzFBZGxxaDVOdk9qS1FuTF9vOVdaRXRaSEtVNThWaVJEVGNLWHdJVlItT0wtZThCQ2NIOXEzcVpSMENxMVB3TlBRdnREZlk?oc=5",
+   "src": "Indianweb2.com"
+  },
+  {
+   "c": "DE",
+   "d": "20 Nov 2026",
+   "t": "Leipzig begins construction of shared AI data centre for research and teaching",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmR1eUI0UWF3cEh1NHZhY3ZrZ3NFbkw0dGxOdnhOcXdrbkMtanVENFpUSFktb083Y1lrREdkNGJhbml4RGpyT2loVGVkVFc0ZEVCYVlGblZxNHFQSW1hZlo2aTVlV3BPTGE3VnBRa2VGRldmbEFxQjNXRU10Wlc5dXU2VUtZVGc?oc=5",
+   "src": "The Baltic Review"
+  },
+  {
+   "c": "DE",
+   "d": "18 Nov 2026",
+   "t": "Deutsche Telekom will allocate about 250 million to expand its AI factory in Munich",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOUdrMzFnMHd3MFRPVExCTHRDckU2dHlETWp4bGNEQTk3R29DbUw5dmtacnM3azY5TGxjNkFQQy1pTG5JdFZfamlPNUdUZ2Z0NDZTMHRyekhnbjJHWm1ZRkpCQXEtcEVCRUVMTWh3NGc2YWRKM1htcGN5aDAxeDdjdmgxSUY3ZzItY0FPeDVIN0tyYnZ1OUh0akRFQVV5dXI4SmJoUGdhbHZocGRNQldtVzc5U2hqZjYwSUlEdtIBwgFBVV95cUxPcGJnWk1MdEZNeWIyWkxHU2YwQ29IdWlNcG40X1BqRXFNcE9kR1dmenA1UGtkY0ctN0NhQjVPSEw1cmJoMUZaWTA2M20tYXpaem95QURvaF9YZGRYSk9ZbElLckg5TXF1RTNiSUQxaGVlQkRXYUg2SUFubE5FWVl2SGc5ejJKSjlvN2R3RHM1b3JhQlVUaHlJMjIzajV6LXFRWDRmWnNKVlBaR0dEcXYwQlNhVE4xMThXcFhETlBGczVDQQ?oc=5",
+   "src": "Demócrata"
+  },
+  {
+   "c": "DE",
+   "d": "18 Nov 2026",
+   "t": "Deutsche Telekom opens up Munich AI Factory to robotics company Microagi",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdkk4Qko1OWYzajA3OEtKbmlLbGRNREFvcVpPdUhIYzAyY19qSVlIT0tOTGZ5Y2tVZ1EzQTdseVVUUWdVRHY5cmRObEtnanVWUGg4NWFpOHpQMnI4TGdvd1RhNHlCaHh0cEd4YkJvenozNHVTZUZOdjlrTEc5TnZTT3k2UlVSU1ZYWXh2UW1kWldRSHU0bFJ6cFFJOHk4cmRKaWNLQWxFSVVBa0dEVmhFSi1PeWZmdw?oc=5",
+   "src": "Telecompaper"
+  },
+  {
+   "c": "EL",
+   "d": "2 Nov 2026",
+   "t": "Greece's 'Daedalus' Supercomputer must focus on real economic impact over rankings, industry expert urges",
+   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYWFvWmpVS2ZDWExjSkpNYTVFWHNEdG9GeXVFYlpydk54dUttNlFMbTJzaTEtb19kMG9RTzZKMjRrYTNUQUZ1TURKMGRqTFNEdnNrdVNXVHMxX09FX1hBRXRxdHlpc0tsSjdZcDd4QnB0d2NuNUlwQ3pXdEhldGl1TmVXNF9xWkJGS2RYVkhBQnYzZzJlTEhNY3BUUXFJZGhOWnk3ZkdHZExZZV9ubjdhblF4LWQ?oc=5",
+   "src": "Voria"
+  },
+  {
+   "c": "EL",
+   "d": "30 Oct 2026",
+   "t": "Inside the supercomputer powering Greece's AI ambitions",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbFBTRU1kRm1tRkc0ZENzVzQ0d2ZtX3FMeUczSGp4ZFozQ0NXNWF0UVM5RTlsVGdaLW9XYS1kOWZRcDBlLUJMM0RNVnpGTk45VWJvbU43YVpIeF9BZFVoaVVYdjZsYXIzTGt0OXB3djRqUTVBb3dqN3Q1OFpkVVo1b2VYZHVNV3docVg0YWoxQ053R2FIeVdKRGpLZ3VTMlhEM0E?oc=5",
+   "src": "eKathimerini.com"
+  },
+  {
+   "c": "EL",
+   "d": "26 Oct 2026",
+   "t": "Daedalus supercomputer inaugurated in Greece",
+   "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVjJUSnVKS0dsMWpvRW9FaVI1LW9aRWdkSmYzRzJYbmZuc0lZRlJVWUdCNFgtRG93TncwQ3dnQnA3X3doYXlQMnp1TFprS1B1MFN2Q01wZTROS0pVakZmTFF4d3p0QlJjNkNQOWJGckdKcXp1Q1JfZV8wM0pIMXVoM08wTUVCcGd4bDdTam5XNDU1QQ?oc=5",
+   "src": "Data Center Dynamics"
+  },
+  {
+   "c": "EL",
+   "d": "23 Oct 2026",
+   "t": "Abu Dhabi's G42 plans AI factory in Greece as UAE-Greece ties deepen",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYlNRdnZMa1hIRzhPeHVGQmFzTThBQ2E2UDlLYmkyQ2NEZlJLVllNNDNNRmRrUUFGSVZNR3F5UXlxR2xSY1V3Vkc2XzJ2UGoyMmZSTlh6aktNTUZTNnNHVFdyUG9KRGRscDN5MV9IZk51b2ZvWEFhR2NzVWZLUk9DZnNxMnhpRUt4N1ktT0JrXzJYaHk1aEpEakRDTVZneVE2Y1pzUGRSNl_SAbABQVVfeXFMTnZ5amNWWGhaQU9oQXlqQ1NLWXQtUzRjSDVfWkR6MkVpZkNyTHkySHJoZEZQeS1CVEJVMFlleEp6UnJWejlGMmFMeU45T1dXMG95WFlsZDNIWmYwVnU4VjVGc2dWMTZPTlpYa0RNbG1ScUJ3cDlhdEktR1pUNllqUi1aRTBpOG5YTHFXZGtON1dlSjV1R1VDVXlpd1FibmRRYkhpS3pJVUh2Y0RMOTg2SnM?oc=5",
+   "src": "Khaleej Times"
+  },
+  {
+   "c": "EL",
+   "d": "20 Oct 2026",
+   "t": "EuroHPC and GRNET Inaugurate DAEDALUS Supercomputer",
+   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPakVDS00tY0plZ3otWk5ac1ZvR1pxM1dwQ1NPZk9Ib0dlZzIwSWFzelVZUV9WWGRrMUdqR2ppdHN1N19iNmR1czhMY25jeEw3dUJhd1ZYU0FpNHB1VVgxTzJkZ2ZoWVFYN3BoVzVocEFVa05GQ09TR2xpRkJJQjhMb2tFaHBvTEFjTGdJZ2l1T2swZjA?oc=5",
+   "src": "HPCwire"
+  },
+  {
+   "c": "EL",
+   "d": "20 Oct 2026",
+   "t": "Daedalus: 14 Questions About Greece's National Supercomputer",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWk1YQm12dEVvZHZLaWdMMTRsX05IT3RKcjhjQjNPU3pDbGtKZXdlVjlkRE1rMEduYTZhVWdBUV9OTFF5NXJGektxdGRwY3JqaDlFRkYydGhpZmt1S0tDLWNHdldCNE1oY2JxWEtxVUZMMUJhM2dqN3Z4UTdCVVM4ekdmZ091ZERYbFNCTXRqQkZDakdmR2FwNGMzcDBEdw?oc=5",
+   "src": "Greek City Times"
+  },
+  {
+   "c": "HU",
+   "d": "15 Nov 2026",
+   "t": "PHOTO/ OPTA's most famous supercomputer surprises with the change, Belarus-Albania is not like yesterday",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcEJPNW95STJCdjhIeDVfSVBUT3dyUGVURW91YjJUdU9qSVVPWlBhTFQzWl9jb0F4RlBGYU9TWE9vTHI1by1mUENPcENmaFpDcTA4SEFCU1BRVEdCcnplWW53NUFfWS1yVGZsbk5BektHbHJtcHppU1VsUGduWGRzMVZuOXpvUEp4Sm5hUzNCUWtmVmREeEs5aGhlTEhVWTk3TUw5UFBsM241SVltTXZyQWxwaGZiSEJVWjVRYjNKZTJHSTBPUHNZ?oc=5",
+   "src": "Balkanweb.com"
+  },
+  {
+   "c": "HU",
+   "d": "12 Nov 2026",
+   "t": "Supercomputer Simulation Recreates 2 Billion Years of the Early Universe",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMmdwSmJVSXBlN2lNZFhoU0hLaUtlVkxEaXUyN1l2WnprMldKNlVnWGtrT09WNFVzcmFCanpUMXIxVlpvcW00V1hXQ0U3bVM1dy1QdHY3b25EQS1aNDYtVGIxM3dfWVJhcVBTNDhZS1dNZThHeEtCem05eERPOXRvUDdyZWk3bndnN1BzOV9aZ1FDR1hOTG9wQjZ5aV9Cb18zSHpuM2RmVDNxNERPdUstY0dB?oc=5",
+   "src": "Around Prague"
+  },
+  {
+   "c": "HU",
+   "d": "6 Oct 2026",
+   "t": "EUR 8 million AI data centre planned in Transylvanian town with large Hungarian community",
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yQ2p2YWpoLVBuaU1BX0s2bUdadW9HdU8xMXphRURrYmdUaVNVNWxYWlNwUkhOV2RaQ0NNUmtWVDU5ZWxQWFZZTTQ5Y3BaN2ptU19nQU5obU9ISk1PQWxLRHJOTnJMUzVLTzhBRV8tb1NSWTlFQVBXb0lNdUJqbFE?oc=5",
+   "src": "Daily News Hungary"
+  },
+  {
+   "c": "HU",
+   "d": "27 Sep 2026",
+   "t": "Supercomputer has already determined where Ukrainian national team will finish in Nations League, Football Metts Data",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVUdUdU5VTWxDNG1LVHg3STc4S1hrUnp0bHMwY29DdEhnRVlOcTZsX3JEU19ZUE1mRmpjQV9tY0ZtQVcxZFAzYURPZHo2YVAxdFdZaHFnTnN5UHVaT0k0RktvTHFDWU5GODhSTEVuOVVMTGVvMVl2cWxhOU1XR0ZQQ1A1Mnh6LXd0dl9fX2oxYXFnTWRSN01SWGxUM2lFVU1zSWZ0YWdEbGVCY3lmeWlOdno2LUQ2RDROaFdJZDdMekNsRHpVS3RRME5FNld1d9IB0wFBVV95cUxPQk5PV0xJaXhNOHR1dXBON2xDT2d6LW5CWjF3LTZNS1NrOXBoUDJXMXhiNXlycEp3Qk0takpBT194RzI3dkxnMDNQTG9ZUDZPeWdLQ3VvbGY1SXN4UUp1S1dtUVdZbmk5Zmc3Q0NaMU85VkQ0VExqRnhyY3lDSlh0bUxaXzV6WFVsU3lMaFJ5Tld2aURINE1PUWdmemJ6VC05Ml9tZUhNZDdvemNyNmZPa0tjSWJIX1RSdV9PVkdDNWFuWmdrOWFJM1Bxd2xPdjE3M3c4?oc=5",
+   "src": "ukranews"
+  },
+  {
+   "c": "IE",
+   "d": "23 Nov 2026",
+   "t": "AI data centre build-out fuels manufacturing 'growth spurt', survey finds",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOanRVdGFjaDRab1RHemJrMVhWWHR1cEdzb0d1MnN5QzN0V3JFZ1BDUm9wMzBzRGZQclhYWDQwOE9pUFdrU2h5OTVJU2hqQkpGRFAzMDFzWjluajJyZ1ZZcy1RVGZXMEVNYXRZTndLd05sOTJRcDB5dXJqeDdlM21Ra3VnaGQtQjQzRmxzMmlVYU5PVjRYa09yQWxuYjVLdS13QVJWVzNLUk9hWWxXVkRGRDFMT2lveGl1bWd0aGx6N1U0S3dralE5ZnIydlc4UV9DT09vM2xKTQ?oc=5",
+   "src": "Belfast Telegraph"
+  },
+  {
+   "c": "IE",
+   "d": "23 Nov 2026",
+   "t": "Akkodis Launches Global AI Factory as a Service to Scale AI Across Engineering and Delivery",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeHZMeWNaZFhQR0Y1UHVSM0FmYWdGXzM4bW9KWGUxZ1FEQm1nVkNLZ09IcW5BTzgzNXNpVm5uLXlINWVTcGF3clNUS3NDTFB4dG40SzVmZ1k1YjlURHF0SXRHQUpfQjNOMTE4SFNJVDJlS3h3azBDMG5jTFhkTUhxOWsyRmoyeFh5bzhzWHRKLUxHRG9GZHU3VFE2MzVQeU0wakF2d0dmbTBOWEx1VjgzVVo0MWloZWhseDZBVmRYR2xhSUJNNDMyX29ybw?oc=5",
+   "src": "https://www.irishsun.com/"
+  },
+  {
+   "c": "IE",
+   "d": "20 Nov 2026",
+   "t": "Why Canada is embracing AI data centres while the US pushes back",
+   "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JeEdjWUp3djR5cl9JQ1oybjgxMmhfQ1dZb3FCeDluZmJFaW94VHJIeW9vSmtfSFpKRkQtUXlqM01qUHlHaG56M1lodF80dEZzWFlLWmFvLU9qWXc?oc=5",
+   "src": "BBC"
+  },
+  {
+   "c": "IE",
+   "d": "18 Nov 2026",
+   "t": "AI data centre investments drives one-fifth of Irish domestic growth",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzdXNlWVdKYzFfdTRZSm1Nc0l2UmZTRTFSYUpfdTF4M3dkcExfcU44OURCNHBtQ0t2bm5SekNxNzMxZ2hqdXptLVdqYkdRdUR4Q01fczhVYVJWemJYYVlsOExWcHNZN01OVzVZRFlGVzk2b18zV3c?oc=5",
+   "src": "Irish Examiner"
+  },
+  {
+   "c": "IE",
+   "d": "15 Nov 2026",
+   "t": "Thousands march through Edinburgh demanding halt to Scotland's AI data centre plans",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ0pDY01aUzJNTnFWdVRxN2ZlUzlfM1hYOGZlTm1faXlocENPb1RlUmF3MWFFdng2UGlkSzlKejNpY0JzaE1KREFrcTlqcVEtYVFza1JXQjd5TGVObzZqZ0prVEJBTDBzSDJkcVZpb1RYQ0N4cERnOUdjVEhlNDU1WjlLSTVKS1NOQVBpM1gyamhabGZ4U3Nwck9QZmpWTTJFbHZhX1U2UnRXTzJfRFd2OUNNM3BhQ2FnOHprYQ?oc=5",
+   "src": "ScottishNews.com"
+  },
+  {
+   "c": "IE",
+   "d": "15 Nov 2026",
+   "t": "Ireland's AI data center boom faces legal challenge over power demand",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXA3aWVfVXBWc25qT3JLMmlrLXUyMUoyVC1pX2taeHRXak5MRmJ0c3IxRWppeXRKVEFud3ZFQXk2ZEw0YWx3Ukx4MHFGR0oyeUFtSEEzUHRRMDlVNkd3YmtDY2FQZkVsSm84dWtuMWpiVlJFOFRlZC1IQjZTZGpoMHNHaU4tcVpDYkxmSVo4S2ZXZGE4R0pKd3FSVk1lX2djeEg4YTBTYXh4OEo0MGw5TTNwLTJCb2RLQlAtLURpazgtYVE?oc=5",
+   "src": "Investing.com"
+  },
+  {
+   "c": "IT",
+   "d": "23 Nov 2026",
+   "t": "Vertiv launches medium-voltage UPS for AI data center sector",
+   "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTTZvLTVQeXd2OGdIeVF5bEtxcjA2M0dhRUlPazZ2VFVjSlF2NXN3czgwWjM2WVBQSE00ejBTSzhBdF94S1JkOFdCaWI4aU1IWGUtSEpvbGZQVnNjM0M1UmVHNmxFVzNuYVdMLUhMSEc2dmJVeUVLRFlkcVE2WXBzVjBxM3V3ZjZVRHZjb1E0WWwwZ0hCdERCNW10UlNyVmtwQW9oYUwzVQ?oc=5",
+   "src": "Data Center Dynamics"
+  },
+  {
+   "c": "IT",
+   "d": "20 Nov 2026",
+   "t": "Pasqal Demonstrates Hybrid GPU-to-QPU Workflows Using Slurm 26.11 Hierarchical Resources, QRMI, and CUDA-Q",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNFhtYVRTSlpUaDJhSjM2RlRXeHpiazNQdnpzdUVXejhLa1R1Yy1vREhLNjk1bi03SDNZTUV2YkxEMTQxaExqYjh6czZPZEtFVWVTZ3NtZXFrcm9jQTBYZGJJbUc5RVZKVEFHZTdMMC1JTVp2aGduUXFhUS1fYlVzSno5QlQ0TjlLWGx4ZGR5T0dad2lhTldTUGFtUzdDQko2VFhlRnRuSlh4MGl4QnltTDhnLVcwWUJJVjR5UUZ2c3oyNGJ5N3JzS05CakhjQTZfRWx5Wi1yRdIB3AFBVV95cUxQVmRTTkN0WHB2UDhhZFY5YjlKSHVRN2xUbGJIdWRlc3Mwb1dDNnNLUWNYYkVETmhzWDRHbUlFVXdEWHVmbGpTZm45ZDJEODl6aXN5ekt2RGpGQ1VTMVJDTVZYbmwxeG5udXpGMEF5aUswWWFRejA3QnRVV29JUFZWVXhLdWp1R1ZGZXpPVTVvX1p2M2g5MjdRNnpCVnZLU3ByTmZUXzlvdmdxd3lHUmdnSnJHY0pVc19sWm1pLWFneTFvdWVaMV9yTm1ZMEhDRXdHUExObnZrS21MWlJJ?oc=5",
+   "src": "Quantum Computing Report"
+  },
+  {
+   "c": "IT",
+   "d": "18 Nov 2026",
+   "t": "EuroHPC Prepares for Alice Recoque as JUPITER Ranks 5th on the TOP500",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTGI2b1Q1N1RkemYtbVdyMXhRTXVrWnhnYTBKY1dJTm1GaUV5SmIwTEprMGhhTE9sVDhSWXZNN0JkYmhsUUtNREZNa0U1YldnUnYyNWFiVGZJQmI4YU1sUldxdzRua25hUmdMRjZORDQ4OWI3TFRGcUdmWWJubl80dV9hODR6bnJNcjN1UmE3UE9CdHBvLTV6Yi0tQVExejJSN0JnbHp5ZlZxZE0?oc=5",
+   "src": "HPCwire"
+  },
+  {
+   "c": "IT",
+   "d": "18 Nov 2026",
+   "t": "SEIDOR launches AI factory to develop agents for SAP ERP systems",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM21KY2I3dXd3NUNEc1VGQ2o4RGxVdXVVcEdDU1plWG4zb2k2aXhyTXJHRmFmSzZYdGFFX0IwaFhnZFhNcjhWbHBHdjM3SHFVMWl3RkFSSEM5MUpEMkkyUG51VVNjVFB3MWNrSk4yRnV2ME1td1I3NVdEVllBNHkxOUozRDRodnE3TnZUdU1PbWp6MmtXYS00WFZ3?oc=5",
+   "src": "Portal ERP"
+  },
+  {
+   "c": "IT",
+   "d": "17 Nov 2026",
+   "t": "Oak Ridge lab's new supercomputer Lux debuts among world's 15 fastest",
+   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNDJkaWxiNEQtQXdCNnhibHMydFlaNWFkVXVxLTRGN2xOR3ItU3dleGJwLUY4cU5MR1BVcGJ6c3dEVkp0VEgwM0M2VklEMU9ZQ3NTSWNxU2d1Z2xIdTFiV1lGcmRwUnZBc0lxSWlHUFVhWUR2YVp6ejhsM3Vjc3MxWjdneTgxS2VJSVUxa0lSbzFTSFNnbHYybjJKa05fXy1VUFk1NTNiT2lCQ0JRRWU2VkFRdVFWS25FN09PMlVPckc3YUpVU0cyUkxmVTlLd0JobEdWYjNjNXZfLWtmS3c?oc=5",
+   "src": "Knoxville News Sentinel"
+  },
+  {
+   "c": "IT",
+   "d": "17 Nov 2026",
+   "t": "China's LineShine retains supercomputing crown as both Top500 and Green500 lists remain largely unchanged",
+   "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVG1ONlFDc1FUMzRackpVd2JOTnpfYVRJLVBSUHlyb3hxUEc5SFp2Z2VEQW5SVmlZT0hZcWNidXdEdTZ4SDU0Q0x5RjIxSXlUem5PR1AtODh2VXJ1WUpSeDhNSlk0Qk1qZnR4MGlONnhrQXFXb1ZBN3Y5QzlObXpqTFhTWXJ4aERfWWUxMmtXWVI0Q0xFbXBhbk92OEhEaDdfdDFNT1hHWUxjekVqNnI1clB1R0FWU0dIWDBsdG9yRE5ISS1GWlVESm1rUTNjSUpyUldKLWp5Y2wzUXJ1QTE1eThB?oc=5",
+   "src": "Data Center Dynamics"
+  },
+  {
+   "c": "LV",
+   "d": "17 Nov 2026",
+   "t": "Nokia, Telia spread AI Gigafactory bet across Nordic-Baltic region",
+   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeU41NXlCWmo5bFlFVGpyb0lUVzhhb25oM09sNzlfWmNkOUh3UUVPVDNLWGFMbWoyLTFtRUpRVWZhd3BSeklTa0Z3dkJHU1dmXzVjM1l1WF9KM0poTjNsZFZyZ3hCZG4ycVNQZzVuaER0WkdiY3hGZ0loQy1LX3dyckhJcWVjNzJZZGVKZEE3NVpHTWZwWkN1MXRZUVB0Qk5HbXk0WHJtb0Q4YXdfb3E5YWUyTnA3SVVuekE?oc=5",
+   "src": "Telco Titans"
+  },
+  {
+   "c": "LV",
+   "d": "17 Nov 2026",
+   "t": "Nokia, Partners Form Nordic-Baltic AI Gigafactory Consortium",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcUpxNnVjRC1zZUwybllJVEtuOVAyX3hKQms0QjMwMWRuSnFVU0FZemYtRDNsRkVrRHV5TEVja3ZQeXAySHFmM1ItRzRtRGo2TlRHMkZIenJ3cEFId25VN3ktbVJHOTJzQ0lpcmJHX0xiMmk0azZyMVVCMXJFZEM3Mktfbm5nYkxfRkN1TFlUaVgyWHpGcVlTLXFB?oc=5",
+   "src": "Dataconomy"
+  },
+  {
+   "c": "LT",
+   "d": "6 Nov 2026",
+   "t": "Elon Musk Gets an Overseas Offer for His AI, Data Center Ambitions After Texas Democrats' Midterm Sweep",
+   "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPc3IxVmN0MzZsbnBENjVjdWxVWmhPZnQ5QWNCcFRvRkc5ZDNRZXRDQzl1Tm9zVFJyMlB1Vm1vdlNaeDZDd01TT0VpSl9GdlM2RzlwOS1vT2FZS3cya3daNlNkSnllWTRxd3lYNTVfN1N1QXprU3BvYnJ6VWkxeFJQdUoxem5vbnJueFhCbExhVC1MQURmeWpfYVA4TzNJNjRRckJLOUpOLUhMejNtZy1rdXlXc3NwUW9TLXpXc3lkb0JrMl93b3FVU2EwOVdCaDJETE5fNmNkdjBzOU0tWG5PekVOQXBMZjNzX0E?oc=5",
+   "src": "Benzinga"
+  },
+  {
+   "c": "LU",
+   "d": "10 Nov 2026",
+   "t": "Chip giant: Germany's Infineon says AI data centre buildout won't slow",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOU5hemphRmtOSmRVUkR3UnFadVRzc19aZV9fMzFaU1QtckZQQ2t1dlN1T1JOdWtmZUxHTnpQTGRROWR2SzdGRHVkQk1VSTFvSEhvUWExM3dZQ3lvdVBhQXd3UF8yVEpEQXFqbHkwOG5TUG4yMUpJaUVCSDJWUlA4UVJBNXllVXhpY0tyUndtMElYcDNIOXpoV3VFaTYtcGs?oc=5",
+   "src": "RTL Today"
+  },
+  {
+   "c": "MT",
+   "d": "4 Nov 2026",
+   "t": "[GLOBALFOUNDRIES Q3 2026 Earnings Call] GF Posts Record 31.4% Gross Margin as AI Data Center Revenue Surges 81%; Guides Q4 to $2B and Unveils $4B CapEx Plan for 2027",
+   "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IM2I3ZlJRT3haUUc1RGJMRkJpZ3pDdHRtTmxEZ0RzX29MWnNCN0R3Y2d3WmpQY3pDb0tjRlVxRVBHalZCU0FYc09hbkVVRTNDaS1Ca0FxQmsxTW5T?oc=5",
+   "src": "BigGo Finance"
+  },
+  {
+   "c": "MT",
+   "d": "19 Oct 2026",
+   "t": "Microsoft pulls out of major UK AI data centre project amid power grid delays",
+   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUlJDbHRHelRzWmFwVEF2RkZNR28ydDVMYzhPRlFGd2hfUjMxcGs2cUJkQXZDUXR4dnA1MUp1SzROd2Y5a1RhcVFsMDJKa194WGF4YWk0elNpa1RCQVM4QTcyWWRxVzFhekMxUFVFZzJueHV1WXQyYmswQ2dlVUZRcFBHMG9Ydi1CYjI1d1pBbmNnY0l2NW5WRU1yVDE4QlM0ek5pNHd6dVR3TllXWjB5RUNRcDR1RVFESkE?oc=5",
+   "src": "The European Magazine"
+  },
+  {
+   "c": "MT",
+   "d": "18 Oct 2026",
+   "t": "CoreWeave debt raises concerns for AI data centre financing",
+   "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSEoxX0JuTzBBSUJsaU9ZcVZWRTF0ajctUHNPVmVMZXpzSWhHUXIzXzllNUlMeTRKdzJEN0ptWjR6Q1YySDRma1VpcDNoanZVNEY2RTJJY3lOU01nRlJYdW80N2cyT0ZTaHJGMXFYbmpnTEFpRF9XXzV5cVBhd2xpbXF0Z05FMFJxVVgxNEplSWxYaWNTVzBzdjVHQjVhdEYteWlndTJiaFFmNkN2eUpqaUsyOWpjcGRRWTEwSWdQaXhaeF83TEdGUHVrM1lFUEE2MHJYOUVGUTBxX3hzWGQxVmxB0gHnAUFVX3lxTE90bWlGdUlJTmxYc012Z0FuMHpPY3BLS01zVXFpMllmMG82OFB5NmxHbE03em96bTlObHFzSjI4dk4xWWIzb1FMRVJuSV9ibGlDMVlacTZudnpIbWZFbFNJSklpOTJ6NjhjbGR6TnVWZXVKUFpNQ2oybmRTaHlwcGNCMUdHVGZkcTBSbFByZWxmajhnMGh3Y0l0NzJ6OG5pQVVaTlRzWGk4NkdNQ2pPNTZzX0FaSlpYVGNjYWM0WklRQlc1aEVYdHhteDduQlpjd0REeUpOdTdkOUJCRkRGdElDWVk4UWd1Zw?oc=5",
+   "src": "ET Datacenters"
+  },
+  {
+   "c": "NL",
+   "d": "19 Nov 2026",
+   "t": "Opta Supercomputer sees just one clear winner ahead of Tottenham vs. Ipswich Town",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVdLc2dDWkEzMGZsaUtHY0p6Sk16cVRnaXllNVFyMV9EaC0wckZPd1QyejAtRU1xQnNKOUpYanNITlFieWNUS0hLNlFfTGRVR0JlQmNyMjVOaVNhaWl1QjBTSjFqcnYzUGhVTWYyc1RaSjN5akNCS1NvOG42eVhURHA0QllsVEtqYUxqYmtib0M1Mllnei1wY2dNNUxCWWdXUzhPNUpaYk1TY0U?oc=5",
+   "src": "To The Lane And Back"
+  },
+  {
+   "c": "NL",
+   "d": "19 Nov 2026",
+   "t": "Supercomputer reveals Tottenham's chances of beating Ipswich Town in Premier League",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYlVqUDdqeDZYQVR6b3dWald0ZWEzUmF4bDgtSFRBWWVoSnl6MkZydmVORjJpNkNfNFJNbEVlbDh0R3VaN3FOWWdMampnT2FOUFVwQ1VvTDBVWGtPTktxUk1Fc3ZkOE1OX1hBejJDRzdsd1VxNmN1ZUNWSFRmaXpDWE5ZWDZkV2hZUEUzX1VMY1BiNGEybjdVS2pGNkZCMHF2YlJ5bWlqWHRWcFN6OWZoNGxBTllvNW9DeWotNQ?oc=5",
+   "src": "Spurs Web"
+  },
+  {
+   "c": "NL",
+   "d": "11 Nov 2026",
+   "t": "Engineering the Exascale AI Factory: GIGAPOD NVIDIA Vera Rubin NVL72",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdC1UZFA2MGNKTEpXd0Y3eTU5dWhUMjk3bEwydHY3S1pjM1lQbU9kZG9EWC11b1lrSHlJT1dXVTduZVBpQm9LNnJjOEhCR1ptQWR1akZZSFdVVXZqd2l2VXduMlNZSFNsYmFDS1VmSUF0alpjbk1vajBueHJxbHQ1a3BtWXRpZDgyRUtMQTFHX0VIZWtzNjd4Wm1MNUFOdm8?oc=5",
+   "src": "IT Pro"
+  },
+  {
+   "c": "NL",
+   "d": "8 Nov 2026",
+   "t": "Hundreds arrested after Microsoft data center protest turns violent, Stop Dirty Data Centers coalition demands halt to AI data center expansion; Dutch police seize break-in tools, suspected stolen items from construction site",
+   "u": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQSnJkTk1iOUMxUlhJLWRxclRsN3RueFRFUHBILTdGYTJwQVJodEFHUk9yM2NrVG9SazgyMVloRkZ1VmFTRlZhWjk1NUhDaERielU5ajh2eER6WnhLSkRWN0hmSDV6NTE0cUh2eWxlS0oyOTNTRV9LYlk0cEtEZFdVNk5ETWhWeGtidkVwdWpwQjFrcXg5UmpQNUljT2JfdUtXc2hwYi1wc0theWJmSFdOdFBMbVh3N2x6N2FhTmZGdlJkLVc0SkZaT3RnaUh2OTdBYXYxQzEzYXduRjFWeWtfTFZwUENldndjN2p3dHZIcnRVZlA1V0JBT2xLMDlPUWJtcTU4aXRyZlFRdURPRTBBVHR1Ym9rcTVvMVZCZUpFMVBVN281QVRpX3pEVzVnb0RYZUdIY2luX29Wb0RjblpjOENjdEJ2d2RCX0pMOXVtd1hmT2lkR0l6Vk5aLW5uUDdHR3Bic3ZRSmpOYU5ZZzNyRl91RzRaMGVjeW5VQjgxUGt2V0lZSWh4ZzdZeUlLVk0?oc=5",
+   "src": "Tom's Hardware"
+  },
+  {
+   "c": "NL",
+   "d": "6 Nov 2026",
+   "t": "Activists storm Microsoft AI data centre in Netherlands amid European backlash",
+   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT3JYY2p0dHplWnl2RXBzWC0xMTN0Q2FOM3FiNm9jRlRLd2NFNURNLVptMk9rdkZuQ3FvTjd2OTd1UnktLW9qdURHaktuMENxdFlELWE2a0V1ZTUzQkd2c2k4a3dqbzRiRmllMnhMZFJDcjNvQjF6TXQydlo0OFZDRWltY29CUV9zWU5mdkNGVExOR0RNeVRPUlJNaHN3VmJrLVI5Sw?oc=5",
+   "src": "Peoples Gazette Nigeria"
+  },
+  {
+   "c": "NL",
+   "d": "6 Nov 2026",
+   "t": "Protests spread across Europe over AI data centre expansion and environmental concerns",
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SNXN6RmdUNVRQeFpzcE9fUmNVX0IyOEhpcTRNWEpzNzZaVmdhdzRXdVllZWZYR2lfM0NyMUQwcG5zZHJsRmZRc1pXNGJSUXFzcDg3QmJPd2l2dXp6RHFV?oc=5",
+   "src": "Nation Thailand"
+  },
+  {
+   "c": "PL",
+   "d": "17 Nov 2026",
+   "t": "TECO Showcases AI Data Center and EV Powertrain Solutions in Poland",
+   "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUHZYRUZSZ0FRV3lqek0wOWV6bl8wbFU4eVVyVGV2N3U1ZEZLWjc4MWtaT09MTGpEb2Z4Qko2RGw2a0FXYm5yQ0N2aXNMS2pja050bURXNjd6eGFKeUd4aVJlSklLZXJkTnZuWUlzXzIyYmhTVFkxLVB0cFE0MXRZaW40NzZoUGxMYnNOQlJFTWJGR1NpQVdZX1ByR2pxVENfeGdsdUdCWm9tTHRLVEczbUt6V0pyTjRKXzlhWjA4cG1fcFFhbEE?oc=5",
+   "src": "TradingView"
+  },
+  {
+   "c": "PL",
+   "d": "15 Nov 2026",
+   "t": "Poland aims at AI gigafactory for automotive software",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRk0xcEdMcm14TmZtVXEwY1l3b1dTLWhlSHFDRkVVNllTNXJjeVBibVFUVzdjY3F6N25LUVhWUzAwOVE0SWU5cEdsWVd6aVFWXzJMaVMtYm5IdEc0cktySGtiRXlqdEI5Wk9KeXplcmdQX0Z3UlM1YkpjVzA2MEhZajNiMmpxbDBGeVFNTm1aaHNCcThucnpvcHlIT010UFhjbHZPUFF5aVdMbkJZcXE0?oc=5",
+   "src": "Foro3D"
+  },
+  {
+   "c": "PL",
+   "d": "13 Nov 2026",
+   "t": "Norway slams brakes on AI data center boom over grid fears",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2NQZWlFaW80VlBlZ2N6RVZLQURiSHg4S2tOakxxMEl1Z0Q2bzNyZXRURUNvQTE4bnVZa09Qb3QzSHNIRTZaUi00bl9BVlpNU05zSTZITVlXaHAzMW1qbTM5VnZDcGRjVm11eUxjak9vVkpSRzc1QW1tNndjZ1FpamZEYU9fN0tqVnFNdHl3dVB6NDJ1YURsTHBPc0lZbDA?oc=5",
+   "src": "TechTarget"
+  },
+  {
+   "c": "PL",
+   "d": "15 Oct 2026",
+   "t": "3C Datalec Targets Gulf AI Data Centre Growth After Infrastructure Merger",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR3Z4VnM2bE9uQ21sQTk0Qzk2MDhvLS1hMFdpdDd2OHMzaFdVMHR4blczcV9BNFpsVjJCOEhVQl9MdWVSZFpRbFRSX3NmbTZVNVZIMWFrVWZtTVVxd1ZxdF9RLS00RzlxNm01Wk9kZ2ctTmpZV3FZamdTbDRnWUdTNjQ2VzY0S01md1Y4d21DOVdRMFQ4eFprTUIxN3pSRUFqcG56S0hIeTlrdUZX?oc=5",
+   "src": "Konsulteer"
+  },
+  {
+   "c": "PT",
+   "d": "24 Nov 2026",
+   "t": "AI data centre could consume half of Coruche's electricity, warns Quercus",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNenlTYU1iZVJHQlR0TjBWRXlPdkE3Y2MtRE5EQXdpMTR3N0NXSDBYWG5YenE2TlVoQ3NzZEV0M0ZELW42Yjh1XzNDUk9kRlRkaDhKODhTZTZaRjhhbGs1bHpQSUVTSlFISU9OVzRHVXBWNkRfcFQ5ZGVhcDRZSkpoODU3ZEN4b0hlaUVUcktKZEthdkxNYWdURUdB?oc=5",
+   "src": "Portugal Resident"
+  },
+  {
+   "c": "PT",
+   "d": "20 Nov 2026",
+   "t": "Dell Expands AI Factory With NVIDIA, Adding Liquid-Cooled Storage and Infrastructure Management Tools",
+   "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdUZWU0NUaV9nOHpxcmVLb2VjSGlGdU44VG55RVBXUVJPR1FMRFBWSXlnSGZKODh0d09YTWdkSmxOM1JTS0Y5Mi1RMEE3Q0tXQW5rUmtFZk4ybGZMaDZubVdKVEpRMHZtMTVNODVBbE5wdlFDdzg4NThhWlFTRTN3WVpwcmRKbjZLWjRGMGUzT1JSYnJwaUFFNlN6bjVfT1RIbHVSSGtBZ01yczFPbUlGRVh0dmVpTUxKZDYxRFN2aUhTeEVlNnc?oc=5",
+   "src": "SSBCrack"
+  },
+  {
+   "c": "PT",
+   "d": "16 Nov 2026",
+   "t": "Equinix Americas president warns power is biggest obstacle to AI data center growth",
+   "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hZVRFX2RmTlptTGgtRnBkLU9samJNYTE3TlJYcVFWbnFsX3Y0cGgxZ2RnZ2dEQV9sdjU4dE8yb09tRzc1WHkzQkVKMGJCbjhGX3R5TU9VajJabHFtTEFPYzVlWVd2VGpLdmtj?oc=5",
+   "src": "머니투데이"
+  },
+  {
+   "c": "PT",
+   "d": "14 Nov 2026",
+   "t": "Supercomputer predicts who will win Super Bowl LXI as NFL Week 10 gets underway",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX3FlRHN2MmJmZzAxcE0tN2lCdjUzTHRROEh1WE83aDdWQXNUQ3RUWHZiSVZFREpUTXNVdmljTEU5LXRvRkZEZnlQZGJIRWdvT0pGcmRqbjg0YnJxM0RDYnV2VXV4eUdoUmJjeVJqcGNtNzMzdjJoOWNwQnFyT19uR1AzeHhsUTZIc3NoMHRsVlV1YXFuM251RTM1cjNwVVVlVGhB?oc=5",
+   "src": "HITC"
+  },
+  {
+   "c": "PT",
+   "d": "4 Nov 2026",
+   "t": "Clean Energy Stocks Jump, AI Data Center Shares Slip as Democrats Take Both Chambers",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00NUZORlY1eFh0T2xWNTZHaWhlR2tsdXM0ZFFhZHVVV0ptYW11TWw2c3hFdXNGV3JqbTR6ZFJmRVo2b1hRcmlZMGQyNVZ3OExMVFl6bnVtV29ac2FBYk9MVGdyMHlOQndzUDh0WkFPa19lWnlTc2c?oc=5",
+   "src": "BigGo Finance"
+  },
+  {
+   "c": "PT",
+   "d": "4 Nov 2026",
+   "t": "AI data center stocks dip, renewables surge after Democrat sweep in US midterm elections",
+   "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWG5iNFhzcVplTTYxVVoxWUpidHNwNk5Gd1hvTGphRDgzNERzUkhwSDVtM0xCb2Izc0hjS0xoWlUxSm9nOGsza2dfMW93WkthZEFTMGhMb01hczd4US05MTlJV3RjMmxES0ItM2VBREJYV1Z5Y0prdTNMZDNLczh0aWpPNV84NldJa0FyMUV4ZWI3RWdUMkJUR1J2U3dDeTUxbEtkYVctdXQ3VVVHWHVLcEs3NHZaVkVQ?oc=5",
+   "src": "Kitco"
+  },
+  {
+   "c": "RO",
+   "d": "13 Nov 2026",
+   "t": "Romanian AI Factory Set to Become Fully Operational in 2027",
+   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU3FDR2ExX1ZZbFV1ZjUzUFpacFVIQXREZGV2VmVqa3NkelFfckYtTW1CRTVuX3JFU3hXRjZOb1cxYl83aGtGMlFEclpGNk5HTlZSLWczMkloVXlvUUFpTW9iQ3llYUZjQkV1dVNmdHlvMTVuVHJrYzVWZ2ktS3Z6M2l2SVBJbm9JVUNkSDA4Q3RkQWdlYVdINElPbGcwWlRX0gGmAUFVX3lxTE9OdGw5d2FSMmFUMUVjQVZuXzBFb3A5YjY5SlM3b1hHMGc5UTBTUHUtdlJvRFFYV3RPUUUyQWE3TTg1ck5SVlU0YmxyNld6NU9ULVBEUHEzWjRZYV9kUlk5ZGVuMmNVMkxSd3lhaE1MUTZuSGRQYWFiQllZYU9oRDNlSEVJMWNDS2xEajJFVjVsZXBuQ0lPd1dPU3lWNExweW9MbkpMMHc?oc=5",
+   "src": "The Romania Journal"
+  },
+  {
+   "c": "RO",
+   "d": "12 Nov 2026",
+   "t": "Bucharest National Research Institute: The Romanian AI Factory could be ready for use in 2027",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHdydUNPU0RGcEJrN1JnMC0xZVdrdjZaZk5DTVZoZEZsd1pxT0paUlNnWWlTXzRjUkNBaUVyS0NpZklKLVQ2UkZWVGV5eVBZVkRSWm8wX3piSEttZkpaN0d6YUVBUkNMQ3J6dHAwaW1wVGpJT3RHalN5TVJGVDlYdzBDQU9pRXJ5ek5acnpjZWpXUDU4SUhreV9FTFhzVEFuTVc3bzJQMDRwWnRmR2c?oc=5",
+   "src": "Informat.ro"
+  },
+  {
+   "c": "RO",
+   "d": "12 Nov 2026",
+   "t": "ICI Bucharest head: Romanian AI Factory infrastructure could become fully operational in 2027",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbHQ2d3JIajhvaUFHb2F3VDZTTzZUUFNKLW9RODJLcVRCNFg1OVJKNjZrMEtSSlFZZVpyeklzMHVaSWxVdENNY0xCTVZZYXF0Y3l3dThJTDVsVjFka0QwYXNmc2o5VzZfMUpGMzNmNl9aUE5hczl6dmxpSTIwZFJTdzBJOGxKUHN4S0hxODBPbkFZbjd3WDFEMUNnaG4wdnpUZFB0NXlaVGhwdHNFWVpxT2J6Yi0xZDJwM3NLaDM3d1haNVJNTGE2N1Z0Q1dmM0NjeWVPUmQ3dw?oc=5",
+   "src": "Agerpres"
+  },
+  {
+   "c": "RO",
+   "d": "10 Nov 2026",
+   "t": "Microsoft Urges Ban on Chinese AI Data Center Parts",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNGRReXpTX0F1SVlUaUFYcng5alRYSVVIMy1XWUlDNnhCZjdTWEthY3QwVlo2eFlFYVR5MDVoSjFlbmpYMkkxaHhBQU9jb2pobDZSLVlCdVBpTDNFQU1SQUt5R01WVE51MmdEbXhUNjFPcGN0eC1DR3BUeVVfQWpPTU9IZlRGTjlUQS1FeXc5RmU4NF9T?oc=5",
+   "src": "Wisevoter"
+  },
+  {
+   "c": "RO",
+   "d": "9 Nov 2026",
+   "t": "Romania receives two offers for planned AI Gigafactory project",
+   "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNREgwZ3ZEQ21xeXFib0Nvbl9xR1ZYQUNCMjROZTEzcmN6LW9Tb1JWZ0lfRV9CV2ZzdldjOTZGVXNzVmtVRGlUOTJrcDNZcjNUZHFJZXQ0R2VncUgtbDZXWjZLMUE5NllsVDJORmZaMWN1S2RoY3lPR0JBa1FrRkZKN0R1M1BxVGY4dE9XUkFlMjBjR244MTRucTVHVQ?oc=5",
+   "src": "SeeNews"
+  },
+  {
+   "c": "RO",
+   "d": "6 Nov 2026",
+   "t": "FinMin Nazare says Romania has two offers for the construction of an AI Gigafactory",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLUdsWjk3eVVyS1BFaGJhQlBtcVpPVFZyaVp1SThPWnRzbjRPcHN6VmktNHF1V2lkTWNVN1dpZmZYYnRVaUtBUmtIaXBJZkFwMDZoNUw0QmlZeHFlSUNMbVVuSXU5Q0FxemFpX25mc2IxQnIzbWJGenFrWUVFRXhFN0RyckdscFJuOW0xZm0tZ0FqMXFOS25vUkRqMHU1dVY4aUF6dENVSXY0VHVDeTJzVGJzZjZoVVk1djI3MmFhczlCUGZtNVJfRVJVaw?oc=5",
+   "src": "Agerpres"
+  },
+  {
+   "c": "ES",
+   "d": "20 Nov 2026",
+   "t": "Spain's data centre boom faces new curbs on power and water use, industry warns of investment risks",
+   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVG9WVVpZQW5qMzZoN1JuckdlQ09qZ2tQdFZSQ1NMd2F0R2U1T2s0TmxYd3R0OFlSS0pKYXloQ3NJQmVXVVZURXpFeWVKUk1zZjhHZVpPbXJfTGNONTFBMFcza1h6QUcwczJ1TVFnUDMzNmxZeEZDVHdpLS1OUHFuRUUzbDhRTjIxNVlnQUgyc1M3T2l0RjRLSE15d2hfVGZIb3Z0YnByUWVIYU5fejFOa0dWRFFreV9MWFpnU1ROLXpjTkd6T3haUEJydHE1ckVMMGZoMVNZbU9ZYWZIaTE3ajRtc9IB6AFBVV95cUxQN1lEQmtKZ1JUWmxvOElVaTdiM1JjMmVhaWdCNDJyR1E1akR5WVZuNWFiWWpUbHMta2ZCMlVhMkVfSC1maXA2V3JkZHdrLWk1S1plc0NiclpFb2tFRDlxNkVMb1c3cFRzZV9rT0NBV0hPSFBzLVQ1X2d1N3Z5YVBMUTA0RlBaMFRHeFBTM1UySWp1YVBfZXlSM0tseW5TM3RoSEZ4V2RfWVBMaGRoNDJzQWtmSzFROG5uWjNDbkpKQVpEenl1QlNGdXJLbGlScUZVZUhNazU1MzEwY2x3RDlpVmFRVWNiWmxi?oc=5",
+   "src": "Telegraph India"
+  },
+  {
+   "c": "ES",
+   "d": "16 Nov 2026",
+   "t": "Eurobites: Nokia and friends plan 'Northern' AI gigafactory",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVJPNnByTEQyNFlqZFprYzRyMGp0NExjNnpPUGtiU0Ntd09ETDl0bVdjcEd5SEdHamxhXzVlR3huTmprTkhmOVU4VUFyT0k5X0tnanJGOHRqanFWZGtUX2RqUzZSY0dEOWFZWUVxMVA5dzU1ekVCeDEwU2NUcmo2ZVo4UXFTSVU2UVd2VExDNlhIUEFaYzFpUWZyUXdwdjAwdnpXd0tXeDc?oc=5",
+   "src": "Light Reading"
+  },
+  {
+   "c": "ES",
+   "d": "2 Nov 2026",
+   "t": "CrowdStrike and Dell Technologies Announce Integrated AI Security for the Dell AI Factory with NVIDIA",
+   "u": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYWI1VzRCYmRuX2dtR3VlMFFzckozaV9SaEdSM2tubENjMXZDeG5rY0otaTIzWEEycEE5Vml3c0QyRG90and5cnFCMXFoU0NCanJ6R213NG9HTS1jTVVnT21ldXIweU1KUVRrNGI4VXZfUXAwS1VxSjdNR3dNbWlYT2hRYWJoR1Q0eWRWYjZfR1V4TXJjaHBSVWgyZ3hnNWU0dHBaZGxhRWh4UG1kX3pka0RGWmVRelcwYnVrcEJvYlpEN0NPVng1cUxfNDhLQ0VMMzlqZkdHMzJUN1VxZFVBbHFxeXBlR3pHYXpvbFZrNA?oc=5",
+   "src": "Business Wire"
+  },
+  {
+   "c": "ES",
+   "d": "27 Oct 2026",
+   "t": "The data centers decree dilutes the requirements for AI gigafactories like the one in Móra la Nova",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNekhCNlBESl9kb0J0cE1ILXh2WWdqYmRTTzV4cnAwQjA0enNXcl92dHc0bFg0WVFHRllHYW1CRFpKLTlmNGNVckJuODlYdXJ1blRWRDhpYnFiYXpiV1F0OXVFVjVtYlNaNll3Q2JsMHZJWWh6UXVnQWN4X0JSNVB6bEtVckZYOFJfNGNZMzF1dDFwQjlCUjhqZmhZMXJMbGRfczVIYThPTk53ak1nbTdOXzFZajVjMEx1Sk5sVm5HRG1TMkQtMWVnd2dRZ3paVGVjaEE?oc=5",
+   "src": "Diari ARA"
+  },
+  {
+   "c": "ES",
+   "d": "26 Oct 2026",
+   "t": "Supercomputer Predicts La Liga Title Race After Real Madrid Shock Barcelona in El Clasico",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUDNSQ1VFSGl6cWZOS055dWZTTzVsRkZfcUlzV2FwSU8zVTlSbnczUE5reUJSVWxxY3NzNXlIcDIwaUFyUzc5S2JMc2FmZnhTd0F1TDZiT3E4a3B4SzRqR2RMc2NJNDVPMzhobEMtczU0MkpsUzg5dTJtMEFzNVQ4ZWZtOVIwTHhlSGdNWnhyNWY3Q1A3a0l6ZU91cGtGdmxtQlVoVGV3?oc=5",
+   "src": "Sports Illustrated"
+  },
+  {
+   "c": "ES",
+   "d": "26 Oct 2026",
+   "t": "Supercomputer Predicts Final 26/27 La Liga Table as Real Madrid and Barcelona Battle for Title",
+   "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcm80OTBtSl9kbjZfV1VrRjdqUFFTa1hXeFd1V1RLNXFEYllQTmRFclpJVjV0TkpDZTNMVU9IeFlwaFpsSWhqQU5JdVM1T0lrNlBsUUM1Tmw5VDNaMVM0VTI2bXBfSm0tRVkwMnhMbUk2OU5NVkpWZnFvYmR4Njg2SDJiaEF1RXpFUjhlYnBRclVETU5xcGpfM2M5MA?oc=5",
+   "src": "GiveMeSport"
+  },
+  {
+   "c": "SE",
+   "d": "18 Nov 2026",
+   "t": "Sweden AI Factory-Supported Project Wins HPCwire Readers' Choice Award",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWFhCclh0cmo3RXZhdXN0bnlwU2F0MDZBaXk4eVBwc3JIU1h0YmFsR1NuU25rN0wzajFzSWVSX0phb0tOUWdzcTljY0JwcktDNzYxcjlPYjY0ZFFxMXNNZVNaZnRfenBKZXduTlMzNlpXVWxaSTNmLUhSS2VzWUdrZXV6UVRUSDhJNmlBZGQzZjhsOU9BNFdWR21JVk5JWUZDNDJmNG1IVEw0aGc?oc=5",
+   "src": "HPCwire"
+  },
+  {
+   "c": "SE",
+   "d": "3 Nov 2026",
+   "t": "NVIDIA CEO and Sweden's Technology Leaders Discuss Compute's Next Chapter",
+   "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTWxTdHZlXzd4b0twcUhKYU5lNjlhZGd6dUVfZFZ2TVFKLXM1ZHdTU1c5akRjaVY2eGVfaEt2U2tyY1BnY0FWRzVlVExxb0hfeURyamtoSTh3alA3R1BJYXZPVDR1bndiTmU5Y1QtX3JiLXp6ZHl1dDRtaXNuREM1d1FmbFd1UQ?oc=5",
+   "src": "digitimes"
+  },
+  {
+   "c": "SE",
+   "d": "18 Oct 2026",
+   "t": "Ericsson Joins Sferical One Sovereign AI Supercomputer to Advance Network Automation & 6G",
+   "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSXNlbk43MmRSWmtfb1d0WGdrS0lzbTNQVHA5QmZFUnBwczhvblNDQnpmNVowNGR3OTFhWkw4RXBSdkRjaWdRRV9IYUx4WWJBM3RWUGlicW5jcjN1bF9rLThpczlDbWh4YWhaWElZcWt4UkM1NDNxVWFubVZJdWZSeUhleHV6OFBIbmptZDhPOG52UHRlSlFaTE1lalA3VnJzY0YyclA2TTR1NFpzMHhjaXJ2RDBrOFpDS0E3c2tLbGlPclcyTkNDSnNEemlkb0kxRnFIVzBicjBRV21OVWU5NmtZSFplSHM?oc=5",
+   "src": "The Fast Mode"
+  },
+  {
+   "c": "SE",
+   "d": "16 Oct 2026",
+   "t": "Ericsson and Partners Launch Sferical One AI Supercomputer in Sweden",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYTBzZTEzYWduVlcwM0RRLXZiMFdORHd0OTExblpWaWx0SHFPbDQxT2tuUHFUMHpDSDk1VEYyX0haVERBSUcxbzFodlFzSXh1RkExVkI2THhvS1NHMHdpekF5dW1PWm1KQmZ4aHFOVW9nRWsxSXlyelZLeDlUZFFHamx5WXBPeUFiTUJWMnNGYWJCY1NpdGlLRGZJN2hOR3lQUTYyaHZTc2VOUQ?oc=5",
+   "src": "HPCwire"
+  },
+  {
+   "c": "SE",
+   "d": "16 Oct 2026",
+   "t": "Sferical One Goes Live: Swedish Industry Coalition Shares 1,152 Blackwell Ultra GPUs",
+   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaXRZZ081NS0zSndvN2psTzV0LXlTY0Fxc2RiU2FMRHNCT3lMMnVSSHpVUUJWMHpRRFdGeG9mOW9NX1hZYm5CQ0pna1IweS01VVAxamNhei1pdG9hOGpLNWlEMTExb2Vuc2pUUFFhZjZ1WnBsV05scnZhcG9rVThyeWJsM2h1WkdMcXZjaHpSWlM2RHRhUG1FdklwWlR2dDRyUXdYaWtRRTZjLWdZczMwQmw2Vk80QldpbzJTQzNoMDQ2N04tYUNaR2FPTGFhOE8yNHNB?oc=5",
+   "src": "Tech Times"
+  },
+  {
+   "c": "SE",
+   "d": "15 Oct 2026",
+   "t": "Sweden's Sferical One supercomputer goes live with 1,152 Nvidia GPUs",
+   "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xSU9KTFNvRGdVOGQ5cDZyUkFlR3dlamNfaXVBZXIwdWg4dEhqb1NVd1ExSjUzeDZQZ19lTnEySUlzQ2pEZjZkQXJiSkxMY2t0NHJ2eWVna0FvMS1vWjU2UDVBZjdKdnJzNkx5VEdmbDVPaVg5dTJF?oc=5",
+   "src": "Crypto Briefing"
+  }
+ ]
+}
