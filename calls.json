@@ -1,0 +1,795 @@
+{
+ "read": "2026-11-24T19:54Z",
+ "source": "EU Funding and Tenders portal",
+ "items": [
+  {
+   "id": "DIGITAL-JU-CHIPS-2026-AI1-SG",
+   "t": "AI chip demonstrators for EU compute infrastructure",
+   "prog": "Chips Joint Undertaking",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-07-07",
+   "dl": "2026-12-01",
+   "tags": [
+    "AI",
+    "Chips"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai1-sg"
+  },
+  {
+   "id": "DIGITAL-JU-CHIPS-2026-AI-GFP",
+   "t": "AI compute evaluation and deployment platform for EU infrastructure",
+   "prog": "Chips Joint Undertaking",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-07-07",
+   "dl": "2026-12-01",
+   "tags": [
+    "AI",
+    "Chips"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai-gfp"
+  },
+  {
+   "id": "HORIZON-CL5-2026-11-D3-23",
+   "t": "Data sharing to support the training and development of AI foundation models in the energy sector",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-08-04",
+   "dl": "2026-12-01",
+   "tags": [
+    "AI",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-23"
+  },
+  {
+   "id": "HORIZON-CL6-2023-GOVERNANCE-01-13",
+   "t": "Open source solutions for edge, cloud and mixed model applications to strengthen production and administrative capacities in agriculture",
+   "prog": "Horizon Europe",
+   "kind": "Project call",
+   "st": "Open",
+   "opens": "2026-09-29",
+   "dl": "2026-12-02",
+   "tags": [
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45657640"
+  },
+  {
+   "id": "DIGITAL-JU-CHIPS-2026-SG-JAPAN",
+   "t": "International collaboration EU and Japan on semiconductors",
+   "prog": "Chips Joint Undertaking",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-07-07",
+   "dl": "2026-12-08",
+   "tags": [
+    "Chips"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-sg-japan"
+  },
+  {
+   "id": "HORIZON-NATURE-2027-01-02",
+   "t": "Better understanding, anticipating and addressing the biodiversity benefits and impacts of the clean and digital industries",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-13",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-02"
+  },
+  {
+   "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-CYBERAI",
+   "t": "Cybersecure tools, technologies and services relying on AI",
+   "prog": "Digital Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-09-01",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-cyberai"
+  },
+  {
+   "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-DUALUSE",
+   "t": "Dual-use technologies",
+   "prog": "Digital Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-09-01",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-dualuse"
+  },
+  {
+   "id": "HORIZON-NATURE-2027-02-04",
+   "t": "Innovative solutions to fight wildlife trafficking and to reduce invasion of invasive alien species",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-13",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-04"
+  },
+  {
+   "id": "CREA-MEDIA-2027-INNOVBUSMOD",
+   "t": "Innovative tools and business models",
+   "prog": "EU programme",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-09-30",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-innovbusmod"
+  },
+  {
+   "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-AI4SME",
+   "t": "Strengthening cybersecurity capacities of European SMEs with cybersecure AI-powered solutions",
+   "prog": "Digital Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-09-01",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ai4sme"
+  },
+  {
+   "id": "DIGITAL-EUROHPC-JU-2023-SME-01-01",
+   "t": "Supporting competitiveness and innovation potential of SMEs",
+   "prog": "EuroHPC Joint Undertaking",
+   "kind": "Project call",
+   "st": "Forthcoming",
+   "opens": "2027-01-14",
+   "dl": "2027-01-20",
+   "tags": [
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46236562"
+  },
+  {
+   "id": "HORIZON-CL6-2024-GOVERNANCE-01-7",
+   "t": "Enhancing working conditions and strengthening the work force through digital and data technologies, the potential of robotics and augmented reality in agriculture",
+   "prog": "Horizon Europe",
+   "kind": "Project call",
+   "st": "Open",
+   "opens": "2026-11-18",
+   "dl": "2027-01-25",
+   "tags": [
+    "Data",
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45658229"
+  },
+  {
+   "id": "DIGITAL-2024-CLOUD-DATA-AI-07-DIGITALTWIN",
+   "t": "Towards networked Local Digital Twins in the EU",
+   "prog": "Digital Europe",
+   "kind": "Project call",
+   "st": "Open",
+   "opens": "2026-11-23",
+   "dl": "2027-01-25",
+   "tags": [
+    "AI",
+    "Computing",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47038104"
+  },
+  {
+   "id": "HORIZON-CL2-2024-HERITAGE-ECCCH-01-05",
+   "t": "A European Collaborative Cloud for Cultural Heritage, Innovative tools for the study, conservation and restoration of heritage objects",
+   "prog": "Horizon Europe",
+   "kind": "Project call",
+   "st": "Forthcoming",
+   "opens": "2026-11-26",
+   "dl": "2027-01-27",
+   "tags": [
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46906387"
+  },
+  {
+   "id": "HORIZON-CL4-2024-DIGITAL-EMERGING-01-04",
+   "t": "Industrial leadership in AI, Data and Robotics boosting competitiveness and the green transition (AI Data and Robotics Partnership) (IA)[[https://www.europarl.europa.eu/RegData/etudes/STUD/2021/662906/IPOL_STU(2021)66290",
+   "prog": "Horizon Europe",
+   "kind": "Project call",
+   "st": "Open",
+   "opens": "2026-11-04",
+   "dl": "2027-01-27",
+   "tags": [
+    "AI",
+    "Data",
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45704318"
+  },
+  {
+   "id": "HORIZON-BRIDGING-2027-02-05",
+   "t": "Advancing promising results from Pillar II collaborative research through the innovation journey",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-20",
+   "dl": "2027-01-28",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-02-05"
+  },
+  {
+   "id": "HORIZON-JU-EUROHPC-2026-QML-07-01",
+   "t": "Quantum Machine Learning",
+   "prog": "EuroHPC Joint Undertaking",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-06-02",
+   "dl": "2027-01-28",
+   "tags": [
+    "AI",
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-eurohpc-2026-qml-07-01"
+  },
+  {
+   "id": "HORIZON-CL4-2027-02-DIGITAL-EMERGING-52-two-stage",
+   "t": "New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-13",
+   "dl": "2027-02-02",
+   "tags": [
+    "AI",
+    "Data",
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-digital-emerging-52-two-stage"
+  },
+  {
+   "id": "HORIZON-BRIDGING-2027-01-10",
+   "t": "Autonomous Drive Ambition Cities (IA) - Apply AI",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-20",
+   "dl": "2027-02-16",
+   "tags": [
+    "AI",
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-10"
+  },
+  {
+   "id": "HORIZON-BRIDGING-2027-01-09",
+   "t": "EU AI Media Platform, modular multilingual public-interest infrastructure for European news and audiovisual media (IA) - Apply AI",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-20",
+   "dl": "2027-02-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-09"
+  },
+  {
+   "id": "HORIZON-BRIDGING-2027-01-13",
+   "t": "EU Frontier AI Initiative: Advanced Scaling Frameworks for High-Performance AI Models (RIA) - Apply AI",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-20",
+   "dl": "2027-02-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-13"
+  },
+  {
+   "id": "HORIZON-BRIDGING-2027-01-12",
+   "t": "Large-Scale piloting of next-generation AI-driven digital platforms for a more affordable, secure and sustainable European energy system (IA) - Apply AI",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-20",
+   "dl": "2027-02-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-12"
+  },
+  {
+   "id": "HORIZON-HLTH-2027-02-DISEASE-14-two-stage",
+   "t": "Clinical trials for advancing innovative interventions for neurodegenerative diseases",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-29",
+   "dl": "2027-02-17",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-disease-14-two-stage"
+  },
+  {
+   "id": "HORIZON-HLTH-2027-02-TOOL-01-two-stage",
+   "t": "Development of predictive biomarkers of disease progression and treatment response by using AI methodologies for chronic non-communicable diseases",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-29",
+   "dl": "2027-02-17",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage"
+  },
+  {
+   "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-12-CBCH",
+   "t": "Cross-border Cyber Hubs",
+   "prog": "Digital Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-15",
+   "dl": "2027-03-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-cbch"
+  },
+  {
+   "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-12-NATCH",
+   "t": "National Cyber Hubs",
+   "prog": "Digital Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-15",
+   "dl": "2027-03-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-natch"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
+   "t": "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "AI",
+    "Data",
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-05"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-04",
+   "t": "Apply AI: Challenge-Driven AI Innovation Booster in Apply AI prioritised sectors (RIA) (Partnership in AI, Data and Robotics)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "AI",
+    "Data",
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-04"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-DATA-08",
+   "t": "Demand-side 3C pilot demonstrators on converged Telco Edge Cloud Infrastructure (IA)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "Computing",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-08"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
+   "t": "EU Frontier AI Initiative: Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-11"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-DATA-09",
+   "t": "Energy efficiency and sustainability of AI data processing in Data Centres (IA)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "AI",
+    "Computing",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-09"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-HUMAN-07",
+   "t": "Facilitate the engagement of European stakeholders in international digital standardisation (CSA)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-07"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
+   "t": "International cooperation in AI (IA)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-06"
+  },
+  {
+   "id": "HORIZON-CL4-2027-04-DATA-03",
+   "t": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-18",
+   "tags": [
+    "AI",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-03"
+  },
+  {
+   "id": "HORIZON-CL5-2027-02-D3-24",
+   "t": "Large scale operational validation and upscaling of state-of-the-art (Generative) AI tools and models powering a next generation digital energy system",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-03-31",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-24"
+  },
+  {
+   "id": "HORIZON-CL5-2027-03-D5-16",
+   "t": "Autonomous vessels in short sea shipping and inland waterways",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-15",
+   "dl": "2027-04-14",
+   "tags": [
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-16"
+  },
+  {
+   "id": "CREA-CROSS-2027-INNOVLAB",
+   "t": "Creative Innovation Lab",
+   "prog": "EU programme",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-22",
+   "dl": "2027-04-22",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cross-2027-innovlab"
+  },
+  {
+   "id": "HORIZON-CL6-2027-03-GOVERNANCE-04",
+   "t": "AI supporting informed advice for farmers and foresters to improve competitiveness and sustainability",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-04",
+   "dl": "2027-05-11",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-04"
+  },
+  {
+   "id": "HORIZON-INFRA-2027-TECH-01-02",
+   "t": "Pioneering Destination Earth for a Sustainable Future: Large-Scale Pilots and Demonstrators",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-03-09",
+   "dl": "2027-06-15",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-tech-01-02"
+  },
+  {
+   "id": "HORIZON-INFRA-2027-01-EOSC-02",
+   "t": "Strengthening the potential of the EOSC for knowledge valorisation and industry-academia collaboration (EOSC Partnership)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-03-09",
+   "dl": "2027-06-15",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-01-eosc-02"
+  },
+  {
+   "id": "DIGITAL-2023-SKILLS-04-SEMICONDUCTORS",
+   "t": "Reinforcing skills in semiconductors",
+   "prog": "Digital Europe",
+   "kind": "Project call",
+   "st": "Open",
+   "opens": "2026-10-31",
+   "dl": "2027-06-30",
+   "tags": [
+    "Chips"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46014314"
+  },
+  {
+   "id": "HORIZON-CL3-2027-02-CS-ECCC-01",
+   "t": "Artificial Intelligence for Cybersecurity applications",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-03-02",
+   "dl": "2027-09-15",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-01"
+  },
+  {
+   "id": "HORIZON-CL5-2027-05-D4-05",
+   "t": "On-site robotic and automated techniques for building renovation and new construction",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-05",
+   "dl": "2027-09-15",
+   "tags": [
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-05"
+  },
+  {
+   "id": "HORIZON-CL3-2027-02-CS-ECCC-02",
+   "t": "Secure Computing Continuum (IoT, Edge, Cloud, Data spaces)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-03-02",
+   "dl": "2027-09-15",
+   "tags": [
+    "Computing",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-02"
+  },
+  {
+   "id": "HORIZON-CL5-2027-05-D4-06",
+   "t": "Thermal energy optimisation and waste heat recovery of high energy demand IT rooms in buildings or small edge data centres",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-05",
+   "dl": "2027-09-15",
+   "tags": [
+    "Computing",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-06"
+  },
+  {
+   "id": "HORIZON-HLTH-2027-03-TOOL-02",
+   "t": "Advancing bio-printing of living cells for regenerative medicine",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-06-03",
+   "dl": "2027-09-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-02"
+  },
+  {
+   "id": "HORIZON-HLTH-2027-03-TOOL-08",
+   "t": "Towards the next generation of frontier Artificial Intelligence models for healthcare",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-06-03",
+   "dl": "2027-09-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-08"
+  },
+  {
+   "id": "HORIZON-HLTH-2027-03-TOOL-04",
+   "t": "Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-06-03",
+   "dl": "2027-09-16",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-04"
+  },
+  {
+   "id": "HORIZON-MISS-2027-01-CLIMA-02",
+   "t": "Researching and applying the potential of Artificial Intelligence to foster climate resilience at the regional and local levels",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-09-21",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-01-clima-02"
+  },
+  {
+   "id": "HORIZON-CL6-2027-01-ZEROPOLLUTION-03",
+   "t": "Improve the capacity to monitor and reduce air pollution from agriculture",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-22",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-zeropollution-03"
+  },
+  {
+   "id": "HORIZON-CL6-2027-01-BIODIV-04",
+   "t": "Living Labs for the eradication and/or management of invasive alien species",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-22",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-04"
+  },
+  {
+   "id": "HORIZON-CL6-2027-02-FARM2FORK-08",
+   "t": "AI-powered foodome characterization",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-23",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-08"
+  },
+  {
+   "id": "HORIZON-CL2-2027-01-HERITAGE-02",
+   "t": "AI4Creatives Support Platform: embracing a fair AI revolution",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-13",
+   "dl": "2027-09-23",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-02"
+  },
+  {
+   "id": "HORIZON-CL2-2027-01-DEMOCRACY-04",
+   "t": "Addressing the impact of artificial intelligence, cyberviolence, and deepfakes on equality, democracy and inclusive societies",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-13",
+   "dl": "2027-09-23",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-04"
+  },
+  {
+   "id": "HORIZON-CL2-2027-01-HERITAGE-06",
+   "t": "Future-proofing sustainable cultural tourism",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-13",
+   "dl": "2027-09-23",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-06"
+  },
+  {
+   "id": "HORIZON-CL6-2027-02-FARM2FORK-01",
+   "t": "Increasing the resilience of agriculture in water and nutrient-scarce environments through digital innovations",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-23",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-01"
+  },
+  {
+   "id": "HORIZON-CL2-2027-01-TRANSFO-05",
+   "t": "The effective use of artificial intelligence in learning environments in pre-primary and primary education",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-13",
+   "dl": "2027-09-23",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-05"
+  },
+  {
+   "id": "HORIZON-CL6-2027-02-FARM2FORK-06",
+   "t": "Unleashing the potential of sustainable small-scale aquatic food production and recreational fisheries for prosperous local communities",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-23",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-06"
+  }
+ ]
+}

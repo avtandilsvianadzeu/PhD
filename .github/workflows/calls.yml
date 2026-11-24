@@ -1,0 +1,31 @@
+name: Daily EU calls
+
+on:
+  schedule:
+    - cron: "41 4 * * *"   # every day at 04:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  calls:
+    runs-on: ubuntu-latest   # standard runner: free on public repositories
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read open EU calls on AI, computing and data
+        run: python tools/fetch_calls.py
+      - name: Check the page and the calls
+        run: python tools/check_atlas.py
+      - name: Publish calls.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calls.json
+          git diff --cached --quiet || git commit -m "Daily EU calls update"
+          git pull --rebase -q
+          git push

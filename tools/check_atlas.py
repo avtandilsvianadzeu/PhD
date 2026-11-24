@@ -19,7 +19,7 @@ STATUSES = {"Operational", "Under construction", "Planned", "Bid", "Selected"}
 STOCK = [r"world-class", r"cutting-edge", r"\bdelve", r"\bleverag", r"seamless", r"game.chang", r"\btapestry",
          r"\bvibrant", r"\bpivotal", r"in today's", r"worth knowing", r"landscape around"]
 BANNED = {"—": "em dash", "–": "en dash", "“": "curly quote", "”": "curly quote",
-          "’": "curly apostrophe", "‘": "curly apostrophe", "…": "ellipsis", "!": "exclamation mark"}
+          "’": "curly apostrophe", "‘": "curly apostrophe", "…": "ellipsis", "!": "exclamation mark", "·": "middle dot", "≈": "approximately sign"}
 
 problems = []
 def fail(msg): problems.append(msg)
@@ -103,7 +103,7 @@ walk(D["sources"], "sources")
 if any(w in html for w in ("ZAG fit", "zagnote", "Useful to ZAG", "For ZAG", "DATA.bands")):
     fail("page still contains the private ZAG rating")
 outside = "\n".join(l for l in html.split("\n") if not l.startswith("<script>const DATA=") and len(l) < 20000)
-for esc, name in [("\\u2014", "em dash"), ("\\u2013", "en dash"), ("\\u2019", "curly apostrophe"), ("\\u201c", "curly quote")]:
+for esc, name in [("\\u2014", "em dash"), ("\\u2013", "en dash"), ("\\u2019", "curly apostrophe"), ("\\u201c", "curly quote"), ("\\u00b7", "middle dot")]:
     if esc in outside: fail(f"page code: contains {name} ({esc})")
 scan("page markup", outside)
 
@@ -169,6 +169,15 @@ if D.get("dcounts") and dict(D["dcounts"]) != dict(dc): fail("DATA.dcounts is ou
 cnt = collections.Counter(s["cc"] for s in sites if s["L"] != "thinker")
 for k, v in D["shp"].items():
     if v["n"] != cnt.get(k, 0): fail(f"country {k} shading counts {v['n']}, data has {cnt.get(k, 0)}")
+
+# 9. funding calls: every call has a future-or-recent deadline, an official link and plain typography
+_cp = ROOT / "calls.json"
+if _cp.exists():
+    _cj = json.loads(_cp.read_text(encoding="utf-8"))
+    for _c in _cj.get("items", []):
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", _c.get("dl", "")): fail(f"calls: {_c.get('id')} has no deadline date")
+        if not _c.get("u", "").startswith("https://ec.europa.eu/"): fail(f"calls: {_c.get('id')} link is not on the EU portal")
+        scan("calls " + _c.get("id", ""), _c.get("t", ""))
 
 # 5. optional: every link still answers
 if "--links" in sys.argv:
