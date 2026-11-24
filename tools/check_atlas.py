@@ -6,6 +6,7 @@ Run:  python tools/check_atlas.py            (offline checks)
 Exit code 1 if anything fails, so GitHub Actions marks the run red.
 """
 import json, re, sys, collections, urllib.request, concurrent.futures as cf
+import datetime as dt
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -99,12 +100,46 @@ def walk(o, where):
 for s in sites: walk(s, s.get("id", "?"))
 walk(D.get("cnews", {}), "cnews"); walk(D.get("eunews", []), "eunews")
 walk(D["sources"], "sources")
-if "ZAG fit" in html or "zagnote" in html or "Useful to ZAG" in html:
+if any(w in html for w in ("ZAG fit", "zagnote", "Useful to ZAG", "For ZAG", "DATA.bands")):
     fail("page still contains the private ZAG rating")
 outside = "\n".join(l for l in html.split("\n") if not l.startswith("<script>const DATA=") and len(l) < 20000)
 for esc, name in [("\\u2014", "em dash"), ("\\u2013", "en dash"), ("\\u2019", "curly apostrophe"), ("\\u201c", "curly quote")]:
     if esc in outside: fail(f"page code: contains {name} ({esc})")
 scan("page markup", outside)
+
+# 3b. news lists newest first, and every point inside its own country outline
+def ndate(d):
+    d = re.sub(r"^\d+-(\d+)", r"\1", d.strip())
+    for f in ("%d %b %Y", "%b %Y", "%Y"):
+        try: return dt.datetime.strptime(d, f)
+        except ValueError: pass
+    fail(f"unreadable news date {d}"); return dt.datetime(1900, 1, 1)
+for s in sites:
+    ds = [ndate(n["d"]) for n in s.get("news", [])]
+    if ds != sorted(ds, reverse=True): fail(f"{s['id']}: news not newest first")
+for k, v in list(D.get("cnews", {}).items()) + [("EU", D.get("eunews", []))]:
+    ds = [ndate(n["d"]) for n in v]
+    if ds != sorted(ds, reverse=True): fail(f"cnews {k}: not newest first")
+def rings(d):
+    out, cur = [], []
+    for cmd, a, b in re.findall(r"([MLZ])([\d.\-]*)\s*([\d.\-]*)", d):
+        if cmd == "M":
+            if cur: out.append(cur)
+            cur = [(float(a), float(b))]
+        elif cmd == "L": cur.append((float(a), float(b)))
+    if cur: out.append(cur)
+    return out
+def inside(x, y, R):
+    c = False
+    for r in R:
+        for i in range(len(r)):
+            (x1, y1), (x2, y2) = r[i], r[i - 1]
+            if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1: c = not c
+    return c
+for s in sites:
+    sh = D.get("shp", {}).get(s.get("cc") or "")
+    if s.get("x") is not None and sh and not inside(s["x"], s["y"], rings(sh["d"])):
+        fail(f"{s['id']}: point lies outside {s['cc']}")
 
 # 4. counts shown in the page match the data
 dc = collections.Counter(x for s in sites for x in s["dom"])
