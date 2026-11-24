@@ -3,8 +3,10 @@
 Run by .github/workflows/news.yml. Writes news.json next to index.html; the page reads it
 and shows the items in the News tab and in each country factsheet.
 
-Sources and search terms live in tools/news_sources.json, so they can be changed
-without touching this script. If every fetch fails, the previous news.json is kept.
+Sources are publishers' own RSS feeds, listed in tools/news_sources.json with the country
+words and topic words, so they can be changed without touching this script. Each item keeps
+only the headline, date, publisher and a link to the original article. If every fetch fails,
+the previous news.json is kept.
 """
 import json, re, sys, html, datetime as dt, urllib.request, urllib.parse
 import xml.etree.ElementTree as ET
@@ -17,47 +19,55 @@ OUT = ROOT / "news.json"
 NOW = dt.datetime.now(dt.timezone.utc)
 MAX_AGE = dt.timedelta(days=CFG.get("max_age_days", 120))
 PER_COUNTRY = CFG.get("per_country", 6)
-KEEP = re.compile(CFG["title_must_match"], re.I)
+KEEP = re.compile(CFG["topic_must_match"], re.I)
+CWORDS = {cc: re.compile(r"\b(" + "|".join(map(re.escape, words)) + r")\b") for cc, words in CFG["countries"].items()}
+ATOM = "{http://www.w3.org/2005/Atom}"
 
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (atlas news job)"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
 
+def when(text):
+    if not text:
+        return None
+    try:
+        return parsedate_to_datetime(text)
+    except (TypeError, ValueError):
+        try:
+            return dt.datetime.fromisoformat(text.strip().replace("Z", "+00:00"))
+        except ValueError:
+            return None
+
 def parse(xml_bytes):
-    """Yield (title, link, date, source) from an RSS 2.0 feed."""
+    """Yield (title, summary, link, date) from an RSS 2.0 or Atom feed."""
     root = ET.fromstring(xml_bytes)
     for it in root.iter("item"):
-        title = html.unescape((it.findtext("title") or "").strip())
-        link = (it.findtext("link") or "").strip()
-        src = (it.findtext("source") or "").strip()
-        when = it.findtext("pubDate")
-        try:
-            d = parsedate_to_datetime(when) if when else None
-        except (TypeError, ValueError):
-            d = None
-        if not src and " - " in title:
-            title, src = title.rsplit(" - ", 1)
-        elif src and title.endswith(" - " + src):
-            title = title[: -len(" - " + src)]
-        yield title.strip(), link, d, src
+        yield (html.unescape((it.findtext("title") or "").strip()),
+               re.sub(r"<[^>]+>", " ", html.unescape(it.findtext("description") or "")),
+               (it.findtext("link") or "").strip(),
+               when(it.findtext("pubDate") or it.findtext("{http://purl.org/dc/elements/1.1/}date")))
+    for it in root.iter(ATOM + "entry"):
+        ln = it.find(ATOM + "link")
+        yield (html.unescape((it.findtext(ATOM + "title") or "").strip()),
+               re.sub(r"<[^>]+>", " ", html.unescape(it.findtext(ATOM + "summary") or "")),
+               ln.get("href", "") if ln is not None else "",
+               when(it.findtext(ATOM + "updated") or it.findtext(ATOM + "published")))
 
 def clean(t):
     t = re.sub(r"\s+[—–]\s+", ", ", t).replace("—", ", ").replace("–", "-")
     return t.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"').replace("!", ".")
 
 def main():
-    items, seen, ok = [], set(), 0
-    for cc, name in CFG["countries"].items():
-        q = CFG["query"].replace("{country}", name)
-        url = CFG["feed"].replace("{q}", urllib.parse.quote(q))
+    rows, seen, ok = [], set(), 0
+    for src, url in CFG["feeds"].items():
         try:
             feed = list(parse(get(url))); ok += 1
-        except Exception as e:  # one failing country must not stop the rest
-            print(f"{cc}: {e}", file=sys.stderr); continue
-        rows = []
-        for title, link, d, src in feed:
-            if not (link.startswith("http") and d and KEEP.search(title)):
+        except Exception as e:  # one failing feed must not stop the rest
+            print(f"{src}: {e}", file=sys.stderr); continue
+        for title, summary, link, d in feed:
+            text = title + " " + summary
+            if not (link.startswith("http") and d and KEEP.search(text)):
                 continue
             if d.tzinfo is None:
                 d = d.replace(tzinfo=dt.timezone.utc)
@@ -67,9 +77,15 @@ def main():
             if key in seen:
                 continue
             seen.add(key)
-            rows.append({"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(src), "_t": d.timestamp()})
-        rows.sort(key=lambda r: -r["_t"])
-        items += rows[:PER_COUNTRY]
+            for cc, rx in CWORDS.items():
+                if rx.search(text):
+                    rows.append({"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(src), "_t": d.timestamp()})
+    rows.sort(key=lambda r: -r["_t"])
+    items, per = [], {}
+    for r in rows:
+        per[r["c"]] = per.get(r["c"], 0) + 1
+        if per[r["c"]] <= PER_COUNTRY:
+            items.append(r)
     if ok == 0:
         print("every fetch failed; keeping the previous news.json", file=sys.stderr)
         return 1

@@ -23,9 +23,12 @@ Every Monday it also checks that all source links still answer. Run it locally w
 
 ## Daily news
 
-`.github/workflows/news.yml` runs `tools/fetch_news.py` every day at 05:23 UTC. It searches news
-for AI data centres in each EU27 country (terms in `tools/news_sources.json`), drops items with
-future or old dates, writes `news.json`, checks it and commits it. The page reads `news.json` and
+`.github/workflows/news.yml` runs `tools/fetch_news.py` every day at 05:23 UTC. It reads the
+publishers' own RSS feeds listed in `tools/news_sources.json` (Data Center Knowledge,
+DatacenterDynamics, Euronews and the European Commission), keeps items about AI data centres and
+compute, assigns them to EU27 countries by country and city names, drops items with future or old
+dates, writes `news.json`, checks it and commits it. Each item keeps only the headline, date,
+publisher and a link to the original article. The page reads `news.json` and
 shows the items in the News tab and in each country factsheet. Run it by hand from the Actions tab
 with "Run workflow".
 
@@ -33,3 +36,9 @@ Standard GitHub-hosted runners are free on public repositories, so this job uses
 minutes of private repositories on the same account. GitHub pauses scheduled workflows in a public
 repository after 60 days without activity; if that happens, enable the workflow again from the
 Actions tab.
+
+## Content and data
+
+Facts in each entry come from the linked sources and are written in our own words. People are named
+only with their public professional role, as published by their own institution. To correct or
+remove an entry, open an issue in this repository.
