@@ -151,6 +151,13 @@ for s in sites:
 for f in ("vendor/maplibre-gl.js", "vendor/maplibre-gl.css"):
     if not os.path.exists(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), f)): fail(f"{f} missing")
 
+# 3d. links are well formed and point at pages, not at geocoder queries
+for s in sites:
+    for k in ("url", "asrc"):
+        u = s.get(k) or ""
+        if u and (not u.startswith("http") or u.count("http") > 1 or " " in u): fail(f"{s['id']}.{k}: malformed link {u[:60]}")
+        if "nominatim.openstreetmap.org" in u: fail(f"{s['id']}.{k}: geocoder query used as a source")
+
 # 4. counts shown in the page match the data
 dc = collections.Counter(x for s in sites for x in s["dom"])
 m = re.search(r'data-d="all" aria-pressed="true">All <u>(\d+)</u>', html)
