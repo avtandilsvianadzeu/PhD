@@ -4,7 +4,8 @@ Run by .github/workflows/news.yml. Writes news.json next to index.html; the page
 and shows the items in the News tab and in each country factsheet.
 
 Sources are publishers' own RSS feeds, listed in tools/news_sources.json with the country
-words and topic words, so they can be changed without touching this script. Each item keeps
+words and topic words, so they can be changed without touching this script. Items from earlier runs
+are kept until they are older than max_age_days. Each item keeps
 only the headline, date, publisher and a link to the original article. If every fetch fails,
 the previous news.json is kept.
 """
@@ -80,6 +81,15 @@ def main():
             for cc, rx in CWORDS.items():
                 if rx.search(text):
                     rows.append({"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(src), "_t": d.timestamp()})
+    # publisher feeds hold only their latest items, so earlier days' items are kept until they age out
+    if OUT.exists():
+        try:
+            for r in json.loads(OUT.read_text(encoding="utf-8")).get("items", []):
+                d = dt.datetime.strptime(r["d"], "%d %b %Y").replace(tzinfo=dt.timezone.utc)
+                if NOW - d <= MAX_AGE and not any(x["u"] == r["u"] and x["c"] == r["c"] for x in rows):
+                    rows.append(dict(r, _t=d.timestamp()))
+        except Exception as e:
+            print(f"previous news.json skipped: {e}", file=sys.stderr)
     rows.sort(key=lambda r: -r["_t"])
     items, per = [], {}
     for r in rows:
