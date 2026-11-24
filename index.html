@@ -998,9 +998,11 @@ function showRankIndex(){
 }
 function showRank(n){
  const r=DATA.rank.find(x=>x.n===n);if(!r)return;selRank=n;sel=null;
- if(z<CLZ)glideTo(1.9,0,0);
- paint();
  const list=r.ids.map(id=>DATA.sites.find(y=>y.id===id)).filter(Boolean);
+ paint();
+ {const pts=list.filter(s=>s.x!=null);if(pts.length){const xs=pts.map(s=>s.x),ys=pts.map(s=>s.y);
+  if(typeof base!=='undefined'&&base!=='map'&&typeof glReady!=='undefined'&&glReady){const b=new maplibregl.LngLatBounds();pts.forEach(s=>s.lat!=null&&b.extend([s.lon,s.lat]));gl.fitBounds(b,{padding:glPad(),maxZoom:9,pitch:0,bearing:0,duration:1200});}
+  else zoomBox([Math.min(...xs),Math.min(...ys),Math.max(...xs),Math.max(...ys)],2.2,4);}}
  pane.innerHTML='<h2 class="ttl">'+esc(r.t)+'</h2>'+
   '<p class="sub"><span>Ranked '+r.n+' of 5 · '+esc(r.k)+'</span></p>'+
   '<div class="hdr">Why it places here</div><p class="body">'+esc(r.w)+'</p>'+
