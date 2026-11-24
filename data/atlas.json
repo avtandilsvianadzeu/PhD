@@ -656,13 +656,13 @@
    "news": [
     {
      "d": "16 Nov 2026",
-     "t": "JUPITER Booster holds #5 on the November 2026 TOP500, at about 1 exaflop.",
-     "u": "https://top500.org/lists/top500/2026/11/"
+     "t": "Booster module #16 on the November 2026 Green500.",
+     "u": "https://top500.org/lists/green500/list/2026/11/"
     },
     {
-     "d": "Jun 2026",
-     "t": "#5 on the TOP500 (Booster module) and #17 on the Green500.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "JUPITER Booster holds #5 on the November 2026 TOP500, at about 1 exaflop.",
+     "u": "https://top500.org/lists/top500/2026/11/"
     }
    ]
   },
@@ -685,9 +685,9 @@
    ],
    "news": [
     {
-     "d": "Jun 2026",
-     "t": "#11 on the TOP500.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "#11 on the November 2026 TOP500.",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
     },
     {
      "d": "2025",
@@ -715,13 +715,13 @@
    "news": [
     {
      "d": "16 Nov 2026",
-     "t": "LISA, the AI partition of Leonardo, enters the TOP500 at #48 with 56.88 petaflops.",
-     "u": "https://www.lovguiden.dk/en/det-offentlige/eurohpc-joint-undertaking/2026-11-16-top500-jupiter-at-no-5-as-eu-ai-system-lisa-debuts-on-the-list"
+     "t": "#13 on the November 2026 TOP500.",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
     },
     {
-     "d": "Jun 2026",
-     "t": "#12 on the TOP500.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "LISA, the AI partition of Leonardo, enters the TOP500 at #48 with 56.88 petaflops.",
+     "u": "https://www.lovguiden.dk/en/det-offentlige/eurohpc-joint-undertaking/2026-11-16-top500-jupiter-at-no-5-as-eu-ai-system-lisa-debuts-on-the-list"
     }
    ]
   },
@@ -744,9 +744,9 @@
    ],
    "news": [
     {
-     "d": "Jun 2026",
-     "t": "Accelerated partition #16 on the TOP500; general partition #61.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "Accelerated partition #18 on the November 2026 TOP500; general partition #68.",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
     }
    ]
   },
@@ -768,14 +768,14 @@
    ],
    "news": [
     {
+     "d": "16 Nov 2026",
+     "t": "#34 on the November 2026 TOP500 and #23 on the Green500.",
+     "u": "https://top500.org/lists/green500/list/2026/11/"
+    },
+    {
      "d": "19 Oct 2026",
      "t": "Inaugurated at the Lavrion Technological Cultural Park with the Greek Prime Minister.",
      "u": "https://www.euronews.com/2026/10/19/daedalus-greece-unveils-new-supercomputer-as-it-eyes-role-in-europes-ai-race"
-    },
-    {
-     "d": "Jun 2026",
-     "t": "#31 on the TOP500 and #23 on the Green500, among Europe's most energy-efficient systems.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
     }
    ]
   },
@@ -797,6 +797,11 @@
     "compute"
    ],
    "news": [
+    {
+     "d": "16 Nov 2026",
+     "t": "Arrhenius GPU #45 on the November 2026 TOP500 and #24 on the Green500.",
+     "u": "https://top500.org/lists/green500/list/2026/11/"
+    },
     {
      "d": "8 Sep 2026",
      "t": "Arrhenius inaugurated at Linköping University, an HPE system of about EUR 68.5m.",
@@ -856,9 +861,9 @@
    ],
    "news": [
     {
-     "d": "Jun 2026",
-     "t": "#177 on the TOP500.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "Accelerator module #190 on the November 2026 TOP500.",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
     }
    ]
   },
@@ -880,9 +885,9 @@
    ],
    "news": [
     {
-     "d": "Jun 2026",
-     "t": "#250 on the TOP500 (GPU partition).",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "GPU partition #266 on the November 2026 TOP500.",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
     },
     {
      "d": "23 Sep 2025",
@@ -909,9 +914,9 @@
    ],
    "news": [
     {
-     "d": "Jun 2026",
-     "t": "#353 on the TOP500, #137 on the Green500.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "#377 on the November 2026 TOP500 and #142 on the Green500.",
+     "u": "https://top500.org/lists/green500/list/2026/11/"
     }
    ]
   },
@@ -933,9 +938,9 @@
    ],
    "news": [
     {
-     "d": "Jun 2026",
-     "t": "#365 on the TOP500 (CPU partition).",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "CPU partition #389 on the November 2026 TOP500.",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
     }
    ]
   },
@@ -959,9 +964,9 @@
    ],
    "news": [
     {
-     "d": "Jun 2026",
-     "t": "#317 on the TOP500.",
-     "u": "https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en"
+     "d": "16 Nov 2026",
+     "t": "#339 on the November 2026 TOP500.",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
     }
    ]
   },
@@ -1470,7 +1475,7 @@
    "lat": 48.31146,
    "lon": 16.25895,
    "website": "https://ista.ac.at",
-   "summary": null,
+   "summary": "Institute of Science and Technology Austria (ISTA), research institute in Klosterneuburg near Vienna.",
    "topics": [
     "vision",
     "ml"
@@ -1617,9 +1622,9 @@
      "u": "https://insait.ai/insait-unveils-a-new-generation-of-ai-precision-models-for-business-and-an-upgraded-bggpt-chat-for-all-citizens/"
     },
     {
-     "d": "2 Feb 2026",
-     "t": "Receives a $500,000 award from Google, adding to more than $6m in earlier Google support.",
-     "u": "https://insait.ai/google-awards-500000-to-insait/"
+     "d": "Feb 2026",
+     "t": "Receives a $500,000 award from Google, extending a partnership that began at INSAIT's launch in 2022.",
+     "u": "https://insait.ai"
     }
    ]
   },
@@ -3951,7 +3956,7 @@
    "lat": 48.5985,
    "lon": 2.1952,
    "website": "https://mistral.ai/news/mistral-compute/",
-   "summary": "Mistral AI's own 44 MW training site in Essonne.",
+   "summary": "Mistral AI's 44 MW training site at Eclairion's data centre in Bruyères-le-Châtel, Essonne; the first deployment is running.",
    "topics": [
     "llm",
     "ml",
@@ -3961,7 +3966,7 @@
     {
      "d": "29 May 2026",
      "t": "Les Ulis inference site with Digital Realty announced, part of a wider compute programme in France and Sweden.",
-     "u": "https://w.media/mistral-announces-ai-data-center-expansion-plans-forays-into-industrial-ai-engineering/"
+     "u": "https://www.datacenterdynamics.com/en/news/mistral-ai-leverages-digital-realty-to-expand-its-ai-services-across-europe-digital-realty-to-host-10-mw-mistral-ai-compute-cluster-as-europe-ramps-up-ai-capacity-paris-france-may-28-2026-digital-realty-nyse-dlr-the-worlds-largest-clo/"
     },
     {
      "d": "30 Mar 2026",
@@ -4087,14 +4092,14 @@
    ],
    "news": [
     {
+     "d": "22 Jul 2026",
+     "t": "EUR 1.3bn of committed senior debt secured for phase 1.",
+     "u": "https://www.datacenterdynamics.com/en/news/pure-dc-secures-13bn-financing-for-finnish-data-center-campus/"
+    },
+    {
      "d": "14 Jul 2026",
      "t": "Pure DC launches SJK01: 110 MW first phase, 550+ MW at full scale.",
      "u": "https://www.telecomtv.com/content/digital-platforms-services/pure-dc-launches-one-of-europe-s-largest-ever-ai-infrastructure-projects-55904/"
-    },
-    {
-     "d": "2026",
-     "t": "EUR 1.3bn of committed senior debt secured for phase 1.",
-     "u": "https://www.datacenterdynamics.com/en/news/pure-dc-secures-13bn-financing-for-finnish-data-center-campus/"
     }
    ]
   },
@@ -4159,7 +4164,7 @@
    "lat": 48.1533,
    "lon": 11.5996,
    "website": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/2/germany-s-first-ai-factory-for-industry",
-   "summary": "Deutsche Telekom's industrial AI cloud in Munich, about 10,000 Blackwell GPUs.",
+   "summary": "Deutsche Telekom's industrial AI cloud at Munich's Tucherpark, launched with about 10,000 Blackwell GPUs and growing to 20 MW with B300 systems.",
    "topics": [
     "llm",
     "compute",
@@ -4250,14 +4255,14 @@
    "lat": 55.7281,
    "lon": 12.3762,
    "website": "https://dcai.dk/gefion",
-   "summary": "Denmark's sovereign AI supercomputer, 1,528 H100 GPUs.",
+   "summary": "Denmark's sovereign AI supercomputer, launched with 1,528 H100 GPUs and adding NVIDIA DGX B300 systems; #46 on the November 2026 TOP500.",
    "topics": [
     "compute"
    ],
    "news": [
     {
      "d": "10 Nov 2026",
-     "t": "DKK 500m for Gefion; Netcompany joins EIFO and the Novo Nordisk Foundation as shareholder.",
+     "t": "DKK 500m investment in DCAI, the operator of Gefion; Netcompany joins EIFO and the Novo Nordisk Foundation as shareholder.",
      "u": "https://tech.eu/2026/11/10/denmark-backs-sovereign-ai-ambitions-with-eur67m-investment-in-gefion-operator-dcai/"
     }
    ]
@@ -4532,7 +4537,7 @@
    "lat": 60.6289,
    "lon": 25.2625,
    "website": "https://nebius.com/newsroom/nebius-to-triple-capacity-at-finland-data-center-to-75-mw",
-   "summary": "Nebius's 75 MW AI data centre in southern Finland.",
+   "summary": "Nebius's 75 MW AI data centre in southern Finland, with a second 70 MW data centre at Mäntsälä coming online from 2027.",
    "topics": [
     "compute"
    ],
@@ -4543,7 +4548,7 @@
      "u": "https://w.media/nebius-expands-its-infrastructure-in-finland-with-second-data-center/"
     },
     {
-     "d": "31 Mar 2026",
+     "d": "2026",
      "t": "Mäntsälä expansion to 75 MW completed.",
      "u": "https://www.datacenterknowledge.com/data-center-construction/nebius-s-10b-310mw-data-center-plan-signals-ai-infrastructure-shift"
     }
@@ -4551,7 +4556,7 @@
   },
   {
    "id": "bid-mora",
-   "name": "Iberian AI Gigafactory bid, Móra la Nova",
+   "name": "Spanish AI Gigafactory bid, Móra la Nova",
    "layer": "AI Gigafactory bid",
    "kind": "bid",
    "status": "Bid",
@@ -4561,7 +4566,7 @@
    "lat": 41.1005,
    "lon": 0.6517,
    "website": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2026/20260701-spain-ai-gigafactory.aspx",
-   "summary": "Spain's AI Gigafactory bid at Móra la Nova and Madrid.",
+   "summary": "Spain's AI Gigafactory bid, with sites at Móra la Nova (Tarragona) and San Fernando de Henares (Madrid).",
    "topics": [
     "compute"
    ],
@@ -4692,7 +4697,7 @@
    "lat": 40.3922,
    "lon": 21.9301,
    "website": "https://www.tovima.com/finance/ppc-in-talks-for-2-5b-west-macedonia-data-hub/",
-   "summary": "Greek AI data centre proposal on a former lignite site.",
+   "summary": "Planned 300 MW PPC data centre at the former Agios Dimitrios lignite station, to be leased by AWS for 15 years.",
    "topics": [
     "compute"
    ],
