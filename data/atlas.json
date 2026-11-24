@@ -5648,6 +5648,454 @@
      "u": "https://techcrunch.com/2026/01/26/synthesia-hits-4b-valuation-lets-employees-cash-in"
     }
    ]
+  },
+  {
+   "id": "pf-hochreiter",
+   "name": "Sepp Hochreiter",
+   "layer": "Professor and Head of the Institute for Machine Learning, Johannes Kepler University Linz",
+   "kind": "thinker",
+   "status": null,
+   "city": "Linz",
+   "country": "Austria",
+   "address": null,
+   "lat": 48.3366,
+   "lon": 14.3196,
+   "website": "https://www.jku.at/en/institute-for-machine-learning/about-us/team/sepp-hochreiter/",
+   "summary": "Deep learning, recurrent networks and the xLSTM architecture.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-cucchiara",
+   "name": "Rita Cucchiara",
+   "layer": "Professor and Rector, University of Modena and Reggio Emilia",
+   "kind": "thinker",
+   "status": null,
+   "city": "Modena",
+   "country": "Italy",
+   "address": null,
+   "lat": 44.6457,
+   "lon": 10.9256,
+   "website": "https://aimagelab.unimore.it/people/",
+   "summary": "Computer vision and multimodal vision and language models.",
+   "topics": [
+    "llm",
+    "vision"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-lugosi",
+   "name": "Gábor Lugosi",
+   "layer": "ICREA Research Professor, Department of Economics and Business, Universitat Pompeu Fabra",
+   "kind": "thinker",
+   "status": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "address": null,
+   "lat": 41.3897,
+   "lon": 2.1915,
+   "website": "https://www.icrea.cat/community/icreas/17524/gabor-lugosi",
+   "summary": "Statistical learning theory, online learning and probability.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-figueiredo",
+   "name": "Mário A. T. Figueiredo",
+   "layer": "Distinguished Professor and Feedzai Professor of Machine Learning, Instituto Superior Técnico, University of Lisbon",
+   "kind": "thinker",
+   "status": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "address": null,
+   "lat": 38.7368,
+   "lon": -9.1388,
+   "website": "https://scholar.tecnico.ulisboa.pt/authors/ist12403",
+   "summary": "Machine learning, optimisation and signal processing.",
+   "topics": [
+    "vision",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-maragos",
+   "name": "Petros Maragos",
+   "layer": "Professor of Electrical and Computer Engineering, National Technical University of Athens",
+   "kind": "thinker",
+   "status": null,
+   "city": "Athens",
+   "country": "Greece",
+   "address": null,
+   "lat": 37.9787,
+   "lon": 23.783,
+   "website": "https://robotics.ntua.gr/members/maragos",
+   "summary": "Computer vision, robotics and tropical geometry for machine learning.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-matas",
+   "name": "Jiří Matas",
+   "layer": "Professor, Center for Machine Perception, Faculty of Electrical Engineering, Czech Technical University in Prague",
+   "kind": "thinker",
+   "status": null,
+   "city": "Prague",
+   "country": "Czechia",
+   "address": null,
+   "lat": 50.076,
+   "lon": 14.418,
+   "website": "https://cmp.felk.cvut.cz/~matas",
+   "summary": "Computer vision, visual tracking and object recognition.",
+   "topics": [
+    "vision"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-sankowski",
+   "name": "Piotr Sankowski",
+   "layer": "Professor, Institute of Informatics, University of Warsaw",
+   "kind": "thinker",
+   "status": null,
+   "city": "Warsaw",
+   "country": "Poland",
+   "address": null,
+   "lat": 52.2117,
+   "lon": 20.983,
+   "website": "https://www.nask.pl/en/bio/dr-hab-inz-piotr-sankowski",
+   "summary": "Algorithms for machine learning and data science.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-robnik-sikonja",
+   "name": "Marko Robnik-Šikonja",
+   "layer": "Full Professor, Faculty of Computer and Information Science, University of Ljubljana",
+   "kind": "thinker",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": null,
+   "lat": 46.0503,
+   "lon": 14.469,
+   "website": "https://fri.uni-lj.si/en/employees/marko-robnik-sikonja",
+   "summary": "Machine learning, explainable AI and language technologies for Slovene.",
+   "topics": [
+    "llm",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-kaski",
+   "name": "Samuel Kaski",
+   "layer": "Professor of Computer Science, Aalto University, and Director of ELLIS Institute Finland",
+   "kind": "thinker",
+   "status": null,
+   "city": "Espoo",
+   "country": "Finland",
+   "address": null,
+   "lat": 60.1867,
+   "lon": 24.8277,
+   "website": "https://research.cs.aalto.fi/pml/",
+   "summary": "Probabilistic machine learning and human and AI collaboration.",
+   "topics": [
+    "ml",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-kragic",
+   "name": "Danica Kragic",
+   "layer": "Professor of Computer Science, KTH Royal Institute of Technology",
+   "kind": "thinker",
+   "status": null,
+   "city": "Stockholm",
+   "country": "Sweden",
+   "address": null,
+   "lat": 59.3498,
+   "lon": 18.0707,
+   "website": "https://www.kth.se/profile/dani",
+   "summary": "Robotics, robot manipulation and machine learning for perception.",
+   "topics": [
+    "ml",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-tuytelaars",
+   "name": "Tinne Tuytelaars",
+   "layer": "Professor, ESAT-PSI, KU Leuven",
+   "kind": "thinker",
+   "status": null,
+   "city": "Leuven",
+   "country": "Belgium",
+   "address": null,
+   "lat": 50.8625,
+   "lon": 4.6857,
+   "website": "https://www.esat.kuleuven.be/psi/TT",
+   "summary": "Computer vision, continual learning and vision and language.",
+   "topics": [
+    "vision"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-scholkopf",
+   "name": "Bernhard Schölkopf",
+   "layer": "Director, Max Planck Institute for Intelligent Systems, Tübingen",
+   "kind": "thinker",
+   "status": null,
+   "city": "Tübingen",
+   "country": "Germany",
+   "address": null,
+   "lat": 48.534,
+   "lon": 9.059,
+   "website": "https://ellis.eu/person/bernhard-scholkopf",
+   "summary": "Causal inference, kernel methods and causal representation learning.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-nyholm",
+   "name": "Sven Nyholm",
+   "layer": "Professor of Ethics of Artificial Intelligence, LMU Munich",
+   "kind": "thinker",
+   "status": null,
+   "city": "Munich",
+   "country": "Germany",
+   "address": null,
+   "lat": 48.1508,
+   "lon": 11.5803,
+   "website": "https://www.philosophie.lmu.de/en/directory-of-persons/contact-page/sven-nyholm-4f56fa3b.html",
+   "summary": "Ethics of AI, robots and responsibility.",
+   "topics": [
+    "ml",
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-van-wynsberghe",
+   "name": "Aimee van Wynsberghe",
+   "layer": "Alexander von Humboldt Professor for Applied Ethics of Artificial Intelligence, University of Bonn",
+   "kind": "thinker",
+   "status": null,
+   "city": "Bonn",
+   "country": "Germany",
+   "address": null,
+   "lat": 50.7246,
+   "lon": 7.1077,
+   "website": "https://www.iwe.uni-bonn.de/en/team/aimee-van-wynsberghe",
+   "summary": "Sustainable AI and robot ethics.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-misselhorn",
+   "name": "Catrin Misselhorn",
+   "layer": "Professor of Philosophy, University of Göttingen",
+   "kind": "thinker",
+   "status": null,
+   "city": "Göttingen",
+   "country": "Germany",
+   "address": null,
+   "lat": 51.5413,
+   "lon": 9.9358,
+   "website": "https://www.uni-goettingen.de/de/605428.html",
+   "summary": "Machine ethics and artificial moral agents.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-danaher",
+   "name": "John Danaher",
+   "layer": "Associate Professor, School of Law, University of Galway",
+   "kind": "thinker",
+   "status": null,
+   "city": "Galway",
+   "country": "Ireland",
+   "address": null,
+   "lat": 53.2785,
+   "lon": -9.0606,
+   "website": "https://research.universityofgalway.ie/en/persons/john-danaher/",
+   "summary": "Ethics and law of automation, robots and the future of work.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-van-de-poel",
+   "name": "Ibo van de Poel",
+   "layer": "Antoni van Leeuwenhoek Professor in Ethics and Technology, Delft University of Technology",
+   "kind": "thinker",
+   "status": null,
+   "city": "Delft",
+   "country": "Netherlands",
+   "address": null,
+   "lat": 52.0003,
+   "lon": 4.3735,
+   "website": "https://tudelft.nl/staff/i.r.vandepoel",
+   "summary": "Values in AI systems and the ethics of technology.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-santoni-de-sio",
+   "name": "Filippo Santoni de Sio",
+   "layer": "Full Professor, Philosophy and Ethics, Eindhoven University of Technology",
+   "kind": "thinker",
+   "status": null,
+   "city": "Eindhoven",
+   "country": "Netherlands",
+   "address": null,
+   "lat": 51.4486,
+   "lon": 5.4907,
+   "website": "https://research.tue.nl/en/persons/filippo-santoni-de-sio/",
+   "summary": "Meaningful human control and the ethics and politics of AI.",
+   "topics": [
+    "robot",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-milkowski",
+   "name": "Marcin Miłkowski",
+   "layer": "Professor and Head of the Section for Logic and Cognitive Science, Institute of Philosophy and Sociology, Polish Academy of Sciences",
+   "kind": "thinker",
+   "status": null,
+   "city": "Warsaw",
+   "country": "Poland",
+   "address": null,
+   "lat": 52.2392,
+   "lon": 21.0183,
+   "website": "https://ifispan.pl/en/filozofia/logic-and-cognitive-science/",
+   "summary": "Philosophy of cognitive science and computational models of mind.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-sartor",
+   "name": "Giovanni Sartor",
+   "layer": "Full Professor of Philosophy of Law and Legal Informatics, University of Bologna",
+   "kind": "thinker",
+   "status": null,
+   "city": "Bologna",
+   "country": "Italy",
+   "address": null,
+   "lat": 44.4963,
+   "lon": 11.3526,
+   "website": "https://www.unibo.it/sitoweb/giovanni.sartor/cv-en",
+   "summary": "AI and law, legal reasoning and AI regulation.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-holm",
+   "name": "Sune Hannibal Holm",
+   "layer": "Associate Professor, Section of Philosophy, Department of Food and Resource Economics, University of Copenhagen",
+   "kind": "thinker",
+   "status": null,
+   "city": "Copenhagen",
+   "country": "Denmark",
+   "address": null,
+   "lat": 55.6837,
+   "lon": 12.544,
+   "website": "https://www.ku.dk/ifro/en/employees/86988",
+   "summary": "Algorithmic fairness and the ethics of medical AI.",
+   "topics": [
+    "ethics",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-haggstrom",
+   "name": "Olle Häggström",
+   "layer": "Professor of Mathematical Statistics, Chalmers University of Technology",
+   "kind": "thinker",
+   "status": null,
+   "city": "Gothenburg",
+   "country": "Sweden",
+   "address": null,
+   "lat": 57.6896,
+   "lon": 11.9748,
+   "website": "https://research.chalmers.se/en/person/?cid=olleh",
+   "summary": "AI safety, AI ethics and long-term risk.",
+   "topics": [
+    "ml",
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-vica",
+   "name": "Constantin Vică",
+   "layer": "Associate Professor, Faculty of Philosophy, and Vice-Rector, University of Bucharest",
+   "kind": "thinker",
+   "status": null,
+   "city": "Bucharest",
+   "country": "Romania",
+   "address": null,
+   "lat": 44.4355,
+   "lon": 26.102,
+   "website": "https://unibuc.ro/despre-ub/organizare/conducere/conf-univ-dr-constantin-vica/?lang=en",
+   "summary": "Computer ethics and the responsibility of AI systems.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
+  },
+  {
+   "id": "pf-menissier",
+   "name": "Thierry Ménissier",
+   "layer": "Professor of Political Philosophy, Université Grenoble Alpes",
+   "kind": "thinker",
+   "status": null,
+   "city": "Grenoble",
+   "country": "France",
+   "address": null,
+   "lat": 45.1916,
+   "lon": 5.7676,
+   "website": "https://iphig.univ-grenoble-alpes.fr/en/node/114",
+   "summary": "Ethics and political philosophy of AI and innovation.",
+   "topics": [
+    "ethics"
+   ],
+   "news": []
   }
  ]
 }
