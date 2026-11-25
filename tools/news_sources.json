@@ -6,10 +6,7 @@
   "Euronews Next": "https://www.euronews.com/rss?level=vertical&name=next",
   "Euronews Business": "https://www.euronews.com/rss?level=vertical&name=business",
   "European Commission, Shaping Europe's digital future": "https://digital-strategy.ec.europa.eu/en/rss.xml",
-  "Tech.eu": [
-   "https://tech.eu/feed/",
-   "https://tech.eu/rss/"
-  ],
+  "Tech.eu": "https://tech.eu/feed/",
   "Sifted": "https://sifted.eu/feed",
   "Euractiv": "https://www.euractiv.com/feed/",
   "Politico Europe": "https://www.politico.eu/feed/",
@@ -23,17 +20,8 @@
   "Euronews": "https://www.euronews.com/rss",
   "The Guardian, Artificial intelligence": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
   "BBC News, Technology": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-  "The Register": [
-   "https://www.theregister.com/headlines.atom",
-   "https://www.theregister.com/data_centre/headlines.atom"
-  ],
-  "Computer Weekly": [
-   "https://www.computerweekly.com/rss/Datacentre.xml",
-   "https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml"
-  ],
-  "Deutsche Welle, Business": "https://rss.dw.com/rdf/rss-en-bus",
-  "European Parliament": "https://www.europarl.europa.eu/rss/doc/top-stories/en.xml",
-  "Data Centre Magazine": "https://datacentremagazine.com/rss"
+  "The Register": "https://www.theregister.com/headlines.atom",
+  "Computer Weekly": "https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml"
  },
  "topic_must_match": "data cent|AI factor|gigafactor|supercomput|AI campus|GPU|hyperscale|EuroHPC|compute capacity|AI infrastructure|AI Act|artificial intelligence|AI gigafactor|sovereign AI|\\bAI (lab|model|research|startup|compute)|machine learning|language model|foundation model|generative AI|\\bLLMs?\\b|quantum comput|\\bHPC\\b|Chips Act|semiconductor|digital twin|robotic|AI continent|Apply AI|datacent|data center|AI chips?\\b|sovereign cloud|compute (power|infrastructure|capacity)",
  "max_age_days": 120,
