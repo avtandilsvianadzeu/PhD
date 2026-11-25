@@ -8,15 +8,36 @@
   "European Commission, Shaping Europe's digital future": "https://digital-strategy.ec.europa.eu/en/rss.xml",
   "Tech.eu": "https://tech.eu/feed/",
   "Sifted": "https://sifted.eu/feed",
-  "Euractiv": "https://www.euractiv.com/feed/",
+  "Science Business": "https://sciencebusiness.net/rss.xml",
+  "Euractiv": [
+   "https://www.euractiv.com/sections/digital/feed/",
+   "https://www.euractiv.com/feed/"
+  ],
   "Politico Europe": "https://www.politico.eu/feed/",
   "The Next Web": "https://thenextweb.com/feed",
   "EU-Startups": "https://www.eu-startups.com/feed/",
   "HPCwire": "https://www.hpcwire.com/feed/",
+  "insideHPC": "https://insidehpc.com/feed/",
+  "The Register": "https://www.theregister.com/data_centre/headlines.atom",
   "Silicon Republic": "https://www.siliconrepublic.com/feed",
   "AlgorithmWatch": "https://algorithmwatch.org/en/feed/",
-  "European Commission, Research and innovation": "https://research-and-innovation.ec.europa.eu/node/2/rss_en",
-  "European Innovation Council": "https://eic.ec.europa.eu/node/2/rss_en"
+  "EuroHPC Joint Undertaking": [
+   "https://www.eurohpc-ju.europa.eu/node/3/rss_en",
+   "https://www.eurohpc-ju.europa.eu/rss_en",
+   "https://eurohpc-ju.europa.eu/news_en/rss.xml"
+  ],
+  "European Commission, Research and innovation": [
+   "https://research-and-innovation.ec.europa.eu/node/2/rss_en",
+   "https://research-and-innovation.ec.europa.eu/rss_en"
+  ],
+  "European Innovation Council": [
+   "https://eic.ec.europa.eu/node/2/rss_en",
+   "https://eic.ec.europa.eu/rss_en"
+  ],
+  "CORDIS": [
+   "https://cordis.europa.eu/news/rss",
+   "https://cordis.europa.eu/rss/news_en.xml"
+  ]
  },
  "topic_must_match": "data cent|AI factor|gigafactor|supercomput|AI campus|GPU|hyperscale|EuroHPC|compute capacity|AI infrastructure|AI Act|artificial intelligence|AI gigafactor|sovereign AI|\\bAI (lab|model|research|startup|compute)|machine learning|language model|foundation model|generative AI|\\bLLMs?\\b|quantum comput|\\bHPC\\b|Chips Act|semiconductor|digital twin|robotic|AI continent|Apply AI",
  "max_age_days": 120,

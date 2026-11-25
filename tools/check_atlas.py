@@ -179,6 +179,16 @@ if _cp.exists():
         if not _c.get("u", "").startswith("https://ec.europa.eu/"): fail(f"calls: {_c.get('id')} link is not on the EU portal")
         scan("calls " + _c.get("id", ""), _c.get("t", ""))
 
+# 9b. EU projects from the CORDIS open data file: a CORDIS link, a start date and plain typography
+_pp = ROOT / "projects.json"
+if _pp.exists():
+    _pj = json.loads(_pp.read_text(encoding="utf-8"))
+    if "CORDIS" not in _pj.get("source", ""): fail("projects.json: the CORDIS source line is missing")
+    for _p in _pj.get("items", []):
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", _p.get("s", "")): fail(f"projects: {_p.get('id')} has no start date")
+        if not _p.get("u", "").startswith("https://cordis.europa.eu/project/id/"): fail(f"projects: {_p.get('id')} link is not on CORDIS")
+        scan("projects " + _p.get("id", ""), _p.get("t", "") + " " + _p.get("org", ""))
+
 # 10. emoji appear only as country flags; interface symbols are drawn as SVG
 for _m in re.finditer(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF]", outside):
     fail(f"page markup: emoji {_m.group(0)!r} outside a country flag"); break

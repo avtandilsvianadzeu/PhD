@@ -25,7 +25,7 @@ TOPICS = [('AI', r'\bAI\b|artificial intelligence|machine learning|generative|fo
           ('Data', r'\bdata\b|data space|digital twin|big data|analytics'),
           ('Robotics', r'robot|autonomous'),
           ('Chips', r'semiconductor|\bchips?\b|microelectronic|processor'),
-          ('Infrastructure', r'bridge|built environment|construction (sector|industry|site|product|material)|civil engineering|transport infrastructure|road infrastructure|rail infrastructure|infrastructure (monitoring|resilience|maintenance|inspection)|resilien\w+ (of )?(transport|infrastructure)|structural health|building stock|buildings?\b.*(renovation|energy)|concrete|cement')]
+          ('Infrastructure', r'\bbridges?\b|built environment|construction (sector|industry|site|product|material)|civil engineering|transport infrastructure|road infrastructure|rail infrastructure|infrastructure (monitoring|resilience|maintenance|inspection)|resilien\w+ (of )?(transport|infrastructure)|structural health|building stock|buildings?\b.*(renovation|energy)|\bconcrete\b|\bcement\b')]
 STATUS = {'31094501': 'Forthcoming', '31094502': 'Open'}
 
 def form():
