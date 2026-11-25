@@ -6329,7 +6329,7 @@
    "lat": 41.709,
    "lon": 44.7375,
    "website": "https://btu.edu.ge/en/ai/btu-ai-lab/",
-   "summary": "BTU describes its AI Lab as the first regional laboratory of artificial intelligence.",
+   "summary": "Students and other participants work with IT companies on product development, and the lab partners with the business association AI Georgia on a national AI strategy.",
    "topics": [
     "ml"
    ],
@@ -6347,7 +6347,7 @@
    "lat": 41.7151,
    "lon": 44.8271,
    "website": "https://datacenterdynamics.com/en/news/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus",
-   "summary": "Silk Cloud is a cloud company launched in 2025 by the Georgian telecom provider Silknet, part of Silk Road Group.",
+   "summary": "Its Tbilisi data centre has 2 MW of planned compute capacity and will host HPE systems with NVIDIA Blackwell Ultra GPUs.",
    "topics": [
     "compute"
    ],
@@ -6371,7 +6371,7 @@
    "lat": 40.4975,
    "lon": 44.7663,
    "website": "https://hightech.gov.am/en/articles/news/firebird-06-1",
-   "summary": "Firebird opened this AI data centre near Hrazdan in August 2026 with NVIDIA and Dell Technologies hardware.",
+   "summary": "Phase one has about 6,000 NVIDIA Blackwell GPUs and 18 MW, according to the Armenian Ministry of High-Tech Industry.",
    "topics": [
     "compute"
    ],
@@ -6400,7 +6400,7 @@
    "lat": 40.1815,
    "lon": 44.526,
    "website": "https://ysu.am/en/news/53112",
-   "summary": "Yerevan State University inaugurated a supercomputer centre with 64 NVIDIA H100 GPUs in January 2026.",
+   "summary": "Its Machine Learning Research group, led by Hrant Khachatrian, founder of YerevaNN, uses it for molecular design with language models, radio signal processing, drone control and satellite image analysis.",
    "topics": [
     "llm",
     "vision",
@@ -6427,7 +6427,7 @@
    "lat": 40.1935,
    "lon": 44.5015,
    "website": "https://fast.foundation/en/about-us",
-   "summary": "FAST is a foundation that supports science and technology in Armenia, with artificial intelligence among its focus areas.",
+   "summary": "Its Generation AI programme, run with the education ministry since 2023, teaches AI and advanced mathematics in high schools.",
    "topics": [
     "ml"
    ],
@@ -6445,7 +6445,7 @@
    "lat": 40.4093,
    "lon": 49.8671,
    "website": "https://mincom.gov.az/en/ministry/structure/azintelecom-llc",
-   "summary": "AzInTelecom, the state cloud provider within AZCON Holding, set up the first supercomputer centre in Azerbaijan in December 2025.",
+   "summary": "It runs Lenovo servers with NVIDIA H200 GPUs for AI projects of state bodies and companies under the national AI strategy for 2025 to 2028.",
    "topics": [
     "compute"
    ],
@@ -6474,7 +6474,7 @@
    "lat": 40.4213,
    "lon": 49.8471,
    "website": "https://mincom.gov.az/en/projects/ai-academy-artificial-intelligence-training-center",
-   "summary": "AI Academy is a training centre for AI engineers that opened in Baku on 8 September 2025.",
+   "summary": "The Ministry of Digital Development and Transport states that the Azerbaijan Artificial Intelligence Laboratory under the ministry established it, with support from AZCON Holding.",
    "topics": [
     "llm"
    ],
@@ -6483,8 +6483,8 @@
   {
    "id": "al-ai4digit",
    "name": "AI4DigiT, Artificial Intelligence for Digital Transformation in Albania Innovation Hub",
-   "layer": "EU project",
-   "kind": "project",
+   "layer": "Research centre",
+   "kind": "research",
    "status": null,
    "city": "Tirana",
    "country": "Albania",
@@ -6492,10 +6492,9 @@
    "lat": 41.321,
    "lon": 19.8215,
    "website": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/ai4digit",
-   "summary": "AI4DigiT is a digital innovation hub listed in the European Digital Innovation Hubs catalogue of the European Commission.",
+   "summary": "University of Tirana, the National Agency for Information Society (AKSHI) and the Chamber of Commerce and Industry in Tirana founded it.",
    "topics": [
-    "ml",
-    "struct"
+    "ml"
    ],
    "news": []
   },
@@ -6511,7 +6510,7 @@
    "lat": 42.4215,
    "lon": 19.21,
    "website": "https://eurocc.udg.edu.me/about/",
-   "summary": "NCC Montenegro is the National Competence Centre for high-performance computing, data analytics and AI, and the national entry point to EuroHPC resources.",
+   "summary": "University of Donja Gorica hosts it and University of Montenegro is an affiliated partner.",
    "topics": [
     "ml",
     "materials"
@@ -6541,7 +6540,7 @@
    "lat": 43.903,
    "lon": 18.348,
    "website": "https://verlabinstitute.com/organisation/",
-   "summary": "Verlab Institute is a research institute in Sarajevo with AI and Digital Society among its four research fields.",
+   "summary": "Its CORE Lab covers supercomputing, simulation and AI, and its THEMIS Lab works on AI system safety and medical device compliance.",
    "topics": [
     "health"
    ],
@@ -6559,7 +6558,7 @@
    "lat": 43.8563,
    "lon": 18.3967,
    "website": "https://hcai.etf.unsa.ba/",
-   "summary": "HCAI Sarajevo is a research group for human-centred AI and robotics at the Faculty of Electrical Engineering.",
+   "summary": "Its topics are explainable AI, robot learning and planning, human and agent interaction, and responsible AI.",
    "topics": [
     "robot"
    ],
@@ -6577,7 +6576,7 @@
    "lat": 43.8215,
    "lon": 18.307,
    "website": "https://research.ius.edu.ba/ai-lab",
-   "summary": "International University of Sarajevo runs a joint AI laboratory with the company Arti-Analytics BH in its Research and Development Center.",
+   "summary": "The laboratory has ten workstations and a Dell AI server with two NVIDIA L40 GPUs.",
    "topics": [
     "ml"
    ],
@@ -6595,12 +6594,90 @@
    "lat": 47.1493,
    "lon": 9.5165,
    "website": "https://uni.li/en/university/organisation/liechtenstein-business-school/artificial-intelligence-and-data-science",
-   "summary": "This professorship at the Liechtenstein Business School is led by Prof.",
+   "summary": "Dr.",
    "topics": [
     "llm",
     "ethics"
    ],
    "news": []
+  },
+  {
+   "id": "xk-aiup",
+   "name": "Center for Artificial Intelligence, University of Prishtina (AIUP)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Prishtina",
+   "country": "Kosovo",
+   "address": "Rectorate Building, University of Prishtina, Rr. George Bush, 10000 Prishtina, Kosovo, Kosovo",
+   "lat": 42.6565,
+   "lon": 21.1622,
+   "website": "https://aiup.uni-pr.edu/",
+   "summary": "It does basic and applied research in machine learning, data science, optimisation, natural language processing and computer vision, and works on policies for responsible use of AI.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "29 Apr 2026",
+     "t": "The council of the centre elected Professor Kadri Sylejmani as director.",
+     "u": "https://upnew.uni-pr.edu/en/news/university-of-prishtina-artificial-intelligence-center-advances-toward-full"
+    },
+    {
+     "d": "26 Dec 2025",
+     "t": "The University of Prishtina reported that it had won Digital Europe funding under the EuroCC project to set up a national competence centre for high-performance computing in Kosovo.",
+     "u": "https://upnew.uni-pr.edu/en/news/university-of-prishtina-puts-kosovo-on-europe-s-high-performance-computing-map"
+    }
+   ]
+  },
+  {
+   "id": "by-uiip",
+   "name": "United Institute of Informatics Problems, National Academy of Sciences of Belarus (UIIP NASB)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Minsk",
+   "country": "Belarus",
+   "address": "Surganova St. 6, Minsk, Belarus, Belarus",
+   "lat": 53.9222,
+   "lon": 27.5968,
+   "website": "https://uiip.bas-net.by/eng/",
+   "summary": "It hosts the Interdepartmental Research Center for Artificial Intelligence, set up by an Academy resolution of 31 August 2015, which works on biomedical data analysis, text and speech processing and neural networks for robotics.",
+   "topics": [
+    "llm",
+    "ml",
+    "robot",
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "by-supercomputer",
+   "name": "Republican Supercomputer Center, UIIP NASB",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Minsk",
+   "country": "Belarus",
+   "address": "Surganova St. 6, Minsk, Belarus, Belarus",
+   "lat": 53.9234,
+   "lon": 27.5988,
+   "website": "https://uiip.bas-net.by/eng/about/departments/17/",
+   "summary": "Its SKIF-GRID-CNG cluster has GPUs and is aimed at artificial intelligence and image processing.",
+   "topics": [
+    "vision",
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "6 Nov 2025",
+     "t": "UIIP NASB reported that the UMKA cluster (24 nodes, 2,016 cores, 120 teraflops peak) joined the national grid on 3 October 2025.",
+     "u": "https://uiip.basnet.by/eng/news/543/"
+    }
+   ]
   }
  ]
 }
