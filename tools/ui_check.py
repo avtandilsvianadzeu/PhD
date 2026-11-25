@@ -76,6 +76,11 @@ def main():
         sw = pg.evaluate("[...document.querySelectorAll('#basesw button')].map(x=>x.dataset.b).join(',')")
         if sw != 'sat,map': problems.append(f'base map switcher reads {sw}')
         if pg.evaluate("base") not in ('sat', 'map'): problems.append('satellite view did not open')
+        # search: accents, several words and short forms find entries; nonsense finds none
+        for term, lo, hi in [('munchen', 1, 60), ('hpc finland', 1, 20), ('zurich monitoring', 1, 20), ('xyzzy', 0, 0)]:
+            n = pg.evaluate("(t=>{const q=document.getElementById('q');q.value=t;q.dispatchEvent(new Event('input',{bubbles:true}));return DATA.sites.filter(s=>s.hit!==false).length})", term)
+            if not lo <= n <= hi: problems.append(f'search "{term}" finds {n} entries')
+        pg.evaluate("(()=>{const q=document.getElementById('q');q.value='';q.dispatchEvent(new Event('input',{bubbles:true}))})()")
         pg.evaluate("setTab('collab')"); pg.wait_for_timeout(300)
         if pg.evaluate("document.querySelectorAll('.cb details').length") < 5: problems.append('Collaboration page lists fewer than 5 topics')
         if pg.evaluate("/ZAG|Zavod za gradbeni/.test(document.querySelector('.pane').textContent)"): problems.append('Collaboration page names the owner institute')

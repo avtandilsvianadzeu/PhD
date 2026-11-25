@@ -77,7 +77,10 @@ def main():
             continue                                   # running or upcoming projects only
         title = clean(p.get('title', ''))
         text = title + ' ' + (p.get('objective') or '') + ' ' + (p.get('keywords') or '')
-        tp = [k for k, rx in TOPICS if re.search(rx, text, re.I)]
+        strong = title + ' ' + (p.get('keywords') or '')
+        obj = p.get('objective') or ''
+        # a topic counts when the title or keywords name it, or the objective names it at least twice
+        tp = [k for k, rx in TOPICS if re.search(rx, strong, re.I) or len(re.findall(rx, obj, re.I)) >= 2]
         ai = bool(re.search(AI, text, re.I))
         eng = [k for k in tp if k != 'vision']
         if not eng and not (ai and re.search(AI, title, re.I)):

@@ -1167,7 +1167,7 @@ function paint(){
  const per={};
  for(const s of DATA.sites){
   let ok=(!cnF||s.cc===cnF)&&(dom==='all'||s.dom.indexOf(dom)>=0)&&(!layerSel||s.L===layerSel)&&(!stSel||s.st===stSel)&&(!topicSel||(s.tp||[]).indexOf(topicSel)>=0);
-  if(ok&&q)ok=(s.n+' '+s.city+' '+s.cn+' '+s.sec.join(' ')+' '+s.ll+' '+
+  if(ok&&q)ok=window.__match?window.__match(s,q):(s.n+' '+s.city+' '+s.cn+' '+s.sec.join(' ')+' '+s.ll+' '+
    s.people.join(' ')+' '+(s.b||'')).toLowerCase().indexOf(q)>=0;
   s.hit=ok;
   if(!s.el)continue;
@@ -2279,8 +2279,8 @@ goHome(false);
  const stc=s=>s?'st-'+s.toLowerCase().replace(/\s+/g,'-'):'';
  /* quick find: filters the rows already on the page, hides empty groups */
  window.wireFind=function(rowSel){const f=pane.querySelector('.pfind');if(!f)return;
-  const run=()=>{const q=f.value.trim().toLowerCase();let n=0;
-   pane.querySelectorAll(rowSel).forEach(r=>{const ok=!q||r.textContent.toLowerCase().indexOf(q)>=0;r.hidden=!ok;if(ok)n++;});
+  const run=()=>{const q=window.__fold?window.__fold(f.value).trim().split(/\s+/).filter(Boolean):[];let n=0;
+   pane.querySelectorAll(rowSel).forEach(r=>{const t=q.length?(window.__fold?window.__fold(r.textContent):r.textContent.toLowerCase()):'';const ok=q.every(w=>(' '+t).indexOf(' '+w)>=0||(w.length>3&&t.indexOf(w)>=0));r.hidden=!ok;if(ok)n++;});
    pane.querySelectorAll('.card').forEach(c=>{const rows=c.querySelectorAll(rowSel);if(!rows.length)return;const any=[...rows].some(r=>!r.hidden);c.hidden=!any;
     let p=c.previousElementSibling;if(p&&(p.classList.contains('hdr')||p.classList.contains('grp')||p.classList.contains('era')))p.hidden=!any;});
    const o=pane.querySelector('.pfcount');if(o)o.textContent=q?n+' shown':'';
@@ -2476,9 +2476,10 @@ goHome(false);
  const nav=document.querySelector('.phdr .pnav');if(!DATA.topics||!DATA.topics.eng)return;
  const MS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
  const AREAS=DATA.topics.eng.concat((DATA.topics.ai||[]).filter(t=>t[0]==='vision'));
- const RX={shm:/monitor|digital twin|sensor|inspection|maintenance/i,wim:/transport|traffic|road|freight|mobility|vehicle/i,struct:/bridge|structur|infrastructure|construction|resilien/i,
-  materials:/material|concrete|cement|steel|composite/i,geo:/transport infrastructure|rail|road|tunnel|earth observation|geo/i,building:/building|energy efficien|fire|renovation/i,
-  sustain:/circular|sustainab|built environment|climate|decarbon|green/i,metrology:/metrolog|standard|measurement|certif|testing/i,vision:/vision|image|video|perception|inspection/i};
+ const RX={shm:/structural health|infrastructure monitoring|digital twin|\bsensors?\b|inspection|predictive maintenance/i,wim:/weigh|traffic load|freight|heavy vehicle|road transport|road infrastructure/i,
+  struct:/\bbridges?\b|\bstructur(al|es?)\b|civil infrastructure|transport infrastructure|construction|\bbuilt\b/i,materials:/\bmaterials?\b|concrete|cement|\bsteel\b|composite/i,
+  geo:/transport infrastructure|\brail|\broads?\b|tunnel|earth observation|geotech/i,building:/\bbuildings?\b|energy efficien|\bfire\b|renovation/i,
+  sustain:/circular|sustainab\w* (construction|built|building)|built environment|decarbon|bauhaus/i,metrology:/metrolog|standardi[sz]ation|measurement|certif/i,vision:/computer vision|\bimages?\b|video|perception|inspection/i};
  const ORD={research:0,project:1,industry:2,factory:3,antenna:4,hpc:5,campus:6,bid:7};
  const own=s=>s.id!=='zag'&&s.L!=='thinker';
  function groups(k){return DATA.sites.filter(s=>own(s)&&(s.tp||[]).indexOf(k)>=0).sort((a,b)=>(ORD[a.L]||0)-(ORD[b.L]||0)||a.n.localeCompare(b.n));}
@@ -2536,5 +2537,23 @@ goHome(false);
  const RX=/^(?:\uD83C[\uDDE6-\uDDFF]){2}\s*/;
  const strip=()=>{for(const o of sel.options)if(RX.test(o.textContent))o.textContent=o.textContent.replace(RX,'');};
  strip();new MutationObserver(strip).observe(sel,{childList:true,subtree:true,characterData:true});
+})();
+
+/* ---- smarter search: several words in any order, accents ignored, common short forms understood ---- */
+(function(){
+ const MAP={'ß':'ss','ø':'o','đ':'d','ł':'l','æ':'ae','œ':'oe','ı':'i'};
+ const fold=t=>String(t||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[ßøđłæœı]/g,c=>MAP[c]).replace(/[^a-z0-9]+/g,' ');
+ window.__fold=fold;
+ const SYN=[['hpc','supercomputer','supercomputing'],['llm','language','generative'],['shm','monitoring'],['wim','weigh'],['centre','center','centres','centers'],['datacentre','datacenter','data'],
+  ['uk','united','britain'],['holland','netherlands'],['czech','czechia'],['uni','university','universitat','universite','universidad','universita'],['lab','laboratory'],['gigafactory','giga'],['robot','robotics','robots'],
+  ['bridge','bridges'],['ethics','ethical'],['eu','european','eurohpc']];
+ const ALT={};SYN.forEach(g=>g.forEach(w=>ALT[w]=g));
+ const TN={};if(DATA.topics)DATA.topics.ai.concat(DATA.topics.eng).forEach(t=>TN[t[0]]=t[1]);
+ const DN=typeof DOMNAME==='object'?DOMNAME:{};
+ const hay=s=>s.__h||(s.__h=' '+fold([s.n,s.city,s.cn,(s.sec||[]).join(' '),s.ll,(typeof LNAME==='object'&&LNAME[s.L])||'',(s.people||[]).join(' '),s.b,s.snip,s.addr,s.st,s.host,
+  (s.tp||[]).map(k=>TN[k]||k).join(' '),(s.dom||[]).map(k=>DN[k]||k).join(' '),s.mono].join(' ')));
+ window.__match=function(s,q){const h=hay(s),ws=fold(q).trim().split(/\s+/).filter(Boolean);
+  return ws.every(w=>(ALT[w]||[w]).some(a=>h.indexOf(' '+a)>=0)||(w.length>3&&h.indexOf(w)>=0));};
+ const q=document.getElementById('q');if(q){q.placeholder='Search name or topic';if(q.value&&typeof refilter==='function')refilter();}
 })();
 </script></body></html>
