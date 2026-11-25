@@ -39,8 +39,8 @@ Actions tab.
 
 ## Map views
 
-The page opens in the satellite view. The switch at the foot of the map offers Satellite, Terrain,
-Streets and Atlas (the green Eurostat map). The MapLibre library sits in `vendor/` (BSD licence); the
+The page opens in the satellite view. The switch at the foot of the map offers Satellite and Atlas
+(the green Eurostat map). The MapLibre library sits in `vendor/` (BSD licence); the
 base maps are OpenFreeMap, Mapzen terrain tiles on AWS and Esri World Imagery, credited in the map corner.
 Country borders in every view are the Eurostat GISCO outlines in `data/eu-countries.geojson` (EU
 conventions: Crimea within Ukraine, Abkhazia and South Ossetia within Georgia, Kosovo* as Eurostat draws

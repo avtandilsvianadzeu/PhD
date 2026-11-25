@@ -71,7 +71,7 @@ def main():
         pg = page_for(b, port, 1440, 900, base='sat')
         pg.wait_for_timeout(2500)
         sw = pg.evaluate("[...document.querySelectorAll('#basesw button')].map(x=>x.dataset.b).join(',')")
-        if sw != 'sat,terrain,streets,map': problems.append(f'base map switcher reads {sw}')
+        if sw != 'sat,map': problems.append(f'base map switcher reads {sw}')
         if pg.evaluate("base") not in ('sat', 'map'): problems.append('satellite view did not open')
         pg.evaluate("setTab('collab')"); pg.wait_for_timeout(300)
         if pg.evaluate("document.querySelectorAll('.cb details').length") < 5: problems.append('Collaboration page lists fewer than 5 topics')
