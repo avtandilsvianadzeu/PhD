@@ -37,7 +37,7 @@ minutes of private repositories on the same account. GitHub pauses scheduled wor
 repository after 60 days without activity; if that happens, enable the workflow again from the
 Actions tab.
 
-The news job runs four times a day. An item is kept when its headline or the first lines of its summary name
+The news job runs every hour and the calls job four times a day. An item is kept when its headline or the first lines of its summary name
 an EU country or the EU, and its text names AI, data centres or computing. `tools/news_cases.json` holds headlines
 that must be kept or dropped; `python tools/fetch_news.py --selftest` checks them on every push and before every
 read. Each run writes a report on the Actions page: feeds that did not answer, and on-topic headlines that were

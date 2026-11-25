@@ -2,7 +2,7 @@ name: Daily news
 
 on:
   schedule:
-    - cron: "23 5,11,17,23 * * *"   # four times a day, so fast feeds do not roll past an item between reads
+    - cron: "23 * * * *"   # every hour: free on a public repository, and normal for reading news feeds
   workflow_dispatch:
 
 permissions:

@@ -2,7 +2,7 @@ name: Daily EU calls
 
 on:
   schedule:
-    - cron: "41 4 * * *"   # every day at 04:41 UTC
+    - cron: "41 */6 * * *"   # four times a day
   workflow_dispatch:
 
 permissions:
