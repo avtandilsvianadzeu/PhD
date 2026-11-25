@@ -134,6 +134,11 @@
    ],
    "news": [
     {
+     "d": "16 Nov 2026",
+     "t": "LISA, the AI partition of Leonardo, enters the TOP500 in 49th place with 56.88 petaflops.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-supercomputers-confirm-europes-strong-position-global-rankings-preparations-advance-next-2026-11-16_en"
+    },
+    {
      "d": "11 Jun 2026",
      "t": "LISA, the AI partition of Leonardo, inaugurated in Bologna with the SOL quantum computer.",
      "u": "https://www.eurohpc-ju.europa.eu/inauguration-sol-new-quantum-computer-together-lisa-upgrade-leonardo-supercomputer-2026-06-11_en"
@@ -341,6 +346,11 @@
    ],
    "news": [
     {
+     "d": "18 Jun 2026",
+     "t": "AI Factory France and NVIDIA launch at VivaTech a programme giving NVIDIA Inception start-ups access to French and European AI supercomputers.",
+     "u": "https://www.genci.fr/en/news/ai-factory-france-nvidia-program-launches-vivatech-accelerating-ai-innovation-french-and"
+    },
+    {
      "d": "12 Mar 2025",
      "t": "Selected in the second cohort of six AI Factories.",
      "u": "https://eurohpc-ju.europa.eu/eurohpc-ju-selects-additional-ai-factories-strengthen-europes-ai-leadership-2025-03-12_en"
@@ -372,6 +382,11 @@
     "energy"
    ],
    "news": [
+    {
+     "d": "16 Nov 2026",
+     "t": "JUPITER holds 5th place on the November 2026 TOP500 list.",
+     "u": "https://www.eurohpc-ju.europa.eu/eurohpc-supercomputers-confirm-europes-strong-position-global-rankings-preparations-advance-next-2026-11-16_en"
+    },
     {
      "d": "Jun 2026",
      "t": "JUPITER's Booster module ranks #5 on the TOP500 and #17 on the Green500.",
@@ -628,6 +643,11 @@
     "energy"
    ],
    "news": [
+    {
+     "d": "22 Jul 2026",
+     "t": "CESGA presents the OneHealth DataSpace with 43 active use cases, described as the starting point of the future 1HealthAI factory.",
+     "u": "https://www.xunta.gal/notas-de-prensa/-/nova/026999/cesga-suma-43-investigaciones-espacio-datos-onehealth-punto-partida-del-arranque"
+    },
     {
      "d": "10 Oct 2025",
      "t": "Selected in the third cohort of six AI Factories, bringing the total to 19.",
@@ -2358,6 +2378,11 @@
    ],
    "news": [
     {
+     "d": "28 Oct 2026",
+     "t": "BAM and partners develop an AI assistant for detecting material defects in critical infrastructure.",
+     "u": "https://bam.de/en/news"
+    },
+    {
      "d": "2026",
      "t": "Joins the Skipro consortium on trustworthy generative AI for production data.",
      "u": "https://www.industrial-production.de/research---development/ai-research-at-the-wzl-at-rwth-aachen-university---skipro--aims-to-break-down-data-silos-in-factories.htm"
@@ -2503,6 +2528,11 @@
    ],
    "news": [
     {
+     "d": "28-29 Oct 2026",
+     "t": "Hosts the second BRIDGITISE End-Users Workshop, scheduled in Cologne.",
+     "u": "https://www.bridgitise.polimi.it/news"
+    },
+    {
      "d": "3 Jul 2026",
      "t": "Presents interim results from ten projects on extending the remaining service life of road bridges.",
      "u": "https://www.verkehrsrundschau.de/nachrichten/vermischtes/bruecken-laenger-erhalten-bast-zeigt-neue-ansaetze-bis-2030-3822736"
@@ -2622,7 +2652,13 @@
     "struct",
     "geo"
    ],
-   "news": []
+   "news": [
+    {
+     "d": "28 May 2026",
+     "t": "Swedish government appoints Mattias Viklund as the new Director General of VTI, taking up the post on 1 July.",
+     "u": "https://www.vti.se/en/archives/news/archives/2026-05-28-mattias-viklund-new-director-general-at-vti"
+    }
+   ]
   },
   {
    "id": "trl",
