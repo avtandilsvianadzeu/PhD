@@ -3,6 +3,27 @@
  "items": [
   {
    "c": "EU",
+   "d": "25 Nov 2026",
+   "t": "YC-backed elbic raises €2.7 million to keep European customer calls off US servers with sovereign voice AI",
+   "u": "https://www.eu-startups.com/2026/11/yc-backed-elbic-raises-e2-7-million-to-keep-european-customer-calls-off-us-servers-with-sovereign-voice-ai/",
+   "src": "EU-Startups"
+  },
+  {
+   "c": "EU",
+   "d": "25 Nov 2026",
+   "t": "EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum",
+   "u": "https://thenextweb.com/news/eu-50bn-sovereign-tech-equity-fund-ai-quantum",
+   "src": "The Next Web"
+  },
+  {
+   "c": "FR",
+   "d": "25 Nov 2026",
+   "t": "Google plans 1.2GW data center near Châteauroux, France: report",
+   "u": "https://www.datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report/",
+   "src": "DatacenterDynamics"
+  },
+  {
+   "c": "EU",
    "d": "24 Nov 2026",
    "t": "Pasqal Leads EU-Backed Project on Quantum Error Correction",
    "u": "https://www.hpcwire.com/off-the-wire/pasqal-leads-eu-backed-project-on-quantum-error-correction/",
