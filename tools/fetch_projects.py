@@ -20,13 +20,13 @@ KEEP = 160
 AI = r'artificial intelligence|machine learning|deep learning|\bAI\b|neural network|foundation model|language model|computer vision|generative'
 TOPICS = [('shm', r'structural health monitoring|infrastructure monitoring|bridge monitoring|condition monitoring of (bridges|structures|infrastructure)|digital twins? (of|for) (bridges|buildings|infrastructure|structures|the built)'),
           ('wim', r'weigh[- ]in[- ]motion|traffic load'),
-          ('struct', r'\bbridges?\b|structural engineering|civil engineering|earthquake engineering|seismic (design|retrofit|resilience)|civil infrastructure|transport infrastructure'),
-          ('materials', r'\bconcrete\b|\bcement\b|construction materials?|building materials?|\basphalt\b'),
-          ('geo', r'geotechnic|\btunnels?\b|railway (track|infrastructure)|road (pavement|infrastructure)'),
+          ('struct', r'\b(road|rail|railway|highway|motorway|concrete|steel|masonry|suspension|cable-stayed|existing|ageing|aging)\s+bridges?\b|\bbridges? (monitoring|inspection|engineering|structures?|maintenance|management|decks?|assessment)|bridges and tunnels|structural engineering|civil engineering|earthquake engineering|seismic (design|retrofit|resilience)|civil infrastructure|transport infrastructure'),
+          ('materials', r'\bconcrete (structures?|mix|production|recycling|durability)|reinforced concrete|\bcement(itious)?\b|construction materials?|building materials?|\basphalt\b'),
+          ('geo', r'geotechnic|\btunnell?ing\b|road tunnels?|rail tunnels?|railway (track|infrastructure)|road (pavement|infrastructure)'),
           ('building', r'building physics|energy performance of buildings|building renovation|fire safety|building envelope'),
-          ('sustain', r'built environment|circular construction|sustainable construction|construction (sector|industry|waste)'),
+          ('sustain', r'built environment|circular construction|sustainable construction|construction (sector|industry) |construction and demolition waste'),
           ('metrology', r'metrolog'),
-          ('vision', r'computer vision|image analysis|visual inspection|drone inspection')]
+          ('vision', r'computer vision|visual inspection|drone inspection')]
 
 def get(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'European AI Atlas (open data, weekly read of the CORDIS bulk file)'})

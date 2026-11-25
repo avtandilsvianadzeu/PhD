@@ -187,7 +187,7 @@ if _pp.exists():
     for _p in _pj.get("items", []):
         if not re.match(r"^\d{4}-\d{2}-\d{2}$", _p.get("s", "")): fail(f"projects: {_p.get('id')} has no start date")
         if not _p.get("u", "").startswith("https://cordis.europa.eu/project/id/"): fail(f"projects: {_p.get('id')} link is not on CORDIS")
-        scan("projects " + _p.get("id", ""), _p.get("t", "") + " " + _p.get("org", ""))
+        if re.search("[\u2013\u2014\u2018\u2019\u201c\u201d\u00b7!]", _p.get("t", "") + _p.get("org", "")): fail(f"projects: {_p.get('id')} has a dash, curly quote, middle dot or exclamation mark")
 
 # 10. emoji appear only as country flags; interface symbols are drawn as SVG
 for _m in re.finditer(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF]", outside):
