@@ -2,6 +2,55 @@
  "updated": "25 Nov 2026",
  "items": [
   {
+   "c": "DE",
+   "d": "25 Nov 2026",
+   "t": "SAP staffer allegedly gave a startup partner's demo to its rival",
+   "u": "https://thenextweb.com/news/sap-employee-conduct-qorelo-espionage-complaint",
+   "src": "The Next Web"
+  },
+  {
+   "c": "EU",
+   "d": "25 Nov 2026",
+   "t": "EU delays planned AI gigafactories again",
+   "u": "https://www.rapporteur.com/news/eu-delays-planned-ai-gigafactories-again/",
+   "src": "Euractiv"
+  },
+  {
+   "c": "DE",
+   "d": "25 Nov 2026",
+   "t": "Arque Systems launches €35m Q-STAR.NRW initiative to develop and integrate 200 qubit quantum computer",
+   "u": "https://www.datacenterdynamics.com/en/news/arque-systems-launches-35m-q-starnrw-initiative-to-develop-and-integrate-200-qubit-quantum-computer/",
+   "src": "DatacenterDynamics"
+  },
+  {
+   "c": "IE",
+   "d": "25 Nov 2026",
+   "t": "Promera acquires Irish electrical contractor B&G to expand data center offering",
+   "u": "https://www.datacenterdynamics.com/en/news/promera-acquires-irish-electrical-contractor-bg-to-expand-data-center-offering/",
+   "src": "DatacenterDynamics"
+  },
+  {
+   "c": "FI",
+   "d": "25 Nov 2026",
+   "t": "Quant trading firm XTX Markets launches 22.5MW data center in Kajaani, Finland",
+   "u": "https://www.datacenterdynamics.com/en/news/quant-trading-firm-xtx-markets-launches-225mw-data-center-in-kajaani-finland/",
+   "src": "DatacenterDynamics"
+  },
+  {
+   "c": "IT",
+   "d": "25 Nov 2026",
+   "t": "Meet TeoTronico: The sassy, 53-fingered robot pianist challenging human musicians",
+   "u": "https://www.euronews.com/2026/11/25/meet-teotronico-the-sassy-53-fingered-robot-pianist-challenging-human-musicians",
+   "src": "Euronews"
+  },
+  {
+   "c": "EU",
+   "d": "25 Nov 2026",
+   "t": "Europe prepares for EU Quantum Act",
+   "u": "https://www.computerweekly.com/news/366655552/Europe-prepares-for-EU-Quantum-Act",
+   "src": "Computer Weekly"
+  },
+  {
    "c": "EU",
    "d": "25 Nov 2026",
    "t": "EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum",
