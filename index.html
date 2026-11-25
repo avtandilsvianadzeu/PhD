@@ -2377,8 +2377,8 @@ goHome(false);
    else if(DATA.sites.some(s=>s.id===h)){select(h);}
    else if(h.indexOf('c=')===0&&DATA.shp[h.slice(2)]&&typeof openCountry==='function')openCountry(h.slice(2));
    else if(['browse','rank','latest','saved','minds','news','src','calls','plans','collab'].indexOf(h)>=0){const cs=document.getElementById('cnSel');if(cs&&cs.value&&started){cs.value='';cs.dispatchEvent(new Event('change'));}setTab(h);}}catch(e){}
-  lock=false;started=true;if(['browse','rank','latest','saved','minds','news','src','calls','plans','collab'].indexOf(h)>=0)put(h);}
- setTimeout(()=>go(H0),500);window.addEventListener('popstate',()=>{const h=decodeURIComponent(location.hash.slice(1));if(!h){lock=true;try{setTab('detail');if(typeof clearSel==='function')clearSel();}catch(e){}lock=false;}else go(h);});
+  lock=false;before=null;started=true;if(['browse','rank','latest','saved','minds','news','src','calls','plans','collab'].indexOf(h)>=0)put(h);}
+ setTimeout(()=>go(H0),500);window.addEventListener('popstate',()=>{const h=decodeURIComponent(location.hash.slice(1));if(!h){lock=true;try{setTab('detail');if(typeof clearSel==='function')clearSel();}catch(e){}lock=false;before=null;}else go(h);});
  /* keyboard: / focuses search, Esc returns to the overview */
  document.addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea'))return;
   if(e.key==='Escape'&&tab!=='detail'){setTab('detail');}});

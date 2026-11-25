@@ -62,6 +62,16 @@ def main():
         pg.click('[data-pt=calls]'); pg.wait_for_timeout(300); pg.go_back(); pg.wait_for_timeout(500)
         if pg.evaluate("tab") == 'calls': problems.append('Back button does not leave the Calls page')
         pg.close()
+        # Back walks the visited pages in order: Browse, an entry, its country, then back to the start
+        pg = page_for(b, port, 1440, 900)
+        pg.click('[data-pt=browse]'); pg.wait_for_timeout(400)
+        pg.click('.pane .brow >> nth=3'); pg.wait_for_timeout(600)
+        pg.click('#ptitle .crumb'); pg.wait_for_timeout(600)
+        seen = []
+        for _ in range(3):
+            pg.go_back(); pg.wait_for_timeout(600); seen.append(pg.evaluate("location.hash.split('=')[0]"))
+        if seen != ['#e', '#browse', '']: problems.append(f'Back order after a breadcrumb is {seen}')
+        pg.close()
         # country bubbles keep a gap, and "Open data" stays in the title bar on desktop widths
         for w, h, mob in [(1440, 900, False), (1280, 800, False), (1024, 768, False), (390, 844, True)]:
             pg = page_for(b, port, w, h, mob)
