@@ -1,23 +1,8 @@
 {
- "read": "2026-11-25T09:37Z",
+ "read": "2026-11-25T09:56Z",
  "source": "European Union, CORDIS, https://cordis.europa.eu, CC BY 4.0",
- "matched": 1552,
+ "matched": 1281,
  "items": [
-  {
-   "id": "101301778",
-   "a": "VISIR",
-   "t": "On-chip quadratic soliton mode-locking in the ultraviolet, visible, and mid-infrared",
-   "s": "2027-10-01",
-   "e": "2032-09-30",
-   "eu": 2124625,
-   "org": "UNIVERSITEIT GENT",
-   "cc": "BE",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101301778"
-  },
   {
    "id": "101302708",
    "a": "DualSpin",
@@ -50,21 +35,6 @@
    "u": "https://cordis.europa.eu/project/id/101273260"
   },
   {
-   "id": "101271164",
-   "a": "STORM-VIV",
-   "t": "Chain-of-coupled-oscillators approach for modelling and prediction of 3-D stochastic vortex-induced vibrations under turbulent flows",
-   "s": "2027-09-01",
-   "e": "2029-08-31",
-   "eu": 200400,
-   "org": "UNIVERSITE DE LIEGE",
-   "cc": "BE",
-   "tp": [
-    "struct"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101271164"
-  },
-  {
    "id": "101282525",
    "a": "FORT",
    "t": "Advanced Modelling of Firebrand Behaviour to Improve the Fire Safety of Timber Buildings",
@@ -74,26 +44,10 @@
    "org": "IMPERIAL COLLEGE OF SCIENCE TECHNOLOGY AND MEDICINE",
    "cc": "UK",
    "tp": [
-    "struct",
     "building"
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101282525"
-  },
-  {
-   "id": "101274746",
-   "a": "QBind",
-   "t": "Quantum Nature of Binding",
-   "s": "2027-09-01",
-   "e": "2029-08-31",
-   "eu": 247553,
-   "org": "KOBENHAVNS UNIVERSITET",
-   "cc": "DK",
-   "tp": [
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101274746"
   },
   {
    "id": "101277964",
@@ -105,8 +59,7 @@
    "org": "TECHNISCHE UNIVERSITEIT EINDHOVEN",
    "cc": "NL",
    "tp": [
-    "materials",
-    "sustain"
+    "materials"
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101277964"
@@ -151,8 +104,7 @@
    "org": "UNIVERSITY COLLEGE LONDON",
    "cc": "UK",
    "tp": [
-    "building",
-    "sustain"
+    "building"
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101263701"
@@ -219,21 +171,6 @@
    "u": "https://cordis.europa.eu/project/id/101265795"
   },
   {
-   "id": "101266524",
-   "a": "ATOMSTEP",
-   "t": "Van der Waals Nanomachines",
-   "s": "2027-04-01",
-   "e": "2032-03-31",
-   "eu": 3497976,
-   "org": "THE UNIVERSITY OF MANCHESTER",
-   "cc": "UK",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101266524"
-  },
-  {
    "id": "101265928",
    "a": "DARE",
    "t": "Unibody Buildings for Urban Resilience",
@@ -273,8 +210,7 @@
    "org": "TECHNISCHE UNIVERSITEIT DELFT",
    "cc": "NL",
    "tp": [
-    "materials",
-    "sustain"
+    "materials"
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101303916"
@@ -293,51 +229,6 @@
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101280448"
-  },
-  {
-   "id": "101276440",
-   "a": "OFC-SNAP",
-   "t": "Generation and engineering of optical frequency combs based on ultra-high Q-factor Surface Nanoscale Axial Photonics technology",
-   "s": "2027-03-01",
-   "e": "2029-02-28",
-   "eu": 260347,
-   "org": "ASTON UNIVERSITY",
-   "cc": "UK",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101276440"
-  },
-  {
-   "id": "101311587",
-   "a": "NAT-BUILD",
-   "t": "Mimicking nature to valorise earth as a building resource",
-   "s": "2027-03-01",
-   "e": "2031-02-28",
-   "eu": 4546372,
-   "org": "UNIVERSITA DEGLI STUDI DI GENOVA",
-   "cc": "IT",
-   "tp": [
-    "struct"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101311587"
-  },
-  {
-   "id": "101335456",
-   "a": "Scalable IMPACT",
-   "t": "Robust and Scalable Catalytic Ball Milling for Plastic Recycling (Scalable IMPACT)",
-   "s": "2027-03-01",
-   "e": "2028-08-31",
-   "eu": 150000,
-   "org": "UNIVERSITEIT UTRECHT",
-   "cc": "NL",
-   "tp": [
-    "materials"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101335456"
   },
   {
    "id": "101334917",
@@ -387,36 +278,6 @@
    "u": "https://cordis.europa.eu/project/id/101279733"
   },
   {
-   "id": "101285047",
-   "a": "SYMBIOS",
-   "t": "SYmbiotic Microbiota of honey Bees: Influence On Social communication",
-   "s": "2027-02-01",
-   "e": "2029-01-31",
-   "eu": 307958,
-   "org": "UNIVERSITE DE GENEVE",
-   "cc": "CH",
-   "tp": [
-    "materials"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101285047"
-  },
-  {
-   "id": "101311906",
-   "a": "AI-Sense",
-   "t": "Artificial Intelligence for Joint Communication and SENSing in Optical NEtworks",
-   "s": "2027-02-01",
-   "e": "2031-01-31",
-   "eu": 4206728,
-   "org": "ASTON UNIVERSITY",
-   "cc": "UK",
-   "tp": [
-    "shm"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101311906"
-  },
-  {
    "id": "101283517",
    "a": "FUSEDPIPE",
    "t": "Condition Assessment and Damage Localisation in Fluid-Filled Buried Sandwich (FFBS) Pipe Using Guided Wave and Impedance Fusion Technique (GIFT) Under Various Exposure Conditions",
@@ -430,21 +291,6 @@
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101283517"
-  },
-  {
-   "id": "101302640",
-   "a": "TANGO",
-   "t": "Transducer Antenna for a Noiseless Gravitational Observatory",
-   "s": "2027-02-01",
-   "e": "2032-01-31",
-   "eu": 1499312,
-   "org": "UNIVERSITA' DEGLI STUDI DI MILANO-BICOCCA",
-   "cc": "IT",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101302640"
   },
   {
    "id": "101334672",
@@ -493,21 +339,6 @@
    "u": "https://cordis.europa.eu/project/id/101278977"
   },
   {
-   "id": "101326320",
-   "a": "CLIMABUILD",
-   "t": "Climate-responsive, low-carbon pathways for a resilient European building stock",
-   "s": "2027-02-01",
-   "e": "2031-01-31",
-   "eu": 4999289,
-   "org": "UNIVERSITY COLLEGE LONDON",
-   "cc": "UK",
-   "tp": [
-    "sustain"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101326320"
-  },
-  {
    "id": "101340105",
    "a": "EVOLVE",
    "t": "Evolving, Validation, Valorisation and Uptake in European Reference Materials",
@@ -537,36 +368,6 @@
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101334450"
-  },
-  {
-   "id": "101274575",
-   "a": "OPHERAN",
-   "t": "Beyond van der Waals: Atomic Design and Operando Insights into Monolayer Transition Metal Nitride Electrocatalysts for Hydrogen Evolution Reaction",
-   "s": "2027-01-11",
-   "e": "2029-01-10",
-   "eu": 209483,
-   "org": "UNIVERSITA DEGLI STUDI DI PADOVA",
-   "cc": "IT",
-   "tp": [
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101274575"
-  },
-  {
-   "id": "101280249",
-   "a": "ARMOUR",
-   "t": "Stochastic, Reliability-Based Seismic Vulnerability Assessment and Holistic Retrofit for Unreinforced Masonry Buildings in Urban Aggregates, Framed by a New Building Taxonomy for Modelling",
-   "s": "2027-01-07",
-   "e": "2029-07-06",
-   "eu": 242593,
-   "org": "UNIVERSITAT POLITECNICA DE CATALUNYA",
-   "cc": "ES",
-   "tp": [
-    "struct"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101280249"
   },
   {
    "id": "101282404",
@@ -602,36 +403,6 @@
    "u": "https://cordis.europa.eu/project/id/101279890"
   },
   {
-   "id": "101283797",
-   "a": "Si-SSHQ",
-   "t": "Realization and Characterization of Si-based Superconductor, Semiconductor Hybrid Quantum Circuits",
-   "s": "2027-01-01",
-   "e": "2029-12-31",
-   "eu": 437067,
-   "org": "AALTO KORKEAKOULUSAATIO SR",
-   "cc": "FI",
-   "tp": [
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101283797"
-  },
-  {
-   "id": "101276081",
-   "a": "COQUVAR",
-   "t": "Controlling Quantum Vacuum Radiation: Transient Amplification and Squeezing in the Dynamical Casimir Effect",
-   "s": "2027-01-01",
-   "e": "2028-12-31",
-   "eu": 214344,
-   "org": "TECHNISCHE UNIVERSITAET WIEN",
-   "cc": "AT",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101276081"
-  },
-  {
    "id": "101283258",
    "a": "SERENA",
    "t": "Sustainable Engineering of Earthen StRuctures using Eco-friendly Soil fills with New-generAtion Geosynthetic Reinforcement Systems",
@@ -645,82 +416,6 @@
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101283258"
-  },
-  {
-   "id": "101299755",
-   "a": "BIOreCURE",
-   "t": "Bio-Based Circular and Reprocessable Thermoset Composites for Sustainable Structural Applications",
-   "s": "2027-01-01",
-   "e": "2030-12-31",
-   "eu": 1472940,
-   "org": "RIGAS TEHNISKA UNIVERSITATE",
-   "cc": "LV",
-   "tp": [
-    "struct",
-    "materials"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101299755"
-  },
-  {
-   "id": "101263896",
-   "a": "URBRAIN",
-   "t": "Neuroscientific Assessment of the Human Experience of Urban Environments",
-   "s": "2027-01-01",
-   "e": "2031-12-31",
-   "eu": 2747500,
-   "org": "TECHNISCHE UNIVERSITAT BERLIN",
-   "cc": "DE",
-   "tp": [
-    "sustain"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101263896"
-  },
-  {
-   "id": "101311936",
-   "a": "TRANSCEND",
-   "t": "Transport resilience against natural and anthropogenic disruptions",
-   "s": "2027-01-01",
-   "e": "2030-12-31",
-   "eu": 4041581,
-   "org": "TECHNISCHE UNIVERSITEIT DELFT",
-   "cc": "NL",
-   "tp": [
-    "struct"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101311936"
-  },
-  {
-   "id": "101326420",
-   "a": "SECURE-HP",
-   "t": "SECURE-HP: Skills for Enhancing seCUrity and REsilience of Heat Pump value chains",
-   "s": "2027-01-01",
-   "e": "2030-06-30",
-   "eu": 1999589,
-   "org": "EUROPEAN HEAT PUMP ASSOCIATION",
-   "cc": "BE",
-   "tp": [
-    "building"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101326420"
-  },
-  {
-   "id": "101266843",
-   "a": "SPOTLIGHT",
-   "t": "Shaping Catalytic Reactions with Spin-Polarized Electrons",
-   "s": "2027-01-01",
-   "e": "2031-12-31",
-   "eu": 2499208,
-   "org": "UNIVERSITA DEGLI STUDI DI PAVIA",
-   "cc": "IT",
-   "tp": [
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101266843"
   },
   {
    "id": "101264671",
@@ -738,67 +433,6 @@
    "u": "https://cordis.europa.eu/project/id/101264671"
   },
   {
-   "id": "101326326",
-   "a": "ReEnsemble",
-   "t": "ReEnsemble, Decision support for optimal building system combinations across Whole-Life Carbon, Circularity, Cost, and Technical Performance",
-   "s": "2027-01-01",
-   "e": "2030-12-31",
-   "eu": 4079052,
-   "org": "UNIVERSITY COLLEGE LONDON",
-   "cc": "UK",
-   "tp": [
-    "building"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101326326"
-  },
-  {
-   "id": "101299793",
-   "a": "LUMIN",
-   "t": "Light Utilised Molecular Interaction Nanoscopy",
-   "s": "2027-01-01",
-   "e": "2031-12-31",
-   "eu": 2494042,
-   "org": "UNIVERSITY OF BATH",
-   "cc": "UK",
-   "tp": [
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101299793"
-  },
-  {
-   "id": "101303718",
-   "a": "MetaTunnels",
-   "t": "Meta-Resonator Lining for Seismic Cloaking of Tunnels",
-   "s": "2027-01-01",
-   "e": "2031-12-31",
-   "eu": 1498160,
-   "org": "UNIVERSITA DEGLI STUDI DI TRENTO",
-   "cc": "IT",
-   "tp": [
-    "geo",
-    "sustain"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101303718"
-  },
-  {
-   "id": "101326590",
-   "a": "INTENSE-US",
-   "t": "Integrated Thermal Energy Storage for Urban Sustainability",
-   "s": "2027-01-01",
-   "e": "2030-06-30",
-   "eu": 8990464,
-   "org": "UNIVERSITY OF GLASGOW",
-   "cc": "UK",
-   "tp": [
-    "struct"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101326590"
-  },
-  {
    "id": "101326583",
    "a": "AutoConstruct-EU",
    "t": "Autonomous Mobile Robot Swarms for Sustainable On-Site Building Construction and Renovation via Multi-Material 3D Printing",
@@ -809,7 +443,6 @@
    "cc": "CZ",
    "tp": [
     "materials",
-    "building",
     "sustain"
    ],
    "ai": true,
@@ -831,21 +464,6 @@
    "u": "https://cordis.europa.eu/project/id/101325849"
   },
   {
-   "id": "101301504",
-   "a": "LEMA-Q",
-   "t": "Long-range entangled matter in an adaptive quantum processor",
-   "s": "2027-01-01",
-   "e": "2031-12-31",
-   "eu": 2437500,
-   "org": "TEL AVIV UNIVERSITY",
-   "cc": "IL",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101301504"
-  },
-  {
    "id": "101325936",
    "a": "REBUILD",
    "t": "REBUILD, Full‑Scale Experimentally Validated Reversible Solutions for Low‑Carbon and Circular Building Renovation",
@@ -859,21 +477,6 @@
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101325936"
-  },
-  {
-   "id": "101326153",
-   "a": "AURORA",
-   "t": "Shaping safe, sustainable, and human-centered places",
-   "s": "2027-01-01",
-   "e": "2030-06-30",
-   "eu": 4889284,
-   "org": "INSTITUTO VALENCIANO DE LA EDIFICACION FUNDACION",
-   "cc": "ES",
-   "tp": [
-    "sustain"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101326153"
   },
   {
    "id": "101326291",
@@ -921,36 +524,6 @@
    "u": "https://cordis.europa.eu/project/id/101326472"
   },
   {
-   "id": "101304461",
-   "a": "COMBYNE",
-   "t": "Dynamics of Coupled Lasers: All-Optical Scalable Path for Programmable On-Chip Frequency Comb Sources",
-   "s": "2027-01-01",
-   "e": "2031-12-31",
-   "eu": 1498875,
-   "org": "VRIJE UNIVERSITEIT BRUSSEL",
-   "cc": "BE",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101304461"
-  },
-  {
-   "id": "101338685",
-   "a": "iNEMESIS",
-   "t": "Twinning towards Excellence in Neuromorphic Ionic-Optoelectronic Memory Devices for Smart Intelligent Sensing",
-   "s": "2027-01-01",
-   "e": "2029-12-31",
-   "eu": 1495011,
-   "org": "LATVIJAS UNIVERSITATES CIETVIELU FIZIKAS INSTITUTS",
-   "cc": "LV",
-   "tp": [
-    "metrology"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101338685"
-  },
-  {
    "id": "101302256",
    "a": "31PIRATE",
    "t": "31Phosphorus Ice Reactivity And Terrestrial Evolution",
@@ -981,37 +554,6 @@
    "u": "https://cordis.europa.eu/project/id/101265576"
   },
   {
-   "id": "101326101",
-   "a": "VESAA",
-   "t": "Versatile Energy Systems for Adaptable Architecture",
-   "s": "2027-01-01",
-   "e": "2030-12-31",
-   "eu": 3998580,
-   "org": "KEMIJSKI INSTITUT",
-   "cc": "SI",
-   "tp": [
-    "building",
-    "sustain"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101326101"
-  },
-  {
-   "id": "101339518",
-   "a": "TwinDROP",
-   "t": "TWINNING EXCELLENCE IN DROPLET, SURFACE INTERACTIONS FOR ICING MITIGATION AND HIGH-HEAT-FLUX COOLING",
-   "s": "2027-01-01",
-   "e": "2029-12-31",
-   "eu": 1498698,
-   "org": "UNIVERZA V LJUBLJANI",
-   "cc": "SI",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101339518"
-  },
-  {
    "id": "101340255",
    "a": "TwinMetro",
    "t": "TWINNING FOR BOOSTING A HUB OF ULTRAFAST METROLOGY FOR SAFE AND SUSTAINABLE INNOVATION FOR CZECHIA AND EUROPE COMPETITIVENESS",
@@ -1021,57 +563,10 @@
    "org": "EXTREME LIGHT INFRASTRUCTURE ERIC",
    "cc": "CZ",
    "tp": [
-    "materials",
     "metrology"
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101340255"
-  },
-  {
-   "id": "101341284",
-   "a": "SMARTWIN",
-   "t": "Smart Machine Learning for Trustworthy Energy Control in Buildings and Urban Districts through Twinning for Excellence",
-   "s": "2027-01-01",
-   "e": "2029-12-31",
-   "eu": 1499794,
-   "org": "TALLINNA TEHNIKAÜLIKOOL",
-   "cc": "EE",
-   "tp": [
-    "building"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101341284"
-  },
-  {
-   "id": "101262745",
-   "a": "SECURE-AERO",
-   "t": "Sensor-Efficient Condition monitoring using Undersampled Reconstruction for Engine safety: Aero-Engine Rotating blade On-board monitoring",
-   "s": "2026-12-01",
-   "e": "2028-11-30",
-   "eu": 260347,
-   "org": "BRUNEL UNIVERSITY LONDON",
-   "cc": "UK",
-   "tp": [
-    "shm"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101262745"
-  },
-  {
-   "id": "101270384",
-   "a": "SMART-M",
-   "t": "Smart Magneto-Adaptive Resilient Technology for nonlinear vibration control of complex structures under Multi-hazard conditions",
-   "s": "2026-11-16",
-   "e": "2028-11-15",
-   "eu": 209483,
-   "org": "UNIVERSITA POLITECNICA DELLE MARCHE",
-   "cc": "IT",
-   "tp": [
-    "shm",
-    "sustain"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101270384"
   },
   {
    "id": "101278643",
@@ -1089,21 +584,6 @@
    "u": "https://cordis.europa.eu/project/id/101278643"
   },
   {
-   "id": "101274424",
-   "a": "TeraSCN",
-   "t": "Laser-induced Terahertz Spin Current Nanoscopy",
-   "s": "2026-11-01",
-   "e": "2028-10-31",
-   "eu": 194074,
-   "org": "ASOCIACION CENTRO DE INVESTIGACION COOPERATIVA EN NANOCIENCIAS CIC NANOGUNE",
-   "cc": "ES",
-   "tp": [
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101274424"
-  },
-  {
    "id": "101278009",
    "a": "SNC4CO2RED",
    "t": "Self-nanocrystallisation of cement for CO2 emissions reduction",
@@ -1117,51 +597,6 @@
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101278009"
-  },
-  {
-   "id": "101306498",
-   "a": "COBRAS",
-   "t": "Circular On-site Building with Robotic Assembly Swarms",
-   "s": "2026-11-01",
-   "e": "2029-10-31",
-   "eu": 3999913,
-   "org": "UNIVERSITY OF STUTTGART",
-   "cc": "DE",
-   "tp": [
-    "struct"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101306498"
-  },
-  {
-   "id": "101307186",
-   "a": "BRICKS",
-   "t": "BRICKS: Building Robotic Intelligence and Modular Construction Kit System",
-   "s": "2026-11-01",
-   "e": "2030-04-30",
-   "eu": 3848922,
-   "org": "FONDAZIONE ISTITUTO ITALIANO DI TECNOLOGIA",
-   "cc": "IT",
-   "tp": [
-    "sustain"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101307186"
-  },
-  {
-   "id": "101306614",
-   "a": "SCALAR",
-   "t": "Multi-Scalar Robotic Construction for Autonomous On-Site Assembly of Modular Timber Structures",
-   "s": "2026-11-01",
-   "e": "2029-10-31",
-   "eu": 3997296,
-   "org": "UNIVERSITY OF STUTTGART",
-   "cc": "DE",
-   "tp": [
-    "building"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101306614"
   },
   {
    "id": "101318796",
@@ -1188,28 +623,11 @@
    "org": "FUNDACION TECNALIA RESEARCH and INNOVATION",
    "cc": "ES",
    "tp": [
-    "shm",
     "struct",
-    "materials",
     "vision"
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101319219"
-  },
-  {
-   "id": "101314966",
-   "a": "REACT Carbon",
-   "t": "Reactor-based enhanced rock weathering system with measurement, reporting and verification for Carbon Capture and Storage",
-   "s": "2026-11-01",
-   "e": "2028-10-31",
-   "eu": 2499998,
-   "org": "Planeteers GmbH",
-   "cc": "DE",
-   "tp": [
-    "materials"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101314966"
   },
   {
    "id": "101345109",
@@ -1225,37 +643,6 @@
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101345109"
-  },
-  {
-   "id": "101334732",
-   "a": "CERAMICVOLC",
-   "t": "From volcano to value: developing glass-ceramics from volcanic ash",
-   "s": "2026-11-01",
-   "e": "2028-04-30",
-   "eu": 150000,
-   "org": "CONSIGLIO NAZIONALE DELLE RICERCHE",
-   "cc": "IT",
-   "tp": [
-    "materials",
-    "sustain"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101334732"
-  },
-  {
-   "id": "101270525",
-   "a": "ISBMSP",
-   "t": "Interface Shear Behavior between Soil and Microbial-Stimulated Piles",
-   "s": "2026-10-01",
-   "e": "2028-09-30",
-   "eu": 202125,
-   "org": "KARLSRUHER INSTITUT FUER TECHNOLOGIE",
-   "cc": "DE",
-   "tp": [
-    "materials"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101270525"
   },
   {
    "id": "101276098",
@@ -1303,37 +690,6 @@
    "u": "https://cordis.europa.eu/project/id/101284869"
   },
   {
-   "id": "101273287",
-   "a": "EMM",
-   "t": "Ecofeminism, Myth, and Maquis: The Sparoza House and Garden, 1962 to the Present",
-   "s": "2026-10-01",
-   "e": "2028-09-30",
-   "eu": 276187,
-   "org": "THE MANCHESTER METROPOLITAN UNIVERSITY",
-   "cc": "UK",
-   "tp": [
-    "sustain"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101273287"
-  },
-  {
-   "id": "101274804",
-   "a": "ERMHIRA",
-   "t": "Enhancing Resilience through Multi-Hazard Impact and Recovery Analysis of Road Networks in a Changing Climate",
-   "s": "2026-10-01",
-   "e": "2028-09-30",
-   "eu": 260347,
-   "org": "UNIVERSITY COLLEGE LONDON",
-   "cc": "UK",
-   "tp": [
-    "struct",
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101274804"
-  },
-  {
    "id": "101279243",
    "a": "OTMRAM",
    "t": "Energy-efficient magnetic memory driven by orbital current",
@@ -1349,51 +705,6 @@
    "u": "https://cordis.europa.eu/project/id/101279243"
   },
   {
-   "id": "101299356",
-   "a": "NEURO-CHILD",
-   "t": "A Holistic Neuroarchitectural Approach to Child-Centred Healthcare Design: A Multimodal Framework Using Mixed Reality and Artificial Intelligence",
-   "s": "2026-10-01",
-   "e": "2030-09-30",
-   "eu": 681360,
-   "org": "SELCUK UNIVERSITESI",
-   "cc": "TR",
-   "tp": [
-    "sustain"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101299356"
-  },
-  {
-   "id": "101278272",
-   "a": "ROCKWIND",
-   "t": "Innovative Rocking-Based Design Optimization for Onshore Wind Turbine Foundations under Multihazard Loading",
-   "s": "2026-10-01",
-   "e": "2029-03-31",
-   "eu": 345234,
-   "org": "UNIVERSITY OF STRATHCLYDE",
-   "cc": "UK",
-   "tp": [
-    "geo"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101278272"
-  },
-  {
-   "id": "101273097",
-   "a": "URBANRON",
-   "t": "The Rights of Urban Natures. Theory and Policy of Multinature Urbanism",
-   "s": "2026-10-01",
-   "e": "2029-03-31",
-   "eu": 271345,
-   "org": "TECHNISCHE UNIVERSITEIT DELFT",
-   "cc": "NL",
-   "tp": [
-    "materials"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101273097"
-  },
-  {
    "id": "101334417",
    "a": "BRAVE",
    "t": "Towards sustainable asphalt pavements by utilising Bio-binders in Recycled Asphalt Via chEmomechanics",
@@ -1407,51 +718,6 @@
    ],
    "ai": false,
    "u": "https://cordis.europa.eu/project/id/101334417"
-  },
-  {
-   "id": "101312113",
-   "a": "REFFRACTEUR",
-   "t": "Digital REFractory FRAmework for a Carbon neutral and Resilient indusTry in EURope.",
-   "s": "2026-10-01",
-   "e": "2030-09-30",
-   "eu": 4598486,
-   "org": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE CNRS",
-   "cc": "FR",
-   "tp": [
-    "materials"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101312113"
-  },
-  {
-   "id": "101311011",
-   "a": "AI-CIRCLE",
-   "t": "Excellence for digital transformation and business modelling solutions for the circular economy",
-   "s": "2026-10-01",
-   "e": "2030-09-30",
-   "eu": 4999543,
-   "org": "BURSA ULUDAG UNIVERSITESI",
-   "cc": "TR",
-   "tp": [
-    "sustain"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101311011"
-  },
-  {
-   "id": "101334790",
-   "a": "Progressive Lenses",
-   "t": "Progressive lenses on the spot: reimagining the ophthalmic value chain",
-   "s": "2026-10-01",
-   "e": "2028-03-31",
-   "eu": 150000,
-   "org": "TECHNION: ISRAEL INSTITUTE OF TECHNOLOGY",
-   "cc": "IL",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101334790"
   },
   {
    "id": "101265449",
@@ -1482,51 +748,6 @@
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101264397"
-  },
-  {
-   "id": "101301638",
-   "a": "ENACT",
-   "t": "Regulatory Attenuation: Local Non-Application Erodes EU Environmental Objectives",
-   "s": "2026-10-01",
-   "e": "2031-09-30",
-   "eu": 1499687,
-   "org": "UNIVERSIDADE DA CORUNA",
-   "cc": "ES",
-   "tp": [
-    "building"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101301638"
-  },
-  {
-   "id": "101319063",
-   "a": "MAXIMA",
-   "t": "Modular manufacturing architecture for extruded solid-state lithium-metal batteries for high-performance mobility",
-   "s": "2026-10-01",
-   "e": "2030-03-31",
-   "eu": 10539441,
-   "org": "KARLSRUHER INSTITUT FUER TECHNOLOGIE",
-   "cc": "DE",
-   "tp": [
-    "metrology"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101319063"
-  },
-  {
-   "id": "101335022",
-   "a": "SuperDiamond",
-   "t": "Continuous-Wave Superradiant Diamond Maser",
-   "s": "2026-10-01",
-   "e": "2028-03-31",
-   "eu": 150000,
-   "org": "WOLFGANG PAULI INSTITUT",
-   "cc": "AT",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101335022"
   },
   {
    "id": "101319000",
@@ -1560,36 +781,6 @@
    "u": "https://cordis.europa.eu/project/id/101342459"
   },
   {
-   "id": "101315178",
-   "a": "L9-NANOZYME",
-   "t": "Nanozymes: Next-generation catalysts to convert lignin into low-cost, high-performance fossil-free aromatic polyols.",
-   "s": "2026-10-01",
-   "e": "2028-09-30",
-   "eu": 2485221,
-   "org": "Level Nine Labs GMBH",
-   "cc": "DE",
-   "tp": [
-    "building"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101315178"
-  },
-  {
-   "id": "101212029",
-   "a": "ATOM",
-   "t": "Advancing Theory and Technology for the detectiOn of dark Matter",
-   "s": "2026-09-01",
-   "e": "2028-08-31",
-   "eu": 202125,
-   "org": "JOHANNES GUTENBERG-UNIVERSITAT MAINZ",
-   "cc": "DE",
-   "tp": [
-    "metrology"
-   ],
-   "ai": false,
-   "u": "https://cordis.europa.eu/project/id/101212029"
-  },
-  {
    "id": "101207378",
    "a": "3DGPWAA",
    "t": "3D-printed Geopolymer using Waste-derived Alkaline Activators",
@@ -1620,6 +811,810 @@
    ],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101207016"
+  },
+  {
+   "id": "101203557",
+   "a": "GOLFatDue",
+   "t": "Advancing Green Long-life Roadways: Unveiling the Fatigue and Durability Behaviour of Sustainable Fiber-Reinforced Recycled Asphalt",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 200400,
+   "org": "UNIVERSITEIT ANTWERPEN",
+   "cc": "BE",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101203557"
+  },
+  {
+   "id": "101209892",
+   "a": "SHyCOV",
+   "t": "Structural Health Monitoring of Hydrogen Composite Overwrapped Vessels",
+   "s": "2026-09-01",
+   "e": "2030-02-28",
+   "eu": 473121,
+   "org": "ALMA MATER STUDIORUM: UNIVERSITA DI BOLOGNA",
+   "cc": "IT",
+   "tp": [
+    "shm"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101209892"
+  },
+  {
+   "id": "101274797",
+   "a": "ROOFEX",
+   "t": "ROOF-based EXoskeleton solution for retrofitting substandard structures",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 276187,
+   "org": "THE UNIVERSITY OF SHEFFIELD",
+   "cc": "UK",
+   "tp": [
+    "struct"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101274797"
+  },
+  {
+   "id": "101282795",
+   "a": "REACH",
+   "t": "Rethinking Accessibility through an Embodied, Health-Centered Approach",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 209914,
+   "org": "FUNDACION PRIVADA INSTITUTO DE SALUD GLOBAL BARCELONA",
+   "cc": "ES",
+   "tp": [
+    "sustain"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101282795"
+  },
+  {
+   "id": "101274045",
+   "a": "DREAMS",
+   "t": "Decision-support tools for Resilience Enhancement of Aging infrastructure under Multi-event Sequences",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 260347,
+   "org": "UNIVERSITY COLLEGE LONDON",
+   "cc": "UK",
+   "tp": [
+    "materials"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101274045"
+  },
+  {
+   "id": "101274953",
+   "a": "U-GLASS",
+   "t": "Uncertainty-aware Graph Learning Approach for Sparse-Sensing Structural Health Monitoring",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 292118,
+   "org": "EIDGENOESSISCHE TECHNISCHE HOCHSCHULE ZUERICH",
+   "cc": "CH",
+   "tp": [
+    "shm"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101274953"
+  },
+  {
+   "id": "101263990",
+   "a": "3D-SIMULIQ",
+   "t": "3D Seismic Interaction of Multi-Structure-Soil Systems during Liquefaction",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 307958,
+   "org": "EIDGENOESSISCHE TECHNISCHE HOCHSCHULE ZUERICH",
+   "cc": "CH",
+   "tp": [
+    "struct",
+    "geo"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101263990"
+  },
+  {
+   "id": "101268451",
+   "a": "INDUCE",
+   "t": "INdustrial Decarbonisation through the sUpport and Coordination of the Energy transition",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 499737,
+   "org": "ZABALA BRUSSELS",
+   "cc": "BE",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101268451"
+  },
+  {
+   "id": "101274602",
+   "a": "PHOENIX",
+   "t": "Waste-derived Phosphate-based Eco-binders for Net-zero and Circular Infrastructure",
+   "s": "2026-09-01",
+   "e": "2029-02-28",
+   "eu": 325434,
+   "org": "UNIVERSITY OF PLYMOUTH",
+   "cc": "UK",
+   "tp": [
+    "materials",
+    "sustain"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101274602"
+  },
+  {
+   "id": "101283536",
+   "a": "ARANEA",
+   "t": "ARANEA: Physics-Enhanced AI for Soil, Pile Interaction Monitoring",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 292118,
+   "org": "EIDGENOESSISCHE TECHNISCHE HOCHSCHULE ZUERICH",
+   "cc": "CH",
+   "tp": [
+    "shm"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101283536"
+  },
+  {
+   "id": "101281619",
+   "a": "GEOSustainability",
+   "t": "Life Cycle Sustainability Assessment of Bio-Based and Conventional Ground Improvement Systems for Climate-Resilient Infrastructures",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 263393,
+   "org": "DANMARKS TEKNISKE UNIVERSITET",
+   "cc": "DK",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101281619"
+  },
+  {
+   "id": "101270853",
+   "a": "Pop-SAFE",
+   "t": "Population-based Structural health monitoring: Advancing Foundations, mEthods, and real-world validations",
+   "s": "2026-09-01",
+   "e": "2028-08-31",
+   "eu": 292118,
+   "org": "EIDGENOESSISCHE TECHNISCHE HOCHSCHULE ZUERICH",
+   "cc": "CH",
+   "tp": [
+    "shm"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101270853"
+  },
+  {
+   "id": "101269441",
+   "a": "UNCOVER",
+   "t": "UNlocking the industrial COVERsion of CO2 into renewable, long-lasting and hybrid products",
+   "s": "2026-09-01",
+   "e": "2030-08-31",
+   "eu": 6997838,
+   "org": "INSTITUTO TECNOLOGICO DE ARAGON",
+   "cc": "ES",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101269441"
+  },
+  {
+   "id": "101299364",
+   "a": "REVIVE",
+   "t": "Non-destructive Evaluation and Service Life Extension of Vulnerable Reinforced Concrete Infrastructure",
+   "s": "2026-09-01",
+   "e": "2030-08-31",
+   "eu": 1027050,
+   "org": "UNIVERSITY OF SOUTHAMPTON",
+   "cc": "UK",
+   "tp": [
+    "struct",
+    "materials"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101299364"
+  },
+  {
+   "id": "101291180",
+   "a": "HUBS4BUILD",
+   "t": "Regional Circularity Hubs for a Bio-based and Resilient Built Environment",
+   "s": "2026-09-01",
+   "e": "2030-08-31",
+   "eu": 9057632,
+   "org": "PANEPISTIMIO THESSALIAS",
+   "cc": "EL",
+   "tp": [
+    "sustain"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101291180"
+  },
+  {
+   "id": "101294365",
+   "a": "HARMONI",
+   "t": "Hydrogen-Ammonia and Renewable Energy MOdelling and Integration: a Nexus for the Cement Industry",
+   "s": "2026-09-01",
+   "e": "2029-08-31",
+   "eu": 7901118,
+   "org": "SINTEF AS",
+   "cc": "NO",
+   "tp": [
+    "materials"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101294365"
+  },
+  {
+   "id": "101309331",
+   "a": "RE-GROWTH",
+   "t": "Bio-fabricated regenerative materials for sustainable, climate-resilient and beautiful construction",
+   "s": "2026-09-01",
+   "e": "2029-08-31",
+   "eu": 4974716,
+   "org": "DRAXIS RESEARCH VENTURES ASTIKI MI KERDOSKOPIKI ETAIRIA",
+   "cc": "EL",
+   "tp": [
+    "materials",
+    "sustain"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101309331"
+  },
+  {
+   "id": "101309038",
+   "a": "NuBau",
+   "t": "NuBau: Enabling the beautiful re-assembly of reclaimed structural components at scale",
+   "s": "2026-09-01",
+   "e": "2029-08-31",
+   "eu": 3995816,
+   "org": "THE QUEEN'S UNIVERSITY OF BELFAST",
+   "cc": "UK",
+   "tp": [
+    "sustain"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101309038"
+  },
+  {
+   "id": "101308731",
+   "a": "CIRCUBUILT",
+   "t": "Circular Business Models for Adaptive Renovation and Sustainable Built Environment Transformation",
+   "s": "2026-09-01",
+   "e": "2030-08-31",
+   "eu": 5999901,
+   "org": "INSTITUTO DE SOLDADURA E QUALIDADE",
+   "cc": "PT",
+   "tp": [
+    "sustain"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101308731"
+  },
+  {
+   "id": "101308959",
+   "a": "REGEN4BE",
+   "t": "Regenerative Design for the Built Environment: Integrating Participatory and Collaborative Approaches, Digital Tools, Innovative Materials, Technologies and Policies for Neighborhood Transformation",
+   "s": "2026-09-01",
+   "e": "2030-08-31",
+   "eu": 7715328,
+   "org": "FONDAZIONE CENTRO EURO-MEDITERRANEOSUI CAMBIAMENTI CLIMATICI",
+   "cc": "IT",
+   "tp": [
+    "sustain"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101308959"
+  },
+  {
+   "id": "101335278",
+   "a": "EUVISION",
+   "t": "Extreme Ultraviolet Scatterometry for Semiconductor Inspection and Nanoscale Metrology (EUVISION)",
+   "s": "2026-09-01",
+   "e": "2028-02-29",
+   "eu": 150000,
+   "org": "STICHTING NEDERLANDSE WETENSCHAPPELIJK ONDERZOEK INSTITUTEN",
+   "cc": "NL",
+   "tp": [
+    "metrology"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101335278"
+  },
+  {
+   "id": "101335618",
+   "a": "NEXLIGHT",
+   "t": "Next-Generation X-Ray Laser Light Sources",
+   "s": "2026-09-01",
+   "e": "2028-02-29",
+   "eu": 150000,
+   "org": "HEINRICH-HEINE-UNIVERSITAET DUESSELDORF",
+   "cc": "DE",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101335618"
+  },
+  {
+   "id": "101335515",
+   "a": "SEMI-PULSER",
+   "t": "Pulsed Electron Microscopy for Active Metrology of Semiconductor Devices",
+   "s": "2026-08-01",
+   "e": "2028-01-31",
+   "eu": 150000,
+   "org": "TECHNION: ISRAEL INSTITUTE OF TECHNOLOGY",
+   "cc": "IL",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101335515"
+  },
+  {
+   "id": "101312949",
+   "a": "DRONLOC",
+   "t": "Autonomous Monitoring of Airports and Critical Infrastructure Enabled by Advanced Drone Localization",
+   "s": "2026-08-01",
+   "e": "2028-07-31",
+   "eu": 499937,
+   "org": "LIMITED LIABILITY COMPANY FARSIGHTVISION",
+   "cc": "UA",
+   "tp": [
+    "shm"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101312949"
+  },
+  {
+   "id": "101271825",
+   "a": "GeoTwin4Rail",
+   "t": "Network-Scale Digital Twin for Real-Time Condition Assessment and Prediction of Railway Earthworks Exposed to Climate Change Impacts",
+   "s": "2026-07-06",
+   "e": "2028-07-05",
+   "eu": 276187,
+   "org": "THE UNIVERSITY OF BIRMINGHAM",
+   "cc": "UK",
+   "tp": [
+    "geo"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101271825"
+  },
+  {
+   "id": "101281012",
+   "a": "Re-BUILD-EU",
+   "t": "Resilient Buildings: Integrated Loss and Damage Decision-Support for Earthquake Recovery in Europe",
+   "s": "2026-07-01",
+   "e": "2028-06-30",
+   "eu": 209483,
+   "org": "UNIVERSITA POLITECNICA DELLE MARCHE",
+   "cc": "IT",
+   "tp": [
+    "shm",
+    "struct"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101281012"
+  },
+  {
+   "id": "101276407",
+   "a": "PIMEX",
+   "t": "Physics-Informed Modular Digital Twin for Real-Time Prediction in Mechanized Tunnelling",
+   "s": "2026-07-01",
+   "e": "2028-06-30",
+   "eu": 260347,
+   "org": "UNIVERSITY OF DURHAM",
+   "cc": "UK",
+   "tp": [
+    "geo"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101276407"
+  },
+  {
+   "id": "101282011",
+   "a": "LOTUS",
+   "t": "Lightwave-driven spatio-temporal metrology of transition-metal oxides",
+   "s": "2026-07-01",
+   "e": "2028-06-30",
+   "eu": 217076,
+   "org": "STICHTING NEDERLANDSE WETENSCHAPPELIJK ONDERZOEK INSTITUTEN",
+   "cc": "NL",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101282011"
+  },
+  {
+   "id": "101295952",
+   "a": "SERENITY",
+   "t": "Space Launcher Advanced Monitoring Systems",
+   "s": "2026-07-01",
+   "e": "2029-06-30",
+   "eu": 6427173,
+   "org": "COMMISSARIAT A L ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES",
+   "cc": "FR",
+   "tp": [
+    "shm"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101295952"
+  },
+  {
+   "id": "101310357",
+   "a": "MYCO AI-LINE",
+   "t": "MYCO AI-LINE: Scaling Carbon-Negative Mycelium Insulation Through Fully Automated AI-Controlled Bio-Manufacturing",
+   "s": "2026-07-01",
+   "e": "2028-06-30",
+   "eu": 499782,
+   "org": "Myceen OU",
+   "cc": "EE",
+   "tp": [
+    "materials"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101310357"
+  },
+  {
+   "id": "101308785",
+   "a": "SpaceUp",
+   "t": "Scaling Up Sustainable Use of Under-used Areas",
+   "s": "2026-07-01",
+   "e": "2029-06-30",
+   "eu": 3991382,
+   "org": "FRAUNHOFER GESELLSCHAFT ZUR FORDERUNG DER ANGEWANDTEN FORSCHUNG EV",
+   "cc": "DE",
+   "tp": [
+    "sustain"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101308785"
+  },
+  {
+   "id": "101207625",
+   "a": "CEMCON",
+   "t": "CEMCON (Cement from concrete), A circular solution for recycled concrete fines into supplementary cementitious material",
+   "s": "2026-06-17",
+   "e": "2028-12-16",
+   "eu": 287730,
+   "org": "MONTANUNIVERSITAET LEOBEN",
+   "cc": "AT",
+   "tp": [
+    "materials",
+    "sustain"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101207625"
+  },
+  {
+   "id": "101274898",
+   "a": "EpigenHome",
+   "t": "Cognitive, neuroimaging and epigenetic insights into how housing adequacy influences Alzheimer's disease risk",
+   "s": "2026-06-08",
+   "e": "2028-12-07",
+   "eu": 335710,
+   "org": "THE PROVOST, FELLOWS, FOUNDATION SCHOLARS and THE OTHER MEMBERS OF BOARD, OF THE COLLEGE OF THE HOLY and UNDIVIDED TRINI",
+   "cc": "IE",
+   "tp": [
+    "sustain"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101274898"
+  },
+  {
+   "id": "101212055",
+   "a": "CircuLock",
+   "t": "Innovative End Locker for Efficient Design for Disassembly (DfD) in Concrete Construction",
+   "s": "2026-06-01",
+   "e": "2028-05-31",
+   "eu": 260347,
+   "org": "BRUNEL UNIVERSITY LONDON",
+   "cc": "UK",
+   "tp": [
+    "materials",
+    "sustain"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101212055"
+  },
+  {
+   "id": "101277180",
+   "a": "DREAMS",
+   "t": "Designing nanogRaphEnes for quAntuM Sensing",
+   "s": "2026-06-01",
+   "e": "2028-05-31",
+   "eu": 191343,
+   "org": "INTERNATIONAL IBERIAN NANOTECHNOLOGY LABORATORY",
+   "cc": "PT",
+   "tp": [
+    "geo"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101277180"
+  },
+  {
+   "id": "101282784",
+   "a": "Bio-CEBs",
+   "t": "Bio-stabilised Compressed Earth Blocks (Bio-CEBs) for regenerative building",
+   "s": "2026-06-01",
+   "e": "2028-05-31",
+   "eu": 292118,
+   "org": "ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE",
+   "cc": "CH",
+   "tp": [
+    "materials",
+    "sustain"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101282784"
+  },
+  {
+   "id": "101269300",
+   "a": "LatticeTunnel",
+   "t": "Lattice Dynamics involving Nuclear Tunneling in 2D Materials",
+   "s": "2026-06-01",
+   "e": "2028-05-31",
+   "eu": 260347,
+   "org": "THE CHANCELLOR MASTERS AND SCHOLARS OF THE UNIVERSITY OF CAMBRIDGE",
+   "cc": "UK",
+   "tp": [
+    "geo"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101269300"
+  },
+  {
+   "id": "101269030",
+   "a": "IMPACT-EUCO2",
+   "t": "IMPURITY IMPACTS ON CO2 TRANSPORT: CLOSING KNOWLEDGE GAPS FOR A ROBUST EUROPEAN CO2 TRANSPORT INFRASTRUCTURE",
+   "s": "2026-06-01",
+   "e": "2029-05-31",
+   "eu": 5006061,
+   "org": "INSTITUTT FOR ENERGITEKNIKK STI",
+   "cc": "NO",
+   "tp": [
+    "struct"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101269030"
+  },
+  {
+   "id": "101294344",
+   "a": "EHEAT",
+   "t": "Electric HEATing systems for decarbonization in the aluminium, steel, and cement industries",
+   "s": "2026-06-01",
+   "e": "2030-05-31",
+   "eu": 8973833,
+   "org": "FUNDACION TECNALIA RESEARCH and INNOVATION",
+   "cc": "ES",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101294344"
+  },
+  {
+   "id": "101296909",
+   "a": "NAUTILUS",
+   "t": "NAUTILUS: Quantum metrology and defect inspection for quantum chips",
+   "s": "2026-06-01",
+   "e": "2028-05-31",
+   "eu": 2499999,
+   "org": "QuantaMap B.V.",
+   "cc": "NL",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101296909"
+  },
+  {
+   "id": "101292098",
+   "a": "iNSyT-ONE",
+   "t": "iNSyT ONE: Real‑time single‑particle quality control for quantum dots and nanomaterials",
+   "s": "2026-06-01",
+   "e": "2029-05-31",
+   "eu": 2419567,
+   "org": "LUDWIG-MAXIMILIANS-UNIVERSITAET MUENCHEN",
+   "cc": "DE",
+   "tp": [
+    "metrology"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101292098"
+  },
+  {
+   "id": "101297983",
+   "a": "CO-REACTIVE",
+   "t": "Turning CO2 into high-performance cementitious materials",
+   "s": "2026-06-01",
+   "e": "2028-05-31",
+   "eu": 2241879,
+   "org": "CO-REACTIVE GMBH",
+   "cc": "DE",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101297983"
+  },
+  {
+   "id": "101279781",
+   "a": "WAVE",
+   "t": "Advanced Visualization of Electronic Band Structure in Bulk and Suspended WTe2",
+   "s": "2026-05-01",
+   "e": "2028-04-30",
+   "eu": 292118,
+   "org": "UNIVERSITAT ZURICH",
+   "cc": "CH",
+   "tp": [
+    "geo"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101279781"
+  },
+  {
+   "id": "101296660",
+   "a": "Beyond Epicenters",
+   "t": "Beyond Epicenters: Assessing Earthquake Vulnerability Through Economic and Social Networks",
+   "s": "2026-05-01",
+   "e": "2030-04-30",
+   "eu": 1422840,
+   "org": "TED UNIVERSITESI",
+   "cc": "TR",
+   "tp": [
+    "geo"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101296660"
+  },
+  {
+   "id": "101291179",
+   "a": "PI-MOLL",
+   "t": "Photonic Integrated Mode-Locked Laser",
+   "s": "2026-05-01",
+   "e": "2029-04-30",
+   "eu": 2499999,
+   "org": "ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE",
+   "cc": "CH",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101291179"
+  },
+  {
+   "id": "101207264",
+   "a": "ICING",
+   "t": "Improving Cement-based Infrastructure from Nanoscale Grounds",
+   "s": "2026-04-01",
+   "e": "2028-03-31",
+   "eu": 242260,
+   "org": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE CNRS",
+   "cc": "FR",
+   "tp": [
+    "materials",
+    "sustain"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101207264"
+  },
+  {
+   "id": "101230002",
+   "a": "ATLANTIS",
+   "t": "Advanced Techniques in Light and Acoustic Near-fields: Time and Spatial structuring",
+   "s": "2026-04-01",
+   "e": "2031-03-31",
+   "eu": 1997717,
+   "org": "KING'S COLLEGE LONDON",
+   "cc": "UK",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101230002"
+  },
+  {
+   "id": "101271570",
+   "a": "FINECOMB",
+   "t": "FIber Nonlinear rEsonator for ultra-stable optical frequency COMBs",
+   "s": "2026-04-01",
+   "e": "2028-03-31",
+   "eu": 200400,
+   "org": "UNIVERSITE LIBRE DE BRUXELLES",
+   "cc": "BE",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101271570"
+  },
+  {
+   "id": "101202954",
+   "a": "EcoVerse",
+   "t": "EcoVerse: Carbon-Negative Modular Concrete Blocks for Enhanced Indoor Air Quality and Thermal Comfort: A Comprehensive Experimental and Modeling Approach",
+   "s": "2026-03-15",
+   "e": "2028-03-14",
+   "eu": 217965,
+   "org": "TECHNISCHE UNIVERSITAT DARMSTADT",
+   "cc": "DE",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101202954"
+  },
+  {
+   "id": "101271431",
+   "a": "STUNNED",
+   "t": "Ultrafast, High-resolution, X-ray Microscopy for Nanometrology: Single-shot Hyperspectral Ptychography in a Compact and Cost-effective Device",
+   "s": "2026-03-01",
+   "e": "2027-08-31",
+   "eu": 150000,
+   "org": "UNIVERSITA DEGLI STUDI DI PAVIA",
+   "cc": "IT",
+   "tp": [
+    "metrology"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101271431"
+  },
+  {
+   "id": "101209678",
+   "a": "Path-B SHM",
+   "t": "Pathology-based Structural Health Monitoring",
+   "s": "2026-02-23",
+   "e": "2028-02-22",
+   "eu": 209914,
+   "org": "UNIVERSIDAD DE GRANADA",
+   "cc": "ES",
+   "tp": [
+    "shm"
+   ],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101209678"
+  },
+  {
+   "id": "101202167",
+   "a": "AdBiCon",
+   "t": "Adapted Biomineralisation for municipal solid waste reuse into Concrete (AdBiCon)",
+   "s": "2026-02-02",
+   "e": "2028-02-01",
+   "eu": 276187,
+   "org": "LIVERPOOL JOHN MOORES UNIVERSITY",
+   "cc": "UK",
+   "tp": [
+    "materials"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101202167"
+  },
+  {
+   "id": "101210630",
+   "a": "MeTa4SHM",
+   "t": "MeTamaterial sensor for battery-less Structural Health Monitoring",
+   "s": "2026-02-01",
+   "e": "2028-01-31",
+   "eu": 217076,
+   "org": "STICHTING NEDERLANDSE WETENSCHAPPELIJK ONDERZOEK INSTITUTEN",
+   "cc": "NL",
+   "tp": [
+    "shm"
+   ],
+   "ai": false,
+   "u": "https://cordis.europa.eu/project/id/101210630"
   },
   {
    "id": "101301276",
@@ -1916,9 +1911,7 @@
    "eu": 4471046,
    "org": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE CNRS",
    "cc": "FR",
-   "tp": [
-    "vision"
-   ],
+   "tp": [],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101311362"
   },
@@ -2077,6 +2070,19 @@
    "tp": [],
    "ai": true,
    "u": "https://cordis.europa.eu/project/id/101281146"
+  },
+  {
+   "id": "101311906",
+   "a": "AI-Sense",
+   "t": "Artificial Intelligence for Joint Communication and SENSing in Optical NEtworks",
+   "s": "2027-02-01",
+   "e": "2031-01-31",
+   "eu": 4206728,
+   "org": "ASTON UNIVERSITY",
+   "cc": "UK",
+   "tp": [],
+   "ai": true,
+   "u": "https://cordis.europa.eu/project/id/101311906"
   },
   {
    "id": "101303237",
@@ -2308,24 +2314,9 @@
    "eu": 2471462,
    "org": "TECHNISCHE UNIVERSITAET GRAZ",
    "cc": "AT",
-   "tp": [
-    "vision"
-   ],
-   "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101268039"
-  },
-  {
-   "id": "101311637",
-   "a": "EMANAIRE",
-   "t": "Empowering Human Agency in AI-Augmented Futures of Work",
-   "s": "2027-01-01",
-   "e": "2030-12-31",
-   "eu": 4732308,
-   "org": "STIFTELSEN HANDELSHOYSKOLEN BI",
-   "cc": "NO",
    "tp": [],
    "ai": true,
-   "u": "https://cordis.europa.eu/project/id/101311637"
+   "u": "https://cordis.europa.eu/project/id/101268039"
   }
  ]
 }
