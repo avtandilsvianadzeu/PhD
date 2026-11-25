@@ -7014,6 +7014,598 @@
      "u": "https://www.enlargement-infohub.eu/news/montenegro-science-and-technology-park-stp-mne-and-faculty-of-natural-sciences-and-mathematics-launch-an-ai-laboratory/"
     }
    ]
+  },
+  {
+   "id": "si-ircai",
+   "name": "International Research Centre on Artificial Intelligence (IRCAI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "Jožef Stefan Institute, Jamova cesta 39, SI-1000 Ljubljana, Slovenia",
+   "lat": 46.0424,
+   "lon": 14.4878,
+   "website": "https://ircai.org/",
+   "summary": "Research centre in Ljubljana, Slovenia.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "si-ul-fri",
+   "name": "University of Ljubljana, Faculty of Computer and Information Science (UL FRI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "Večna pot 113, 1000 Ljubljana, Slovenia",
+   "lat": 46.0502,
+   "lon": 14.469,
+   "website": "https://www.fri.uni-lj.si/en",
+   "summary": "Research centre in Ljubljana, Slovenia.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "17 Jun 2026",
+     "t": "The University of Ljubljana reported that UL FRI launched the FRIDA supercomputing infrastructure with 104 graphics accelerators on 16 June 2026.",
+     "u": "https://www.uni-lj.si/en/news/2026-06-17-slovenia-gains-the-cutting-edge-frida-supercomputing-infrastructure"
+    }
+   ]
+  },
+  {
+   "id": "si-um-feri",
+   "name": "University of Maribor, Faculty of Electrical Engineering and Computer Science (UM FERI), Institute of Computer Science",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Maribor",
+   "country": "Slovenia",
+   "address": "Koroška cesta 46, 2000 Maribor, Slovenia",
+   "lat": 46.559,
+   "lon": 15.6381,
+   "website": "https://cs.feri.um.si/en/research-activities/research-groups/",
+   "summary": "Research centre in Maribor, Slovenia.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "si-sling",
+   "name": "Slovenian National Supercomputing Network (SLING)",
+   "layer": "National supercomputing network",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "No postal address published. Contact: info@sling.si, Slovenia",
+   "lat": 46.0569,
+   "lon": 14.5058,
+   "website": "https://www.sling.si/en/",
+   "summary": "National supercomputing network in Ljubljana, Slovenia.",
+   "topics": [
+    "energy"
+   ],
+   "news": [
+    {
+     "d": "20 Nov 2026",
+     "t": "SLING announced the third open call for business experiments under the Fortissimo Plus (FFplus) project for small businesses using HPC.",
+     "u": "https://www.sling.si/en/"
+    },
+    {
+     "d": "22 Oct 2026",
+     "t": "SLING reported that Slovenian supercomputing centres opened their doors to the public on 16 October.",
+     "u": "https://www.sling.si/en/"
+    }
+   ]
+  },
+  {
+   "id": "si-ellis",
+   "name": "ELLIS Unit Slovenia",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "No postal address published. Hosted by the Jožef Stefan Institute, the University of Ljubljana and the University of Maribor, Slovenia",
+   "lat": 46.0609,
+   "lon": 14.5118,
+   "website": "https://ellis.eu/research/sites/unit-slovenia",
+   "summary": "Research centre in Ljubljana, Slovenia.",
+   "topics": [
+    "vision",
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "18 May 2026",
+     "t": "ELLIS announced Slovenia as one of the new units joining its network.",
+     "u": "https://ellis.eu/news/seven-new-units-join-the-ellis-network-czechia-denmark-franconia-grenoble-nrw-slovenia-sweden"
+    }
+   ]
+  },
+  {
+   "id": "si-arctur",
+   "name": "Arctur",
+   "layer": "Industry lab",
+   "kind": "industry",
+   "status": null,
+   "city": "Nova Gorica",
+   "country": "Slovenia",
+   "address": "Industrijska cesta 1a (Kromberk), SI-5000 Nova Gorica, Slovenia",
+   "lat": 45.9585,
+   "lon": 13.669,
+   "website": "https://www.arctur.si/en/",
+   "summary": "Industry lab in Nova Gorica, Slovenia.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "si-kcui",
+   "name": "Competence Centre for Artificial Intelligence of Slovenia (KCUI)",
+   "layer": "National competence centre",
+   "kind": "research",
+   "status": null,
+   "city": "Ljubljana",
+   "country": "Slovenia",
+   "address": "No own address published. Lead partner: Chamber of Commerce and Industry of Slovenia (GZS), Dimičeva 13, 1504 Ljubljana, Slovenia",
+   "lat": 46.0672,
+   "lon": 14.5136,
+   "website": "https://www.gov.si/novice/2026-01-20-zazivel-kompetencni-center-za-umetno-inteligenco-slovenije/",
+   "summary": "National competence centre in Ljubljana, Slovenia.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "20 Jan 2026",
+     "t": "The Ministry for Digital Transformation announced that the centre started operating, with a launch event at the Chamber of Commerce and Industry of Slovenia.",
+     "u": "https://www.gov.si/novice/2026-01-20-zazivel-kompetencni-center-za-umetno-inteligenco-slovenije/"
+    }
+   ]
+  },
+  {
+   "id": "uk-isambard-ai",
+   "name": "Isambard-AI (University of Bristol)",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Bristol",
+   "country": "United Kingdom",
+   "address": "National Composites Centre, Bristol, United Kingdom",
+   "lat": 51.501,
+   "lon": -2.478,
+   "website": "https://bristol.ac.uk/research/centres/bristol-supercomputing/articles/2025/supercomputer-help-uk-to-be-technological-superpower.html",
+   "summary": "Supercomputer in Bristol, United Kingdom.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "13 Jan 2025",
+     "t": "The University of Bristol said phase one of Isambard-AI was operational and that phase two would be completed in summer 2025.",
+     "u": "https://bristol.ac.uk/research/centres/bristol-supercomputing/articles/2025/supercomputer-help-uk-to-be-technological-superpower.html"
+    },
+    {
+     "d": "14 May 2024",
+     "t": "ITPro reported that Isambard-AI was officially up and running with a first phase of 168 GPUs.",
+     "u": "https://www.itpro.com/technology/isambard-ai-the-uks-most-powerful-and-sustainable-supercomputer-is-now-up-and-running"
+    }
+   ]
+  },
+  {
+   "id": "uk-google-waltham",
+   "name": "Google data centre, Waltham Cross",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Waltham Cross",
+   "country": "United Kingdom",
+   "address": "Waltham Cross, Hertfordshire, United Kingdom",
+   "lat": 51.69,
+   "lon": -0.033,
+   "website": "https://www.googlecloudpresscorner.com/2025-09-16-Google-Opens-Waltham-Cross-Data-Centre-as-Part-of-Two-year-GBP5-Billion-Investment-in-the-UK-to-Help-Power-its-AI-Economy",
+   "summary": "Private AI campus in Waltham Cross, United Kingdom.",
+   "topics": [
+    "compute",
+    "sustain"
+   ],
+   "news": [
+    {
+     "d": "16 Sep 2025",
+     "t": "Google opened the Waltham Cross data centre as part of a two-year investment of 5 billion pounds in the UK.",
+     "u": "https://www.googlecloudpresscorner.com/2025-09-16-Google-Opens-Waltham-Cross-Data-Centre-as-Part-of-Two-year-GBP5-Billion-Investment-in-the-UK-to-Help-Power-its-AI-Economy"
+    }
+   ]
+  },
+  {
+   "id": "uk-national-sc",
+   "name": "UK National Supercomputer, Edinburgh",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Under construction",
+   "city": "Edinburgh",
+   "country": "United Kingdom",
+   "address": "University of Edinburgh, Edinburgh, United Kingdom",
+   "lat": 55.9533,
+   "lon": -3.1883,
+   "website": "https://www.epcc.ed.ac.uk/whats-happening/articles/uks-ps750m-supercomputer-milestone-turf-cut-edinburgh",
+   "summary": "Supercomputer in Edinburgh, United Kingdom.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "25 Jun 2026",
+     "t": "Construction began on the site of the national supercomputer in Edinburgh, with Robertson Construction Central East as contractor.",
+     "u": "https://www.epcc.ed.ac.uk/whats-happening/articles/uks-ps750m-supercomputer-milestone-turf-cut-edinburgh"
+    },
+    {
+     "d": "11 Jun 2025",
+     "t": "The UK Government confirmed up to 750 million pounds for a national supercomputer hosted by the University of Edinburgh.",
+     "u": "https://www.gov.uk/government/news/scotland-to-host-uks-national-supercomputer-as-chancellor-confirms-750-million-investment"
+    }
+   ]
+  },
+  {
+   "id": "is-crusoe-ice02",
+   "name": "Crusoe AI cloud at atNorth ICE02",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Keflavík area",
+   "country": "Iceland",
+   "address": "atNorth ICE02, near Keflavík International Airport, Iceland",
+   "lat": 63.97,
+   "lon": -22.56,
+   "website": "https://www.crusoe.ai/resources/newsroom/crusoe-expands-iceland-data-center-capacity",
+   "summary": "Private AI campus in Keflavík area, Iceland.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "26 Aug 2025",
+     "t": "atNorth and Crusoe announced a 24 MW expansion at ICE02, taking Crusoe to 57 MW at the site.",
+     "u": "https://news.cision.com/atnorth/r/crusoe-expands-partnership-with-atnorth-for-sustainable-ai-cloud-growth,c4223023"
+    }
+   ]
+  },
+  {
+   "id": "it-fastweb-nexxt",
+   "name": "Fastweb NeXXt AI Factory",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Ponte San Pietro",
+   "country": "Italy",
+   "address": "Aruba data centre, Ponte San Pietro, near Bergamo, Italy",
+   "lat": 45.7,
+   "lon": 9.59,
+   "website": "https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-apre-la-via-allintelligenza-artificiale-in-italia-e-accende-nexxt-ai-factory-il-primo-e-piu-potente-supercomputer-ai-nvidia-dgx-superpod-dedicato-allintelligenza-artificiale-generativa-nel-paese/?lng=EN",
+   "summary": "Private AI campus in Ponte San Pietro, Italy.",
+   "topics": [
+    "llm",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "8 Jul 2024",
+     "t": "Fastweb turned on the NeXXt AI Factory, built on Nvidia DGX SuperPOD technology.",
+     "u": "https://ansa.it/english/news/2024/07/08/fastweb-turns-on-most-powerful-ai-supercomputer_cc94b586-4806-4d8c-a350-3ba43171e694.html"
+    }
+   ]
+  },
+  {
+   "id": "at-musica",
+   "name": "MUSICA supercomputer (Austrian Scientific Computing)",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Vienna",
+   "country": "Austria",
+   "address": "Science Center Arsenal, TU Wien, Vienna, Austria",
+   "lat": 48.182,
+   "lon": 16.393,
+   "website": "https://asc.ac.at/systems/musica/",
+   "summary": "Supercomputer in Vienna, Austria.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "3 Jul 2026",
+     "t": "MUSICA was officially opened and entered operational use.",
+     "u": "https://www.tuwien.at/tu-wien/aktuelles/news/news/supercomputer-musica-nimmt-betrieb-auf"
+    }
+   ]
+  },
+  {
+   "id": "se-berzelius",
+   "name": "Berzelius AI supercomputer (NSC)",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Linköping",
+   "country": "Sweden",
+   "address": "National Supercomputer Centre, Linköping University, 581 83 Linköping, Sweden",
+   "lat": 58.398,
+   "lon": 15.576,
+   "website": "https://www.nsc.liu.se/systems/berzelius/",
+   "summary": "Supercomputer in Linköping, Sweden.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "4 Jun 2025",
+     "t": "Linköping University reported that the Berzelius upgrade with 16 Nvidia DGX H200 units was complete and ready for use.",
+     "u": "https://liu.se/en/news-item/starkare-berzelius-ar-redo-for-framtidens-forskning"
+    }
+   ]
+  },
+  {
+   "id": "de-bluelion",
+   "name": "Blue Lion supercomputer (LRZ)",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Planned",
+   "city": "Garching",
+   "country": "Germany",
+   "address": "Leibniz Supercomputing Centre, Garching near Munich, Germany",
+   "lat": 48.2616,
+   "lon": 11.668,
+   "website": "https://www.lrz.de/",
+   "summary": "Supercomputer in Garching, Germany.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "11 Jun 2025",
+     "t": "Germany Trade and Invest reported that Nvidia and HPE will build Blue Lion at LRZ in Garching, to be operational by 2027.",
+     "u": "https://www.gtai.de/en/invest/industries/digital-economy/american-it-giants-to-build-munich-supercomputer-1905894"
+    },
+    {
+     "d": "10 Jun 2025",
+     "t": "Nvidia announced that Blue Lion will run on its Vera Rubin platform.",
+     "u": "https://blogs.nvidia.com/blog/blue-lion-vera-rubin/"
+    }
+   ]
+  },
+  {
+   "id": "ch-phoeniqs",
+   "name": "PHOENIQS AI supercomputer, uptownBasel",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Arlesheim",
+   "country": "Switzerland",
+   "address": "uptownBasel innovation campus, Arlesheim (BL), Switzerland",
+   "lat": 47.503,
+   "lon": 7.615,
+   "website": "https://www.phoeniqs.com/en/news/switzerland's-most-powerful-commercial-ai-supercomputer-goes-live-at-uptownbasel",
+   "summary": "Private AI campus in Arlesheim, Switzerland.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "17 Jun 2026",
+     "t": "PHOENIQS, uptownBasel and the developer Fankhauser commissioned the AI supercomputer in Arlesheim.",
+     "u": "https://www.phoeniqs.com/en/news/switzerland's-most-powerful-commercial-ai-supercomputer-goes-live-at-uptownbasel"
+    }
+   ]
+  },
+  {
+   "id": "nl-google-winschoten",
+   "name": "Google data centre, Winschoten",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Winschoten",
+   "country": "Netherlands",
+   "address": "Winschoten, Groningen province, Netherlands",
+   "lat": 53.144,
+   "lon": 7.035,
+   "website": "https://www.googlecloudpresscorner.com/2025-11-18-Google-Opens-Data-Center-in-Winschoten-to-Help-Power-the-AI-Economy-in-The-Netherlands",
+   "summary": "Private AI campus in Winschoten, Netherlands.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "18 Nov 2025",
+     "t": "Google announced the opening of its data centre in Winschoten.",
+     "u": "https://www.googlecloudpresscorner.com/2025-11-18-Google-Opens-Data-Center-in-Winschoten-to-Help-Power-the-AI-Economy-in-The-Netherlands"
+    }
+   ]
+  },
+  {
+   "id": "se-aisweden",
+   "name": "AI Sweden",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Gothenburg",
+   "country": "Sweden",
+   "address": "Lindholmsplatsen 1 (Kuggen), 417 56 Gothenburg, Sweden",
+   "lat": 57.7066,
+   "lon": 11.9389,
+   "website": "https://www.ai.se/en/about-ai-sweden",
+   "summary": "Research centre in Gothenburg, Sweden.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "19 Nov 2026",
+     "t": "AI Sweden published work on how language models can reveal patterns in Swedish healthcare incident reports.",
+     "u": "https://www.ai.se/en/news"
+    },
+    {
+     "d": "10 Nov 2026",
+     "t": "AI Sweden presented a method that helps large language models perform better across European languages.",
+     "u": "https://www.ai.se/en/news"
+    }
+   ]
+  },
+  {
+   "id": "ie-ceadar",
+   "name": "CeADAR, Ireland's National Centre for Applied AI",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Dublin",
+   "country": "Ireland",
+   "address": "Block 6, Belfield Office Park, Clonskeagh, Dublin 4, Ireland",
+   "lat": 53.312,
+   "lon": -6.229,
+   "website": "https://ceadar.ie/about/",
+   "summary": "Research centre in Dublin, Ireland.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "12 Nov 2026",
+     "t": "CeADAR reported on its part in the European Big Data Value Forum 2026 in Galway.",
+     "u": "https://ceadar.ie/news/"
+    }
+   ]
+  },
+  {
+   "id": "be-fari",
+   "name": "FARI, AI for the Common Good Institute",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Brussels",
+   "country": "Belgium",
+   "address": "Brussels, Belgium",
+   "lat": 50.8467,
+   "lon": 4.3525,
+   "website": "https://www.fari.brussels/",
+   "summary": "Research centre in Brussels, Belgium.",
+   "topics": [
+    "robot"
+   ],
+   "news": [
+    {
+     "d": "12 Jan 2026",
+     "t": "VUB announced that FARI was nominated for the visit.brussels Awards 2026 for its CAVE digital twin infrastructure.",
+     "u": "https://www.vub.be/en/news/fari-nominated-for-visitbrussels-awards-2026"
+    }
+   ]
+  },
+  {
+   "id": "ro-icia",
+   "name": "Research Institute for Artificial Intelligence Mihai Drăgănescu (ICIA), Romanian Academy",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Bucharest",
+   "country": "Romania",
+   "address": "Casa Academiei, Calea 13 Septembrie nr. 13, sector 5, 050711 Bucharest, Romania",
+   "lat": 44.424,
+   "lon": 26.087,
+   "website": "https://www.racai.ro/en/",
+   "summary": "Research centre in Bucharest, Romania.",
+   "topics": [
+    "llm"
+   ],
+   "news": [
+    {
+     "d": "17 Sep 2026",
+     "t": "The second LDS Country Workshop in Romania took place in Bucharest, listed by ICIA.",
+     "u": "https://www.racai.ro/en/"
+    }
+   ]
+  },
+  {
+   "id": "ch-idsia",
+   "name": "Dalle Molle Institute for Artificial Intelligence (IDSIA USI-SUPSI)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lugano",
+   "country": "Switzerland",
+   "address": "Polo universitario Lugano, East Campus, Via la Santa 1, 6900 Lugano, Switzerland",
+   "lat": 46.011,
+   "lon": 8.961,
+   "website": "https://www.idsia.usi-supsi.ch/en/idsia/about-us",
+   "summary": "Research centre in Lugano, Switzerland.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "robot"
+   ],
+   "news": [
+    {
+     "d": "22 Oct 2026",
+     "t": "Dario Piga was appointed Full Professor of Artificial Intelligence for Modelling and Control.",
+     "u": "https://www.idsia.usi-supsi.ch/en/idsia/about-us"
+    }
+   ]
+  },
+  {
+   "id": "cz-aic",
+   "name": "Artificial Intelligence Center (AIC), FEE CTU in Prague",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Prague",
+   "country": "Czechia",
+   "address": "Charles Square 13, Prague 2, Czechia",
+   "lat": 50.076,
+   "lon": 14.418,
+   "website": "https://www.aic.fel.cvut.cz/",
+   "summary": "Research centre in Prague, Czechia.",
+   "topics": [
+    "ml",
+    "robot"
+   ],
+   "news": [
+    {
+     "d": "23 Sep 2026",
+     "t": "The centre announced its AIC 2026 Student Paper Award.",
+     "u": "https://www.aic.fel.cvut.cz/"
+    }
+   ]
+  },
+  {
+   "id": "pl-ccai",
+   "name": "Centre for Credible AI (CCAI), Warsaw University of Technology",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Warsaw",
+   "country": "Poland",
+   "address": "4 Rektorska Street, Warsaw, Poland",
+   "lat": 52.219,
+   "lon": 21.014,
+   "website": "https://credibleai.github.io/centre-for-credible-ai",
+   "summary": "Research centre in Warsaw, Poland.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "7 Oct 2025",
+     "t": "Warsaw University of Technology officially inaugurated the Centre for Credible AI.",
+     "u": "https://eng.pw.edu.pl/News/Official-inauguration-of-the-WUT-Centre-for-Credible-Artificial-Intelligence"
+    }
+   ]
   }
  ]
 }
