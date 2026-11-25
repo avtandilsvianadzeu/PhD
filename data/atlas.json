@@ -4618,6 +4618,11 @@
    ],
    "news": [
     {
+     "d": "18 Nov 2026",
+     "t": "Terres de l'Ebre urban planning commission definitively approved the modified El Molló partial plan for the AI gigafactory site between Móra la Nova and Tivissa.",
+     "u": "https://en.ara.cat/economy/green-light-for-the-urban-planning-for-the-gigafactory-in-mora-nova_1_5914906.html"
+    },
+    {
      "d": "5 Nov 2026",
      "t": "EuroHPC extends the Lot 1 deadline to 4 Feb 2027 and asks for all tenders to be resubmitted.",
      "u": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
@@ -4850,6 +4855,11 @@
    ],
    "news": [
     {
+     "d": "16 Nov 2026",
+     "t": "PERUN at the Slovak Academy of Sciences ranked place 154 on the November 2026 TOP500 and place 15 on the Green500.",
+     "u": "https://top500.org/lists/green500/list/2026/11/"
+    },
+    {
      "d": "2 May 2026",
      "t": "PERUN officially inaugurated; with its Košice twin, about 25 petaflops.",
      "u": "https://www.tasr.sk/tasr-clanok/TASR:2026050200000173"
@@ -4879,6 +4889,11 @@
    ],
    "news": [
     {
+     "d": "12 Jun 2026",
+     "t": "Belnet reported that BE-AIFA is in its start-up phase, with the full range of services expected to be operational by September 2026.",
+     "u": "https://belnet.be/en/news-events/news/ai-factory-antenna-connects-belgian-organisations-european-ai-infrastructure"
+    },
+    {
      "d": "13 Oct 2025",
      "t": "Selected as an AI Factory Antenna.",
      "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
@@ -4902,6 +4917,11 @@
     "compute"
    ],
    "news": [
+    {
+     "d": "10 Oct 2026",
+     "t": "Cyprus Mail reported that the Cyprus Institute of Neurology and Genetics will lead the health AI work of PHAROS-CY, a 6 million euro project running from April 2026 to March 2029.",
+     "u": "https://cyprus-mail.com/2026/10/10/e6m-initiative-brings-advanced-ai-and-supercomputing-resources-to-cyprus"
+    },
     {
      "d": "13 Oct 2025",
      "t": "Selected as an AI Factory Antenna.",
@@ -4950,6 +4970,11 @@
     "compute"
    ],
    "news": [
+    {
+     "d": "2 Jul 2026",
+     "t": "Official launch of the AIF IRL-Antenna programme, operated by ICHEC at the University of Galway, reported with 10 million euros of joint European and Irish funding.",
+     "u": "https://www.galwaybayfm.ie/galway-bay-fm-news-desk/official-launch-for-ug-led-national-gateway-to-european-ai-network-224925"
+    },
     {
      "d": "13 Oct 2025",
      "t": "Selected as an AI Factory Antenna.",
@@ -6280,6 +6305,11 @@
    ],
    "news": [
     {
+     "d": "24 Jun 2026",
+     "t": "VEZILKA, the national AI centre and AI Factory Antenna of North Macedonia, officially launched in Skopje.",
+     "u": "https://www.bta.bg/en/news/balkans/1154432-skopje-launches-national-a52i-center-project"
+    },
+    {
      "d": "13 Oct 2025",
      "t": "Selected as an AI Factory Antenna.",
      "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
@@ -6356,6 +6386,11 @@
     "compute"
    ],
    "news": [
+    {
+     "d": "25 Jun 2026",
+     "t": "Pilot-UKAIFA started its training programme with the free EPCC webinar Demystifying AI.",
+     "u": "https://www.epcc.ed.ac.uk/whats-happening/articles/free-webinar-demystifying-ai"
+    },
     {
      "d": "13 Oct 2025",
      "t": "Selected as an AI Factory Antenna.",
@@ -6722,6 +6757,261 @@
      "d": "6 Nov 2025",
      "t": "UIIP NASB reported that the UMKA cluster (24 nodes, 2,016 cores, 120 teraflops peak) joined the national grid on 3 October 2025.",
      "u": "https://uiip.basnet.by/eng/news/543/"
+    }
+   ]
+  },
+  {
+   "id": "lt-ktu-ai",
+   "name": "KTU Artificial Intelligence Excellence Centre",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Kaunas",
+   "country": "Lithuania",
+   "address": "K. Barsausko g. 59, Kaunas, Lithuania",
+   "lat": 54.8994,
+   "lon": 23.9614,
+   "website": "https://aicentre.ktu.edu/",
+   "summary": "Research centre in Kaunas, Lithuania.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "3 May 2026",
+     "t": "The Care@Home project was launched with a kick-off meeting in Kaunas.",
+     "u": "https://aicentre.ktu.edu/"
+    }
+   ]
+  },
+  {
+   "id": "no-olivia",
+   "name": "Olivia supercomputer (Sigma2)",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Nordfjordeid",
+   "country": "Norway",
+   "address": "Sigma2 data hall, Lefdal Mine Datacenter, near Nordfjordeid, Norway",
+   "lat": 61.914,
+   "lon": 5.87,
+   "website": "https://www.sigma2.no/olivia",
+   "summary": "Supercomputer in Nordfjordeid, Norway.",
+   "topics": [
+    "llm",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "2 Mar 2026",
+     "t": "Sigma2 reported a significant expansion of the GPU capacity of Olivia.",
+     "u": "https://www.sigma2.no/olivia"
+    },
+    {
+     "d": "18 Jun 2025",
+     "t": "Sigma2 reported that Minister Sigrun Aasland officially inaugurated Olivia.",
+     "u": "https://www.sigma2.no/olivia"
+    }
+   ]
+  },
+  {
+   "id": "no-integreat",
+   "name": "Integreat, Norwegian Centre for Knowledge-driven Machine Learning",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Oslo",
+   "country": "Norway",
+   "address": "Niels Henrik Abels hus, Moltke Moes vei 35, 0851 Oslo, Norway",
+   "lat": 59.9439,
+   "lon": 10.7205,
+   "website": "https://www.integreat.no/",
+   "summary": "Research centre in Oslo, Norway.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "rs-sdc",
+   "name": "State Data Centre Kragujevac, National Platform for Artificial Intelligence",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Kragujevac",
+   "country": "Serbia",
+   "address": "State Data Centre, Kragujevac, Serbia",
+   "lat": 44.0128,
+   "lon": 20.9114,
+   "website": "https://www.ite.gov.rs/tekst/en/35/government-data-centredr-location-in-kragujevac.php",
+   "summary": "Supercomputer in Kragujevac, Serbia.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "30 Apr 2026",
+     "t": "New modules of the State Data Centre, including a new supercomputer, were put into operation, raising its energy capacity to 14 MW.",
+     "u": "https://www.srbija.gov.rs/vest/en/276647/state-data-centre-in-kragujevac-receives-new-supercomputer.php"
+    }
+   ]
+  },
+  {
+   "id": "ua-aitl",
+   "name": "Laboratory of Artificial Intelligence Technologies, Ivan Franko National University of Lviv",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Lviv",
+   "country": "Ukraine",
+   "address": "50 Drahomanova St, Lviv, Ukraine",
+   "lat": 49.8325,
+   "lon": 24.0275,
+   "website": "https://aitl.lnu.edu.ua/en/",
+   "summary": "Research centre in Lviv, Ukraine.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "mt-um-ai",
+   "name": "Department of Artificial Intelligence, University of Malta",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Msida",
+   "country": "Malta",
+   "address": "Faculty of ICT, University of Malta, Msida MSD 2080, Malta",
+   "lat": 35.902,
+   "lon": 14.4837,
+   "website": "https://www.um.edu.mt/ict/ai/",
+   "summary": "Research centre in Msida, Malta.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "cy-castorc",
+   "name": "Computation-based Science and Technology Research Center (CaSToRC), The Cyprus Institute",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Nicosia",
+   "country": "Cyprus",
+   "address": "20 Konstantinou Kavafi Street, 2121 Aglantzia, Nicosia, Cyprus",
+   "lat": 35.1413,
+   "lon": 33.381,
+   "website": "https://www.cyi.ac.cy/index.php/castorc/about-the-center/overview-castorc.html",
+   "summary": "Supercomputer in Nicosia, Cyprus.",
+   "topics": [
+    "ml",
+    "compute"
+   ],
+   "news": []
+  },
+  {
+   "id": "is-ihpc",
+   "name": "IHPC, National Competence Center for HPC and AI in Iceland",
+   "layer": "EU project",
+   "kind": "project",
+   "status": null,
+   "city": "Reykjavik",
+   "country": "Iceland",
+   "address": "Department of Computer Science, University of Iceland, Bjargargata 1, 102 Reykjavik, Iceland",
+   "lat": 64.1378,
+   "lon": -21.944,
+   "website": "https://ihpc.is/",
+   "summary": "EU project in Reykjavik, Iceland.",
+   "topics": [
+    "llm",
+    "ml",
+    "energy",
+    "struct"
+   ],
+   "news": []
+  },
+  {
+   "id": "tr-truba",
+   "name": "TRUBA, Turkish National Science e-Infrastructure (TUBITAK ULAKBIM)",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Ankara",
+   "country": "Turkey",
+   "address": "Muhsin Yazicioglu Caddesi No:51/C, Yuzuncuyil, 06530 Cankaya, Ankara, Turkey",
+   "lat": 39.8892,
+   "lon": 32.803,
+   "website": "https://ulakbim.tubitak.gov.tr/en/high-performance-computing-and-data-infrastructures/",
+   "summary": "Supercomputer in Ankara, Turkey.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "22 Nov 2024",
+     "t": "ULAKBIM reported that the ARF ACC supercomputer ranked 230th in the Top500 list.",
+     "u": "https://ulakbim.tubitak.gov.tr/en/great-success-from-arf-acc-turkeys-supercomputer/"
+    },
+    {
+     "d": "25 Jun 2024",
+     "t": "The MODSIMMER TRUBA Data Center and the ARF supercomputer were inaugurated in Ankara.",
+     "u": "https://connect.geant.org/2024/07/10/tubitak-ulakbim-unveils-cutting-edge-data-centre-and-the-new-arf-supercomputer"
+    }
+   ]
+  },
+  {
+   "id": "ge-micm",
+   "name": "MICM AI Lab, Muskhelishvili Institute of Computational Mathematics, Georgian Technical University",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Tbilisi",
+   "country": "Georgia",
+   "address": "Grigol Peradze str. 4, 0159 Tbilisi, Georgia",
+   "lat": 41.726,
+   "lon": 44.743,
+   "website": "https://institutes.gtu.ge/en/Institute/1",
+   "summary": "Research centre in Tbilisi, Georgia.",
+   "topics": [
+    "llm",
+    "health"
+   ],
+   "news": [
+    {
+     "d": "21 Jul 2026",
+     "t": "An EU4Georgia article reported that the institute now has a permanent AI department and a new AI Lab after the GAIN project.",
+     "u": "https://eu4georgia.eu/eu-georgia-collaboration-is-a-win-win-for-ai-research-and-innovation/"
+    }
+   ]
+  },
+  {
+   "id": "me-stp",
+   "name": "AI Laboratory, Science and Technology Park Montenegro (STP MNE)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Podgorica",
+   "country": "Montenegro",
+   "address": "Bulevar Mihaila Lalica bb, 81000 Podgorica, Montenegro",
+   "lat": 42.448,
+   "lon": 19.244,
+   "website": "https://www.enlargement-infohub.eu/news/montenegro-science-and-technology-park-stp-mne-and-faculty-of-natural-sciences-and-mathematics-launch-an-ai-laboratory/",
+   "summary": "Research centre in Podgorica, Montenegro.",
+   "topics": [
+    "ml"
+   ],
+   "news": [
+    {
+     "d": "6 Nov 2025",
+     "t": "The Enlargement Info Hub reported the launch of the AI laboratory after an agreement signed in October 2025.",
+     "u": "https://www.enlargement-infohub.eu/news/montenegro-science-and-technology-park-stp-mne-and-faculty-of-natural-sciences-and-mathematics-launch-an-ai-laboratory/"
     }
    ]
   }

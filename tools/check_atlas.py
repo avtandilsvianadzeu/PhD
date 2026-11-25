@@ -91,7 +91,7 @@ def scan(where, text):
         if ch == "!":
             continue
         if ch in text: fail(f"{where}: contains {name}")
-    if not where.endswith((".u", ".url", ".asrc")):
+    if not where.endswith((".u", ".url", ".asrc")) and not re.match(r"https?://\S+$", text):   # a link keeps the words of its publisher
         for w in STOCK:
             if re.search(w, text, re.I): fail(f"{where}: stock phrase '{w}', write it plainly")
 def walk(o, where):
