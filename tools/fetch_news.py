@@ -9,7 +9,7 @@ are kept until they are older than max_age_days. Each item keeps
 only the headline, date, publisher and a link to the original article. If every fetch fails,
 the previous news.json is kept.
 """
-import json, re, sys, html, datetime as dt, urllib.request, urllib.parse
+import json, re, sys, html, time, datetime as dt, urllib.request, urllib.parse
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -25,10 +25,17 @@ CWORDS = {cc: re.compile(r"\b(" + "|".join(map(re.escape, words)) + r")\b") for 
 ATOM = "{http://www.w3.org/2005/Atom}"
 EUW = re.compile(r"\b(" + "|".join(map(re.escape, CFG.get("eu_words", ["EU", "Europe", "European"]))) + r")\b")
 
-def get(url):
+def get(url, tries=3):
+    """Read one feed; a slow or briefly failing publisher gets two more tries before it is skipped."""
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (atlas news job)", "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read()
+    for n in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read()
+        except Exception:
+            if n == tries - 1:
+                raise
+            time.sleep(2 + 3 * n)
 
 def when(text):
     if not text:
@@ -62,11 +69,17 @@ def clean(t):
 
 def main():
     rows, seen, ok = [], set(), 0
-    for src, url in CFG["feeds"].items():
-        try:
-            feed = list(parse(get(url))); ok += 1
-        except Exception as e:  # one failing feed must not stop the rest
-            print(f"{src}: {e}", file=sys.stderr); continue
+    for src, urls in CFG["feeds"].items():
+        feed = None
+        for url in ([urls] if isinstance(urls, str) else urls):   # a source may list more than one address
+            try:
+                feed = list(parse(get(url))); break
+            except Exception as e:  # one failing feed must not stop the rest
+                print(f"FEED FAIL {src}: {url}: {e}", file=sys.stderr)
+        if feed is None:
+            continue
+        ok += 1
+        kept0 = len(rows)
         for title, summary, link, d in feed:
             text = title + " " + summary
             if not (link.startswith("http") and d and KEEP.search(text)):
@@ -89,6 +102,7 @@ def main():
             else:
                 continue
             rows.append({"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(src), "_t": d.timestamp()})
+        print(f"FEED OK {src}: {len(feed)} items read, {len(rows) - kept0} kept")
     # publisher feeds hold only their latest items, so earlier days' items are kept until they age out
     if OUT.exists():
         try:

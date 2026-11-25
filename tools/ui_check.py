@@ -9,7 +9,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-TABS = ['browse', 'rank', 'latest', 'saved', 'minds', 'news', 'src', 'plans', 'calls']
+TABS = ['browse', 'rank', 'latest', 'saved', 'minds', 'news', 'src', 'plans', 'calls', 'collab']
 problems = []
 
 def serve():
@@ -51,13 +51,32 @@ def main():
             pg.evaluate("openCountry('DE')"); pg.wait_for_timeout(300)
             pg.close()
         # links that open a view directly, and the Back button
-        for hsh, want in [('#calls', "tab==='calls'"), ('#minds', "tab==='minds'"), ('#c=SI', "selCn==='SI'"), ('#e=aif-slaif', "sel==='aif-slaif'")]:
+        for hsh, want in [('#calls', "tab==='calls'"), ('#collab', "tab==='collab'"), ('#minds', "tab==='minds'"), ('#c=SI', "selCn==='SI'"), ('#e=aif-slaif', "sel==='aif-slaif'")]:
             pg = page_for(b, port, 1440, 900, hash_=hsh)
             if not pg.evaluate(want): problems.append(f'link {hsh} does not open its view')
             pg.close()
         pg = page_for(b, port, 1440, 900)
         pg.click('[data-pt=calls]'); pg.wait_for_timeout(300); pg.go_back(); pg.wait_for_timeout(500)
         if pg.evaluate("tab") == 'calls': problems.append('Back button does not leave the Calls page')
+        pg.close()
+        # country bubbles keep a gap, and "Open data" stays in the title bar on desktop widths
+        for w, h, mob in [(1440, 900, False), (1280, 800, False), (1024, 768, False), (390, 844, True)]:
+            pg = page_for(b, port, w, h, mob)
+            n = pg.evaluate("""(()=>{const a=[...document.querySelectorAll('#clusters .cl:not(.off)')].map(g=>{const c=g.querySelector('circle').getBoundingClientRect();return [c.x+c.width/2,c.y+c.height/2,c.width/2];});let n=0;for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++)if(Math.hypot(a[i][0]-a[j][0],a[i][1]-a[j][1])<a[i][2]+a[j][2])n++;return n;})()""")
+            if n: problems.append(f'{w}: {n} pairs of country bubbles overlap')
+            if not mob and not pg.evaluate("[...document.querySelectorAll('.pright .pbtn')].every(x=>x.getBoundingClientRect().width>0)"):
+                problems.append(f'{w}: a title bar button is hidden')
+            pg.close()
+        # the satellite view opens first; the page must stay free of script errors whether or not the tiles arrive
+        pg = page_for(b, port, 1440, 900, base='sat')
+        pg.wait_for_timeout(2500)
+        sw = pg.evaluate("[...document.querySelectorAll('#basesw button')].map(x=>x.dataset.b).join(',')")
+        if sw != 'sat,terrain,streets,map': problems.append(f'base map switcher reads {sw}')
+        if pg.evaluate("base") not in ('sat', 'map'): problems.append('satellite view did not open')
+        pg.evaluate("setTab('collab')"); pg.wait_for_timeout(300)
+        if pg.evaluate("document.querySelectorAll('.cb details').length") < 5: problems.append('Collaboration page lists fewer than 5 topics')
+        if pg.evaluate("/ZAG|Zavod za gradbeni/.test(document.querySelector('.pane').textContent)"): problems.append('Collaboration page names the owner institute')
+        pg.close()
         b.close()
     srv.shutdown()
     for x in problems: print('FAIL', x)

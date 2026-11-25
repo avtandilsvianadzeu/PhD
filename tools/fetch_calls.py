@@ -8,7 +8,7 @@ Commission Decision 2011/833/EU, with the source acknowledged; only call metadat
 
 Run: python3 tools/fetch_calls.py   (writes calls.json at the site root)
 """
-import json, re, sys, uuid, urllib.request, datetime as dt
+import json, re, sys, time, uuid, urllib.request, datetime as dt
 from pathlib import Path
 
 API = 'https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=***&pageSize=100&pageNumber={}'
@@ -24,7 +24,8 @@ TOPICS = [('AI', r'\bAI\b|artificial intelligence|machine learning|generative|fo
           ('Computing', r'\bHPC\b|EuroHPC|supercomput|high[- ]performance computing|quantum comput|exascale|AI factor|gigafactor|cloud|edge computing|data cent'),
           ('Data', r'\bdata\b|data space|digital twin|big data|analytics'),
           ('Robotics', r'robot|autonomous'),
-          ('Chips', r'semiconductor|\bchips?\b|microelectronic|processor')]
+          ('Chips', r'semiconductor|\bchips?\b|microelectronic|processor'),
+          ('Infrastructure', r'bridge|built environment|construction (sector|industry|site|product|material)|civil engineering|transport infrastructure|road infrastructure|rail infrastructure|infrastructure (monitoring|resilience|maintenance|inspection)|resilien\w+ (of )?(transport|infrastructure)|structural health|building stock|buildings?\b.*(renovation|energy)|concrete|cement')]
 STATUS = {'31094501': 'Forthcoming', '31094502': 'Open'}
 
 def form():
@@ -39,14 +40,18 @@ def first(m, k):
     return str(v[0]) if v else ''
 
 def main():
-    items, seen = [], set()
+    items, seen, partial = [], set(), False
     for page in range(1, 40):
         body, ct = form()
         req = urllib.request.Request(API.format(page), data=body, method='POST', headers={'Content-Type': ct, 'User-Agent': 'European AI Atlas (open data)'})
-        try:
-            j = json.load(urllib.request.urlopen(req, timeout=60))
-        except Exception as e:
-            print('page', page, 'failed:', e); break
+        j = None
+        for attempt in range(3):   # the portal sometimes answers slowly: two more tries before giving up on a page
+            try:
+                j = json.load(urllib.request.urlopen(req, timeout=60)); break
+            except Exception as e:
+                print('page', page, 'try', attempt + 1, 'failed:', e); time.sleep(3 + 4 * attempt)
+        if j is None:
+            partial = True; break
         res = j.get('results') or []
         if not res: break
         for x in res:
@@ -56,6 +61,7 @@ def main():
             title = re.sub(r'\s+', ' ', first(m, 'title') or x.get('summary') or '').strip()
             title = re.sub(r'\s*[\u2013\u2014]\s*', ', ', title).replace('\u2019', "'").replace('\u2018', "'").replace('\u201c', '"').replace('\u201d', '"').replace('\u2026', '...').replace('!', '.').replace('\u00b7', ',')
             title = re.sub(r'\s+-\s+', ': ', title)
+            title = re.sub(r'\s*\[+\s*https?://\S*', '', title).strip()   # stray link markup left in some portal titles
             text = title + ' ' + ident
             kw = ' '.join(m.get('keywords') or []) + ' ' + ' '.join(m.get('tags') or [])
             tags = [n for n, rx in TOPICS if re.search(rx, text, re.I)]
@@ -80,6 +86,13 @@ def main():
         if len(res) < 100: break
     if not items:
         print('no calls read, keeping the previous file'); return 1
+    if partial and OUT.exists():   # a cut-off read must not shrink the list on the page
+        try:
+            old = len(json.loads(OUT.read_text(encoding='utf-8')).get('items', []))
+        except Exception:
+            old = 0
+        if len(items) < 0.8 * old:
+            print(f'read stopped early with {len(items)} calls against {old} before, keeping the previous file'); return 1
     items.sort(key=lambda i: (i['dl'], i['t']))
     OUT.write_text(json.dumps({'read': dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%MZ'),
                                'source': 'EU Funding and Tenders portal', 'items': items}, ensure_ascii=False, indent=1), encoding='utf-8')

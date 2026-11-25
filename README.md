@@ -24,8 +24,8 @@ Every Monday it also checks that all source links still answer. Run it locally w
 ## Daily news
 
 `.github/workflows/news.yml` runs `tools/fetch_news.py` every day at 05:23 UTC. It reads the
-publishers' own RSS feeds listed in `tools/news_sources.json` (Data Center Knowledge,
-DatacenterDynamics, Euronews and the European Commission), keeps items about AI data centres and
+publishers' own RSS feeds listed in `tools/news_sources.json` (trade press, European technology
+and research press, the European Commission and EU bodies), keeps items about AI, data centres and
 compute, assigns them to EU27 countries by country and city names, drops items with future or old
 dates, writes `news.json`, checks it and commits it. Each item keeps only the headline, date,
 publisher and a link to the original article. The page reads `news.json` and
@@ -39,14 +39,21 @@ Actions tab.
 
 ## Map views
 
-The page opens in the terrain view. The switch at the foot of the map offers Atlas (the green Eurostat
-map), Streets, Terrain, Satellite and Light. The MapLibre library sits in `vendor/` (BSD licence); the
+The page opens in the satellite view. The switch at the foot of the map offers Satellite, Terrain,
+Streets and Atlas (the green Eurostat map). The MapLibre library sits in `vendor/` (BSD licence); the
 base maps are OpenFreeMap, Mapzen terrain tiles on AWS and Esri World Imagery, credited in the map corner.
 Country borders in every view are the Eurostat GISCO outlines in `data/eu-countries.geojson` (EU
 conventions: Crimea within Ukraine, Abkhazia and South Ossetia within Georgia, Kosovo* as Eurostat draws
 it); the United Kingdom outline comes from Natural Earth. The OpenStreetMap border lines are switched off.
 Every institution and site carries its address and coordinates, shown in its Location card; the automatic
 check fails if one is missing.
+
+## Collaboration page
+
+The Collaboration page groups the entries by engineering topic (structures and bridges, monitoring and
+digital twins, weigh-in-motion, materials, geotechnics, buildings, sustainability, metrology, computer
+vision) and lists, for each topic, the groups and centres that work on it and the open EU calls whose
+title fits. It is built in the browser from `data` already on the page and from `calls.json`.
 
 ## Open data and sharing
 
