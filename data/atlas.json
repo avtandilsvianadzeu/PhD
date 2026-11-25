@@ -290,7 +290,7 @@
   },
   {
    "id": "aif-brain",
-   "name": "Bulgarian Robotics & AI Nexus (BRAIN++)",
+   "name": "Bulgarian Robotics and AI Nexus (BRAIN++)",
    "layer": "AI Factory",
    "kind": "factory",
    "status": "Under construction",
@@ -972,7 +972,7 @@
   },
   {
    "id": "tue",
-   "name": "ELLIS Institute Tübingen · MPI-IS · Cyber Valley",
+   "name": "ELLIS Institute Tübingen, MPI-IS, Cyber Valley",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1173,7 +1173,7 @@
    "lat": 51.7599,
    "lon": -1.2585,
    "website": "https://www.cs.ox.ac.uk",
-   "summary": null,
+   "summary": "Deep bench in probabilistic machine learning, formal verification and AI governance, feeding both DeepMind and a cluster of spinouts.",
    "topics": [
     "ml",
     "ethics"
@@ -1192,7 +1192,7 @@
    "lat": 52.2109,
    "lon": 0.092,
    "website": "https://www.cst.cam.ac.uk",
-   "summary": null,
+   "summary": "Home of the Computational and Biological Learning Lab and a long Bayesian tradition.",
    "topics": [
     "ml",
     "health"
@@ -1211,7 +1211,7 @@
    "lat": 51.5182,
    "lon": -0.1181,
    "website": "https://www.ucl.ac.uk/ai-centre",
-   "summary": null,
+   "summary": "Home of ELLIS Unit London.",
    "topics": [
     "ml"
    ],
@@ -1229,7 +1229,7 @@
    "lat": 55.9448,
    "lon": -3.1873,
    "website": "https://informatics.ed.ac.uk/",
-   "summary": null,
+   "summary": "The largest informatics school in the UK, home of ELLIS Unit Edinburgh with Heriot-Watt University, and the site chosen for Britain's £750m national supercomputer investment.",
    "topics": [
     "llm",
     "robot",
@@ -1249,7 +1249,7 @@
    "lat": 48.7144,
    "lon": 2.2056,
    "website": "https://www.inria.fr",
-   "summary": null,
+   "summary": "France's national institute for digital science, spread across nine centres and a central part of French public AI research.",
    "topics": [
     "ml"
    ],
@@ -1268,7 +1268,7 @@
   },
   {
    "id": "psl",
-   "name": "ENS/PSL · Sorbonne · École Polytechnique",
+   "name": "ENS/PSL, Sorbonne, École Polytechnique",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1278,7 +1278,7 @@
    "lat": 48.8418,
    "lon": 2.344,
    "website": "https://www.ens.psl.eu",
-   "summary": null,
+   "summary": "The academic core of AI research in Paris.",
    "topics": [
     "vision",
     "ml",
@@ -1288,7 +1288,7 @@
   },
   {
    "id": "ams",
-   "name": "University of Amsterdam (AMLab) · CWI",
+   "name": "University of Amsterdam (AMLab), CWI",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1326,7 +1326,7 @@
   },
   {
    "id": "muc",
-   "name": "MCML · TUM · LMU · Helmholtz AI",
+   "name": "MCML, TUM, LMU, Helmholtz AI",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1369,7 +1369,7 @@
   },
   {
    "id": "darm",
-   "name": "hessian.AI · TU Darmstadt",
+   "name": "hessian.AI, TU Darmstadt",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1379,7 +1379,7 @@
    "lat": 49.87489,
    "lon": 8.65655,
    "website": "https://hessian.ai",
-   "summary": null,
+   "summary": "The Hessian Center for Artificial Intelligence, with TU Darmstadt's computer science department, is one of the original ELLIS unit sites and an associated partner in the JAIF factory consortium.",
    "topics": [
     "llm",
     "robot"
@@ -1426,7 +1426,7 @@
   },
   {
    "id": "fbk",
-   "name": "Fondazione Bruno Kessler · University of Trento",
+   "name": "Fondazione Bruno Kessler, University of Trento",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1436,7 +1436,7 @@
    "lat": 46.06746,
    "lon": 11.15118,
    "website": "https://www.fbk.eu",
-   "summary": null,
+   "summary": "ELLIS Unit Trento consolidates the University of Trento and FBK and acts as a focal point for researchers across north-east Italy, drawing in startups, industry and public administration.",
    "topics": [
     "llm",
     "vision",
@@ -1457,7 +1457,7 @@
    "lat": 44.47502,
    "lon": 8.90636,
    "website": "https://www.iit.it",
-   "summary": null,
+   "summary": "Italy's national technology institute, strongest in humanoid and soft robotics and the learning methods that go with them.",
    "topics": [
     "robot"
    ],
@@ -1513,7 +1513,7 @@
    "lat": 60.18697,
    "lon": 24.82151,
    "website": "https://fcai.fi",
-   "summary": null,
+   "summary": "A joint Aalto, University of Helsinki and VTT centre.",
    "topics": [
     "ml"
    ],
@@ -1527,7 +1527,7 @@
   },
   {
    "id": "sthlm",
-   "name": "KTH · RISE · ELLIS Unit Sweden",
+   "name": "KTH, RISE, ELLIS Unit Sweden",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1553,7 +1553,7 @@
   },
   {
    "id": "cph",
-   "name": "DTU · University of Copenhagen",
+   "name": "DTU, University of Copenhagen",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1695,7 +1695,7 @@
   },
   {
    "id": "zagreb",
-   "name": "University of Zagreb FER · Ruđer Bošković Institute",
+   "name": "University of Zagreb FER, Ruđer Bošković Institute",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1724,7 +1724,7 @@
    "lat": 52.22883,
    "lon": 21.00005,
    "website": "https://ideas-ncbr.pl",
-   "summary": null,
+   "summary": "Poland's research and development centre for AI and the digital economy, organised as independent research groups with academic and industry links.",
    "topics": [
     "vision",
     "ml"
@@ -1739,7 +1739,7 @@
   },
   {
    "id": "buda",
-   "name": "Rényi Institute · SZTAKI",
+   "name": "Rényi Institute, SZTAKI",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1749,7 +1749,7 @@
    "lat": 47.49286,
    "lon": 19.05898,
    "website": "https://www.renyi.hu/en/research-departments/artificial-intelligence",
-   "summary": null,
+   "summary": "The Rényi Institute's AI department, led by Balázs Szegedy, deliberately mixes industrial and academic backgrounds and weights theory, experiment and application equally.",
    "topics": [
     "vision",
     "industry"
@@ -1758,7 +1758,7 @@
   },
   {
    "id": "lisbon",
-   "name": "INESC-ID · Instituto Superior Técnico",
+   "name": "INESC-ID, Instituto Superior Técnico",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1768,7 +1768,7 @@
    "lat": 38.73631,
    "lon": -9.14077,
    "website": "https://www.inesc-id.pt",
-   "summary": null,
+   "summary": "Home of ELLIS Unit Lisbon (with IST, ISR-Lisboa and Instituto de Telecomunicações), at the south-western end of the network, strongest in language technology.",
    "topics": [
     "llm"
    ],
@@ -1786,7 +1786,7 @@
    "lat": 50.86413,
    "lon": 4.67866,
    "website": "https://www.cs.kuleuven.be/",
-   "summary": null,
+   "summary": "A distinctive line of work joining logic and learning, with imec's hardware and edge-AI capability nearby.",
    "topics": [
     "ml"
    ],
@@ -1804,7 +1804,7 @@
    "lat": 51.99884,
    "lon": 4.37365,
    "website": "https://www.tudelft.nl",
-   "summary": null,
+   "summary": "One of the original seventeen ELLIS unit sites, weighted towards robotics, control and safe autonomy.",
    "topics": [
     "ml",
     "robot"
@@ -1823,7 +1823,7 @@
    "lat": 48.01317,
    "lon": 7.83395,
    "website": "https://www.uni-freiburg.de",
-   "summary": null,
+   "summary": "One of the original ELLIS unit sites and the home of much of the AutoML research agenda now embedded across the network.",
    "topics": [
     "ml",
     "robot"
@@ -1832,7 +1832,7 @@
   },
   {
    "id": "dublin",
-   "name": "Insight · ADAPT",
+   "name": "Insight, ADAPT",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -1842,7 +1842,7 @@
    "lat": 53.30685,
    "lon": -6.22463,
    "website": "https://www.insight-centre.org",
-   "summary": null,
+   "summary": "Ireland's national research centres for data analytics and for digital content technology, tightly coupled to the multinational technology presence in Dublin.",
    "topics": [
     "ml"
    ],
@@ -1928,7 +1928,7 @@
   },
   {
    "id": "fair",
-   "name": "Meta FAIR Paris · Kyutai · Google DeepMind Paris",
+   "name": "Meta FAIR Paris, Kyutai, Google DeepMind Paris",
    "layer": "Industry lab",
    "kind": "industry",
    "status": null,
@@ -1938,7 +1938,7 @@
    "lat": 48.86961,
    "lon": 2.33811,
    "website": "https://ai.meta.com/research/",
-   "summary": null,
+   "summary": "Paris holds several industrial research laboratories within a few kilometres: Meta's FAIR lab, the Kyutai open research lab, and Google DeepMind's Paris office.",
    "topics": [
     "llm",
     "industry"
@@ -1957,7 +1957,7 @@
    "lat": 49.39803,
    "lon": 8.67301,
    "website": "https://aleph-alpha.com",
-   "summary": null,
+   "summary": "German model developer focused on sovereign and explainable deployment for government and regulated industry rather than consumer products.",
    "topics": [
     "llm"
    ],
@@ -2270,7 +2270,7 @@
   },
   {
    "id": "iais",
-   "name": "Fraunhofer IAIS · Lamarr Institute",
+   "name": "Fraunhofer IAIS, Lamarr Institute",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -2815,7 +2815,7 @@
   },
   {
    "id": "sintef",
-   "name": "SINTEF · NTNU, Norwegian Open AI Lab",
+   "name": "SINTEF, NTNU, Norwegian Open AI Lab",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
@@ -3043,13 +3043,13 @@
   },
   {
    "id": "athena-rc",
-   "name": "Athena Research Center · Archimedes Unit",
+   "name": "Athena Research Center, Archimedes Unit",
    "layer": "Research centre",
    "kind": "research",
    "status": null,
    "city": "Athens",
    "country": "Greece",
-   "address": "Artemidos 6 & Epidavrou, 15125 Marousi, Greece",
+   "address": "Artemidos 6 and Epidavrou, 15125 Marousi, Greece",
    "lat": 38.0368,
    "lon": 23.8025,
    "website": "https://archimedesai.gr/en",
@@ -3246,7 +3246,7 @@
   },
   {
    "id": "ph-mcculloch",
-   "name": "Warren McCulloch & Walter Pitts",
+   "name": "Warren McCulloch and Walter Pitts",
    "layer": "Neurophysiologist and logician",
    "kind": "thinker",
    "status": null,
@@ -3284,7 +3284,7 @@
   },
   {
    "id": "ph-simon",
-   "name": "Herbert Simon & Allen Newell",
+   "name": "Herbert Simon and Allen Newell",
    "layer": "Cognitive scientists",
    "kind": "thinker",
    "status": null,
@@ -3861,7 +3861,7 @@
   },
   {
    "id": "ph-narayanan",
-   "name": "Arvind Narayanan & Sayash Kapoor",
+   "name": "Arvind Narayanan and Sayash Kapoor",
    "layer": "Computer scientists, Princeton University",
    "kind": "thinker",
    "status": null,
@@ -6329,7 +6329,7 @@
    "lat": 41.709,
    "lon": 44.7375,
    "website": "https://btu.edu.ge/en/ai/btu-ai-lab/",
-   "summary": "Students and other participants work with IT companies on product development, and the lab partners with the business association AI Georgia on a national AI strategy.",
+   "summary": "Research centre in Tbilisi, Georgia.",
    "topics": [
     "ml"
    ],
@@ -6347,7 +6347,7 @@
    "lat": 41.7151,
    "lon": 44.8271,
    "website": "https://datacenterdynamics.com/en/news/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus",
-   "summary": "Its Tbilisi data centre has 2 MW of planned compute capacity and will host HPE systems with NVIDIA Blackwell Ultra GPUs.",
+   "summary": "Private AI campus in Tbilisi, Georgia.",
    "topics": [
     "compute"
    ],
@@ -6371,7 +6371,7 @@
    "lat": 40.4975,
    "lon": 44.7663,
    "website": "https://hightech.gov.am/en/articles/news/firebird-06-1",
-   "summary": "Phase one has about 6,000 NVIDIA Blackwell GPUs and 18 MW, according to the Armenian Ministry of High-Tech Industry.",
+   "summary": "Private AI campus in Hrazdan, Armenia.",
    "topics": [
     "compute"
    ],
@@ -6400,7 +6400,7 @@
    "lat": 40.1815,
    "lon": 44.526,
    "website": "https://ysu.am/en/news/53112",
-   "summary": "Its Machine Learning Research group, led by Hrant Khachatrian, founder of YerevaNN, uses it for molecular design with language models, radio signal processing, drone control and satellite image analysis.",
+   "summary": "Supercomputer in Yerevan, Armenia.",
    "topics": [
     "llm",
     "vision",
@@ -6427,7 +6427,7 @@
    "lat": 40.1935,
    "lon": 44.5015,
    "website": "https://fast.foundation/en/about-us",
-   "summary": "Its Generation AI programme, run with the education ministry since 2023, teaches AI and advanced mathematics in high schools.",
+   "summary": "Research centre in Yerevan, Armenia.",
    "topics": [
     "ml"
    ],
@@ -6445,7 +6445,7 @@
    "lat": 40.4093,
    "lon": 49.8671,
    "website": "https://mincom.gov.az/en/ministry/structure/azintelecom-llc",
-   "summary": "It runs Lenovo servers with NVIDIA H200 GPUs for AI projects of state bodies and companies under the national AI strategy for 2025 to 2028.",
+   "summary": "Supercomputer in Baku, Azerbaijan.",
    "topics": [
     "compute"
    ],
@@ -6474,7 +6474,7 @@
    "lat": 40.4213,
    "lon": 49.8471,
    "website": "https://mincom.gov.az/en/projects/ai-academy-artificial-intelligence-training-center",
-   "summary": "The Ministry of Digital Development and Transport states that the Azerbaijan Artificial Intelligence Laboratory under the ministry established it, with support from AZCON Holding.",
+   "summary": "Research centre in Baku, Azerbaijan.",
    "topics": [
     "llm"
    ],
@@ -6492,7 +6492,7 @@
    "lat": 41.321,
    "lon": 19.8215,
    "website": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/ai4digit",
-   "summary": "University of Tirana, the National Agency for Information Society (AKSHI) and the Chamber of Commerce and Industry in Tirana founded it.",
+   "summary": "Research centre in Tirana, Albania.",
    "topics": [
     "ml"
    ],
@@ -6510,7 +6510,7 @@
    "lat": 42.4215,
    "lon": 19.21,
    "website": "https://eurocc.udg.edu.me/about/",
-   "summary": "University of Donja Gorica hosts it and University of Montenegro is an affiliated partner.",
+   "summary": "EU project in Podgorica, Montenegro.",
    "topics": [
     "ml",
     "materials"
@@ -6540,7 +6540,7 @@
    "lat": 43.903,
    "lon": 18.348,
    "website": "https://verlabinstitute.com/organisation/",
-   "summary": "Its CORE Lab covers supercomputing, simulation and AI, and its THEMIS Lab works on AI system safety and medical device compliance.",
+   "summary": "Research centre in Sarajevo, Bosnia and Herzegovina.",
    "topics": [
     "health"
    ],
@@ -6558,7 +6558,7 @@
    "lat": 43.8563,
    "lon": 18.3967,
    "website": "https://hcai.etf.unsa.ba/",
-   "summary": "Its topics are explainable AI, robot learning and planning, human and agent interaction, and responsible AI.",
+   "summary": "Research centre in Sarajevo, Bosnia and Herzegovina.",
    "topics": [
     "robot"
    ],
@@ -6576,7 +6576,7 @@
    "lat": 43.8215,
    "lon": 18.307,
    "website": "https://research.ius.edu.ba/ai-lab",
-   "summary": "The laboratory has ten workstations and a Dell AI server with two NVIDIA L40 GPUs.",
+   "summary": "Research centre in Sarajevo, Bosnia and Herzegovina.",
    "topics": [
     "ml"
    ],
@@ -6594,7 +6594,7 @@
    "lat": 47.1493,
    "lon": 9.5165,
    "website": "https://uni.li/en/university/organisation/liechtenstein-business-school/artificial-intelligence-and-data-science",
-   "summary": "Dr.",
+   "summary": "Research centre in Vaduz, Liechtenstein.",
    "topics": [
     "llm",
     "ethics"
@@ -6609,11 +6609,11 @@
    "status": null,
    "city": "Prishtina",
    "country": "Kosovo",
-   "address": "Rectorate Building, University of Prishtina, Rr. George Bush, 10000 Prishtina, Kosovo, Kosovo",
+   "address": "Rectorate Building, University of Prishtina, Rr. George Bush, 10000 Prishtina, Kosovo",
    "lat": 42.6565,
    "lon": 21.1622,
    "website": "https://aiup.uni-pr.edu/",
-   "summary": "It does basic and applied research in machine learning, data science, optimisation, natural language processing and computer vision, and works on policies for responsible use of AI.",
+   "summary": "Research centre in Prishtina, Kosovo.",
    "topics": [
     "llm",
     "vision",
@@ -6640,11 +6640,11 @@
    "status": null,
    "city": "Minsk",
    "country": "Belarus",
-   "address": "Surganova St. 6, Minsk, Belarus, Belarus",
+   "address": "Surganova St. 6, Minsk, Belarus",
    "lat": 53.9222,
    "lon": 27.5968,
    "website": "https://uiip.bas-net.by/eng/",
-   "summary": "It hosts the Interdepartmental Research Center for Artificial Intelligence, set up by an Academy resolution of 31 August 2015, which works on biomedical data analysis, text and speech processing and neural networks for robotics.",
+   "summary": "Research centre in Minsk, Belarus.",
    "topics": [
     "llm",
     "ml",
@@ -6661,11 +6661,11 @@
    "status": "Operational",
    "city": "Minsk",
    "country": "Belarus",
-   "address": "Surganova St. 6, Minsk, Belarus, Belarus",
+   "address": "Surganova St. 6, Minsk, Belarus",
    "lat": 53.9234,
    "lon": 27.5988,
    "website": "https://uiip.bas-net.by/eng/about/departments/17/",
-   "summary": "Its SKIF-GRID-CNG cluster has GPUs and is aimed at artificial intelligence and image processing.",
+   "summary": "Supercomputer in Minsk, Belarus.",
    "topics": [
     "vision",
     "ml",
