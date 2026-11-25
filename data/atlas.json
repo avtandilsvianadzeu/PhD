@@ -123,7 +123,7 @@
    "status": "Under construction",
    "city": "Bologna",
    "country": "Italy",
-   "address": "Via della Manifattura 3, 40128 Bologna, Italy",
+   "address": "Via Stalingrado 84/3, 40128 Bologna, Italy",
    "lat": 44.5223,
    "lon": 11.3604,
    "website": "https://it4lia-aifactory.eu",
@@ -228,9 +228,9 @@
    "status": "Under construction",
    "city": "Linköping",
    "country": "Sweden",
-   "address": "Hans Meijers väg, B Building, Entrance 25, 581 83 Linköping, Sweden",
-   "lat": 58.4009,
-   "lon": 15.5749,
+   "address": "Olaus Magnus väg 48, 581 83 Linköping, Sweden",
+   "lat": 58.3936,
+   "lon": 15.5736,
    "website": "https://swedenaifactory.se/",
    "summary": "MIMER, the Swedish AI Factory, hosted by NAISS at Linköping University.",
    "topics": [
@@ -704,7 +704,7 @@
    "status": "Operational",
    "city": "Bologna",
    "country": "Italy",
-   "address": "Via della Manifattura 3, 40128 Bologna, Italy",
+   "address": "Via Stalingrado 84/3, 40128 Bologna, Italy",
    "lat": 44.5223,
    "lon": 11.3604,
    "website": "https://leonardo-supercomputer.cineca.eu",
@@ -5201,7 +5201,7 @@
    "status": "Planned",
    "city": "Choczewo",
    "country": "Poland",
-   "address": "DW213, 84-210 Lublewko, gmina Choczewo, Poland",
+   "address": "Lublewo, gmina Choczewo, Poland",
    "lat": 54.7569,
    "lon": 17.9274,
    "website": "https://www.koreaherald.com/article/10701064",
@@ -6316,6 +6316,291 @@
      "u": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-13_en"
     }
    ]
+  },
+  {
+   "id": "ge-btu",
+   "name": "BTU AI Lab, Business and Technology University",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Tbilisi",
+   "country": "Georgia",
+   "address": "82 Ilia Chavchavadze Avenue, 0162 Tbilisi, Georgia",
+   "lat": 41.709,
+   "lon": 44.7375,
+   "website": "https://btu.edu.ge/en/ai/btu-ai-lab/",
+   "summary": "BTU describes its AI Lab as the first regional laboratory of artificial intelligence.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "ge-silkcloud",
+   "name": "Silk Cloud data centre (Silknet)",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Under construction",
+   "city": "Tbilisi",
+   "country": "Georgia",
+   "address": "Tbilisi, Georgia",
+   "lat": 41.7151,
+   "lon": 44.8271,
+   "website": "https://datacenterdynamics.com/en/news/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus",
+   "summary": "Silk Cloud is a cloud company launched in 2025 by the Georgian telecom provider Silknet, part of Silk Road Group.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "24 Oct 2026",
+     "t": "Trade press reported that Silk Cloud will deploy NVIDIA Blackwell Ultra GPU systems in the Tbilisi data centre, where ground was broken in August 2026.",
+     "u": "https://bebeez.eu/2026/10/24/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus/"
+    }
+   ]
+  },
+  {
+   "id": "am-firebird",
+   "name": "Firebird AI factory, Hrazdan",
+   "layer": "Private AI campus",
+   "kind": "campus",
+   "status": "Operational",
+   "city": "Hrazdan",
+   "country": "Armenia",
+   "address": "Hrazdan, Kotayk Province, Armenia",
+   "lat": 40.4975,
+   "lon": 44.7663,
+   "website": "https://hightech.gov.am/en/articles/news/firebird-06-1",
+   "summary": "Firebird opened this AI data centre near Hrazdan in August 2026 with NVIDIA and Dell Technologies hardware.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "8 Aug 2026",
+     "t": "NVIDIA reported that Firebird launched the AI factory in Hrazdan and plans more than 70,000 GPUs and 300 MW by the end of 2027.",
+     "u": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia/"
+    },
+    {
+     "d": "5 Jun 2026",
+     "t": "Ministry of High-Tech Industry stated that phase one has 18 MW, more than 6,000 NVIDIA Blackwell GPUs and an investment of 500 million US dollars.",
+     "u": "https://hightech.gov.am/en/articles/news/firebird-06-1"
+    }
+   ]
+  },
+  {
+   "id": "am-ysu",
+   "name": "Yerevan State University supercomputer centre and Machine Learning Research group",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Yerevan",
+   "country": "Armenia",
+   "address": "1 Alex Manoogian Street, 0025 Yerevan, Armenia",
+   "lat": 40.1815,
+   "lon": 44.526,
+   "website": "https://ysu.am/en/news/53112",
+   "summary": "Yerevan State University inaugurated a supercomputer centre with 64 NVIDIA H100 GPUs in January 2026.",
+   "topics": [
+    "llm",
+    "vision",
+    "ml",
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "27 Feb 2026",
+     "t": "EVN Report described the new YSU centre with 64 NVIDIA H100 GPUs, inaugurated in January 2026 with state funding of 3.4 billion AMD from 2024.",
+     "u": "https://evnreport.com/?p=44579"
+    }
+   ]
+  },
+  {
+   "id": "am-fast",
+   "name": "Foundation for Armenian Science and Technology (FAST)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Yerevan",
+   "country": "Armenia",
+   "address": "3 Hakob Hakobyan Street, 0033 Yerevan, Armenia",
+   "lat": 40.1935,
+   "lon": 44.5015,
+   "website": "https://fast.foundation/en/about-us",
+   "summary": "FAST is a foundation that supports science and technology in Armenia, with artificial intelligence among its focus areas.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "az-supercomputer",
+   "name": "AzInTelecom Supercomputer Centre",
+   "layer": "Supercomputer",
+   "kind": "hpc",
+   "status": "Operational",
+   "city": "Baku",
+   "country": "Azerbaijan",
+   "address": "Baku, Azerbaijan",
+   "lat": 40.4093,
+   "lon": 49.8671,
+   "website": "https://mincom.gov.az/en/ministry/structure/azintelecom-llc",
+   "summary": "AzInTelecom, the state cloud provider within AZCON Holding, set up the first supercomputer centre in Azerbaijan in December 2025.",
+   "topics": [
+    "compute"
+   ],
+   "news": [
+    {
+     "d": "24 Jun 2026",
+     "t": "JAMnews reported that a National Supercomputing Centre led by AzInTelecom is planned in the 2026 to 2028 digital development action plan.",
+     "u": "https://jam-news.net/what-could-azerbaijans-planned-national-supercomputing-centre-deliver/"
+    },
+    {
+     "d": "20 Apr 2026",
+     "t": "Trend reported that the Ministry of Agriculture, the Innovation and Digital Development Agency, the National Artificial Intelligence Centre and ABB use the centre.",
+     "u": "https://www.trend.az/azerbaijan/society/4176621.html"
+    }
+   ]
+  },
+  {
+   "id": "az-aiacademy",
+   "name": "AI Academy (Azerbaijan Artificial Intelligence Laboratory)",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Baku",
+   "country": "Azerbaijan",
+   "address": "Baku, Azerbaijan",
+   "lat": 40.4213,
+   "lon": 49.8471,
+   "website": "https://mincom.gov.az/en/projects/ai-academy-artificial-intelligence-training-center",
+   "summary": "AI Academy is a training centre for AI engineers that opened in Baku on 8 September 2025.",
+   "topics": [
+    "llm"
+   ],
+   "news": []
+  },
+  {
+   "id": "al-ai4digit",
+   "name": "AI4DigiT, Artificial Intelligence for Digital Transformation in Albania Innovation Hub",
+   "layer": "EU project",
+   "kind": "project",
+   "status": null,
+   "city": "Tirana",
+   "country": "Albania",
+   "address": "Bulevardi Dëshmorët e Kombit, 1000 Tirana, Albania",
+   "lat": 41.321,
+   "lon": 19.8215,
+   "website": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/ai4digit",
+   "summary": "AI4DigiT is a digital innovation hub listed in the European Digital Innovation Hubs catalogue of the European Commission.",
+   "topics": [
+    "ml",
+    "struct"
+   ],
+   "news": []
+  },
+  {
+   "id": "me-ncc",
+   "name": "NCC Montenegro (HPC Montenegro), University of Donja Gorica",
+   "layer": "EU project",
+   "kind": "project",
+   "status": null,
+   "city": "Podgorica",
+   "country": "Montenegro",
+   "address": "Oktoih 1, 81000 Podgorica, Montenegro",
+   "lat": 42.4215,
+   "lon": 19.21,
+   "website": "https://eurocc.udg.edu.me/about/",
+   "summary": "NCC Montenegro is the National Competence Centre for high-performance computing, data analytics and AI, and the national entry point to EuroHPC resources.",
+   "topics": [
+    "ml",
+    "materials"
+   ],
+   "news": [
+    {
+     "d": "25 May 2026",
+     "t": "NCC Montenegro reported that the company CyberCo secured a second EuroHPC AI Factory allocation for an AI logistics platform.",
+     "u": "https://eurocc.udg.edu.me/2026/05/"
+    },
+    {
+     "d": "18 May 2026",
+     "t": "NCC Montenegro and MAIA signed a collaboration agreement on AI innovation and access to HPC.",
+     "u": "https://eurocc.udg.edu.me/2026/05/"
+    }
+   ]
+  },
+  {
+   "id": "ba-verlab",
+   "name": "Verlab Institute and NCC HPC BiH",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Sarajevo",
+   "country": "Bosnia and Herzegovina",
+   "address": "Barice 19, Vogošća, 71000 Sarajevo, Bosnia and Herzegovina",
+   "lat": 43.903,
+   "lon": 18.348,
+   "website": "https://verlabinstitute.com/organisation/",
+   "summary": "Verlab Institute is a research institute in Sarajevo with AI and Digital Society among its four research fields.",
+   "topics": [
+    "health"
+   ],
+   "news": []
+  },
+  {
+   "id": "ba-hcai",
+   "name": "HCAI Sarajevo, Faculty of Electrical Engineering, University of Sarajevo",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Sarajevo",
+   "country": "Bosnia and Herzegovina",
+   "address": "Zmaja od Bosne bb, Kampus Univerziteta u Sarajevu, 71000 Sarajevo, Bosnia and Herzegovina",
+   "lat": 43.8563,
+   "lon": 18.3967,
+   "website": "https://hcai.etf.unsa.ba/",
+   "summary": "HCAI Sarajevo is a research group for human-centred AI and robotics at the Faculty of Electrical Engineering.",
+   "topics": [
+    "robot"
+   ],
+   "news": []
+  },
+  {
+   "id": "ba-ius",
+   "name": "IUS AI Laboratory, International University of Sarajevo",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Sarajevo",
+   "country": "Bosnia and Herzegovina",
+   "address": "Hrasnička cesta 15, 71210 Ilidža, Sarajevo, Bosnia and Herzegovina",
+   "lat": 43.8215,
+   "lon": 18.307,
+   "website": "https://research.ius.edu.ba/ai-lab",
+   "summary": "International University of Sarajevo runs a joint AI laboratory with the company Arti-Analytics BH in its Research and Development Center.",
+   "topics": [
+    "ml"
+   ],
+   "news": []
+  },
+  {
+   "id": "li-uni",
+   "name": "Professorship for Artificial Intelligence and Data Science, University of Liechtenstein",
+   "layer": "Research centre",
+   "kind": "research",
+   "status": null,
+   "city": "Vaduz",
+   "country": "Liechtenstein",
+   "address": "Fürst-Franz-Josef-Strasse, 9490 Vaduz, Liechtenstein",
+   "lat": 47.1493,
+   "lon": 9.5165,
+   "website": "https://uni.li/en/university/organisation/liechtenstein-business-school/artificial-intelligence-and-data-science",
+   "summary": "This professorship at the Liechtenstein Business School is led by Prof.",
+   "topics": [
+    "llm",
+    "ethics"
+   ],
+   "news": []
   }
  ]
 }

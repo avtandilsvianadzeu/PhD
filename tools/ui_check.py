@@ -49,6 +49,9 @@ def main():
             if pg.evaluate("(document.querySelector('.pane .ttl')||{}).textContent||''") == '':
                 problems.append(f'{w}: entry page has no title')
             pg.evaluate("openCountry('DE')"); pg.wait_for_timeout(300)
+            for cc in ('GE', 'AM', 'AZ'):   # countries at the eastern edge open and show their entries
+                pg.evaluate(f"openCountry('{cc}')"); pg.wait_for_timeout(300)
+                if pg.evaluate("(document.querySelector('.pane')||{textContent:''}).textContent.trim().length") < 40: problems.append(f'{w}: country page {cc} is empty')
             pg.close()
         # links that open a view directly, and the Back button
         for hsh, want in [('#calls', "tab==='calls'"), ('#collab', "tab==='collab'"), ('#minds', "tab==='minds'"), ('#c=SI', "selCn==='SI'"), ('#e=aif-slaif', "sel==='aif-slaif'")]:

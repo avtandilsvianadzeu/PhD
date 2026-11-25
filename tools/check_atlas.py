@@ -45,7 +45,8 @@ for s in sites:
     if s.get("L") not in LAYERS: fail(f"{sid}: unknown layer {s.get('L')}")
     if s.get("L") != "thinker" and s.get("cc") not in D["shp"]:
         if s.get("cc") not in ("UK", ""): fail(f"{sid}: country code {s.get('cc')} has no shape")
-    if s.get("x") is not None and not (0 <= s["x"] <= 1000 and 0 <= s["y"] <= 851):
+    # Azerbaijan lies east of the base canvas: its outline and markers extend to x = 1060 and are reached by panning
+    if s.get("x") is not None and not (0 <= s["x"] <= (1060 if s.get("cc") == "AZ" else 1000) and 0 <= s["y"] <= 851):
         fail(f"{sid}: marker outside the map ({s['x']}, {s['y']})")
     if not s.get("tp"): fail(f"{sid}: no topic")
     for k in s.get("tp", []):

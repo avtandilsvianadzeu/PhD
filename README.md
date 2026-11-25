@@ -44,7 +44,7 @@ The page opens in the satellite view. The switch at the foot of the map offers S
 base maps are OpenFreeMap, Mapzen terrain tiles on AWS and Esri World Imagery, credited in the map corner.
 Country borders in every view are the Eurostat GISCO outlines in `data/eu-countries.geojson` (EU
 conventions: Crimea within Ukraine, Abkhazia and South Ossetia within Georgia, Kosovo* as Eurostat draws
-it); the United Kingdom outline comes from Natural Earth. The OpenStreetMap border lines are switched off.
+it); the outlines of the United Kingdom, Armenia and Azerbaijan come from Natural Earth. The OpenStreetMap border lines are switched off.
 Every institution and site carries its address and coordinates, shown in its Location card; the automatic
 check fails if one is missing.
 
@@ -54,6 +54,14 @@ The Collaboration page groups the entries by engineering topic (structures and b
 digital twins, weigh-in-motion, materials, geotechnics, buildings, sustainability, metrology, computer
 vision) and lists, for each topic, the groups and centres that work on it and the open EU calls whose
 title fits. It is built in the browser from `data` already on the page and from `calls.json`.
+
+## EU projects
+
+`.github/workflows/projects.yml` runs `tools/fetch_projects.py` every Wednesday. It downloads the CORDIS open data
+file of Horizon Europe projects (Publications Office of the European Union, CC BY 4.0), keeps running projects
+that match an engineering topic of the atlas or name AI in their title, and writes `projects.json`. The
+Collaboration page lists them per topic with a link to the CORDIS project page. The job reads the bulk file
+only and does not query the CORDIS search pages.
 
 ## Open data and sharing
 
