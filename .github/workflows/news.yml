@@ -2,7 +2,7 @@ name: Daily news
 
 on:
   schedule:
-    - cron: "23 5 * * *"   # every day at 05:23 UTC
+    - cron: "23 5,11,17,23 * * *"   # four times a day, so fast feeds do not roll past an item between reads
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Known headlines are still sorted correctly
+        run: python tools/fetch_news.py --selftest
       - name: Fetch news
         run: python tools/fetch_news.py
       - name: Check the page and the feed

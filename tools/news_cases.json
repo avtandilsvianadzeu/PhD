@@ -1,0 +1,52 @@
+[
+ {
+  "t": "EU data centres: Tripling capacity, but climate and worker laws lag behind",
+  "want": "EU"
+ },
+ {
+  "t": "JUPITER Remains Among the 5 Fastest Supercomputers and Europe's No. 1",
+  "want": "EU"
+ },
+ {
+  "t": "Commission hosts Apply AI Summit to boost Europe's AI innovation and uptake",
+  "want": "EU"
+ },
+ {
+  "t": "Microsoft to build new data centre campus near Dublin",
+  "want": "IE"
+ },
+ {
+  "t": "Slovenia picks site for new AI supercomputer in Maribor",
+  "want": "SI"
+ },
+ {
+  "t": "New AI gigafactory planned",
+  "s": "The Spanish government said on Monday that the site in Aragon will host 100,000 accelerators.",
+  "want": "ES"
+ },
+ {
+  "t": "Data centre boom strains power grids",
+  "s": "Across the European Union, grid operators report record connection requests from hyperscale operators.",
+  "want": "EU"
+ },
+ {
+  "t": "Poland and Lithuania sign agreement on shared AI factory access",
+  "want": "PL"
+ },
+ {
+  "t": "OpenAI releases new model for developers",
+  "want": null
+ },
+ {
+  "t": "Texas data centre wins approval for 2 GW expansion",
+  "want": null
+ },
+ {
+  "t": "French farmers protest over milk prices in Paris",
+  "want": null
+ },
+ {
+  "t": "German carmakers report weaker quarterly profits",
+  "want": null
+ }
+]

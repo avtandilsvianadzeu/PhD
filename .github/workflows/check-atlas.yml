@@ -18,6 +18,8 @@ jobs:
           python-version: "3.12"
       - name: Data, typography and counts
         run: python tools/check_atlas.py
+      - name: News filter keeps the known headlines
+        run: python tools/fetch_news.py --selftest
       - name: Source links
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python tools/check_atlas.py --links

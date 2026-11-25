@@ -9,7 +9,7 @@ are kept until they are older than max_age_days. Each item keeps
 only the headline, date, publisher and a link to the original article. If every fetch fails,
 the previous news.json is kept.
 """
-import json, re, sys, html, time, datetime as dt, urllib.request, urllib.parse
+import json, os, re, sys, html, time, datetime as dt, urllib.request, urllib.parse
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -67,8 +67,37 @@ def clean(t):
     t = re.sub(r"\s+[—–-]\s+", ": ", t).replace("—", ", ").replace("–", "-")
     return t.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"').replace("!", ".")
 
+def classify(title, summary=""):
+    """Return the country code, "EU", or None for one item.
+
+    The headline decides first. If it names no place, the first lines of the summary may: many
+    headlines say "data centres" or "AI" and leave the place to the opening sentence.
+    The topic must appear in the headline or the summary.
+    """
+    if not KEEP.search(title + " " + summary):
+        return None
+    for text in (title, summary[:400]):
+        hits = sorted((m.start(), cc) for cc, rx in CWORDS.items() for m in [rx.search(text)] if m)
+        if hits:
+            return hits[0][1]
+        if EUW.search(text):
+            return "EU"
+    return None
+
+def selftest():
+    """Headlines that must be kept or dropped (tools/news_cases.json). Run by the check workflow, so a
+    change to the word lists that would lose a known item fails before it is published."""
+    cases = json.loads((ROOT / "tools" / "news_cases.json").read_text(encoding="utf-8"))
+    bad = 0
+    for c in cases:
+        got = classify(c["t"], c.get("s", ""))
+        if got != c["want"]:
+            bad += 1; print(f"SELFTEST FAIL want {c['want']} got {got}: {c['t']}")
+    print(f"selftest: {len(cases) - bad} of {len(cases)} cases pass")
+    return 1 if bad else 0
+
 def main():
-    rows, seen, ok = [], set(), 0
+    rows, seen, ok, near, failed = [], set(), 0, [], []
     for src, urls in CFG["feeds"].items():
         feed = None
         for url in ([urls] if isinstance(urls, str) else urls):   # a source may list more than one address
@@ -77,29 +106,26 @@ def main():
             except Exception as e:  # one failing feed must not stop the rest
                 print(f"FEED FAIL {src}: {url}: {e}", file=sys.stderr)
         if feed is None:
-            continue
+            failed.append(src); continue
         ok += 1
         kept0 = len(rows)
         for title, summary, link, d in feed:
-            text = title + " " + summary
-            if not (link.startswith("http") and d and KEEP.search(text)):
+            if not (link.startswith("http") and d):
                 continue
             if d.tzinfo is None:
                 d = d.replace(tzinfo=dt.timezone.utc)
             if d > NOW + dt.timedelta(days=1) or NOW - d > MAX_AGE:
                 continue  # dates in the future or too old are dropped, never shown
             key = re.sub(r"\W+", "", title.lower())[:80]
-            if key in seen:
+            if key in seen or link in seen:
                 continue
-            seen.add(key)
+            seen.add(key); seen.add(link)
             # EU scope only: the headline must name an EU27 country, or the EU itself.
             # One country per item, the first named in the headline, so an item is never filed twice.
-            hits = sorted((m.start(), cc) for cc, rx in CWORDS.items() for m in [rx.search(title)] if m)
-            if hits:
-                cc = hits[0][1]
-            elif EUW.search(title):
-                cc = "EU"
-            else:
+            cc = classify(title, summary)
+            if cc is None:
+                if KEEP.search(title):   # on topic but no EU place found: listed in the job log for review
+                    near.append(f"{src}: {title[:110]}")
                 continue
             rows.append({"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(src), "_t": d.timestamp()})
         print(f"FEED OK {src}: {len(feed)} items read, {len(rows) - kept0} kept")
@@ -108,7 +134,7 @@ def main():
         try:
             for r in json.loads(OUT.read_text(encoding="utf-8")).get("items", []):
                 d = dt.datetime.strptime(r["d"], "%d %b %Y").replace(tzinfo=dt.timezone.utc)
-                inscope = (r["c"] in CWORDS and CWORDS[r["c"]].search(r["t"])) or (r["c"] == "EU" and EUW.search(r["t"]))
+                inscope = r["c"] in CWORDS or r["c"] == "EU"   # the place may have come from the summary, which is not stored
                 if inscope and NOW - d <= MAX_AGE and not any(x["u"] == r["u"] for x in rows):
                     rows.append(dict(r, _t=d.timestamp()))
         except Exception as e:
@@ -126,7 +152,15 @@ def main():
         r.pop("_t")
     OUT.write_text(json.dumps({"updated": NOW.strftime("%-d %b %Y"), "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"{len(items)} items from {ok} feeds")
+    # job report: feeds that failed and on-topic headlines that were left out, so gaps are seen and the word lists can be tuned
+    report = [f"## News job: {len(items)} items from {ok} feeds", ""]
+    if failed: report += ["**Feeds that did not answer:** " + ", ".join(failed), ""]
+    report += [f"**On topic but no EU place found ({len(near)}):**", ""] + [f"- {n}" for n in near[:40]]
+    print("\n".join(report))
+    gs = os.environ.get("GITHUB_STEP_SUMMARY")
+    if gs:
+        with open(gs, "a", encoding="utf-8") as f: f.write("\n".join(report) + "\n")
     return 0
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(selftest() if "--selftest" in sys.argv else main())
