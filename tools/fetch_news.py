@@ -139,6 +139,13 @@ def main():
                     rows.append(dict(r, _t=d.timestamp()))
         except Exception as e:
             print(f"previous news.json skipped: {e}", file=sys.stderr)
+    # items added by hand (tools/news_pinned.json): stories the feeds no longer hold, each checked against its source
+    pin = ROOT / "tools" / "news_pinned.json"
+    if pin.exists():
+        for r in json.loads(pin.read_text(encoding="utf-8")):
+            d = dt.datetime.strptime(r["d"], "%d %b %Y").replace(tzinfo=dt.timezone.utc)
+            if (r["c"] in CWORDS or r["c"] == "EU") and NOW - d <= MAX_AGE and not any(x["u"] == r["u"] for x in rows):
+                rows.append({"c": r["c"], "d": r["d"], "t": clean(r["t"]), "u": r["u"], "src": clean(r["src"]), "_t": d.timestamp()})
     rows.sort(key=lambda r: -r["_t"])
     items, per = [], {}
     for r in rows:

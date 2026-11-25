@@ -41,7 +41,9 @@ The news job runs every hour and the calls job four times a day. An item is kept
 an EU country or the EU, and its text names AI, data centres or computing. `tools/news_cases.json` holds headlines
 that must be kept or dropped; `python tools/fetch_news.py --selftest` checks them on every push and before every
 read. Each run writes a report on the Actions page: feeds that did not answer, and on-topic headlines that were
-left out because no EU place was found. To add a source, add its RSS address to `tools/news_sources.json`.
+left out because no EU place was found. To add a source, add its RSS address to `tools/news_sources.json`. To add a story the feeds no longer
+hold, add it to `tools/news_pinned.json` (country code, date, headline in your own words, link, publisher); the
+job keeps it until it is older than the age limit.
 
 ## Map views
 
