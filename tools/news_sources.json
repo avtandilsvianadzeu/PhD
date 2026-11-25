@@ -16,7 +16,10 @@
   "Silicon Republic": "https://www.siliconrepublic.com/feed",
   "AlgorithmWatch": "https://algorithmwatch.org/en/feed/",
   "European Commission, Research and innovation": "https://research-and-innovation.ec.europa.eu/node/2/rss_en",
-  "European Innovation Council": "https://eic.ec.europa.eu/node/2/rss_en"
+  "European Innovation Council": "https://eic.ec.europa.eu/node/2/rss_en",
+  "Euronews": "https://www.euronews.com/rss",
+  "Euronews My Europe": "https://www.euronews.com/rss?level=vertical&name=my-europe",
+  "Euronews Green": "https://www.euronews.com/rss?level=vertical&name=green"
  },
  "topic_must_match": "data cent|AI factor|gigafactor|supercomput|AI campus|GPU|hyperscale|EuroHPC|compute capacity|AI infrastructure|AI Act|artificial intelligence|AI gigafactor|sovereign AI|\\bAI (lab|model|research|startup|compute)|machine learning|language model|foundation model|generative AI|\\bLLMs?\\b|quantum comput|\\bHPC\\b|Chips Act|semiconductor|digital twin|robotic|AI continent|Apply AI",
  "max_age_days": 120,
