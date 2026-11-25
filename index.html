@@ -2605,4 +2605,17 @@ goHome(false);
  };
  if(typeof atHome!=='undefined'&&atHome&&!sel&&!selCn)setTimeout(()=>{try{if(atHome&&!sel&&!selCn)goHome(false);}catch(_){}} ,350);
 })();
+
+/* Atlas map: the grey context land fades out towards the eastern edge of the canvas, so it does not end in a hard line */
+(function(){
+ const sh=document.getElementById('shapes'),cm=document.getElementById('cam');if(!sh||!cm||document.getElementById('eastfade'))return;
+ const NS='http://www.w3.org/2000/svg';
+ let defs=svg.querySelector('defs');if(!defs){defs=document.createElementNS(NS,'defs');svg.insertBefore(defs,svg.firstChild);}
+ const bg=getComputedStyle(svg).backgroundColor,wrapBg=getComputedStyle(document.getElementById('wrap')).backgroundColor;
+ const col=(bg&&bg!=='rgba(0, 0, 0, 0)')?bg:'#EEF1F6';
+ const g=document.createElementNS(NS,'linearGradient');g.id='eastfadeg';g.setAttribute('x1','0');g.setAttribute('x2','1');g.setAttribute('y1','0');g.setAttribute('y2','0');
+ g.innerHTML='<stop offset="0" stop-color="#EEF1F6" stop-opacity="0"/><stop offset="1" stop-color="#EEF1F6" stop-opacity="1"/>';defs.appendChild(g);
+ const r=document.createElementNS(NS,'rect');r.id='eastfade';r.setAttribute('x','900');r.setAttribute('y','-200');r.setAttribute('width','101');r.setAttribute('height','1300');r.setAttribute('fill','url(#eastfadeg)');r.setAttribute('pointer-events','none');
+ cm.insertBefore(r,sh);
+})();
 </script></body></html>
