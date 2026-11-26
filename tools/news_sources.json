@@ -21,7 +21,17 @@
   "The Guardian, Artificial intelligence": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
   "BBC News, Technology": "https://feeds.bbci.co.uk/news/technology/rss.xml",
   "The Register": "https://www.theregister.com/headlines.atom",
-  "Computer Weekly": "https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml"
+  "Computer Weekly": "https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml",
+  "The Decoder": "https://the-decoder.com/feed/",
+  "AI News": "https://www.artificialintelligence-news.com/feed/",
+  "TechCrunch, Europe": "https://techcrunch.com/tag/europe/feed/",
+  "Innovation Origins": "https://innovationorigins.com/feed/",
+  "Silicon Canals": "https://siliconcanals.com/feed/",
+  "Data Centre Review": "https://datacentrereview.com/feed/",
+  "Mobile World Live": "https://www.mobileworldlive.com/feed/",
+  "pv magazine": "https://www.pv-magazine.com/feed/",
+  "Capacity": "https://www.capacitymedia.com/rss",
+  "Telecompaper": "https://www.telecompaper.com/rss/news"
  },
  "topic_must_match": "data cent|AI factor|gigafactor|supercomput|AI campus|GPU|hyperscale|EuroHPC|compute capacity|AI infrastructure|AI Act|artificial intelligence|AI gigafactor|sovereign AI|\\bAI (lab|model|research|startup|compute)|machine learning|language model|foundation model|generative AI|\\bLLMs?\\b|quantum comput|\\bHPC\\b|Chips Act|semiconductor|digital twin|robotic|AI continent|Apply AI|datacent|data center|AI chips?\\b|sovereign cloud|compute (power|infrastructure|capacity)",
  "max_age_days": 120,
