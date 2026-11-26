@@ -1,5 +1,6 @@
 {
  "updated": "26 Nov 2026",
+ "read": "2026-11-26T08:13Z",
  "items": [
   {
    "c": "DE",
@@ -37,18 +38,18 @@
    "src": "DatacenterDynamics"
   },
   {
-   "c": "IT",
-   "d": "25 Nov 2026",
-   "t": "Meet TeoTronico: The sassy, 53-fingered robot pianist challenging human musicians",
-   "u": "https://www.euronews.com/2026/11/25/meet-teotronico-the-sassy-53-fingered-robot-pianist-challenging-human-musicians",
-   "src": "Euronews"
-  },
-  {
    "c": "EU",
    "d": "25 Nov 2026",
    "t": "Europe prepares for EU Quantum Act",
    "u": "https://www.computerweekly.com/news/366655552/Europe-prepares-for-EU-Quantum-Act",
    "src": "Computer Weekly"
+  },
+  {
+   "c": "IT",
+   "d": "25 Nov 2026",
+   "t": "Meet TeoTronico: The sassy, 53-fingered robot pianist challenging human musicians",
+   "u": "https://www.euronews.com/2026/11/25/meet-teotronico-the-sassy-53-fingered-robot-pianist-challenging-human-musicians",
+   "src": "Euronews"
   },
   {
    "c": "EU",
