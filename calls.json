@@ -1,5 +1,5 @@
 {
- "read": "2026-11-26T01:57Z",
+ "read": "2026-11-26T17:18Z",
  "source": "EU Funding and Tenders portal",
  "items": [
   {
@@ -97,6 +97,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-02"
   },
   {
+   "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-CYBERAI",
+   "t": "Cybersecure tools, technologies and services relying on AI",
+   "prog": "Digital Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-09-01",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-cyberai"
+  },
+  {
    "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-DUALUSE",
    "t": "Dual-use technologies",
    "prog": "Digital Europe",
@@ -136,6 +149,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-innovbusmod"
   },
   {
+   "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-AI4SME",
+   "t": "Strengthening cybersecurity capacities of European SMEs with cybersecure AI-powered solutions",
+   "prog": "Digital Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-09-01",
+   "dl": "2027-01-14",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ai4sme"
+  },
+  {
    "id": "DIGITAL-EUROHPC-JU-2023-SME-01-01",
    "t": "Supporting competitiveness and innovation potential of SMEs",
    "prog": "EuroHPC Joint Undertaking",
@@ -147,20 +173,6 @@
     "Computing"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46236562"
-  },
-  {
-   "id": "HORIZON-CL6-2024-GOVERNANCE-01-7",
-   "t": "Enhancing working conditions and strengthening the work force through digital and data technologies, the potential of robotics and augmented reality in agriculture",
-   "prog": "Horizon Europe",
-   "kind": "Project call",
-   "st": "Open",
-   "opens": "2026-11-18",
-   "dl": "2027-01-25",
-   "tags": [
-    "Data",
-    "Robotics"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45658229"
   },
   {
    "id": "DIGITAL-2024-CLOUD-DATA-AI-07-DIGITALTWIN",
@@ -353,20 +365,6 @@
     "AI"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage"
-  },
-  {
-   "id": "EU4H-2027-SANTE-01-PJ-08",
-   "t": "Call for proposals for Artificial Intelligence for smart European Health Data Space compliance support (DG SANTE): DI-g-26-24",
-   "prog": "EU4Health",
-   "kind": "EU call",
-   "st": "Open",
-   "opens": "2026-11-26",
-   "dl": "2027-02-24",
-   "tags": [
-    "AI",
-    "Data"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-01-pj-08"
   },
   {
    "id": "EU4H-2027-SANTE-01-PJ-07",
@@ -768,6 +766,32 @@
     "Infrastructure"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-02"
+  },
+  {
+   "id": "HORIZON-CL6-2027-01-ZEROPOLLUTION-03",
+   "t": "Improve the capacity to monitor and reduce air pollution from agriculture",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-22",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-zeropollution-03"
+  },
+  {
+   "id": "HORIZON-CL6-2027-01-BIODIV-04",
+   "t": "Living Labs for the eradication and/or management of invasive alien species",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-22",
+   "tags": [
+    "AI"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-04"
   },
   {
    "id": "HORIZON-MISS-2027-07-CLIMA-CIT-NEB-01",
