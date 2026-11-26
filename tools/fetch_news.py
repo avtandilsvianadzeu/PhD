@@ -23,6 +23,9 @@ PER_COUNTRY = CFG.get("per_country", 6)  # the EU bucket keeps twice as many
 KEEP = re.compile(CFG["topic_must_match"] + "|" + CFG.get("topic_local", "(?!)"), re.I)
 CWORDS = {cc: re.compile(r"\b(" + "|".join(map(re.escape, words)) + r")\b") for cc, words in CFG["countries"].items()}
 ATOM = "{http://www.w3.org/2005/Atom}"
+LOCAL = {cc: re.compile(r"\b(" + "|".join(map(re.escape, w)) + ")") for cc, w in CFG.get("countries_local", {}).items()}
+INFRA = re.compile(CFG.get("infra_words", "(?!)"), re.I)
+GLOBAL = re.compile(CFG.get("global_words", "(?!)"), re.I)
 EUW = re.compile(r"\b(" + "|".join(map(re.escape, CFG.get("eu_words", ["EU", "Europe", "European"]))) + r")\b")
 
 def get(url, tries=3):
@@ -128,7 +131,10 @@ def main():
             # One country per item, the first named in the headline, so an item is never filed twice.
             cc = classify(title, summary)
             if cc is None and home and KEEP.search(title):
-                cc = home                                  # a national publisher writing on topic: the country is its own
+                # a national publisher: the item counts for its country when the headline names the country in the
+                # national language, or is about infrastructure (data centres, supercomputers) and not about a place overseas
+                if (home in LOCAL and LOCAL[home].search(title)) or (INFRA.search(title) and not GLOBAL.search(title)):
+                    cc = home
             if cc is None:
                 if KEEP.search(title):   # on topic but no EU place found: listed in the job log for review
                     near.append(f"{src}: {title[:110]}")

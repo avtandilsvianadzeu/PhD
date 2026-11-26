@@ -3,74 +3,11 @@
  "read": "2026-11-26T14:51Z",
  "items": [
   {
-   "c": "EU",
-   "d": "26 Nov 2026",
-   "t": "Hatalmas buktatóra figyelmeztet a szakértő: óriási büntetést hozhat a mesterséges intelligencia ellenőrizetlen használata",
-   "u": "https://www.portfolio.hu/befektetes/20261126/hatalmas-buktatora-figyelmeztet-a-szakerto-oriasi-buntetest-hozhat-a-mesterseges-intelligencia-ellenorizetlen-hasznalata-879426",
-   "src": "Portfolio.hu"
-  },
-  {
-   "c": "FR",
-   "d": "26 Nov 2026",
-   "t": "Datacenters dans l'espace : la FCC autorise SpaceX à déployer un million de satellites",
-   "u": "https://www.silicon.fr/business-1367/datacenters-dans-lespace-la-fcc-autorise-spacex-a-deployer-un-million-de-satellites-230695",
-   "src": "Silicon.fr"
-  },
-  {
-   "c": "DE",
-   "d": "26 Nov 2026",
-   "t": "Software Testing: Wer jedes Problem der KI übergibt, verlernt das Denken",
-   "u": "https://www.heise.de/blog/Software-Testing-Wer-jedes-Problem-der-KI-uebergibt-verlernt-das-Denken-11538597.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "src": "heise online"
-  },
-  {
-   "c": "DE",
-   "d": "26 Nov 2026",
-   "t": "Riemannsche Vermutung: Claude kürzt KI-Beweis um mehr als 99 Prozent",
-   "u": "https://www.heise.de/news/Riemannsche-Vermutung-Claude-kuerzt-KI-Beweis-um-mehr-als-99-Prozent-11539145.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "src": "heise online"
-  },
-  {
-   "c": "HR",
-   "d": "26 Nov 2026",
-   "t": "Svemirski podatkovni centri dobili zeleno svjetlo: FCC SpaceX-u odobrio milijun satelita",
-   "u": "https://www.bug.hr/data-centri/svemirski-podatkovni-centri-dobili-zeleno-svjetlo-fcc-spacex-u-odobrio-milijun-64659",
-   "src": "Bug.hr"
-  },
-  {
-   "c": "ES",
-   "d": "26 Nov 2026",
-   "t": "La IA ha encontrado nuevas pistas para uno de los grandes problemas matemáticos del milenio: P=NP",
-   "u": "https://www.xataka.com/investigacion/anthropic-openai-plantean-nuevas-vias-para-resolver-problema-matematico-que-pondria-jaque-seguridad-informatica-p-np",
-   "src": "Xataka"
-  },
-  {
-   "c": "ES",
-   "d": "26 Nov 2026",
-   "t": "Stephan Pottel (Zebra Technologies) \"La IA está convirtiendo las fábricas en entornos inteligentes y conectados\"",
-   "u": "https://www.computerworld.es/article/4253611/stephan-pottel-zebra-technologies-la-ia-esta-convirtiendo-las-fabricas-en-entornos-inteligentes-y-conectados.html",
-   "src": "Computerworld España"
-  },
-  {
    "c": "PT",
    "d": "26 Nov 2026",
    "t": "Fortitude Capital plans 202MW AI data center campus in Sines, Portugal",
    "u": "https://www.datacenterdynamics.com/en/news/fortitude-capital-plans-a-202-mw-ai-campus-in-sines/",
    "src": "DatacenterDynamics"
-  },
-  {
-   "c": "IT",
-   "d": "26 Nov 2026",
-   "t": "Data center in orbita, la FCC autorizza 1 milione di satelliti di SpaceX, al via l'era della \"super AI\"",
-   "u": "https://www.corrierecomunicazioni.it/space-economy/data-center-in-orbita-la-fcc-autorizza-1-milione-di-satelliti-di-spacex-al-via-lera-della-super-ai/",
-   "src": "CorCom"
-  },
-  {
-   "c": "ES",
-   "d": "26 Nov 2026",
-   "t": "Hace un año instalé OpenClaw y he matado más agentes que Tamagotchis. Sigo convencido de que cambió la IA",
-   "u": "https://www.xataka.com/robotica-e-ia/hace-ano-instale-openclaw-he-matado-agentes-que-tamagotchis-sigo-convencido-que-cambio-ia",
-   "src": "Xataka"
   },
   {
    "c": "IE",
@@ -82,30 +19,9 @@
   {
    "c": "FR",
    "d": "26 Nov 2026",
-   "t": "La Poste signe son premier accord social dédié à l'IA",
-   "u": "https://www.silicon.fr/emploi-formation-1373/la-poste-signe-son-premier-accord-social-dedie-a-lia-230689",
-   "src": "Silicon.fr"
-  },
-  {
-   "c": "FR",
-   "d": "26 Nov 2026",
    "t": "Choose France : les data centers au cœur des investissements dans le numérique",
    "u": "https://www.lemondeinformatique.fr/donnees-ia/choose-france-les-data-centers-au-c-ur-des-investissements-dans-le-numerique",
    "src": "Le Monde Informatique"
-  },
-  {
-   "c": "AT",
-   "d": "26 Nov 2026",
-   "t": "Irre Pläne genehmigt: SpaceX darf eine Million KI-Rechenzentren ins All schicken",
-   "u": "https://futurezone.at/digital-life/irre-plaene-genehmigung-spacex-million-ki-rechenzentren-elon-musk/403208449",
-   "src": "futurezone"
-  },
-  {
-   "c": "DE",
-   "d": "26 Nov 2026",
-   "t": "Cloudera: Mehr infrastrukturelle Unabhängigkeit für Daten und KI",
-   "u": "https://www.heise.de/news/Cloudera-Mehr-infrastrukturelle-Unabhaengigkeit-fuer-Daten-und-KI-11538779.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "src": "heise online"
   },
   {
    "c": "HU",
@@ -122,27 +38,6 @@
    "src": "Tivi"
   },
   {
-   "c": "FI",
-   "d": "26 Nov 2026",
-   "t": "Suosittu musiikkipalvelu kieltää tekoälymusiikin: 27 miljoonaa kappaletta poistetaan",
-   "u": "https://www.tivi.fi/uutiset/a/da06a63a-d7c6-4156-9181-232dc6a03224?utm_source=rss",
-   "src": "Tivi"
-  },
-  {
-   "c": "ES",
-   "d": "26 Nov 2026",
-   "t": "La fiebre por la IA en Europa hará que el gasto en TI en la región suba casi un 10% en 2027",
-   "u": "https://www.computerworld.es/article/4253481/la-fiebre-por-la-ia-en-europa-hara-que-el-gasto-en-ti-en-la-region-suba-casi-un-10-en-2027.html",
-   "src": "Computerworld España"
-  },
-  {
-   "c": "ES",
-   "d": "26 Nov 2026",
-   "t": "Óscar Vicente (Node.ai): \"La IA permitirá integrar activos líquidos e ilíquidos en una misma estrategia patrimonial\"",
-   "u": "https://www.computerworld.es/article/4253480/oscar-vicente-node-ai-la-ia-permitira-integrar-activos-liquidos-e-iliquidos-en-una-misma-estrategia-patrimonial.html",
-   "src": "Computerworld España"
-  },
-  {
    "c": "EU",
    "d": "26 Nov 2026",
    "t": "EU wants more data centres but won't force new green commitments, leaked draft reveals",
@@ -150,73 +45,10 @@
    "src": "Euronews"
   },
   {
-   "c": "FR",
-   "d": "26 Nov 2026",
-   "t": "Agents IA : Anthropic mesure les risques de sortie des sandbox avec Siren",
-   "u": "https://www.lemondeinformatique.fr/donnees-ia/agents-ia-anthropic-mesure-les-risques-de-sortie-des-sandbox-avec-siren",
-   "src": "Le Monde Informatique"
-  },
-  {
-   "c": "FR",
-   "d": "26 Nov 2026",
-   "t": "Dell défend la solidité de ses 132,3 milliards de dollars de commandes de serveurs IA",
-   "u": "https://www.lemondeinformatique.fr/infrastructure-cloud/dell-defend-la-solidite-de-ses-132-3-milliards-de-dollars-de-commandes-de-serveurs-ia",
-   "src": "Le Monde Informatique"
-  },
-  {
-   "c": "FR",
-   "d": "26 Nov 2026",
-   "t": "Google imagine une chaîne TV générée par IA où le téléspectateur devient acteur",
-   "u": "https://www.lemondeinformatique.fr/applications-developpement/google-imagine-une-chaine-tv-generee-par-ia-ou-le-telespectateur-devient-acteur",
-   "src": "Le Monde Informatique"
-  },
-  {
-   "c": "FR",
-   "d": "26 Nov 2026",
-   "t": "Artex : les cyberattaquants intensifient l'utilisation d'agents IA offensifs",
-   "u": "https://www.lemondeinformatique.fr/cybersecurite-conformite/artex-les-cyberattaquants-intensifient-l-utilisation-d-agents-ia-offensifs",
-   "src": "Le Monde Informatique"
-  },
-  {
-   "c": "PL",
-   "d": "26 Nov 2026",
-   "t": "SpaceX otrzymało zgodę na budowę orbitalnych centrów danych AI z miliona satelitów",
-   "u": "https://itwiz.pl/spacex-otrzymalo-zgode-na-budowe-orbitalnych-centrow-danych-ai-z-miliona-satelitow/",
-   "src": "ITwiz"
-  },
-  {
-   "c": "DE",
-   "d": "26 Nov 2026",
-   "t": "Eine Million Satelliten: SpaceX darf Rechenzentren ins All bringen",
-   "u": "https://www.golem.de/news/eine-million-satelliten-spacex-darf-rechenzentren-ins-all-bringen-2611-215669.html",
-   "src": "Golem.de"
-  },
-  {
-   "c": "DE",
-   "d": "26 Nov 2026",
-   "t": "Anzeige: Mit KI Apps bauen und Aufgaben im Büro automatisieren",
-   "u": "https://www.golem.de/news/anzeige-mit-ki-apps-bauen-und-aufgaben-im-buero-automatisieren-2611-215667.html",
-   "src": "Golem.de"
-  },
-  {
    "c": "DE",
    "d": "26 Nov 2026",
    "t": "Klageschwemme mit KI: NRW-LSG möchte 15-Euro-Gebühr",
    "u": "https://www.heise.de/news/Klageschwemme-mit-KI-NRW-LSG-moechte-15-Euro-Gebuehr-11538487.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "src": "heise online"
-  },
-  {
-   "c": "DE",
-   "d": "26 Nov 2026",
-   "t": "Donnerstag: Datenabfluss bei 1Password, 1 Million Rechenzentren im All erlaubt",
-   "u": "https://www.heise.de/news/Donnerstag-Datenabfluss-bei-1Password-1-Million-Rechenzentren-im-All-erlaubt-11538479.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "src": "heise online"
-  },
-  {
-   "c": "DE",
-   "d": "26 Nov 2026",
-   "t": "USA genehmigen 1 Million SpaceX-Satelliten für KI-Rechenzentren im Orbit",
-   "u": "https://www.heise.de/news/USA-genehmigen-1-Million-SpaceX-Satelliten-fuer-KI-Rechenzentren-im-Orbit-11538437.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
    "src": "heise online"
   },
   {
@@ -234,25 +66,11 @@
    "src": "Computerworld España"
   },
   {
-   "c": "NL",
-   "d": "25 Nov 2026",
-   "t": "SpaceX krijgt toestemming: 1 miljoen satellieten voor datacenters in de ruimte",
-   "u": "https://tweakers.net/nieuws/254936/spacex-krijgt-toestemming-1-miljoen-satellieten-voor-datacenters-in-de-ruimte.html",
-   "src": "Tweakers"
-  },
-  {
    "c": "EU",
    "d": "25 Nov 2026",
    "t": "EU delays planned AI gigafactories again",
    "u": "https://www.rapporteur.com/news/eu-delays-planned-ai-gigafactories-again/",
    "src": "Euractiv"
-  },
-  {
-   "c": "DE",
-   "d": "25 Nov 2026",
-   "t": "Klinik-KI als Open Source: Leipzig teilt AMPEL-Code",
-   "u": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "src": "heise online"
   },
   {
    "c": "ES",
@@ -262,13 +80,6 @@
    "src": "Computerworld España"
   },
   {
-   "c": "FR",
-   "d": "25 Nov 2026",
-   "t": "Black Friday : les cybermenaces dopées à l'IA mettent les distributeurs sous pression",
-   "u": "https://www.lemondeinformatique.fr/cybersecurite-conformite/black-friday-les-cybermenaces-dopees-a-l-ia-mettent-les-distributeurs-sous-pression",
-   "src": "Le Monde Informatique"
-  },
-  {
    "c": "ES",
    "d": "25 Nov 2026",
    "t": "Begoña Villacís (Spain DC): \"Los centros de datos son la industria más estratégica que vamos a tener en las próximas décadas\"",
@@ -276,39 +87,11 @@
    "src": "El Español, Invertia"
   },
   {
-   "c": "ES",
-   "d": "25 Nov 2026",
-   "t": "Fsas Technologies quiere posicionarse como integrador de referencia en computación de alto rendimiento, IA y soberanía digital",
-   "u": "https://www.computerworld.es/article/4253155/fsas-technologies-quiere-posicionarse-como-integrador-de-referencia-en-computacion-de-alto-rendimiento-ia-y-soberania-digital.html",
-   "src": "Computerworld España"
-  },
-  {
    "c": "FR",
    "d": "25 Nov 2026",
    "t": "ETIX investit 100 M€ dans ses data centers de proximité en France",
    "u": "https://www.lemondeinformatique.fr/infrastructure-cloud/etix-investit-100-m-dans-ses-data-centers-de-proximite-en-france",
    "src": "Le Monde Informatique"
-  },
-  {
-   "c": "DE",
-   "d": "25 Nov 2026",
-   "t": "Sinken nach den KI-Aktienkursen auch die RAM-Preise?",
-   "u": "https://www.heise.de/news/Sinken-nach-den-KI-Aktienkursen-auch-die-RAM-Preise-11537988.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "src": "heise online"
-  },
-  {
-   "c": "FR",
-   "d": "25 Nov 2026",
-   "t": "CrowdStrike et Zscaler veulent un kill switch unifié pour les agents IA",
-   "u": "https://www.lemondeinformatique.fr/donnees-ia/crowdstrike-et-zscaler-veulent-un-kill-switch-unifie-pour-les-agents-ia",
-   "src": "Le Monde Informatique"
-  },
-  {
-   "c": "CZ",
-   "d": "25 Nov 2026",
-   "t": "Evropská unie chystá protiofenzívu v umělé inteligenci a kvantech, má pomoct v přepočtu přes bilion korun",
-   "u": "https://www.lupa.cz/aktuality/evropska-unie-chysta-protiofenzivu-v-umele-inteligenci-a-kvantech-ma-pomoct-v-prepoctu-pres-bilion-korun/?utm_source=rss&utm_medium=text&utm_campaign=rss",
-   "src": "Lupa.cz"
   },
   {
    "c": "IT",
@@ -325,13 +108,6 @@
    "src": "Computable"
   },
   {
-   "c": "NO",
-   "d": "25 Nov 2026",
-   "t": "KI avslører flaskehalsene i utviklingsarbeidet",
-   "u": "https://www.digi.no/debatt/ki-avslorer-flaskehalsene-i-utviklingsarbeidet/7184055",
-   "src": "digi.no"
-  },
-  {
    "c": "EE",
    "d": "25 Nov 2026",
    "t": "Politicians differ over how to power Estonia's data center 'boom'",
@@ -339,32 +115,11 @@
    "src": "ERR News"
   },
   {
-   "c": "AT",
-   "d": "25 Nov 2026",
-   "t": "So nutzt man Gemini, ohne die Google-KI zu trainieren",
-   "u": "https://futurezone.at/apps/google-gemini-chats-ki-training-stoppen-claude-chatgpt/403208136",
-   "src": "futurezone"
-  },
-  {
-   "c": "AT",
-   "d": "25 Nov 2026",
-   "t": "Dieser KI-Roboter „atmet\", fühlt sich an wie Haut und beobachtet euch genau",
-   "u": "https://futurezone.at/digital-life/ki-soft-robotics-kunstinstallation-dubai/403208193",
-   "src": "futurezone"
-  },
-  {
    "c": "DK",
    "d": "25 Nov 2026",
    "t": "Synspunkt: Fantasifulde tal, løse påstande og mørklagte ejere mudrer debatten om datacentre",
    "u": "https://www.version2.dk/holdning/fantasifulde-tal-loese-paastande-og-moerklagte-ejere-mudrer-debatten-om-datacentre",
    "src": "Version2"
-  },
-  {
-   "c": "NO",
-   "d": "25 Nov 2026",
-   "t": "Musikktjeneste bannlyser KI-musikk",
-   "u": "https://www.digi.no/kunstig-intelligens/tidal-bannlyser-ki-musikk/7188186",
-   "src": "digi.no"
   },
   {
    "c": "EU",
@@ -386,13 +141,6 @@
    "t": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
    "u": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
    "src": "European Commission, Shaping Europe's digital future"
-  },
-  {
-   "c": "AT",
-   "d": "25 Nov 2026",
-   "t": "Personalisierter KI-Slop in Dauerschleife: Google meldet neue Streamingplattform zum Patent an",
-   "u": "https://www.derstandard.at/story/3000000350752/personalisierter-ki-slop-in-dauerschleife-google-meldet-neue-streamingplattform-zum-patent-an?ref=rss",
-   "src": "Der Standard, Web"
   },
   {
    "c": "IE",
@@ -437,20 +185,6 @@
    "src": "EU-Startups"
   },
   {
-   "c": "AT",
-   "d": "24 Nov 2026",
-   "t": "Millionen sexualisierte KI-Bilder: Bundesstaaten klagen SpaceX wegen Grok",
-   "u": "https://www.derstandard.at/story/3000000350819/millionen-sexualisierte-ki-bilder-bundesstaaten-klagen-spacex-wegen-grok?ref=rss",
-   "src": "Der Standard, Web"
-  },
-  {
-   "c": "ES",
-   "d": "24 Nov 2026",
-   "t": "Los avances matemáticos de la IA y la amenaza que suponen para la PKI",
-   "u": "https://www.computerworld.es/article/4252693/suponen-los-avances-matematicos-de-la-ia-una-amenaza-para-la-pki.html",
-   "src": "Computerworld España"
-  },
-  {
    "c": "HU",
    "d": "24 Nov 2026",
    "t": "Tényleg elfogy a víz, és drágul az áram az adatközpontok miatt?",
@@ -479,32 +213,11 @@
    "src": "Version2"
   },
   {
-   "c": "HU",
-   "d": "24 Nov 2026",
-   "t": "Bevásárolt az Amazon, gyorsabb és olcsóbb lehet a mesterséges intelligencia",
-   "u": "https://hvg.hu/tudomany/20261124_amazon-decart-felvasarlas-mesterseges-intelligencia",
-   "src": "HVG Tech"
-  },
-  {
-   "c": "AT",
-   "d": "24 Nov 2026",
-   "t": "Anthropic-CEO schlug vor, durch KI arbeitslos gewordene Massen per Videospiel ruhigzustellen",
-   "u": "https://www.derstandard.at/story/3000000350720/anthropic-ceo-schlug-vor-durch-ki-arbeitslos-gewordene-massen-per-videospiel-ruhigzustellen?ref=rss",
-   "src": "Der Standard, Web"
-  },
-  {
    "c": "EU",
    "d": "24 Nov 2026",
    "t": "JUPITER Remains Among the 5 Fastest Supercomputers and Europe's No. 1",
    "u": "https://www.hpcwire.com/off-the-wire/jupiter-remains-among-the-5-fastest-supercomputers-and-europes-no-1/",
    "src": "HPCwire"
-  },
-  {
-   "c": "SI",
-   "d": "24 Nov 2026",
-   "t": "Trump zagrozil s prepovedjo gradnje podatkovnih centrov v tujini",
-   "u": "https://www.monitor.si/novica/trump-zagrozil-s-prepovedjo-gradnje-podatkovnih-centrov-v-tujini/253900/?utm_source=feed&utm_medium=rss",
-   "src": "Monitor"
   },
   {
    "c": "DK",
@@ -514,34 +227,6 @@
    "src": "Version2"
   },
   {
-   "c": "AT",
-   "d": "24 Nov 2026",
-   "t": "\"Kosten pro Tötung\" senken: 16-Jähriger gründet Start-up für moderne KI-Raketen",
-   "u": "https://www.derstandard.at/story/3000000350587/kosten-pro-toetung-senken-16-jaehriger-gruendet-start-up-fuer-moderne-ki-raketen?ref=rss",
-   "src": "Der Standard, Web"
-  },
-  {
-   "c": "NO",
-   "d": "23 Nov 2026",
-   "t": "Så vanlig er det blitt å ha KI-kompis",
-   "u": "https://www.digi.no/kunstig-intelligens/studie-sa-vanlig-er-det-blitt-a-ha-ki-kompis/7186229",
-   "src": "digi.no"
-  },
-  {
-   "c": "AT",
-   "d": "23 Nov 2026",
-   "t": "Außer Kontrolle: US-Banken beschränken Zugriffsrechte für KI-Agenten",
-   "u": "https://www.derstandard.at/story/3000000350613/ausser-kontrolle-us-banken-beschraenken-zugriffsrechte-fuer-ki-agenten?ref=rss",
-   "src": "Der Standard, Web"
-  },
-  {
-   "c": "SI",
-   "d": "23 Nov 2026",
-   "t": "Umetna inteligenca v vrečki čipsa videla pištolo",
-   "u": "https://www.monitor.si/novica/umetna-inteligenca-v-vrecki-cipsa-videla-pistolo/253862/?utm_source=feed&utm_medium=rss",
-   "src": "Monitor"
-  },
-  {
    "c": "UK",
    "d": "23 Nov 2026",
    "t": "UK Sovereign AI Fund invests in defence tech startup",
@@ -549,46 +234,11 @@
    "src": "Computer Weekly"
   },
   {
-   "c": "AT",
-   "d": "23 Nov 2026",
-   "t": "Wenn KI-Unternehmen sich selbst großen Erfolg prognostizieren",
-   "u": "https://www.derstandard.at/story/3000000349885/wenn-ki-unternehmen-sich-selbst-grossen-erfolg-prognostizieren?ref=rss",
-   "src": "Der Standard, Web"
-  },
-  {
-   "c": "NO",
-   "d": "23 Nov 2026",
-   "t": "Universiteter jobber med forbud mot KI-briller",
-   "u": "https://www.digi.no/kunstig-intelligens/universiteter-jobber-med-forbud-mot-ki-briller/7187286",
-   "src": "digi.no"
-  },
-  {
-   "c": "AT",
-   "d": "23 Nov 2026",
-   "t": "OpenAI-Chefwissenschafter schlägt gemeinsame Grenzen für KI vor",
-   "u": "https://www.derstandard.at/story/3000000350463/openai-chefwissenschaftler-schl228gt-gemeinsame-grenzen-f252r-ki-vor?ref=rss",
-   "src": "Der Standard, Web"
-  },
-  {
    "c": "DK",
    "d": "23 Nov 2026",
    "t": "Hemmelige ejere og ukendte formål: Mørklagte datacentre er »meget bekymrende«",
    "u": "https://www.version2.dk/artikel/hemmelige-ejere-og-ukendte-formaal-moerklagte-datacentre-er-meget-bekymrende",
    "src": "Version2"
-  },
-  {
-   "c": "SI",
-   "d": "23 Nov 2026",
-   "t": "Roj agentov umetne inteligence",
-   "u": "https://www.monitor.si/clanek/roj-agentov-umetne-inteligence/251573/?utm_source=feed&utm_medium=rss",
-   "src": "Monitor"
-  },
-  {
-   "c": "SI",
-   "d": "23 Nov 2026",
-   "t": "Razmah čipov za umetno inteligenco",
-   "u": "https://www.monitor.si/clanek/razmah-cipov-za-umetno-inteligenco/251576/?utm_source=feed&utm_medium=rss",
-   "src": "Monitor"
   },
   {
    "c": "SE",
@@ -603,13 +253,6 @@
    "t": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe's sovereign defence AI infrastructure",
    "u": "https://www.eu-startups.com/2026/11/uk-based-agon-raises-e63-98-million-at-e411-3-million-valuation-to-build-europes-sovereign-defence-ai-infrastructure/",
    "src": "EU-Startups"
-  },
-  {
-   "c": "NO",
-   "d": "22 Nov 2026",
-   "t": "Så mange nye jobber vil kunstig intelligens skape",
-   "u": "https://www.digi.no/kunstig-intelligens/analysebyra-sa-mange-nye-jobber-vil-kunstig-intelligens-skape/7184884",
-   "src": "digi.no"
   },
   {
    "c": "NO",
@@ -633,20 +276,6 @@
    "src": "Le Monde Informatique"
   },
   {
-   "c": "NO",
-   "d": "20 Nov 2026",
-   "t": "USA godkjente salg av over 800.000 KI-brikker til Kina",
-   "u": "https://www.digi.no/it-bransjen/usa-godkjente-salg-av-over-800000-ki-brikker-til-kina/7186558",
-   "src": "digi.no"
-  },
-  {
-   "c": "NO",
-   "d": "20 Nov 2026",
-   "t": "Historisk børsdebut for KI-giganten",
-   "u": "https://www.digi.no/kunstig-intelligens/historisk-borsdebut-for-ki-giganten-anthropic/7186539",
-   "src": "digi.no"
-  },
-  {
    "c": "CZ",
    "d": "20 Nov 2026",
    "t": "Češi postaví velké AI datacentrum ve Finsku, Jensen Huang chce zpět do Nvidie, Anthropic úspěšně vstoupil na burzu",
@@ -659,13 +288,6 @@
    "t": "AI startup founded by two Irish YC alumni gets backing from Stripe's Collison brothers",
    "u": "https://tech.eu/2026/11/20/ai-startup-founded-by-two-irish-yc-alumni-gets-backing-from-the-collison-brothers/",
    "src": "Tech.eu"
-  },
-  {
-   "c": "NO",
-   "d": "19 Nov 2026",
-   "t": "KI-søket finner kommunens meldinger, men ikke lokalavisens",
-   "u": "https://www.digi.no/debatt/ki-soket-finner-kommunens-meldinger-men-ikke-lokalavisens/7181848",
-   "src": "digi.no"
   },
   {
    "c": "EU",

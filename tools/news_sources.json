@@ -314,10 +314,6 @@
    "url": "https://rss.golem.de/rss.php?feed=RSS2.0",
    "cc": "DE"
   },
-  "L'Usine Digitale": {
-   "url": "https://www.usine-digitale.fr/rss",
-   "cc": "FR"
-  },
   "Le Monde Informatique": {
    "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml",
    "cc": "FR"
@@ -366,10 +362,6 @@
    "url": "https://crn.pl/feed/",
    "cc": "PL"
   },
-  "Ny Teknik": {
-   "url": "https://www.nyteknik.se/rss",
-   "cc": "SE"
-  },
   "Computer Sweden": {
    "url": "https://computersweden.se/feed/",
    "cc": "SE"
@@ -402,10 +394,6 @@
    "url": "https://www.lupa.cz/rss/clanky/",
    "cc": "CZ"
   },
-  "Živé.sk": {
-   "url": "https://zive.aktuality.sk/rss/",
-   "cc": "SK"
-  },
   "Portfolio.hu": {
    "url": "https://www.portfolio.hu/rss/all.xml",
    "cc": "HU"
@@ -426,10 +414,6 @@
    "url": "https://www.novinite.com/services/news_rdf.php",
    "cc": "BG"
   },
-  "eKathimerini": {
-   "url": "https://www.ekathimerini.com/feed/",
-   "cc": "EL"
-  },
   "ECO": {
    "url": "https://eco.sapo.pt/feed/",
    "cc": "PT"
@@ -442,16 +426,8 @@
    "url": "https://www.irishtimes.com/arc/outboundfeeds/feed-technology/?from=0&size=20",
    "cc": "IE"
   },
-  "The Slovenia Times": {
-   "url": "https://sloveniatimes.com/feed",
-   "cc": "SI"
-  },
   "RTV SLO": {
    "url": "https://www.rtvslo.si/feeds/01.xml",
-   "cc": "SI"
-  },
-  "STA": {
-   "url": "https://english.sta.si/rss-0",
    "cc": "SI"
   },
   "Monitor": {
@@ -478,10 +454,6 @@
    "url": "https://news.err.ee/rss",
    "cc": "EE"
   },
-  "Delano": {
-   "url": "https://delano.lu/rss",
-   "cc": "LU"
-  },
   "Luxembourg Times": {
    "url": "https://www.luxtimes.lu/rss",
    "cc": "LU"
@@ -501,14 +473,170 @@
   "digi.no": {
    "url": "https://www.digi.no/rss",
    "cc": "NO"
-  },
-  "SWI swissinfo.ch": {
-   "url": "https://www.swissinfo.ch/eng/latest-news/rss",
-   "cc": "CH"
-  },
-  "The Kyiv Independent": {
-   "url": "https://kyivindependent.com/feed/",
-   "cc": "UA"
   }
+ },
+ "infra_words": "rechenzentr|datacent|data cent|datasent|centres? de données|centros? de datos|centr\\w+ danych|podatkovn\\w+ cent|adatközpont|datov\\w+ centr|datakesku|andmekesku|duomenų centr|datu centr|centros? de dados|centr\\w+ de date|supercomput|superračunal|superpočítač|supertietokone|superdator|supercalc|superkomputer|superordenador|szuperszámítógép|hochleistungsrechn|gigafactor|gigafabri|AI factory|fabbrica di IA|usine d'IA",
+ "global_words": "SpaceX|\\bFCC\\b|Trump|\\bUSA?\\b|US-|amerik|améric|\\bChina\\b|\\bKina\\b|Chin[ey]|Musk|orbit|satellit|satelit|vesmír|svemir|ruimte|im All\\b|ins All\\b|espace\\b|espacio\\b|spazio\\b|Texas|Virginia",
+ "countries_local": {
+  "DE": [
+   "Deutschland",
+   "deutsch",
+   "Bundes",
+   "Berlin",
+   "Bayern",
+   "Hessen",
+   "NRW"
+  ],
+  "AT": [
+   "Österreich",
+   "österreich",
+   "Wien"
+  ],
+  "FR": [
+   "France",
+   "français",
+   "française",
+   "Paris",
+   "l'État",
+   "Hexagone"
+  ],
+  "ES": [
+   "España",
+   "español",
+   "Madrid",
+   "Aragón",
+   "Cataluña",
+   "Gobierno"
+  ],
+  "IT": [
+   "Italia",
+   "italian",
+   "Roma",
+   "Milano",
+   "Lombardia"
+  ],
+  "NL": [
+   "Nederland",
+   "Nederlands",
+   "Amsterdam",
+   "kabinet"
+  ],
+  "BE": [
+   "België",
+   "Belgisch",
+   "Brussel",
+   "Vlaanderen",
+   "Vlaams"
+  ],
+  "PL": [
+   "Polsk",
+   "polsk",
+   "Warszaw"
+  ],
+  "SE": [
+   "Sverige",
+   "svensk",
+   "Stockholm"
+  ],
+  "DK": [
+   "Danmark",
+   "dansk",
+   "København"
+  ],
+  "FI": [
+   "Suom",
+   "suomalai",
+   "Helsin"
+  ],
+  "CZ": [
+   "Česk",
+   "česk",
+   "Praha",
+   "Praze"
+  ],
+  "SK": [
+   "Slovensk",
+   "slovensk",
+   "Bratislav"
+  ],
+  "HU": [
+   "Magyar",
+   "magyar",
+   "Budapest",
+   "budapesti"
+  ],
+  "RO": [
+   "Români",
+   "român",
+   "București"
+  ],
+  "BG": [
+   "Bulgaria",
+   "Българ",
+   "Sofia"
+  ],
+  "EL": [
+   "Greece",
+   "Greek",
+   "Athens",
+   "Ελλάδ"
+  ],
+  "PT": [
+   "Portugal",
+   "portugu",
+   "Lisboa",
+   "Sines"
+  ],
+  "IE": [
+   "Ireland",
+   "Irish",
+   "Dublin"
+  ],
+  "SI": [
+   "Sloveni",
+   "slovensk",
+   "Ljubljan",
+   "Maribor"
+  ],
+  "HR": [
+   "Hrvatsk",
+   "hrvatsk",
+   "Zagreb"
+  ],
+  "LT": [
+   "Lithuania",
+   "Lietuv",
+   "Vilnius"
+  ],
+  "LV": [
+   "Latvia",
+   "Latvij",
+   "Riga",
+   "Rīg"
+  ],
+  "EE": [
+   "Estonia",
+   "Eesti",
+   "Tallinn"
+  ],
+  "LU": [
+   "Luxembourg",
+   "Luxemburg"
+  ],
+  "MT": [
+   "Malta",
+   "Maltese",
+   "Valletta"
+  ],
+  "CY": [
+   "Cyprus",
+   "Cypriot",
+   "Nicosia"
+  ],
+  "NO": [
+   "Norge",
+   "norsk",
+   "Oslo"
+  ]
  }
 }
