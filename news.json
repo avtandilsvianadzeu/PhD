@@ -1,13 +1,41 @@
 {
  "updated": "26 Nov 2026",
- "read": "2026-11-26T08:13Z",
+ "read": "2026-11-26T14:19Z",
  "items": [
+  {
+   "c": "PT",
+   "d": "26 Nov 2026",
+   "t": "Fortitude Capital plans 202MW AI data center campus in Sines, Portugal",
+   "u": "https://www.datacenterdynamics.com/en/news/fortitude-capital-plans-a-202-mw-ai-campus-in-sines/",
+   "src": "DatacenterDynamics"
+  },
+  {
+   "c": "IE",
+   "d": "26 Nov 2026",
+   "t": "NTT Data Centre of Excellence to create 200 highly skilled jobs",
+   "u": "https://www.siliconrepublic.com/jobs-news/ntt-data-centre-excellence-create-200-highly-skilled-jobs",
+   "src": "Silicon Republic"
+  },
+  {
+   "c": "EU",
+   "d": "26 Nov 2026",
+   "t": "EU wants more data centres but won't force new green commitments, leaked draft reveals",
+   "u": "https://www.euronews.com/2026/11/26/eu-wants-more-data-centres-but-wont-force-new-green-commitments-leaked-draft-reveals",
+   "src": "Euronews"
+  },
   {
    "c": "EU",
    "d": "25 Nov 2026",
    "t": "EU delays planned AI gigafactories again",
    "u": "https://www.rapporteur.com/news/eu-delays-planned-ai-gigafactories-again/",
    "src": "Euractiv"
+  },
+  {
+   "c": "EU",
+   "d": "25 Nov 2026",
+   "t": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
+   "u": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+   "src": "European Commission, Shaping Europe's digital future"
   },
   {
    "c": "DE",
