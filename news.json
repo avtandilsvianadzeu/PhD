@@ -1,6 +1,6 @@
 {
  "updated": "26 Nov 2026",
- "read": "2026-11-26T14:19Z",
+ "read": "2026-11-26T14:21Z",
  "items": [
   {
    "c": "PT",
@@ -29,6 +29,20 @@
    "t": "EU delays planned AI gigafactories again",
    "u": "https://www.rapporteur.com/news/eu-delays-planned-ai-gigafactories-again/",
    "src": "Euractiv"
+  },
+  {
+   "c": "IT",
+   "d": "25 Nov 2026",
+   "t": "Three to five layers of buffer: Why data centres run colder than they need to",
+   "u": "https://capacityglobal.com/news/three-to-five-layers-of-buffer-why-data-centres-run-colder-than-they-need-to/",
+   "src": "Capacity"
+  },
+  {
+   "c": "EU",
+   "d": "25 Nov 2026",
+   "t": "How grid constraints are changing where Europe builds data centres",
+   "u": "https://datacentrereview.com/2026/11/how-grid-constraints-are-changing-where-europe-builds-data-centres/",
+   "src": "Data Centre Review"
   },
   {
    "c": "EU",
@@ -130,6 +144,13 @@
   },
   {
    "c": "EU",
+   "d": "17 Nov 2026",
+   "t": "Uniper bets on old power station sites to meet data centre demand",
+   "u": "https://datacentrereview.com/2026/11/uniper-bets-on-old-power-station-sites-to-meet-data-centre-demand/",
+   "src": "Data Centre Review"
+  },
+  {
+   "c": "EU",
    "d": "16 Nov 2026",
    "t": "Commission hosts Apply AI Summit to boost Europe's AI innovation and uptake",
    "u": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
@@ -141,6 +162,13 @@
    "t": "Why Greenpeace Interrupted Jensen Huang's Keynote",
    "u": "https://www.datacenterknowledge.com/sustainability/why-greenpeace-interrupted-jensen-huang-s-keynote",
    "src": "Data Center Knowledge"
+  },
+  {
+   "c": "EU",
+   "d": "5 Nov 2026",
+   "t": "Pure DC secures $780m to fund data centre expansion across Europe, Middle East",
+   "u": "https://datacentrereview.com/2026/11/pure-dc-secures-780m-to-fund-data-centre-expansion-across-europe-middle-east/",
+   "src": "Data Centre Review"
   },
   {
    "c": "EU",
