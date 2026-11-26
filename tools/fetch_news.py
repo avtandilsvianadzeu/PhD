@@ -157,7 +157,7 @@ def main():
         return 1
     for r in items:
         r.pop("_t")
-    OUT.write_text(json.dumps({"updated": NOW.strftime("%-d %b %Y"), "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    OUT.write_text(json.dumps({"updated": NOW.strftime("%-d %b %Y"), "read": NOW.strftime("%Y-%m-%dT%H:%MZ"), "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"{len(items)} items from {ok} feeds")
     # job report: feeds that failed and on-topic headlines that were left out, so gaps are seen and the word lists can be tuned
     report = [f"## News job: {len(items)} items from {ok} feeds", ""]

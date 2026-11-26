@@ -1639,7 +1639,7 @@ function newsBlock(cc){
 function showNews(){
  const eu=DATA.eu27||[];
  let h='<h2 class="ttl">News</h2><p class="sub"><span>AI data centre news from the EU27, each item linked to its source</span></p>';
- if(LIVE&&LIVE.items&&LIVE.items.length)h+='<p class="body"><span class="live"><i></i>Live feed updated '+esc(LIVE.updated||'')+'</span></p>';
+ if(LIVE&&LIVE.items&&LIVE.items.length)h+='<p class="body"><span class="live"><i></i>Feeds read '+esc(LIVE.read?new Date(LIVE.read).toLocaleString('en-GB',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'}):(LIVE.updated||''))+', newest item from '+esc(LIVE.items[0].d)+'</span></p>';
  else h+='<p class="body">Curated items are below, with publisher feeds added daily.</p>';
  h+='<div class="hdr">European Union</div>'+nwRows(liveFor('EU').slice(0,6).concat(DATA.eunews||[]).sort((a,b)=>(window.__pd?window.__pd(b.d)-window.__pd(a.d):0)));
  eu.map(cc=>[cc,DATA.shp[cc]]).filter(x=>x[1]).sort((a,b)=>a[1].na.localeCompare(b[1].na)).forEach(([cc,v])=>{
