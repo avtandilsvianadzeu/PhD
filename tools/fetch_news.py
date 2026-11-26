@@ -74,7 +74,9 @@ def classify(title, summary=""):
     headlines say "data centres" or "AI" and leave the place to the opening sentence.
     The topic must appear in the headline or the summary.
     """
-    if not KEEP.search(title + " " + summary):
+    # the headline must be on topic, or the summary must name the topic at least twice:
+    # one passing word in a summary (a robot, a start-up that "uses AI") is not enough
+    if not KEEP.search(title) and len(KEEP.findall(summary)) < 2:
         return None
     for text in (title, summary[:400]):
         hits = sorted((m.start(), cc) for cc, rx in CWORDS.items() for m in [rx.search(text)] if m)

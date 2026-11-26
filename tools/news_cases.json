@@ -48,5 +48,27 @@
  {
   "t": "German carmakers report weaker quarterly profits",
   "want": null
+ },
+ {
+  "t": "Meet TeoTronico: The sassy, 53-fingered robot pianist challenging human musicians",
+  "s": "The Italian machine plays alongside orchestras and uses AI to follow the conductor.",
+  "want": null
+ },
+ {
+  "t": "SAP staffer allegedly gave a startup partner's demo to its rival",
+  "s": "A German court filing says the demo of an AI tool was passed on.",
+  "want": null
+ },
+ {
+  "t": "Quant trading firm XTX Markets launches 22.5MW data center in Kajaani, Finland",
+  "want": "FI"
+ },
+ {
+  "t": "Google plans 1.2GW data center near Châteauroux, France: report",
+  "want": "FR"
+ },
+ {
+  "t": "EU delays planned AI gigafactories again",
+  "want": "EU"
  }
 ]
