@@ -20,7 +20,7 @@ OUT = ROOT / "news.json"
 NOW = dt.datetime.now(dt.timezone.utc)
 MAX_AGE = dt.timedelta(days=CFG.get("max_age_days", 120))
 PER_COUNTRY = CFG.get("per_country", 6)  # the EU bucket keeps twice as many
-KEEP = re.compile(CFG["topic_must_match"], re.I)
+KEEP = re.compile(CFG["topic_must_match"] + "|" + CFG.get("topic_local", "(?!)"), re.I)
 CWORDS = {cc: re.compile(r"\b(" + "|".join(map(re.escape, words)) + r")\b") for cc, words in CFG["countries"].items()}
 ATOM = "{http://www.w3.org/2005/Atom}"
 EUW = re.compile(r"\b(" + "|".join(map(re.escape, CFG.get("eu_words", ["EU", "Europe", "European"]))) + r")\b")
@@ -100,7 +100,9 @@ def selftest():
 
 def main():
     rows, seen, ok, near, failed = [], set(), 0, [], []
-    for src, urls in CFG["feeds"].items():
+    feeds = list(CFG["feeds"].items()) + [(k, v["url"], v["cc"]) for k, v in CFG.get("national_feeds", {}).items()]
+    for entry in feeds:
+        src, urls, home = entry if len(entry) == 3 else (entry[0], entry[1], None)   # a national feed carries its country
         feed = None
         for url in ([urls] if isinstance(urls, str) else urls):   # a source may list more than one address
             try:
@@ -125,6 +127,8 @@ def main():
             # EU scope only: the headline must name an EU27 country, or the EU itself.
             # One country per item, the first named in the headline, so an item is never filed twice.
             cc = classify(title, summary)
+            if cc is None and home and KEEP.search(title):
+                cc = home                                  # a national publisher writing on topic: the country is its own
             if cc is None:
                 if KEEP.search(title):   # on topic but no EU place found: listed in the job log for review
                     near.append(f"{src}: {title[:110]}")

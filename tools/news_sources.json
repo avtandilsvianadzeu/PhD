@@ -303,5 +303,212 @@
   "EU27",
   "Eurozone",
   "pan-European"
- ]
+ ],
+ "topic_local": "(?-i:\\bKI\\b)|künstliche[rn]? intelligenz|rechenzentr|hochleistungsrechn|supercomputer|intelligence artificielle|(?-i:\\bIA\\b)|centres? de données|supercalculateur|inteligencia artificial|centros? de datos|superordenador|intelligenza artificiale|supercalcolo|kunstmatige intelligentie|datacenter|datacentr|sztuczn\\w+ inteligencj|centr\\w+ danych|superkomputer|umetn\\w+ inteligenc|podatkovn\\w+ cent|superračunalnik|umjetn\\w+ inteligencij|podatkovn\\w+ centa|mesterséges intelligencia|adatközpont|szuperszámítógép|umělá inteligence|umělé inteligenc|datov\\w+ centr|superpočítač|umel\\w+ inteligenci|inteligenț\\w+ artificial|centr\\w+ de date|tekoäly|datakesku|supertietokone|artificiell intelligens|superdator|kunstig intelligens|dirbtin\\w+ intelekt|duomenų centr|mākslīg\\w+ intelekt|datu centr|tehisintellekt|tehisaru|andmekesku|τεχνητή νοημοσύνη|κέντρ\\w+ δεδομένων|изкуствен\\w* интелект|център\\w* за данни|inteligência artificial|centros? de dados|supercomputador",
+ "national_feeds": {
+  "heise online": {
+   "url": "https://www.heise.de/rss/heise-atom.xml",
+   "cc": "DE"
+  },
+  "Golem.de": {
+   "url": "https://rss.golem.de/rss.php?feed=RSS2.0",
+   "cc": "DE"
+  },
+  "L'Usine Digitale": {
+   "url": "https://www.usine-digitale.fr/rss",
+   "cc": "FR"
+  },
+  "Le Monde Informatique": {
+   "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml",
+   "cc": "FR"
+  },
+  "Silicon.fr": {
+   "url": "https://www.silicon.fr/feed",
+   "cc": "FR"
+  },
+  "Xataka": {
+   "url": "https://www.xataka.com/feedburner.xml",
+   "cc": "ES"
+  },
+  "El Español, Invertia": {
+   "url": "https://www.elespanol.com/rss/invertia/",
+   "cc": "ES"
+  },
+  "Computerworld España": {
+   "url": "https://www.computerworld.es/feed/",
+   "cc": "ES"
+  },
+  "CorCom": {
+   "url": "https://www.corrierecomunicazioni.it/feed/",
+   "cc": "IT"
+  },
+  "Agenda Digitale": {
+   "url": "https://www.agendadigitale.eu/feed/",
+   "cc": "IT"
+  },
+  "Tweakers": {
+   "url": "https://tweakers.net/feeds/nieuws.xml",
+   "cc": "NL"
+  },
+  "Computable": {
+   "url": "https://www.computable.nl/feed/",
+   "cc": "NL"
+  },
+  "Data News": {
+   "url": "https://datanews.knack.be/feed/",
+   "cc": "BE"
+  },
+  "ITwiz": {
+   "url": "https://itwiz.pl/feed/",
+   "cc": "PL"
+  },
+  "Cyfrowa Polska, CRN": {
+   "url": "https://crn.pl/feed/",
+   "cc": "PL"
+  },
+  "Ny Teknik": {
+   "url": "https://www.nyteknik.se/rss",
+   "cc": "SE"
+  },
+  "Computer Sweden": {
+   "url": "https://computersweden.se/feed/",
+   "cc": "SE"
+  },
+  "Version2": {
+   "url": "https://www.version2.dk/rss",
+   "cc": "DK"
+  },
+  "Ingeniøren": {
+   "url": "https://ing.dk/rss/nyheder",
+   "cc": "DK"
+  },
+  "Yle News": {
+   "url": "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS",
+   "cc": "FI"
+  },
+  "Tivi": {
+   "url": "https://www.tivi.fi/rss.xml",
+   "cc": "FI"
+  },
+  "futurezone": {
+   "url": "https://futurezone.at/xml/rss",
+   "cc": "AT"
+  },
+  "Der Standard, Web": {
+   "url": "https://www.derstandard.at/rss/web",
+   "cc": "AT"
+  },
+  "Lupa.cz": {
+   "url": "https://www.lupa.cz/rss/clanky/",
+   "cc": "CZ"
+  },
+  "Živé.sk": {
+   "url": "https://zive.aktuality.sk/rss/",
+   "cc": "SK"
+  },
+  "Portfolio.hu": {
+   "url": "https://www.portfolio.hu/rss/all.xml",
+   "cc": "HU"
+  },
+  "HVG Tech": {
+   "url": "https://hvg.hu/rss/tudomany",
+   "cc": "HU"
+  },
+  "Economedia": {
+   "url": "https://economedia.ro/feed",
+   "cc": "RO"
+  },
+  "StartupCafe": {
+   "url": "https://www.startupcafe.ro/rss",
+   "cc": "RO"
+  },
+  "Novinite": {
+   "url": "https://www.novinite.com/services/news_rdf.php",
+   "cc": "BG"
+  },
+  "eKathimerini": {
+   "url": "https://www.ekathimerini.com/feed/",
+   "cc": "EL"
+  },
+  "ECO": {
+   "url": "https://eco.sapo.pt/feed/",
+   "cc": "PT"
+  },
+  "Jornal de Negócios": {
+   "url": "https://www.jornaldenegocios.pt/rss",
+   "cc": "PT"
+  },
+  "The Irish Times, Technology": {
+   "url": "https://www.irishtimes.com/arc/outboundfeeds/feed-technology/?from=0&size=20",
+   "cc": "IE"
+  },
+  "The Slovenia Times": {
+   "url": "https://sloveniatimes.com/feed",
+   "cc": "SI"
+  },
+  "RTV SLO": {
+   "url": "https://www.rtvslo.si/feeds/01.xml",
+   "cc": "SI"
+  },
+  "STA": {
+   "url": "https://english.sta.si/rss-0",
+   "cc": "SI"
+  },
+  "Monitor": {
+   "url": "https://www.monitor.si/rss/",
+   "cc": "SI"
+  },
+  "Bug.hr": {
+   "url": "https://www.bug.hr/rss",
+   "cc": "HR"
+  },
+  "Total Croatia News": {
+   "url": "https://total-croatia-news.com/feed/",
+   "cc": "HR"
+  },
+  "LRT English": {
+   "url": "https://www.lrt.lt/en/news-in-english?rss",
+   "cc": "LT"
+  },
+  "LSM English": {
+   "url": "https://eng.lsm.lv/rss/",
+   "cc": "LV"
+  },
+  "ERR News": {
+   "url": "https://news.err.ee/rss",
+   "cc": "EE"
+  },
+  "Delano": {
+   "url": "https://delano.lu/rss",
+   "cc": "LU"
+  },
+  "Luxembourg Times": {
+   "url": "https://www.luxtimes.lu/rss",
+   "cc": "LU"
+  },
+  "Times of Malta": {
+   "url": "https://timesofmalta.com/rss",
+   "cc": "MT"
+  },
+  "Cyprus Mail": {
+   "url": "https://cyprus-mail.com/feed/",
+   "cc": "CY"
+  },
+  "in-cyprus": {
+   "url": "https://in-cyprus.philenews.com/feed/",
+   "cc": "CY"
+  },
+  "digi.no": {
+   "url": "https://www.digi.no/rss",
+   "cc": "NO"
+  },
+  "SWI swissinfo.ch": {
+   "url": "https://www.swissinfo.ch/eng/latest-news/rss",
+   "cc": "CH"
+  },
+  "The Kyiv Independent": {
+   "url": "https://kyivindependent.com/feed/",
+   "cc": "UA"
+  }
+ }
 }
