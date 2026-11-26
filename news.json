@@ -1,6 +1,6 @@
 {
  "updated": "26 Nov 2026",
- "read": "2026-11-26T14:21Z",
+ "read": "2026-11-26T14:48Z",
  "items": [
   {
    "c": "PT",
@@ -122,6 +122,13 @@
    "src": "HPCwire"
   },
   {
+   "c": "UK",
+   "d": "23 Nov 2026",
+   "t": "UK Sovereign AI Fund invests in defence tech startup",
+   "u": "https://www.computerweekly.com/news/366655234/UK-Sovereign-AI-Fund-invests-in-defence-tech-startup",
+   "src": "Computer Weekly"
+  },
+  {
    "c": "SE",
    "d": "23 Nov 2026",
    "t": "Sweden's datacentre politics are more complicated than they appear | Letter",
@@ -164,6 +171,20 @@
    "src": "Data Center Knowledge"
   },
   {
+   "c": "UK",
+   "d": "12 Nov 2026",
+   "t": "UK Government offers £180m for AI data centre: but there's a catch",
+   "u": "https://datacentrereview.com/2026/11/uk-government-offers-180m-for-ai-data-centre-but-theres-a-catch/",
+   "src": "Data Centre Review"
+  },
+  {
+   "c": "UK",
+   "d": "6 Nov 2026",
+   "t": "Can Optical AI Cut Data Center Inference Power Use?",
+   "u": "https://www.datacenterknowledge.com/ai-data-centers/can-optical-ai-cut-data-center-inference-power-use-",
+   "src": "Data Center Knowledge"
+  },
+  {
    "c": "EU",
    "d": "5 Nov 2026",
    "t": "Pure DC secures $780m to fund data centre expansion across Europe, Middle East",
@@ -178,11 +199,25 @@
    "src": "European Commission, Shaping Europe's digital future"
   },
   {
+   "c": "UK",
+   "d": "3 Nov 2026",
+   "t": "National Grid takes major step towards powering Teesside AI data centre",
+   "u": "https://datacentrereview.com/2026/11/national-grid-takes-major-step-towards-powering-teesside-ai-data-centre/",
+   "src": "Data Centre Review"
+  },
+  {
    "c": "PT",
    "d": "3 Nov 2026",
    "t": "Web Summit 2026",
    "u": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
    "src": "European Commission, Shaping Europe's digital future"
+  },
+  {
+   "c": "UK",
+   "d": "2 Nov 2026",
+   "t": "10% biodiversity requirement takes effect for nationally significant data centres",
+   "u": "https://datacentrereview.com/2026/11/10-biodiversity-requirement-takes-effect-for-nationally-significant-data-centres/",
+   "src": "Data Centre Review"
   },
   {
    "c": "ES",
