@@ -2,8 +2,12 @@ name: Daily news
 
 on:
   schedule:
-    - cron: "23 * * * *"   # every hour: free on a public repository, and normal for reading news feeds
+    - cron: "11,41 * * * *"   # twice an hour: GitHub skips some timed runs, so two slots keep the feed fresh
   workflow_dispatch:
+
+concurrency:
+  group: news
+  cancel-in-progress: false
 
 permissions:
   contents: write

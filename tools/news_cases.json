@@ -70,5 +70,25 @@
  {
   "t": "EU delays planned AI gigafactories again",
   "want": "EU"
+ },
+ {
+  "t": "UK doubles capacity of its national AI supercomputer in Bristol",
+  "want": "UK"
+ },
+ {
+  "t": "Norway approves 500MW data centre for AI training near Narvik",
+  "want": "NO"
+ },
+ {
+  "t": "Georgia regulators approve new data center campus near Atlanta",
+  "want": null
+ },
+ {
+  "t": "Swiss AI institute opens new supercomputing lab in Lugano",
+  "want": "CH"
+ },
+ {
+  "t": "Nordic operators plan shared AI data centre grid study",
+  "want": "EU"
  }
 ]

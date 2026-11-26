@@ -152,7 +152,7 @@ def main():
     items, per = [], {}
     for r in rows:
         per[r["c"]] = per.get(r["c"], 0) + 1
-        if per[r["c"]] <= PER_COUNTRY * (2 if r["c"] == "EU" else 1):
+        if per[r["c"]] <= PER_COUNTRY * (3 if r["c"] == "EU" else 1):
             items.append(r)
     if ok == 0:
         print("every fetch failed; keeping the previous news.json", file=sys.stderr)

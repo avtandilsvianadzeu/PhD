@@ -183,6 +183,103 @@
    "Sweden",
    "Swedish",
    "Stockholm"
+  ],
+  "UK": [
+   "United Kingdom",
+   "UK",
+   "Britain",
+   "British",
+   "England",
+   "Scotland",
+   "Wales",
+   "London"
+  ],
+  "NO": [
+   "Norway",
+   "Norwegian",
+   "Oslo"
+  ],
+  "CH": [
+   "Switzerland",
+   "Swiss",
+   "Zurich",
+   "Geneva"
+  ],
+  "IS": [
+   "Iceland",
+   "Icelandic",
+   "Reykjavik"
+  ],
+  "UA": [
+   "Ukraine",
+   "Ukrainian",
+   "Kyiv"
+  ],
+  "RS": [
+   "Serbia",
+   "Serbian",
+   "Belgrade"
+  ],
+  "TR": [
+   "Turkey",
+   "Türkiye",
+   "Turkish",
+   "Ankara",
+   "Istanbul"
+  ],
+  "GE": [
+   "Tbilisi",
+   "Georgian government",
+   "Republic of Georgia"
+  ],
+  "AM": [
+   "Armenia",
+   "Armenian",
+   "Yerevan"
+  ],
+  "AZ": [
+   "Azerbaijan",
+   "Azerbaijani",
+   "Baku"
+  ],
+  "AL": [
+   "Albania",
+   "Albanian",
+   "Tirana"
+  ],
+  "BA": [
+   "Bosnia",
+   "Bosnian",
+   "Sarajevo"
+  ],
+  "ME": [
+   "Montenegro",
+   "Montenegrin",
+   "Podgorica"
+  ],
+  "MK": [
+   "North Macedonia",
+   "Macedonian",
+   "Skopje"
+  ],
+  "MD": [
+   "Moldova",
+   "Moldovan",
+   "Chisinau"
+  ],
+  "XK": [
+   "Kosovo",
+   "Pristina",
+   "Prishtina"
+  ],
+  "BY": [
+   "Belarus",
+   "Belarusian",
+   "Minsk"
+  ],
+  "LI": [
+   "Liechtenstein",
+   "Vaduz"
   ]
  },
  "eu_words": [
@@ -195,6 +292,16 @@
   "European",
   "AI Act",
   "Horizon Europe",
-  "Digital Europe"
+  "Digital Europe",
+  "Nordic",
+  "Nordics",
+  "Baltic",
+  "Baltics",
+  "Balkans",
+  "Western Balkans",
+  "Council of Europe",
+  "EU27",
+  "Eurozone",
+  "pan-European"
  ]
 }

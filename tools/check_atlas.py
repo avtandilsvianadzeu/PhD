@@ -194,12 +194,12 @@ if _pp.exists():
 for _m in re.finditer(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF]", outside):
     fail(f"page markup: emoji {_m.group(0)!r} outside a country flag"); break
 
-# 11. the live news feed covers the EU27 and the EU itself only
+# 11. the live news feed covers the EU and the European countries drawn on the map
 _np = ROOT / "news.json"
 if _np.exists():
-    _EU = set(D.get("eu27", [])) | {"EU"}
+    _EU = set(D["shp"]) | {"EU"}
     for _n in json.loads(_np.read_text(encoding="utf-8")).get("items", []):
-        if _n.get("c") not in _EU: fail(f"news: item outside the EU27 ({_n.get('c')}): {_n.get('t', '')[:60]}")
+        if _n.get("c") not in _EU: fail(f"news: item outside the map ({_n.get('c')}): {_n.get('t', '')[:60]}")
 
 # 5. optional: every link still answers
 if "--links" in sys.argv:
