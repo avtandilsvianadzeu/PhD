@@ -1,5 +1,5 @@
 {
- "read": "2026-11-26T17:18Z",
+ "read": "2026-11-27T01:55Z",
  "source": "EU Funding and Tenders portal",
  "items": [
   {
@@ -367,6 +367,20 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage"
   },
   {
+   "id": "EU4H-2027-SANTE-01-PJ-08",
+   "t": "Call for proposals for Artificial Intelligence for smart European Health Data Space compliance support (DG SANTE): DI-g-26-24",
+   "prog": "EU4Health",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-26",
+   "dl": "2027-02-24",
+   "tags": [
+    "AI",
+    "Data"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-01-pj-08"
+  },
+  {
    "id": "EU4H-2027-SANTE-01-PJ-07",
    "t": "Call for proposals for European Health Data Space Readiness Package for secondary use of health data (DG SANTE): DI-g-26-23",
    "prog": "EU4Health",
@@ -661,20 +675,6 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-01"
   },
   {
-   "id": "HORIZON-CL5-2027-05-D4-05",
-   "t": "On-site robotic and automated techniques for building renovation and new construction",
-   "prog": "Horizon Europe",
-   "kind": "EU call",
-   "st": "Forthcoming",
-   "opens": "2027-05-05",
-   "dl": "2027-09-15",
-   "tags": [
-    "Robotics",
-    "Infrastructure"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-05"
-  },
-  {
    "id": "HORIZON-CL3-2027-02-CS-ECCC-02",
    "t": "Secure Computing Continuum (IoT, Edge, Cloud, Data spaces)",
    "prog": "Horizon Europe",
@@ -833,19 +833,6 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-02"
   },
   {
-   "id": "HORIZON-CL2-2027-01-DEMOCRACY-04",
-   "t": "Addressing the impact of artificial intelligence, cyberviolence, and deepfakes on equality, democracy and inclusive societies",
-   "prog": "Horizon Europe",
-   "kind": "EU call",
-   "st": "Forthcoming",
-   "opens": "2027-05-13",
-   "dl": "2027-09-23",
-   "tags": [
-    "AI"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-04"
-  },
-  {
    "id": "HORIZON-CL2-2027-01-HERITAGE-06",
    "t": "Future-proofing sustainable cultural tourism",
    "prog": "Horizon Europe",
@@ -872,19 +859,6 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-01"
   },
   {
-   "id": "HORIZON-CL2-2027-01-TRANSFO-05",
-   "t": "The effective use of artificial intelligence in learning environments in pre-primary and primary education",
-   "prog": "Horizon Europe",
-   "kind": "EU call",
-   "st": "Forthcoming",
-   "opens": "2027-05-13",
-   "dl": "2027-09-23",
-   "tags": [
-    "AI"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-05"
-  },
-  {
    "id": "HORIZON-CL6-2027-02-FARM2FORK-06",
    "t": "Unleashing the potential of sustainable small-scale aquatic food production and recreational fisheries for prosperous local communities",
    "prog": "Horizon Europe",
@@ -909,19 +883,6 @@
     "Infrastructure"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-01"
-  },
-  {
-   "id": "HORIZON-NEB-2027-01-REGEN-04",
-   "t": "Enabling environments for a sustainable and circular construction sector",
-   "prog": "Horizon Europe",
-   "kind": "EU call",
-   "st": "Forthcoming",
-   "opens": "2027-05-05",
-   "dl": "2027-12-01",
-   "tags": [
-    "Infrastructure"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-04"
   },
   {
    "id": "HORIZON-NEB-2027-01-BUSINESS-01",
