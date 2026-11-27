@@ -1,7 +1,28 @@
 {
- "updated": "26 Nov 2026",
- "read": "2026-11-26T23:45Z",
+ "updated": "27 Nov 2026",
+ "read": "2026-11-27T08:10Z",
  "items": [
+  {
+   "c": "DE",
+   "d": "27 Nov 2026",
+   "t": "Bundesregierung will KI-Anbieter zur Kasse bitten",
+   "u": "https://www.heise.de/news/Bundesregierung-will-KI-Anbieter-zur-Kasse-bitten-11540057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+   "src": "heise online"
+  },
+  {
+   "c": "UK",
+   "d": "27 Nov 2026",
+   "t": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
+   "u": "https://www.theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
+   "src": "The Guardian, Artificial intelligence"
+  },
+  {
+   "c": "DE",
+   "d": "27 Nov 2026",
+   "t": "Urheberrechte schützen: Bundesregierung fordert Vergütung für KI-generierte Inhalte",
+   "u": "https://www.golem.de/news/urheberrechte-schuetzen-bundesregierung-fordert-verguetung-fuer-ki-generierte-inhalte-2611-215718.html",
+   "src": "Golem.de"
+  },
   {
    "c": "PT",
    "d": "26 Nov 2026",
@@ -255,13 +276,6 @@
    "src": "HVG Tech"
   },
   {
-   "c": "EU",
-   "d": "24 Nov 2026",
-   "t": "Pasqal Leads EU-Backed Project on Quantum Error Correction",
-   "u": "https://www.hpcwire.com/off-the-wire/pasqal-leads-eu-backed-project-on-quantum-error-correction/",
-   "src": "HPCwire"
-  },
-  {
    "c": "DE",
    "d": "24 Nov 2026",
    "t": "Linnemann: KI als „Gamechanger\", Bundeswehr will krisenfeste Gesundheitsdaten",
@@ -283,6 +297,20 @@
    "src": "Version2"
   },
   {
+   "c": "DK",
+   "d": "24 Nov 2026",
+   "t": "Datacenter-direktør forklarer: Derfor er der så meget mystik om nye projekter",
+   "u": "https://www.version2.dk/artikel/datacenter-direktoer-forklarer-derfor-er-der-saa-meget-mystik-om-nye-projekter",
+   "src": "Version2"
+  },
+  {
+   "c": "EU",
+   "d": "24 Nov 2026",
+   "t": "Pasqal Leads EU-Backed Project on Quantum Error Correction",
+   "u": "https://www.hpcwire.com/off-the-wire/pasqal-leads-eu-backed-project-on-quantum-error-correction/",
+   "src": "HPCwire"
+  },
+  {
    "c": "EU",
    "d": "24 Nov 2026",
    "t": "JUPITER Remains Among the 5 Fastest Supercomputers and Europe's No. 1",
@@ -297,13 +325,6 @@
    "src": "Computerworld España"
   },
   {
-   "c": "DK",
-   "d": "24 Nov 2026",
-   "t": "Datacenter-direktør forklarer: Derfor er der så meget mystik om nye projekter",
-   "u": "https://www.version2.dk/artikel/datacenter-direktoer-forklarer-derfor-er-der-saa-meget-mystik-om-nye-projekter",
-   "src": "Version2"
-  },
-  {
    "c": "EE",
    "d": "24 Nov 2026",
    "t": "Data center grid requests exceed Estonia's peak power demand several times over",
@@ -311,18 +332,18 @@
    "src": "ERR News"
   },
   {
-   "c": "FR",
-   "d": "23 Nov 2026",
-   "t": "El riesgo de ciberseguridad se extiende a toda la cadena de suministro de software",
-   "u": "https://www.computerworld.es/article/4252220/el-riesgo-de-ciberseguridad-se-extiende-a-toda-la-cadena-de-suministro-de-software.html",
-   "src": "Computerworld España"
-  },
-  {
    "c": "DK",
    "d": "23 Nov 2026",
    "t": "Hemmelige ejere og ukendte formål: Mørklagte datacentre er »meget bekymrende«",
    "u": "https://www.version2.dk/artikel/hemmelige-ejere-og-ukendte-formaal-moerklagte-datacentre-er-meget-bekymrende",
    "src": "Version2"
+  },
+  {
+   "c": "FR",
+   "d": "23 Nov 2026",
+   "t": "El riesgo de ciberseguridad se extiende a toda la cadena de suministro de software",
+   "u": "https://www.computerworld.es/article/4252220/el-riesgo-de-ciberseguridad-se-extiende-a-toda-la-cadena-de-suministro-de-software.html",
+   "src": "Computerworld España"
   },
   {
    "c": "UK",
