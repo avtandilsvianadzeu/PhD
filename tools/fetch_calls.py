@@ -12,6 +12,9 @@ import json, re, sys, time, uuid, urllib.request, datetime as dt
 from pathlib import Path
 
 API = 'https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=***&pageSize=100&pageNumber={}'
+# tenders are searched by topic words, because the full tender list is far longer than the grant list
+TAPI = 'https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text={}&pageSize=100&pageNumber={}'
+TENDER_WORDS = ['"artificial intelligence"', '"machine learning"', '"data centre"', '"data center"', '"high performance computing"', 'supercomputer', '"large language model"', 'cloud', '"digital twin"', 'construction', 'bridge', 'building', '"fire safety"', 'metrology', '"structural health"', 'infrastructure']
 OUT = Path(__file__).resolve().parent.parent / 'calls.json'
 TODAY = dt.date.today().isoformat()
 
@@ -25,12 +28,20 @@ TOPICS = [('AI', r'\bAI\b|artificial intelligence|machine learning|generative|fo
           ('Data', r'\bdata\b|data space|digital twin|big data|analytics'),
           ('Robotics', r'robot|autonomous'),
           ('Chips', r'semiconductor|\bchips?\b|microelectronic|processor'),
-          ('Infrastructure', r'\bbridges?\b|built environment|construction (sector|industry|site|product|material)|civil engineering|transport infrastructure|road infrastructure|rail infrastructure|infrastructure (monitoring|resilience|maintenance|inspection)|resilien\w+ (of )?(transport|infrastructure)|structural health|building stock|buildings?\b.*(renovation|energy)|\bconcrete\b|\bcement\b')]
+          ('Infrastructure', r'\bbridges?\b|built environment|construction (sector|industry|site|product|material)|civil engineering|transport infrastructure|road infrastructure|rail infrastructure|infrastructure (monitoring|resilience|maintenance|inspection)|resilien\w+ (of )?(transport|infrastructure)|structural health|building stock|buildings?\b.*(renovation|energy)|\bconcrete\b|\bcement\b'),
+          # engineering topics of the atlas: built environment, materials, safety and measurement, kept even without AI
+          ('Construction', r'\bconstruction\b|built environment|\bbuildings?\b|renovation|\bconcrete\b|\bcement|\btimber\b|wood[- ]based|construction products|\basphalt\b|prefabricat|\bBIM\b|building information model'),
+          ('Transport infrastructure', r'\bbridges?\b|\btunnels?\b|road infrastructure|rail(way)? infrastructure|transport infrastructure|\bpavements?\b|TEN-T|infrastructure (resilien|maintenance|inspection|monitoring)'),
+          ('Monitoring', r'structural health|non-destructive|\bNDT\b|\bsensors?\b|inspection|condition monitoring|predictive maintenance|digital twins?'),
+          ('Fire safety', r'\bfire\b|wildfire|flammab'),
+          ('Hazards', r'earthquake|seismic|landslide|flood|climate (adaptation|resilien)|natural hazard|extreme (weather|events)'),
+          ('Metrology', r'metrolog|calibration|standardi[sz]ation|\bstandards\b|testing and certification|measurement')]
 STATUS = {'31094501': 'Forthcoming', '31094502': 'Open'}
 
-def form():
+def form(types=('1', '2', '8'), status=True):
     b = uuid.uuid4().hex
-    parts = [('query', json.dumps({'bool': {'must': [{'terms': {'type': ['1', '2', '8']}}, {'terms': {'status': list(STATUS)}}]}})),
+    must = [{'terms': {'type': list(types)}}] + ([{'terms': {'status': list(STATUS)}}] if status else [])
+    parts = [('query', json.dumps({'bool': {'must': must}})),
              ('languages', '["en"]'), ('sort', json.dumps({'field': 'sortStatus', 'order': 'ASC'}))]
     body = ''.join(f'--{b}\r\nContent-Disposition: form-data; name="{k}"; filename="blob"\r\nContent-Type: application/json\r\n\r\n{v}\r\n' for k, v in parts) + f'--{b}--\r\n'
     return body.encode(), f'multipart/form-data; boundary={b}'
@@ -38,6 +49,42 @@ def form():
 def first(m, k):
     v = m.get(k) or ['']
     return str(v[0]) if v else ''
+
+def tenders(seen):
+    """EU tenders on AI, computing and data with a deadline still ahead (portal type 0). Read word by word, and
+    entirely optional: if the portal answers differently than expected, the grant calls are still published."""
+    out = []
+    for word in TENDER_WORDS:
+        for page in range(1, 6):
+            body, ct = form(types=('0',), status=False)
+            req = urllib.request.Request(TAPI.format(urllib.request.quote(word), page), data=body, method='POST', headers={'Content-Type': ct, 'User-Agent': 'European AI Atlas (open data)'})
+            try:
+                res = json.load(urllib.request.urlopen(req, timeout=60)).get('results') or []
+            except Exception as e:
+                print('tenders', word, 'page', page, 'failed:', e); break
+            for x in res:
+                m = x.get('metadata') or {}
+                ident = first(m, 'identifier') or first(m, 'reference')
+                title = re.sub(r'\s+', ' ', first(m, 'title') or x.get('summary') or '').strip()
+                url = first(m, 'url') or (f"https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/{first(m, 'ccm2Id')}" if first(m, 'ccm2Id') else '')
+                dl = next((d[:10] for d in sorted(m.get('deadlineDate') or []) if d and d[:10] >= TODAY), '')
+                if not (ident and title and url.startswith('http') and dl) or ident in seen:
+                    continue
+                tags = [n for n, rx in TOPICS if re.search(rx, title, re.I)]
+                if not tags:
+                    continue
+                seen.add(ident)
+                out.append({'id': ident, 't': tidy(title)[:220], 'prog': 'EU tender', 'kind': 'Tender', 'st': 'Open',
+                            'opens': (first(m, 'startDate') or '')[:10], 'dl': dl, 'tags': tags, 'u': url})
+            if len(res) < 100:
+                break
+    print(len(out), 'tenders found')
+    return out
+
+def tidy(title):
+    title = re.sub(r'\s*[\u2013\u2014]\s*', ', ', title).replace('\u2019', "'").replace('\u2018', "'").replace('\u201c', '"').replace('\u201d', '"').replace('\u2026', '...').replace('!', '.').replace('\u00b7', ',')
+    title = re.sub(r'\s+-\s+', ': ', title)
+    return re.sub(r'\s*\[+\s*https?://\S*', '', title).strip()
 
 def main():
     items, seen, partial = [], set(), False
@@ -93,6 +140,10 @@ def main():
             old = 0
         if len(items) < 0.8 * old:
             print(f'read stopped early with {len(items)} calls against {old} before, keeping the previous file'); return 1
+    try:
+        items += tenders(seen)
+    except Exception as e:   # tenders are an extra: a failure here never blocks the calls
+        print('tenders skipped:', e)
     items.sort(key=lambda i: (i['dl'], i['t']))
     OUT.write_text(json.dumps({'read': dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%MZ'),
                                'source': 'EU Funding and Tenders portal', 'items': items}, ensure_ascii=False, indent=1), encoding='utf-8')

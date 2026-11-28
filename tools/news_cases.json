@@ -90,5 +90,59 @@
  {
   "t": "Nordic operators plan shared AI data centre grid study",
   "want": "EU"
+ },
+ {
+  "t": "SAP, Europe's most valuable tech company, considers at least 10,000 job cuts in AI restructuring",
+  "want": "DE"
+ },
+ {
+  "t": "Mistral AI raises 2 billion euros to expand its compute",
+  "want": "FR"
+ },
+ {
+  "t": "Commission opens call for proposals for AI testing and experimentation facilities",
+  "want": "EU",
+  "k": "Call"
+ },
+ {
+  "t": "EuroHPC launches tender for a new AI factory supercomputer",
+  "want": "EU",
+  "k": "Tender"
+ },
+ {
+  "t": "Brussels hosts conference on trustworthy AI in public services",
+  "want": "BE",
+  "k": "Event"
+ },
+ {
+  "t": "Slovenian AI factory holds info day for start-ups in Maribor",
+  "want": "SI",
+  "k": "Event"
+ },
+ {
+  "t": "OpenAI unveils new reasoning model",
+  "want": null
+ },
+ {
+  "t": "Pentagon signs AI contract with Anthropic",
+  "want": null
+ },
+ {
+  "t": "Leonardo da Vinci exhibition opens in Milan",
+  "want": null
+ },
+ {
+  "t": "EU misses deadline for AI Act guidance",
+  "want": "EU",
+  "k": ""
+ },
+ {
+  "t": "EIC Accelerator awardee Hyperion Robotics raises 6.4 million euros and moves towards a major procurement deal",
+  "want": null,
+  "k": ""
+ },
+ {
+  "t": "Polish army moves to implement battlefield AI with Palantir's Saturn",
+  "want": "PL"
  }
 ]

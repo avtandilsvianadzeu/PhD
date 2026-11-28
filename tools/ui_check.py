@@ -9,7 +9,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-TABS = ['browse', 'rank', 'latest', 'saved', 'minds', 'news', 'src', 'plans', 'calls', 'collab']
+TABS = ['browse', 'rank', 'latest', 'saved', 'minds', 'news', 'src', 'plans', 'calls', 'projects', 'collab']
 problems = []
 
 def serve():

@@ -24,8 +24,8 @@ Every Monday it also checks that all source links still answer. Run it locally w
 ## Daily news
 
 `.github/workflows/news.yml` runs `tools/fetch_news.py` every day at 05:23 UTC. It reads the
-publishers' own RSS feeds listed in `tools/news_sources.json` (trade press, European technology
-and research press, the European Commission and EU bodies), keeps items about AI, data centres and
+publishers' own RSS feeds listed in `tools/news_sources.json`, and a Google News search for every EU country (one in English naming the country, one in the local edition with the local word for artificial intelligence), so national AI news comes in without adding sources by hand. Google News items keep the name of the outlet that published them. The feeds cover trade press, European technology
+and research press, the European Commission and EU bodies. The job keeps items about AI, data centres and
 compute, assigns them to EU27 countries by country and city names, drops items with future or old
 dates, writes `news.json`, checks it and commits it. Each item keeps only the headline, date,
 publisher and a link to the original article. The page reads `news.json` and
@@ -41,7 +41,7 @@ The news job is scheduled twice an hour (GitHub may skip some runs) and the call
 an EU country or the EU, and its text names AI, data centres or computing. `tools/news_cases.json` holds headlines
 that must be kept or dropped; `python tools/fetch_news.py --selftest` checks them on every push and before every
 read. Each run writes a report on the Actions page: feeds that did not answer, and on-topic headlines that were
-left out because no EU place was found. To add a source, add its RSS address to `tools/news_sources.json`. To add a story the feeds no longer
+left out because no EU place was found. Feeds are read side by side, so one slow publisher cannot hold up the job, and a feed with broken XML (a stray "&", control characters) is repaired and read instead of skipped. Links lose their tracking parameters, so the same story from two feeds is listed once. A headline counts as on topic when it names AI itself, not only AI data centres or compute, and a headline that names a European company without a place (for example "SAP plans job cuts") counts for the company's home country, from the `companies` list in `tools/news_sources.json`. Headlines that announce a call, a tender or an event (conference, summit, workshop, webinar, info day) get a small label on the page, from the `kinds` patterns in the same file, and the job report counts them. Each country keeps up to 20 items and the EU up to 60. To add a source, add its RSS address to `tools/news_sources.json`. To add a story the feeds no longer
 hold, add it to `tools/news_pinned.json` (country code, date, headline in your own words, link, publisher); the
 job keeps it until it is older than the age limit.
 
@@ -55,6 +55,23 @@ conventions: Crimea within Ukraine, Abkhazia and South Ossetia within Georgia, K
 it); the outlines of the United Kingdom, Armenia and Azerbaijan come from Natural Earth. The OpenStreetMap border lines are switched off.
 Every institution and site carries its address and coordinates, shown in its Location card; the automatic
 check fails if one is missing.
+
+## EU tenders
+
+The calls job also searches the EU Funding and Tenders portal for open tenders on AI, data centres, high performance computing, cloud and digital twins, and lists them in the Calls tab with the label "EU tender". This pass is optional: if the portal answers differently, the grant calls are still published, and the job log says how many tenders were found.
+
+## Projects tab
+
+The Projects tab lists every running Horizon Europe project in `projects.json` (up to 400): filters by
+engineering topic (structures and bridges, monitoring and digital twins, materials and testing, geotechnics and
+transport infrastructure, building physics, energy and fire, sustainable built environment, metrology) or AI, by
+the coordinator's country, and sorting by start, end or EU contribution. Each row links to the CORDIS project page.
+
+## Calls on the built environment
+
+Besides AI, computing and data, the calls job keeps calls and tenders on construction and buildings, transport
+infrastructure, monitoring and inspection, fire safety, natural hazards and metrology, even when they do not name
+AI. They carry their own topic labels in the Calls tab and appear on the Collaboration page under the matching topic.
 
 ## Collaboration page
 

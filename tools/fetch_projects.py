@@ -15,15 +15,15 @@ from pathlib import Path
 URLS = ['https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip']
 OUT = Path(__file__).resolve().parent.parent / 'projects.json'
 TODAY = dt.date.today().isoformat()
-KEEP = 160
+KEEP = 400   # the Projects tab lists them all, the Collaboration page shows six per topic
 
 AI = r'artificial intelligence|machine learning|deep learning|\bAI\b|neural network|foundation model|language model|computer vision|generative'
 TOPICS = [('shm', r'structural health monitoring|infrastructure monitoring|bridge monitoring|condition monitoring of (bridges|structures|infrastructure)|digital twins? (of|for) (bridges|buildings|infrastructure|structures|the built)'),
           ('wim', r'weigh[- ]in[- ]motion|traffic load'),
           ('struct', r'\b(road|rail|railway|highway|motorway|concrete|steel|masonry|suspension|cable-stayed|existing|ageing|aging)\s+bridges?\b|\bbridges? (monitoring|inspection|engineering|structures?|maintenance|management|decks?|assessment)|bridges and tunnels|structural engineering|civil engineering|earthquake engineering|seismic (design|retrofit|resilience)|civil infrastructure|transport infrastructure'),
-          ('materials', r'\bconcrete (structures?|mix|production|recycling|durability)|reinforced concrete|\bcement(itious)?\b|construction materials?|building materials?|\basphalt\b'),
-          ('geo', r'geotechnic|\btunnell?ing\b|road tunnels?|rail tunnels?|railway (track|infrastructure)|road (pavement|infrastructure)'),
-          ('building', r'building physics|energy performance of buildings|building renovation|fire safety|building envelope'),
+          ('materials', r'\bconcrete (structures?|mix|production|recycling|durability)|reinforced concrete|\bcement(itious)?\b|construction materials?|building materials?|\basphalt\b|timber (construction|buildings?|structures?)|engineered wood|cross[- ]laminated timber|non[- ]destructive testing'),
+          ('geo', r'geotechnic|\btunnell?ing\b|road tunnels?|rail tunnels?|railway (track|infrastructure)|road (pavement|infrastructure)|landslides?|slope stability'),
+          ('building', r'building physics|energy performance of buildings|building renovation|fire safety|fire resistance|building envelope|deep renovation|nearly zero[- ]energy buildings?'),
           ('sustain', r'built environment|circular construction|sustainable construction|construction (sector|industry) |construction and demolition waste'),
           ('metrology', r'metrolog'),
           ('vision', r'computer vision|visual inspection|drone inspection')]
