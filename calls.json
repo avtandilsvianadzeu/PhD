@@ -1,5 +1,5 @@
 {
- "read": "2026-11-28T01:39Z",
+ "read": "2026-11-28T15:49Z",
  "source": "EU Funding and Tenders portal",
  "items": [
   {
@@ -31,6 +31,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai-gfp"
   },
   {
+   "id": "HORIZON-NEB-2026-01-REGEN-02",
+   "t": "Advancing sustainable maintenance and repair measures for existing buildings",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-05-05",
+   "dl": "2026-12-01",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-02"
+  },
+  {
    "id": "HORIZON-CL5-2026-11-D3-23",
    "t": "Data sharing to support the training and development of AI foundation models in the energy sector",
    "prog": "Horizon Europe",
@@ -43,6 +56,32 @@
     "Data"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-23"
+  },
+  {
+   "id": "332a59be-0fb6-4f07-83ce-20142a1e0825-CN",
+   "t": "Entreprise générale pour la réalisation de travaux de rénovation et de transformation ou de construction (TRT) pour les bâtiments occupés/gérés par la Commission",
+   "prog": "EU tender",
+   "kind": "Tender",
+   "st": "Open",
+   "opens": "2026-10-27",
+   "dl": "2026-12-01",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/332a59be-0fb6-4f07-83ce-20142a1e0825-CN"
+  },
+  {
+   "id": "HORIZON-NEB-2026-01-REGEN-01",
+   "t": "Sustainable, inclusive, affordable and beautiful solutions for thermal comfort in buildings",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-05-05",
+   "dl": "2026-12-01",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-01"
   },
   {
    "id": "HORIZON-CL6-2023-GOVERNANCE-01-13",
@@ -58,6 +97,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45657640"
   },
   {
+   "id": "eee17ff9-9ac0-4595-b9c7-3b7590089430-CN",
+   "t": "ACQUISITION, DELIVERY, INSTALLATION AND HARDWARE AND SOFTWARE MAINTENANCE OF INNOVATE INDUSTRIAL GRADE SUPERCOMPUTER, FOR THE EUROPEAN HIGH PERFORMANCE COMPUTING JOINT UNDERTAKING (EUROHPC JU)",
+   "prog": "EU tender",
+   "kind": "Tender",
+   "st": "Open",
+   "opens": "2026-10-19",
+   "dl": "2026-12-03",
+   "tags": [
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/eee17ff9-9ac0-4595-b9c7-3b7590089430-CN"
+  },
+  {
    "id": "DIGITAL-JU-CHIPS-2026-SG-JAPAN",
    "t": "International collaboration EU and Japan on semiconductors",
    "prog": "Chips Joint Undertaking",
@@ -71,6 +123,33 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-sg-japan"
   },
   {
+   "id": "f82d4ebd-88db-474d-b82c-97b2a130c6a9-CN",
+   "t": "PIAST AI-Optimised Supercomputer",
+   "prog": "EU tender",
+   "kind": "Tender",
+   "st": "Open",
+   "opens": "2026-10-26",
+   "dl": "2026-12-10",
+   "tags": [
+    "AI",
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/f82d4ebd-88db-474d-b82c-97b2a130c6a9-CN"
+  },
+  {
+   "id": "963e0d0f-4a64-4d8c-a47e-782eb09f7e2d-CN",
+   "t": "Security works and maintenace services on security installations for the EU delegations, Residences and EEAS office buildings worldwide",
+   "prog": "EU tender",
+   "kind": "Tender",
+   "st": "Open",
+   "opens": "2026-11-10",
+   "dl": "2026-12-14",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/963e0d0f-4a64-4d8c-a47e-782eb09f7e2d-CN"
+  },
+  {
    "id": "HORIZON-CL6-2024-CLIMATE-01-5",
    "t": "Climate-smart use of wood in the construction sector to support the New European Bauhaus",
    "prog": "Horizon Europe",
@@ -79,9 +158,64 @@
    "opens": "2026-09-15",
    "dl": "2026-12-15",
    "tags": [
-    "Infrastructure"
+    "Infrastructure",
+    "Construction"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45656490"
+  },
+  {
+   "id": "ISF-2026-TF2-AG-CYBER-STANDARD",
+   "t": "Standardisation",
+   "prog": "EU programme",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-09-15",
+   "dl": "2026-12-15",
+   "tags": [
+    "Metrology"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/isf-2026-tf2-ag-cyber-standard"
+  },
+  {
+   "id": "d58058b4-7b5e-4d70-82b6-ada492e3ec42-CN",
+   "t": "Preparation of audits, detailed design, tender documents, supervision of civil works for the implementation of energy efficiency measures in local public buildings across all four municipalities",
+   "prog": "EU tender",
+   "kind": "Tender",
+   "st": "Open",
+   "opens": "2026-11-05",
+   "dl": "2026-12-22",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/d58058b4-7b5e-4d70-82b6-ada492e3ec42-CN"
+  },
+  {
+   "id": "bc712395-692d-41ab-aa25-8e254ae86eb2-CN",
+   "t": "Call for Tenders for the selection of Artificial Intelligence Gigafactory Consortia and the establishment of AI Gigafactories",
+   "prog": "EU tender",
+   "kind": "Tender",
+   "st": "Open",
+   "opens": "2026-07-30",
+   "dl": "2026-12-30",
+   "tags": [
+    "AI",
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/bc712395-692d-41ab-aa25-8e254ae86eb2-CN"
+  },
+  {
+   "id": "HORIZON-CL4-2025-03-DATA-11",
+   "t": "Open Internet Stack: development of technological commons/open-source 3C building blocks (RIA)",
+   "prog": "Horizon Europe",
+   "kind": "Project call",
+   "st": "Open",
+   "opens": "2026-11-03",
+   "dl": "2027-01-03",
+   "tags": [
+    "Data",
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48400841"
   },
   {
    "id": "HORIZON-NATURE-2027-01-02",
@@ -175,6 +309,20 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46236562"
   },
   {
+   "id": "HORIZON-CL6-2024-GOVERNANCE-01-7",
+   "t": "Enhancing working conditions and strengthening the work force through digital and data technologies, the potential of robotics and augmented reality in agriculture",
+   "prog": "Horizon Europe",
+   "kind": "Project call",
+   "st": "Open",
+   "opens": "2026-11-18",
+   "dl": "2027-01-25",
+   "tags": [
+    "Data",
+    "Robotics"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45658229"
+  },
+  {
    "id": "DIGITAL-2024-CLOUD-DATA-AI-07-DIGITALTWIN",
    "t": "Towards networked Local Digital Twins in the EU",
    "prog": "Digital Europe",
@@ -185,7 +333,8 @@
    "tags": [
     "AI",
     "Computing",
-    "Data"
+    "Data",
+    "Monitoring"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47038104"
   },
@@ -245,19 +394,6 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-eurohpc-2026-qml-07-01"
   },
   {
-   "id": "HORIZON-MISS-2024-OCEAN-IBA",
-   "t": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
-   "prog": "Horizon Europe",
-   "kind": "Project call",
-   "st": "Open",
-   "opens": "2026-11-09",
-   "dl": "2027-01-29",
-   "tags": [
-    "Data"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969"
-  },
-  {
    "id": "HORIZON-CL4-2027-02-DIGITAL-EMERGING-52-two-stage",
    "t": "New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships)",
    "prog": "Horizon Europe",
@@ -273,19 +409,173 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-digital-emerging-52-two-stage"
   },
   {
-   "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
-   "t": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
+   "id": "HORIZON-CL4-2025-03-HUMAN-16",
+   "t": "Drive the evolution of the internet towards open and interoperable Web 4.0 and Virtual Worlds: building blocks in priority areas (RIA) (Virtual Worlds Partnership)",
    "prog": "Horizon Europe",
    "kind": "Project call",
    "st": "Open",
-   "opens": "2026-11-09",
-   "dl": "2027-02-10",
+   "opens": "2026-11-03",
+   "dl": "2027-02-03",
    "tags": [
-    "AI",
-    "Data",
-    "Robotics"
+    "Construction"
    ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116"
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401785"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-5a",
+   "t": "Capacity Building in Higher Education: Asia",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-5a"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-11",
+   "t": "Capacity Building in Higher Education: Caribbean",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-11"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-6",
+   "t": "Capacity Building in Higher Education: Central Asia",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-6"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL",
+   "t": "Capacity Building in Higher Education: Cross-Regional",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-cross-regional"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-10",
+   "t": "Capacity Building in Higher Education: Latin America",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-10"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-7a",
+   "t": "Capacity Building in Higher Education: Middle East",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-7a"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-2",
+   "t": "Capacity Building in Higher Education: Neighbourhood East",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-2"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-8a",
+   "t": "Capacity Building in Higher Education: Pacific",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-8a"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-3",
+   "t": "Capacity Building in Higher Education: South Mediterranean",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-3"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-9",
+   "t": "Capacity Building in Higher Education: Sub-Saharan Africa",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-9"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CBHE-REGION-1",
+   "t": "Capacity Building in Higher Education: Western Balkans",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-03",
+   "dl": "2027-02-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cbhe-region-1"
+  },
+  {
+   "id": "HORIZON-NATURE-2027-04-01",
+   "t": "A stronger Global Ocean Observing System to enhance Europe's strategic autonomy, climate resilience and biodiversity conservation",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-06",
+   "dl": "2027-02-16",
+   "tags": [
+    "Hazards"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-04-01"
   },
   {
    "id": "HORIZON-BRIDGING-2027-01-10",
@@ -433,6 +723,97 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-01-pj-06"
   },
   {
+   "id": "CERV-2026-CITIZENS-REM-TRANSITION",
+   "t": "Remembering democratic transitions, the (re-)building of democratic institutions, and strengthening society based on the rule of law, democracy, and fundamental rights.",
+   "prog": "Citizens, Equality, Rights and Values",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-10-21",
+   "dl": "2027-02-24",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-transition"
+  },
+  {
+   "id": "ERASMUS-YOUTH-2027-CB-NE",
+   "t": "Capacity Building in the field of Youth in Neighborhood East",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-02",
+   "dl": "2027-03-02",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-youth-2027-cb-ne"
+  },
+  {
+   "id": "ERASMUS-YOUTH-2027-CB-SMC",
+   "t": "Capacity Building in the field of Youth in South Mediterranean Countries",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-02",
+   "dl": "2027-03-02",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-youth-2027-cb-smc"
+  },
+  {
+   "id": "ERASMUS-YOUTH-2027-CB-SSA",
+   "t": "Capacity Building in the field of Youth in Sub-Saharan Africa",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-02",
+   "dl": "2027-03-02",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-youth-2027-cb-ssa"
+  },
+  {
+   "id": "ERASMUS-YOUTH-2027-CB-WB",
+   "t": "Capacity Building in the field of Youth in Western Balkans",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-02",
+   "dl": "2027-03-02",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-youth-2027-cb-wb"
+  },
+  {
+   "id": "HORIZON-CL5-2027-01-D1-07",
+   "t": "Advancing understanding, modelling and prediction of extreme events in a changing climate",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Open",
+   "opens": "2026-11-17",
+   "dl": "2027-03-04",
+   "tags": [
+    "Hazards"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-07"
+  },
+  {
+   "id": "ERASMUS-SPORT-2027-CB",
+   "t": "ERASMUS-SPORT-2027-CB: Capacity Building in the Field of Sport",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-17",
+   "dl": "2027-03-09",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-sport-2027-cb"
+  },
+  {
    "id": "DIGITAL-ECCC-2027-DEPLOY-CYBER-12-CBCH",
    "t": "Cross-border Cyber Hubs",
    "prog": "Digital Europe",
@@ -539,7 +920,7 @@
    "opens": "2026-11-17",
    "dl": "2027-03-18",
    "tags": [
-    "AI"
+    "Metrology"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-07"
   },
@@ -597,6 +978,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-16"
   },
   {
+   "id": "HORIZON-CL5-2027-03-D5-06",
+   "t": "Fire prevention and mitigation for EVs in confined areas (2ZERO Partnership)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2026-12-15",
+   "dl": "2027-04-14",
+   "tags": [
+    "Fire safety"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-06"
+  },
+  {
    "id": "CREA-CROSS-2027-INNOVLAB",
    "t": "Creative Innovation Lab",
    "prog": "EU programme",
@@ -621,6 +1015,84 @@
     "AI"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-04"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CB-VET-CA",
+   "t": "Capacity building in VET in Caribbean",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-05-12",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cb-vet-ca"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CB-VET-LA",
+   "t": "Capacity building in VET in Latin America",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-05-12",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cb-vet-la"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CB-VET-NE",
+   "t": "Capacity building in VET in Neighborhood East",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-05-12",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cb-vet-ne"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CB-VET-SMC",
+   "t": "Capacity building in VET in South Mediterranean Countries",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-05-12",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cb-vet-smc"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CB-VET-SSA",
+   "t": "Capacity building in VET in Sub-Saharan Africa",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-05-12",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cb-vet-ssa"
+  },
+  {
+   "id": "ERASMUS-EDU-2027-CB-VET-WB",
+   "t": "Capacity building in VET in Western Balkans",
+   "prog": "Erasmus+",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-05-12",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-cb-vet-wb"
   },
   {
    "id": "HORIZON-INFRA-2027-TECH-01-02",
@@ -662,6 +1134,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46014314"
   },
   {
+   "id": "HORIZON-CL4-2027-SPACE-03-33",
+   "t": "Digital enablers and building blocks for collaborative Earth Observation and Satellite telecommunications for Space solutions (Space Partnership)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-03-09",
+   "dl": "2027-09-02",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-33"
+  },
+  {
    "id": "HORIZON-CL3-2027-02-CS-ECCC-01",
    "t": "Artificial Intelligence for Cybersecurity applications",
    "prog": "Horizon Europe",
@@ -675,6 +1160,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-01"
   },
   {
+   "id": "HORIZON-CL5-2027-05-D4-07",
+   "t": "Integrating circularity in LCA-based modelling frameworks for renovation of buildings (Built4People Partnership)",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-05",
+   "dl": "2027-09-15",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-07"
+  },
+  {
    "id": "HORIZON-CL5-2027-05-D4-05",
    "t": "On-site robotic and automated techniques for building renovation and new construction",
    "prog": "Horizon Europe",
@@ -684,7 +1182,8 @@
    "dl": "2027-09-15",
    "tags": [
     "Robotics",
-    "Infrastructure"
+    "Infrastructure",
+    "Construction"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-05"
   },
@@ -712,7 +1211,8 @@
    "dl": "2027-09-15",
    "tags": [
     "Computing",
-    "Data"
+    "Data",
+    "Construction"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-06"
   },
@@ -756,6 +1256,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-04"
   },
   {
+   "id": "HORIZON-MISS-2027-01-CLIMA-01",
+   "t": "Demonstrating transformative solutions to increase cross-border climate resilience",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-09-21",
+   "tags": [
+    "Hazards"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-01-clima-01"
+  },
+  {
    "id": "HORIZON-MISS-2027-01-CLIMA-02",
    "t": "Researching and applying the potential of Artificial Intelligence to foster climate resilience at the regional and local levels",
    "prog": "Horizon Europe",
@@ -764,9 +1277,23 @@
    "opens": "2027-02-09",
    "dl": "2027-09-21",
    "tags": [
-    "AI"
+    "AI",
+    "Hazards"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-01-clima-02"
+  },
+  {
+   "id": "HORIZON-CL6-2027-01-CIRCBIO-04",
+   "t": "Capacity building for extending product lifecycles through repair and refurbishment",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-04-20",
+   "dl": "2027-09-22",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-04"
   },
   {
    "id": "HORIZON-CL6-2027-01-CIRCBIO-02",
@@ -777,35 +1304,10 @@
    "opens": "2027-04-20",
    "dl": "2027-09-22",
    "tags": [
-    "Infrastructure"
+    "Infrastructure",
+    "Construction"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-02"
-  },
-  {
-   "id": "HORIZON-CL6-2027-01-ZEROPOLLUTION-03",
-   "t": "Improve the capacity to monitor and reduce air pollution from agriculture",
-   "prog": "Horizon Europe",
-   "kind": "EU call",
-   "st": "Forthcoming",
-   "opens": "2027-04-20",
-   "dl": "2027-09-22",
-   "tags": [
-    "AI"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-zeropollution-03"
-  },
-  {
-   "id": "HORIZON-CL6-2027-01-BIODIV-04",
-   "t": "Living Labs for the eradication and/or management of invasive alien species",
-   "prog": "Horizon Europe",
-   "kind": "EU call",
-   "st": "Forthcoming",
-   "opens": "2027-04-20",
-   "dl": "2027-09-22",
-   "tags": [
-    "AI"
-   ],
-   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-04"
   },
   {
    "id": "HORIZON-MISS-2027-07-CLIMA-CIT-NEB-01",
@@ -816,7 +1318,8 @@
    "opens": "2027-02-09",
    "dl": "2027-09-22",
    "tags": [
-    "Infrastructure"
+    "Infrastructure",
+    "Construction"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-07-clima-cit-neb-01"
   },
@@ -860,6 +1363,19 @@
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-05"
   },
   {
+   "id": "HORIZON-MISS-2027-04-CIT-03",
+   "t": "Inclusive and climate resilient multimodal passenger hubs enhancing modal shift towards sustainable transport and shared mobility",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-02-09",
+   "dl": "2027-10-07",
+   "tags": [
+    "Hazards"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-04-cit-03"
+  },
+  {
    "id": "HORIZON-NEB-2027-01-REGEN-01",
    "t": "Combining conventional and innovative construction materials, products and techniques for sustainable and beautiful buildings",
    "prog": "Horizon Europe",
@@ -868,7 +1384,8 @@
    "opens": "2027-05-05",
    "dl": "2027-12-01",
    "tags": [
-    "Infrastructure"
+    "Infrastructure",
+    "Construction"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-01"
   },
@@ -881,9 +1398,36 @@
    "opens": "2027-05-05",
    "dl": "2027-12-01",
    "tags": [
-    "Infrastructure"
+    "Infrastructure",
+    "Construction"
    ],
    "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-04"
+  },
+  {
+   "id": "HORIZON-NEB-2027-01-REGEN-02",
+   "t": "Sustainable, beautiful and healthy construction and renovation sites",
+   "prog": "Horizon Europe",
+   "kind": "EU call",
+   "st": "Forthcoming",
+   "opens": "2027-05-05",
+   "dl": "2027-12-01",
+   "tags": [
+    "Construction"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-02"
+  },
+  {
+   "id": "f34767af-9787-4707-b689-a676c221a837-CN",
+   "t": "Dynamic Purchasing System for Cloud Services (CLOUD III DPS)",
+   "prog": "EU tender",
+   "kind": "Tender",
+   "st": "Open",
+   "opens": "2024-01-23",
+   "dl": "2028-01-21",
+   "tags": [
+    "Computing"
+   ],
+   "u": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/f34767af-9787-4707-b689-a676c221a837-CN"
   }
  ]
 }
