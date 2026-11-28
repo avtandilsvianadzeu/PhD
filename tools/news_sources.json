@@ -756,7 +756,7 @@
   ]
  },
  "google_news": {
-  "about": "Google News search for every country, read at each update, so national AI news comes in without adding sources by hand. One English search names the country, one local search uses the local edition and the local word for artificial intelligence. Items keep the name of the outlet that published them.",
+  "about": "Google News search for every country on the map, read at each update, so national AI news comes in without adding sources by hand. One English search names the country, one local search uses the local edition and the local word for artificial intelligence. Items keep the name of the outlet that published them.",
   "en": "https://news.google.com/rss/search?q=(AI+OR+%22artificial+intelligence%22)+{name}+when:7d&hl=en-GB&gl=GB&ceid=GB:en",
   "local": "https://news.google.com/rss/search?q={term}+when:7d&hl={hl}&gl={gl}&ceid={gl}:{hl}",
   "countries": {
@@ -825,12 +825,6 @@
     "de",
     "DE",
     "\"künstliche Intelligenz\""
-   ],
-   "GR": [
-    "Greece",
-    "el",
-    "GR",
-    "\"τεχνητή νοημοσύνη\""
    ],
    "HU": [
     "Hungary",
@@ -921,6 +915,114 @@
     "sv",
     "SE",
     "\"artificiell intelligens\""
+   ],
+   "EL": [
+    "Greece",
+    "el",
+    "GR",
+    "\"τεχνητή νοημοσύνη\""
+   ],
+   "UK": [
+    "United Kingdom",
+    null,
+    null,
+    null
+   ],
+   "NO": [
+    "Norway",
+    null,
+    null,
+    null
+   ],
+   "CH": [
+    "Switzerland",
+    null,
+    null,
+    null
+   ],
+   "IS": [
+    "Iceland",
+    null,
+    null,
+    null
+   ],
+   "UA": [
+    "Ukraine",
+    null,
+    null,
+    null
+   ],
+   "RS": [
+    "Serbia",
+    null,
+    null,
+    null
+   ],
+   "TR": [
+    "Turkey",
+    null,
+    null,
+    null
+   ],
+   "GE": [
+    "Georgia country",
+    null,
+    null,
+    null
+   ],
+   "MD": [
+    "Moldova",
+    null,
+    null,
+    null
+   ],
+   "AL": [
+    "Albania",
+    null,
+    null,
+    null
+   ],
+   "ME": [
+    "Montenegro",
+    null,
+    null,
+    null
+   ],
+   "MK": [
+    "North Macedonia",
+    null,
+    null,
+    null
+   ],
+   "BA": [
+    "Bosnia and Herzegovina",
+    null,
+    null,
+    null
+   ],
+   "AM": [
+    "Armenia",
+    null,
+    null,
+    null
+   ],
+   "AZ": [
+    "Azerbaijan",
+    null,
+    null,
+    null
+   ],
+   "XK": [
+    "Kosovo",
+    null,
+    null,
+    null
+   ],
+   "LI": [
+    "Liechtenstein",
+    null,
+    null,
+    null
    ]
   }
  }

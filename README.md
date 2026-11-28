@@ -24,7 +24,7 @@ Every Monday it also checks that all source links still answer. Run it locally w
 ## Daily news
 
 `.github/workflows/news.yml` runs `tools/fetch_news.py` every day at 05:23 UTC. It reads the
-publishers' own RSS feeds listed in `tools/news_sources.json`, and a Google News search for every EU country (one in English naming the country, one in the local edition with the local word for artificial intelligence), so national AI news comes in without adding sources by hand. Google News items keep the name of the outlet that published them. The feeds cover trade press, European technology
+publishers' own RSS feeds listed in `tools/news_sources.json`, and a Google News search for every country on the map (one in English naming the country, one in the local edition with the local word for artificial intelligence), so national AI news comes in without adding sources by hand. Google News items keep the name of the outlet that published them. The feeds cover trade press, European technology
 and research press, the European Commission and EU bodies. The job keeps items about AI, data centres and
 compute, assigns them to EU27 countries by country and city names, drops items with future or old
 dates, writes `news.json`, checks it and commits it. Each item keeps only the headline, date,
