@@ -152,6 +152,21 @@ def selftest():
 
 def main():
     rows, seen, ok, near, failed = [], set(), 0, [], []
+    # the same story told by many outlets is kept once: titles that share most of their longer words are one story
+    stories = []
+    def words(t):
+        return {w for w in re.findall(r"[^\W\d_]{4,}|\d[\d.,]*", t.lower())}
+    def same_story(t):
+        w = words(t)
+        if len(w) < 3:
+            return False
+        for o in stories:
+            if len(w & o) >= 3 and len(w & o) / max(1, min(len(w), len(o))) >= 0.5:
+                return True
+        stories.append(w)
+        return False
+    # Google News also finds stock tickers, crypto and price sites: they are not news about AI in Europe
+    JUNK = re.compile(CFG.get("google_news", {}).get("skip_sources", "(?!)"), re.I)
     feeds = list(CFG["feeds"].items()) + [(k, v["url"], v["cc"]) for k, v in CFG.get("national_feeds", {}).items()]
     # Google News search per country (tools/news_sources.json, google_news): national AI news without adding sources by hand
     GN = CFG.get("google_news", {})
@@ -209,6 +224,10 @@ def main():
             if cc is None:
                 if KEEP.search(title):   # on topic but no EU place found: listed in the job log for review
                     near.append(f"{src}: {title[:110]}")
+                continue
+            if gn and (JUNK.search(item_src) or JUNK.search(title)):
+                continue
+            if same_story(title):
                 continue
             row = {"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(item_src), "_t": d.timestamp()}
             if kind(title):
