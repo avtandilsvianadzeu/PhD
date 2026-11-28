@@ -152,19 +152,6 @@ def selftest():
 
 def main():
     rows, seen, ok, near, failed = [], set(), 0, [], []
-    # the same story told by many outlets is kept once: titles that share most of their longer words are one story
-    stories = []
-    def words(t):
-        return {w for w in re.findall(r"[^\W\d_]{4,}|\d[\d.,]*", t.lower())}
-    def same_story(t):
-        w = words(t)
-        if len(w) < 3:
-            return False
-        for o in stories:
-            if len(w & o) >= 3 and len(w & o) / max(1, min(len(w), len(o))) >= 0.5:
-                return True
-        stories.append(w)
-        return False
     # Google News also finds stock tickers, crypto and price sites: they are not news about AI in Europe
     JUNK = re.compile(CFG.get("google_news", {}).get("skip_sources", "(?!)"), re.I)
     feeds = list(CFG["feeds"].items()) + [(k, v["url"], v["cc"]) for k, v in CFG.get("national_feeds", {}).items()]
@@ -227,8 +214,6 @@ def main():
                 continue
             if gn and (JUNK.search(item_src) or JUNK.search(title)):
                 continue
-            if same_story(title):
-                continue
             row = {"c": cc, "d": d.strftime("%-d %b %Y"), "t": clean(title), "u": link, "src": clean(item_src), "_t": d.timestamp()}
             if kind(title):
                 row["k"] = kind(title)
@@ -241,8 +226,12 @@ def main():
                 d = dt.datetime.strptime(r["d"], "%d %b %Y").replace(tzinfo=dt.timezone.utc)
                 inscope = r["c"] in CWORDS or r["c"] == "EU"   # the place may have come from the summary, which is not stored
                 if inscope and NOW - d <= MAX_AGE and not any(x["u"] == norm(r["u"]) for x in rows) \
-                        and not JUNK.search(r.get("src", "")) and not JUNK.search(r["t"]) and not same_story(r["t"]):
+                        and not JUNK.search(r.get("src", "")) and not JUNK.search(r["t"]):
                     r = dict(r, _t=d.timestamp())
+                    for a in r.get("also", []):   # outlets merged earlier come back as their own rows, then merge again
+                        if isinstance(a, list) and len(a) == 2 and not any(x["u"] == norm(a[1]) for x in rows):
+                            rows.append({"c": r["c"], "d": r["d"], "t": r["t"], "u": a[1], "src": a[0], "_t": r["_t"] - 1})
+                    r.pop("also", None)
                     if kind(r["t"]):
                         r["k"] = kind(r["t"])
                     rows.append(r)
@@ -257,25 +246,48 @@ def main():
                 rows.append({"c": r["c"], "d": r["d"], "t": clean(r["t"]), "u": r["u"], "src": clean(r["src"]), "_t": d.timestamp()})
     rows.sort(key=lambda r: -r["_t"])
     items, per = [], {}
-    # a big story in one country (many outlets on the same deal or event) is shown at most twice: a word that is not a
-    # country or topic word and stands in three or more of that country's headlines marks the story
+    # one story told by many outlets becomes one item, with the other outlets listed under it ("also": [outlet, link]).
+    # Two headlines are one story when, within three days, they share a name that stands in 3 to 25 headlines of the whole
+    # set (Palantir in a week of Polish news, not Google or Nvidia, which stand in many different stories), or when they
+    # share most of their longer words. A story found by a foreign edition (Spanish news on Poland) joins the country
+    # where that name stands most often.
     stop = {w.lower()[:6] for words in list(CFG["countries"].values()) + list(CFG.get("countries_local", {}).values()) for w in words}
     stop |= {"artifi", "intell", "intelig", "inteli", "sztucz", "künstl", "kunstm", "kunsti", "umetna", "umělá", "umelá", "umjetn", "teknik", "tekoäl",
-             "techno", "digita", "europe", "europa", "compan", "govern", "minist", "billio", "millio", "percen", "experts", "rozwiaz", "systém",
-             "system", "with", "from", "about", "their", "after", "first", "years", "where", "which", "could", "would", "will", "have"}
-    def terms(t):
+             "techno", "digita", "europe", "europa", "compan", "govern", "minist", "billio", "millio", "percen", "expert", "system", "systém",
+             "intern", "nation", "public", "market", "global", "launch", "invest", "report", "studie", "study", "update", "access", "future",
+             "with", "from", "about", "their", "after", "first", "years", "where", "which", "could", "would", "will", "have", "more", "this", "that", "what", "into", "over"}
+    def words(t):
         return {w.lower()[:6] for w in re.findall(r"[^\W\d_]{4,}", t)} - stop
-    df = {}
+    def names(t):   # capitalised words after the first one: names of firms, places, programmes
+        toks = re.findall(r"[^\W\d_][\w'’.-]*", t)
+        return {w.lower()[:6] for k, w in enumerate(toks) if k > 0 and w[:1].isupper() and len(w) >= 4} - stop
+    dfg, dfc = {}, {}
     for r in rows:
-        for w in terms(r["t"]):
-            df[(r["c"], w)] = df.get((r["c"], w), 0) + 1
-    used = {}
+        r["_w"], r["_n"] = words(r["t"]), names(r["t"])
+        for w in r["_n"]:
+            dfg[w] = dfg.get(w, 0) + 1
+            dfc[(r["c"], w)] = dfc.get((r["c"], w), 0) + 1
+    heads = []
     for r in rows:
-        big = [w for w in terms(r["t"]) if df.get((r["c"], w), 0) >= 3]
-        if r["c"] != "EU" and any(used.get((r["c"], w), 0) >= 2 for w in big):
+        story = {w for w in r["_n"] if 3 <= dfg.get(w, 0) <= 25}
+        head = None
+        for h in heads:
+            if abs(h["_t"] - r["_t"]) > 3 * 86400:
+                continue
+            common = story & h["_story"]
+            if common and (h["c"] == r["c"] or any(dfc.get((h["c"], w), 0) > dfc.get((r["c"], w), 0) for w in common)):
+                head = h
+                break
+            if h["c"] == r["c"] and len(r["_w"] & h["_w"]) >= 3 and len(r["_w"] & h["_w"]) / max(1, min(len(r["_w"]), len(h["_w"]))) >= 0.5:
+                head = h
+                break
+        if head:
+            if r["src"] != head["src"] and all(a[0] != r["src"] for a in head["also"]) and len(head["also"]) < 12:
+                head["also"].append([r["src"], r["u"]])
             continue
-        for w in big:
-            used[(r["c"], w)] = used.get((r["c"], w), 0) + 1
+        r["_story"], r["also"] = story, []
+        heads.append(r)
+    for r in heads:
         per[r["c"]] = per.get(r["c"], 0) + 1
         if per[r["c"]] <= PER_COUNTRY * (3 if r["c"] == "EU" else 1):
             items.append(r)
@@ -283,7 +295,10 @@ def main():
         print("every fetch failed; keeping the previous news.json", file=sys.stderr)
         return 1
     for r in items:
-        r.pop("_t")
+        for k in ("_t", "_w", "_n", "_story"):
+            r.pop(k, None)
+        if not r.get("also"):
+            r.pop("also", None)
     OUT.write_text(json.dumps({"updated": NOW.strftime("%-d %b %Y"), "read": NOW.strftime("%Y-%m-%dT%H:%MZ"), "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"{len(items)} items from {ok} feeds")
     # job report: feeds that failed and on-topic headlines that were left out, so gaps are seen and the word lists can be tuned
