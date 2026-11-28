@@ -1025,6 +1025,6 @@
     null
    ]
   },
-  "skip_sources": "stock|shares? (jump|surge|climb|fall)|\\bPLTR\\b|NASDAQ|crypto|bitcoin|tradingview|tipranks|marketbeat|benzinga|investing\\.com|motley fool|zacks|finance|vietnam\\.vn|press release|prnewswire|globenewswire|openpr|einpresswire"
+  "skip_sources": "stock|shares? (jump|surge|climb|fall)|\\bPLTR\\b|NASDAQ|crypto|bitcoin|tradingview|tipranks|marketbeat|benzinga|investing\\.com|motley fool|zacks|finance|vietnam\\.vn|press release|prnewswire|globenewswire|openpr|einpresswire|kalkine|\\bLSE:|\\bplc\\b.*(fall|rise)"
  }
 }

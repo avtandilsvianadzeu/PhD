@@ -240,7 +240,8 @@ def main():
             for r in json.loads(OUT.read_text(encoding="utf-8")).get("items", []):
                 d = dt.datetime.strptime(r["d"], "%d %b %Y").replace(tzinfo=dt.timezone.utc)
                 inscope = r["c"] in CWORDS or r["c"] == "EU"   # the place may have come from the summary, which is not stored
-                if inscope and NOW - d <= MAX_AGE and not any(x["u"] == norm(r["u"]) for x in rows):
+                if inscope and NOW - d <= MAX_AGE and not any(x["u"] == norm(r["u"]) for x in rows) \
+                        and not JUNK.search(r.get("src", "")) and not JUNK.search(r["t"]) and not same_story(r["t"]):
                     r = dict(r, _t=d.timestamp())
                     if kind(r["t"]):
                         r["k"] = kind(r["t"])
@@ -256,7 +257,25 @@ def main():
                 rows.append({"c": r["c"], "d": r["d"], "t": clean(r["t"]), "u": r["u"], "src": clean(r["src"]), "_t": d.timestamp()})
     rows.sort(key=lambda r: -r["_t"])
     items, per = [], {}
+    # a big story in one country (many outlets on the same deal or event) is shown at most twice: a word that is not a
+    # country or topic word and stands in three or more of that country's headlines marks the story
+    stop = {w.lower()[:6] for words in list(CFG["countries"].values()) + list(CFG.get("countries_local", {}).values()) for w in words}
+    stop |= {"artifi", "intell", "intelig", "inteli", "sztucz", "künstl", "kunstm", "kunsti", "umetna", "umělá", "umelá", "umjetn", "teknik", "tekoäl",
+             "techno", "digita", "europe", "europa", "compan", "govern", "minist", "billio", "millio", "percen", "experts", "rozwiaz", "systém",
+             "system", "with", "from", "about", "their", "after", "first", "years", "where", "which", "could", "would", "will", "have"}
+    def terms(t):
+        return {w.lower()[:6] for w in re.findall(r"[^\W\d_]{4,}", t)} - stop
+    df = {}
     for r in rows:
+        for w in terms(r["t"]):
+            df[(r["c"], w)] = df.get((r["c"], w), 0) + 1
+    used = {}
+    for r in rows:
+        big = [w for w in terms(r["t"]) if df.get((r["c"], w), 0) >= 3]
+        if r["c"] != "EU" and any(used.get((r["c"], w), 0) >= 2 for w in big):
+            continue
+        for w in big:
+            used[(r["c"], w)] = used.get((r["c"], w), 0) + 1
         per[r["c"]] = per.get(r["c"], 0) + 1
         if per[r["c"]] <= PER_COUNTRY * (3 if r["c"] == "EU" else 1):
             items.append(r)
