@@ -228,10 +228,7 @@ def main():
                 if inscope and NOW - d <= MAX_AGE and not any(x["u"] == norm(r["u"]) for x in rows) \
                         and not JUNK.search(r.get("src", "")) and not JUNK.search(r["t"]):
                     r = dict(r, _t=d.timestamp())
-                    for a in r.get("also", []):   # outlets merged earlier come back as their own rows, then merge again
-                        if isinstance(a, list) and len(a) == 2 and not any(x["u"] == norm(a[1]) for x in rows):
-                            rows.append({"c": r["c"], "d": r["d"], "t": r["t"], "u": a[1], "src": a[0], "_t": r["_t"] - 1})
-                    r.pop("also", None)
+                    r.pop("also", None)   # outlets are merged again from the feeds, which still hold them for a week
                     if kind(r["t"]):
                         r["k"] = kind(r["t"])
                     rows.append(r)
@@ -255,7 +252,7 @@ def main():
     stop |= {"artifi", "intell", "intelig", "inteli", "sztucz", "künstl", "kunstm", "kunsti", "umetna", "umělá", "umelá", "umjetn", "teknik", "tekoäl",
              "techno", "digita", "europe", "europa", "compan", "govern", "minist", "billio", "millio", "percen", "expert", "system", "systém",
              "intern", "nation", "public", "market", "global", "launch", "invest", "report", "studie", "study", "update", "access", "future",
-             "with", "from", "about", "their", "after", "first", "years", "where", "which", "could", "would", "will", "have", "more", "this", "that", "what", "into", "over"}
+             "intelligence", "intellig", "artificial", "τεχνητ", "νοημοσ", "изкуст", "интеле", "штучни", "інтеле", "искусс", "mester", "intell", "dirbti", "intele", "mākslī", "tehisi", "tehisa", "umělá", "umelá", "konstg", "ευρωζώ", "eurozo", "global", "online", "media", "news", "times", "daily", "world", "first", "with", "from", "about", "their", "after", "first", "years", "where", "which", "could", "would", "will", "have", "more", "this", "that", "what", "into", "over"}
     def words(t):
         return {w.lower()[:6] for w in re.findall(r"[^\W\d_]{4,}", t)} - stop
     def names(t):   # capitalised words after the first one: names of firms, places, programmes
@@ -264,6 +261,7 @@ def main():
     dfg, dfc = {}, {}
     for r in rows:
         r["_w"], r["_n"] = words(r["t"]), names(r["t"])
+        r["_d"] = set(re.findall(r"\d+(?:[.,]\d+)?", r["t"])) - {"2025", "2026", "2027"}
         for w in r["_n"]:
             dfg[w] = dfg.get(w, 0) + 1
             dfc[(r["c"], w)] = dfc.get((r["c"], w), 0) + 1
@@ -275,7 +273,11 @@ def main():
             if abs(h["_t"] - r["_t"]) > 3 * 86400:
                 continue
             common = story & h["_story"]
-            if common and (h["c"] == r["c"] or any(dfc.get((h["c"], w), 0) > dfc.get((r["c"], w), 0) for w in common)):
+            shared = (r["_n"] | r["_w"] | r["_d"]) & (h["_n"] | h["_w"] | h["_d"])
+            # same country: a story name and at least one more shared word or figure. Another country's edition:
+            # a story name that stands three or more times in the head's country (Palantir in Polish news)
+            if common and ((h["c"] == r["c"] and len(shared) >= 2)
+                           or (h["c"] != r["c"] and any(dfc.get((h["c"], w), 0) >= 3 and dfc.get((h["c"], w), 0) > dfc.get((r["c"], w), 0) for w in common))):
                 head = h
                 break
             if h["c"] == r["c"] and len(r["_w"] & h["_w"]) >= 3 and len(r["_w"] & h["_w"]) / max(1, min(len(r["_w"]), len(h["_w"]))) >= 0.5:
@@ -295,7 +297,7 @@ def main():
         print("every fetch failed; keeping the previous news.json", file=sys.stderr)
         return 1
     for r in items:
-        for k in ("_t", "_w", "_n", "_story"):
+        for k in ("_t", "_w", "_n", "_d", "_story"):
             r.pop(k, None)
         if not r.get("also"):
             r.pop("also", None)
